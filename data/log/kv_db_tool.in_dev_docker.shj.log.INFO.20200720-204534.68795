@@ -1,0 +1,5 @@
+Log file created at: 2020/07/20 20:45:34
+Running on machine: in_dev_docker
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0720 20:45:34.383111 68795 kv_db.cc:64] []Executing SQL: CREATE TABLE IF NOT EXISTS key_value (key VARCHAR(128) PRIMARY KEY NOT NULL, value TEXT);
+I0720 20:45:34.397676 68795 kv_db.cc:64] []Executing SQL: INSERT OR REPLACE INTO key_value (key, value) VALUES ('apollo:data:commit_id', 'e37b77ffcf2fb3b96007fd707d2ae9f35ff4408b');

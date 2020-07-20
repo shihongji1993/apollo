@@ -1,0 +1,10 @@
+module_config {
+    module_library : "/apollo/bazel-bin/modules/drivers/radar/cub_radar/libcub_radar.so"
+    components {
+        class_name : "CubRadarCanbusComponent"
+        config {
+            name: "cub_radar"
+            config_file_path:  "/apollo/modules/drivers/radar/cub_radar/conf/cub_radar_conf.pb.txt"
+        }
+    }
+}

@@ -20,7 +20,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   name='modules/common/monitor_log/proto/monitor_log.proto',
   package='apollo.common.monitor',
   syntax='proto2',
-  serialized_pb=_b('\n2modules/common/monitor_log/proto/monitor_log.proto\x12\x15\x61pollo.common.monitor\x1a!modules/common/proto/header.proto\"\xaf\x04\n\x12MonitorMessageItem\x12P\n\x06source\x18\x01 \x01(\x0e\x32\x37.apollo.common.monitor.MonitorMessageItem.MessageSource:\x07UNKNOWN\x12\x0b\n\x03msg\x18\x02 \x01(\t\x12K\n\tlog_level\x18\x03 \x01(\x0e\x32\x32.apollo.common.monitor.MonitorMessageItem.LogLevel:\x04INFO\"\xb6\x02\n\rMessageSource\x12\x0b\n\x07UNKNOWN\x10\x01\x12\n\n\x06\x43\x41NBUS\x10\x02\x12\x0b\n\x07\x43ONTROL\x10\x03\x12\x0c\n\x08\x44\x45\x43ISION\x10\x04\x12\x10\n\x0cLOCALIZATION\x10\x05\x12\x0c\n\x08PLANNING\x10\x06\x12\x0e\n\nPREDICTION\x10\x07\x12\r\n\tSIMULATOR\x10\x08\x12\t\n\x05HWSYS\x10\t\x12\x0b\n\x07ROUTING\x10\n\x12\x0b\n\x07MONITOR\x10\x0b\x12\x07\n\x03HMI\x10\x0c\x12\x10\n\x0cRELATIVE_MAP\x10\r\x12\x08\n\x04GNSS\x10\x0e\x12\x0f\n\x0b\x43ONTI_RADAR\x10\x0f\x12\x11\n\rRACOBIT_RADAR\x10\x10\x12\x14\n\x10ULTRASONIC_RADAR\x10\x11\x12\x0c\n\x08MOBILEYE\x10\x12\x12\x0e\n\nDELPHI_ESR\x10\x13\x12\x10\n\x0cSTORYTELLING\x10\x14\"4\n\x08LogLevel\x12\x08\n\x04INFO\x10\x00\x12\x08\n\x04WARN\x10\x01\x12\t\n\x05\x45RROR\x10\x02\x12\t\n\x05\x46\x41TAL\x10\x03\"p\n\x0eMonitorMessage\x12%\n\x06header\x18\x01 \x01(\x0b\x32\x15.apollo.common.Header\x12\x37\n\x04item\x18\x02 \x03(\x0b\x32).apollo.common.monitor.MonitorMessageItem')
+  serialized_pb=_b('\n2modules/common/monitor_log/proto/monitor_log.proto\x12\x15\x61pollo.common.monitor\x1a!modules/common/proto/header.proto\"\xbe\x04\n\x12MonitorMessageItem\x12P\n\x06source\x18\x01 \x01(\x0e\x32\x37.apollo.common.monitor.MonitorMessageItem.MessageSource:\x07UNKNOWN\x12\x0b\n\x03msg\x18\x02 \x01(\t\x12K\n\tlog_level\x18\x03 \x01(\x0e\x32\x32.apollo.common.monitor.MonitorMessageItem.LogLevel:\x04INFO\"\xc5\x02\n\rMessageSource\x12\x0b\n\x07UNKNOWN\x10\x01\x12\n\n\x06\x43\x41NBUS\x10\x02\x12\x0b\n\x07\x43ONTROL\x10\x03\x12\x0c\n\x08\x44\x45\x43ISION\x10\x04\x12\x10\n\x0cLOCALIZATION\x10\x05\x12\x0c\n\x08PLANNING\x10\x06\x12\x0e\n\nPREDICTION\x10\x07\x12\r\n\tSIMULATOR\x10\x08\x12\t\n\x05HWSYS\x10\t\x12\x0b\n\x07ROUTING\x10\n\x12\x0b\n\x07MONITOR\x10\x0b\x12\x07\n\x03HMI\x10\x0c\x12\x10\n\x0cRELATIVE_MAP\x10\r\x12\x08\n\x04GNSS\x10\x0e\x12\x0f\n\x0b\x43ONTI_RADAR\x10\x0f\x12\x11\n\rRACOBIT_RADAR\x10\x10\x12\x14\n\x10ULTRASONIC_RADAR\x10\x11\x12\x0c\n\x08MOBILEYE\x10\x12\x12\x0e\n\nDELPHI_ESR\x10\x13\x12\x10\n\x0cSTORYTELLING\x10\x14\x12\r\n\tCUB_RADAR\x10\x15\"4\n\x08LogLevel\x12\x08\n\x04INFO\x10\x00\x12\x08\n\x04WARN\x10\x01\x12\t\n\x05\x45RROR\x10\x02\x12\t\n\x05\x46\x41TAL\x10\x03\"p\n\x0eMonitorMessage\x12%\n\x06header\x18\x01 \x01(\x0b\x32\x15.apollo.common.Header\x12\x37\n\x04item\x18\x02 \x03(\x0b\x32).apollo.common.monitor.MonitorMessageItem')
   ,
   dependencies=[modules_dot_common_dot_proto_dot_header__pb2.DESCRIPTOR,])
 
@@ -112,11 +112,15 @@ _MONITORMESSAGEITEM_MESSAGESOURCE = _descriptor.EnumDescriptor(
       name='STORYTELLING', index=19, number=20,
       options=None,
       type=None),
+    _descriptor.EnumValueDescriptor(
+      name='CUB_RADAR', index=20, number=21,
+      options=None,
+      type=None),
   ],
   containing_type=None,
   options=None,
   serialized_start=308,
-  serialized_end=618,
+  serialized_end=633,
 )
 _sym_db.RegisterEnumDescriptor(_MONITORMESSAGEITEM_MESSAGESOURCE)
 
@@ -145,8 +149,8 @@ _MONITORMESSAGEITEM_LOGLEVEL = _descriptor.EnumDescriptor(
   ],
   containing_type=None,
   options=None,
-  serialized_start=620,
-  serialized_end=672,
+  serialized_start=635,
+  serialized_end=687,
 )
 _sym_db.RegisterEnumDescriptor(_MONITORMESSAGEITEM_LOGLEVEL)
 
@@ -194,7 +198,7 @@ _MONITORMESSAGEITEM = _descriptor.Descriptor(
   oneofs=[
   ],
   serialized_start=113,
-  serialized_end=672,
+  serialized_end=687,
 )
 
 
@@ -231,8 +235,8 @@ _MONITORMESSAGE = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=674,
-  serialized_end=786,
+  serialized_start=689,
+  serialized_end=801,
 )
 
 _MONITORMESSAGEITEM.fields_by_name['source'].enum_type = _MONITORMESSAGEITEM_MESSAGESOURCE

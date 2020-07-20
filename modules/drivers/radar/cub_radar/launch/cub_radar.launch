@@ -1,0 +1,7 @@
+<cyber>
+    <module>
+        <name>cub_radar</name>
+        <dag_conf>/apollo/modules/drivers/radar/cub_radar/dag/cub_radar.dag</dag_conf>
+        <process_name>cub_radar</process_name>
+    </module>
+</cyber>

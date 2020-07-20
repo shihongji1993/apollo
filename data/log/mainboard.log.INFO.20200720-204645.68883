@@ -1,0 +1,29 @@
+Log file created at: 2020/07/20 20:46:45
+Running on machine: in_dev_docker
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+W0720 20:46:45.786301 68883 scheduler_factory.cc:63] No sched conf found, use default conf.
+I0720 20:46:45.786461 68886 processor.cc:41] processor_tid: 68886
+I0720 20:46:45.786496 68887 processor.cc:41] processor_tid: 68887
+I0720 20:46:45.786558 68888 processor.cc:41] processor_tid: 68888
+I0720 20:46:45.787065 68889 processor.cc:41] processor_tid: 68889
+I0720 20:46:45.787096 68890 processor.cc:41] processor_tid: 68890
+I0720 20:46:45.787118 68891 processor.cc:41] processor_tid: 68891
+I0720 20:46:45.787150 68892 processor.cc:41] processor_tid: 68892
+I0720 20:46:45.787181 68893 processor.cc:41] processor_tid: 68893
+I0720 20:46:45.787231 68894 processor.cc:41] processor_tid: 68894
+I0720 20:46:45.787262 68895 processor.cc:41] processor_tid: 68895
+I0720 20:46:45.787288 68896 processor.cc:41] processor_tid: 68896
+I0720 20:46:45.787320 68897 processor.cc:41] processor_tid: 68897
+I0720 20:46:45.787344 68898 processor.cc:41] processor_tid: 68898
+I0720 20:46:45.787374 68899 processor.cc:41] processor_tid: 68899
+I0720 20:46:45.787521 68900 processor.cc:41] processor_tid: 68900
+I0720 20:46:45.787561 68901 processor.cc:41] processor_tid: 68901
+I0720 20:46:45.787569 68883 init.cc:103] Register exit handle succ.
+I0720 20:46:45.788071 68883 module_controller.cc:65] Start initialize dag: /apollo/modules/drivers/radar/conti_radar/dag/conti_radar.dag
+I0720 20:46:45.788147 68883 class_loader.cc:37] Begin LoadLibrary: /apollo/bazel-bin/modules/drivers/radar/conti_radar/libconti_radar.so
+I0720 20:46:45.912436 68883 can_client_factory.cc:37] CanClientFactory::RegisterCanClients
+I0720 20:46:45.916172 68883 scheduler.cc:54] create croutine: conti_radar_front_/apollo/localization/pose
+E0720 20:46:45.916880 68883 hermes_can_client.cc:66] Open device error code: -12, channel id: 1
+E0720 20:46:45.917013 68883 component.h:155] Component Init() failed.
+E0720 20:46:45.917549 68883 module_controller.cc:67] Failed to load module: /apollo/modules/drivers/radar/conti_radar/dag/conti_radar.dag
+E0720 20:46:45.917878 68883 mainboard.cc:39] module start error.
