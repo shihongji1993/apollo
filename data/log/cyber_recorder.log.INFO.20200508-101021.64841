@@ -1,0 +1,38 @@
+Log file created at: 2020/05/08 10:10:21
+Running on machine: in_dev_docker
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0508 10:10:21.350436 64841 global_data.cc:155] host ip: 172.20.10.6
+W0508 10:10:21.351090 64841 scheduler_factory.cc:63] No sched conf found, use default conf.
+I0508 10:10:21.351177 64843 processor.cc:41] processor_tid: 64843
+I0508 10:10:21.351207 64844 processor.cc:41] processor_tid: 64844
+I0508 10:10:21.351227 64845 processor.cc:41] processor_tid: 64845
+I0508 10:10:21.351243 64846 processor.cc:41] processor_tid: 64846
+I0508 10:10:21.351269 64847 processor.cc:41] processor_tid: 64847
+I0508 10:10:21.351280 64848 processor.cc:41] processor_tid: 64848
+I0508 10:10:21.351297 64849 processor.cc:41] processor_tid: 64849
+I0508 10:10:21.351316 64850 processor.cc:41] processor_tid: 64850
+I0508 10:10:21.351457 64851 processor.cc:41] processor_tid: 64851
+I0508 10:10:21.351480 64852 processor.cc:41] processor_tid: 64852
+I0508 10:10:21.351496 64853 processor.cc:41] processor_tid: 64853
+I0508 10:10:21.351514 64854 processor.cc:41] processor_tid: 64854
+I0508 10:10:21.351537 64855 processor.cc:41] processor_tid: 64855
+I0508 10:10:21.351567 64856 processor.cc:41] processor_tid: 64856
+I0508 10:10:21.351583 64857 processor.cc:41] processor_tid: 64857
+I0508 10:10:21.351604 64841 init.cc:103] Register exit handle succ.
+I0508 10:10:21.351605 64858 processor.cc:41] processor_tid: 64858
+I0508 10:10:21.449584 64866 play_task_producer.cc:234] preload_size: 4056
+W0508 10:10:21.607839 64863 protobuf_factory.cc:217] [modules/common/proto/error_code.proto] A file with this name is already in the pool.
+W0508 10:10:21.608007 64863 protobuf_factory.cc:217] [modules/common/proto/error_code.proto] A file with this name is already in the pool.
+W0508 10:10:21.608247 64863 protobuf_factory.cc:217] [modules/common/proto/error_code.proto] A file with this name is already in the pool.
+W0508 10:10:21.608623 64863 protobuf_factory.cc:217] [modules/common/proto/error_code.proto] A file with this name is already in the pool.
+W0508 10:10:21.608991 64863 protobuf_factory.cc:217] [modules/common/proto/error_code.proto] A file with this name is already in the pool.
+W0508 10:10:21.771435 64863 protobuf_factory.cc:217] [modules/common/proto/error_code.proto] A file with this name is already in the pool.
+W0508 10:10:21.771605 64863 protobuf_factory.cc:217] [modules/common/proto/error_code.proto] A file with this name is already in the pool.
+W0508 10:10:21.771744 64863 protobuf_factory.cc:217] [modules/common/proto/error_code.proto] A file with this name is already in the pool.
+W0508 10:10:21.771971 64863 protobuf_factory.cc:217] [modules/common/proto/error_code.proto] A file with this name is already in the pool.
+W0508 10:10:21.772110 64863 protobuf_factory.cc:217] [modules/common/proto/error_code.proto] A file with this name is already in the pool.
+W0508 10:10:21.772267 64863 protobuf_factory.cc:217] [modules/common/proto/error_code.proto] A file with this name is already in the pool.
+W0508 10:10:22.561020 64863 protobuf_factory.cc:217] [modules/common/proto/error_code.proto] A file with this name is already in the pool.
+I0508 10:10:24.507066 64867 segment.cc:51] msg_size: 27156 larger than current shm_buffer_size: 16384 , need recreate.
+I0508 10:10:24.524212 64867 segment.cc:51] msg_size: 150786 larger than current shm_buffer_size: 16384 , need recreate.
+I0508 10:10:24.709117 64867 segment.cc:51] msg_size: 33211 larger than current shm_buffer_size: 16384 , need recreate.

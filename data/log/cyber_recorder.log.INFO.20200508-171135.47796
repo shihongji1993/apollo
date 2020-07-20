@@ -1,0 +1,25 @@
+Log file created at: 2020/05/08 17:11:35
+Running on machine: in_dev_docker
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0508 17:11:35.693446 47796 global_data.cc:155] host ip: 10.55.5.53
+W0508 17:11:35.693703 47796 scheduler_factory.cc:63] No sched conf found, use default conf.
+I0508 17:11:35.693770 47798 processor.cc:41] processor_tid: 47798
+I0508 17:11:35.693795 47799 processor.cc:41] processor_tid: 47799
+I0508 17:11:35.693819 47800 processor.cc:41] processor_tid: 47800
+I0508 17:11:35.693832 47801 processor.cc:41] processor_tid: 47801
+I0508 17:11:35.693847 47802 processor.cc:41] processor_tid: 47802
+I0508 17:11:35.693871 47803 processor.cc:41] processor_tid: 47803
+I0508 17:11:35.693888 47804 processor.cc:41] processor_tid: 47804
+I0508 17:11:35.693902 47805 processor.cc:41] processor_tid: 47805
+I0508 17:11:35.693943 47806 processor.cc:41] processor_tid: 47806
+I0508 17:11:35.693951 47807 processor.cc:41] processor_tid: 47807
+I0508 17:11:35.693961 47808 processor.cc:41] processor_tid: 47808
+I0508 17:11:35.693976 47809 processor.cc:41] processor_tid: 47809
+I0508 17:11:35.693996 47810 processor.cc:41] processor_tid: 47810
+I0508 17:11:35.694010 47811 processor.cc:41] processor_tid: 47811
+I0508 17:11:35.694031 47812 processor.cc:41] processor_tid: 47812
+I0508 17:11:35.694044 47796 init.cc:103] Register exit handle succ.
+I0508 17:11:35.694044 47813 processor.cc:41] processor_tid: 47813
+E0508 17:11:35.694073 47796 record_file_reader.cc:31] File not exist, file: /home/apollo/apolloauto/docs/demo_guide/demo_3.5.record
+E0508 17:11:35.694090 47796 record_reader.cc:35] Failed to open record file: /home/apollo/apolloauto/docs/demo_guide/demo_3.5.record
+E0508 17:11:35.694110 47796 play_task_producer.cc:176] begin time are equal or larger than end time, begin_time_ns=18446744073709551615, end_time_ns=0

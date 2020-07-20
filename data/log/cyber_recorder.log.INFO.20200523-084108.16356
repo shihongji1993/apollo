@@ -1,0 +1,25 @@
+Log file created at: 2020/05/23 08:41:08
+Running on machine: in_dev_docker
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0523 08:41:08.924690 16356 global_data.cc:155] host ip: 10.55.5.53
+W0523 08:41:08.925323 16356 scheduler_factory.cc:63] No sched conf found, use default conf.
+I0523 08:41:08.925433 16358 processor.cc:41] processor_tid: 16358
+I0523 08:41:08.925457 16359 processor.cc:41] processor_tid: 16359
+I0523 08:41:08.925525 16360 processor.cc:41] processor_tid: 16360
+I0523 08:41:08.925549 16361 processor.cc:41] processor_tid: 16361
+I0523 08:41:08.925573 16362 processor.cc:41] processor_tid: 16362
+I0523 08:41:08.925592 16363 processor.cc:41] processor_tid: 16363
+I0523 08:41:08.925613 16364 processor.cc:41] processor_tid: 16364
+I0523 08:41:08.925652 16366 processor.cc:41] processor_tid: 16366
+I0523 08:41:08.925653 16365 processor.cc:41] processor_tid: 16365
+I0523 08:41:08.925669 16367 processor.cc:41] processor_tid: 16367
+I0523 08:41:08.925685 16368 processor.cc:41] processor_tid: 16368
+I0523 08:41:08.925704 16369 processor.cc:41] processor_tid: 16369
+I0523 08:41:08.925724 16370 processor.cc:41] processor_tid: 16370
+I0523 08:41:08.925742 16371 processor.cc:41] processor_tid: 16371
+I0523 08:41:08.925758 16372 processor.cc:41] processor_tid: 16372
+I0523 08:41:08.925774 16373 processor.cc:41] processor_tid: 16373
+I0523 08:41:08.925776 16356 init.cc:103] Register exit handle succ.
+E0523 08:41:08.925801 16356 record_file_reader.cc:31] File not exist, file: docs/demo_guide/demo_3.5.record
+E0523 08:41:08.925817 16356 record_reader.cc:35] Failed to open record file: docs/demo_guide/demo_3.5.record
+E0523 08:41:08.925839 16356 play_task_producer.cc:176] begin time are equal or larger than end time, begin_time_ns=18446744073709551615, end_time_ns=0

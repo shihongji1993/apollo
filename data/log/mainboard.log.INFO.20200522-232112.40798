@@ -1,0 +1,196 @@
+Log file created at: 2020/05/22 23:21:12
+Running on machine: in_dev_docker
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+W0522 23:21:12.818012 40798 scheduler_factory.cc:63] No sched conf found, use default conf.
+I0522 23:21:12.818177 40801 processor.cc:41] processor_tid: 40801
+I0522 23:21:12.818238 40802 processor.cc:41] processor_tid: 40802
+I0522 23:21:12.818306 40803 processor.cc:41] processor_tid: 40803
+I0522 23:21:12.818362 40804 processor.cc:41] processor_tid: 40804
+I0522 23:21:12.818430 40805 processor.cc:41] processor_tid: 40805
+I0522 23:21:12.818495 40806 processor.cc:41] processor_tid: 40806
+I0522 23:21:12.818524 40807 processor.cc:41] processor_tid: 40807
+I0522 23:21:12.818608 40808 processor.cc:41] processor_tid: 40808
+I0522 23:21:12.818648 40809 processor.cc:41] processor_tid: 40809
+I0522 23:21:12.818676 40810 processor.cc:41] processor_tid: 40810
+I0522 23:21:12.818743 40811 processor.cc:41] processor_tid: 40811
+I0522 23:21:12.818799 40812 processor.cc:41] processor_tid: 40812
+I0522 23:21:12.818866 40813 processor.cc:41] processor_tid: 40813
+I0522 23:21:12.818924 40814 processor.cc:41] processor_tid: 40814
+I0522 23:21:12.818982 40815 processor.cc:41] processor_tid: 40815
+I0522 23:21:12.819038 40798 init.cc:103] Register exit handle succ.
+I0522 23:21:12.819039 40816 processor.cc:41] processor_tid: 40816
+I0522 23:21:12.819473 40798 module_controller.cc:65] Start initialize dag: /apollo/modules/monitor/dag/monitor.dag
+I0522 23:21:12.819527 40798 class_loader.cc:37] Begin LoadLibrary: /apollo/bazel-bin/modules/monitor/libmonitor.so
+I0522 23:21:13.379874 40798 timer.cc:135] start timer [0]
+I0522 23:21:13.880231 40842 scheduler.cc:54] create croutine: /internal/task0
+I0522 23:21:13.880282 40842 scheduler.cc:54] create croutine: /internal/task1
+I0522 23:21:13.880303 40842 scheduler.cc:54] create croutine: /internal/task2
+I0522 23:21:13.880329 40842 scheduler.cc:54] create croutine: /internal/task3
+I0522 23:21:13.880347 40842 scheduler.cc:54] create croutine: /internal/task4
+I0522 23:21:13.880367 40842 scheduler.cc:54] create croutine: /internal/task5
+I0522 23:21:13.880380 40842 scheduler.cc:54] create croutine: /internal/task6
+I0522 23:21:13.880396 40842 scheduler.cc:54] create croutine: /internal/task7
+I0522 23:21:13.880412 40842 scheduler.cc:54] create croutine: /internal/task8
+I0522 23:21:13.880432 40842 scheduler.cc:54] create croutine: /internal/task9
+I0522 23:21:13.880447 40842 scheduler.cc:54] create croutine: /internal/task10
+I0522 23:21:13.880462 40842 scheduler.cc:54] create croutine: /internal/task11
+I0522 23:21:13.880475 40842 scheduler.cc:54] create croutine: /internal/task12
+I0522 23:21:13.880493 40842 scheduler.cc:54] create croutine: /internal/task13
+I0522 23:21:13.880512 40842 scheduler.cc:54] create croutine: /internal/task14
+I0522 23:21:13.880528 40842 scheduler.cc:54] create croutine: /internal/task15
+I0522 23:21:13.881976 40801 scheduler.cc:54] create croutine: monitor_/apollo/hmi/status
+E0522 23:21:13.882226 40801 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:21:14.380076 40804 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:21:14.882058 40812 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:21:15.382042 40808 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:21:15.882107 40810 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:21:16.382102 40805 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:21:16.882124 40812 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:21:17.382110 40810 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:21:17.882109 40802 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:21:18.382103 40814 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:21:18.882109 40816 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:21:19.382124 40803 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:21:19.882112 40808 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:21:20.382114 40813 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:21:20.882071 40804 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:21:21.382107 40802 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:21:21.882081 40808 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:21:22.382081 40801 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:21:22.882033 40816 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:21:23.382112 40806 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:21:23.882086 40813 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:21:24.382077 40811 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:21:24.882033 40810 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:21:25.382028 40810 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:21:25.882061 40809 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:21:26.382105 40810 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:21:26.882045 40804 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:21:27.382061 40816 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:21:27.882068 40810 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:21:28.382093 40806 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:21:28.882097 40808 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:21:29.382117 40815 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:21:29.882097 40804 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:21:30.382064 40814 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:21:30.882128 40804 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:21:31.380087 40805 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:21:31.882048 40810 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:21:32.382093 40813 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:21:32.882076 40811 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:21:33.382067 40815 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:21:33.882015 40808 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:21:34.382012 40814 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:21:34.882107 40810 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:21:35.382097 40807 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:21:35.882081 40816 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:21:36.382071 40809 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:21:36.882076 40811 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:21:37.382072 40814 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:21:37.882107 40816 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:21:38.382115 40813 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:21:38.882110 40805 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:21:39.382139 40814 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:21:39.880133 40814 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:21:40.380072 40816 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:21:40.882089 40811 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:21:41.382097 40803 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:21:41.882066 40814 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:21:42.382091 40810 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:21:42.882107 40806 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:21:43.382053 40808 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:21:43.882094 40811 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:21:44.382113 40803 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:21:44.882118 40810 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:21:45.382110 40813 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:21:45.882115 40804 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:21:46.382100 40805 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:21:46.882107 40815 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:21:47.382117 40811 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:21:47.882119 40805 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:21:48.382123 40815 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:21:48.882118 40811 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:21:49.382098 40808 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:21:49.882113 40809 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:21:50.382109 40810 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:21:50.882064 40808 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:21:51.382104 40815 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:21:51.882035 40808 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:21:52.382066 40813 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:21:52.882103 40815 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:21:53.382143 40805 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:21:53.880115 40806 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:21:54.382110 40803 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:21:54.882102 40814 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:21:55.382098 40810 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:21:55.882087 40808 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:21:56.382123 40802 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:21:56.882107 40801 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:21:57.382086 40810 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:21:57.882019 40802 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:21:58.382063 40816 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:21:58.882078 40802 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:21:59.382071 40805 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:21:59.882108 40807 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:22:00.382062 40806 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:22:00.882110 40806 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:22:01.382115 40813 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:22:01.882112 40811 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:22:02.382114 40814 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:22:02.882112 40813 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:22:03.382082 40805 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:22:03.882076 40801 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:22:04.382135 40811 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:22:04.880112 40815 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:22:05.382081 40815 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:22:05.882103 40815 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:22:06.382072 40802 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:22:06.882107 40805 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:22:07.382072 40809 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:22:07.882066 40802 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:22:08.382124 40811 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:22:08.880115 40815 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:22:09.382114 40812 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:22:09.882098 40807 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:22:10.382097 40806 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:22:10.882108 40811 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:22:11.382107 40808 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:22:11.882103 40807 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:22:12.382079 40803 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:22:12.882030 40804 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:22:13.382104 40810 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:22:13.882073 40807 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:22:14.382117 40803 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:22:14.882082 40809 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:22:15.382076 40813 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:22:15.882091 40811 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:22:16.382069 40807 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:22:16.882109 40805 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:22:17.382115 40806 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:22:17.882109 40816 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:22:18.382084 40816 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:22:18.882066 40815 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:22:19.382107 40803 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:22:19.882117 40804 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:22:20.382108 40801 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:22:20.882053 40809 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:22:21.382050 40803 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:22:21.882027 40811 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:22:22.382131 40805 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:22:22.880080 40801 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:22:23.382098 40811 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:22:23.882120 40802 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:22:24.382114 40816 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:22:24.882133 40801 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:22:25.380113 40802 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:22:25.882130 40804 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:22:26.380129 40813 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:22:26.880169 40816 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:22:27.380167 40801 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:22:27.880157 40815 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:22:28.380116 40810 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:22:28.882115 40807 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:22:29.382064 40812 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:22:29.882066 40816 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:22:30.382123 40814 monitor_manager.cc:51] No HMIStatus was received.
+E0522 23:22:30.882064 40816 monitor_manager.cc:51] No HMIStatus was received.

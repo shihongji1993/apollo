@@ -1,0 +1,443 @@
+Log file created at: 2020/05/08 16:30:31
+Running on machine: in_dev_docker
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+W0508 16:30:31.701355 46429 scheduler_factory.cc:63] No sched conf found, use default conf.
+I0508 16:30:31.701522 46432 processor.cc:41] processor_tid: 46432
+I0508 16:30:31.701606 46433 processor.cc:41] processor_tid: 46433
+I0508 16:30:31.701634 46434 processor.cc:41] processor_tid: 46434
+I0508 16:30:31.701726 46435 processor.cc:41] processor_tid: 46435
+I0508 16:30:31.701787 46436 processor.cc:41] processor_tid: 46436
+I0508 16:30:31.701858 46437 processor.cc:41] processor_tid: 46437
+I0508 16:30:31.701879 46438 processor.cc:41] processor_tid: 46438
+I0508 16:30:31.701934 46439 processor.cc:41] processor_tid: 46439
+I0508 16:30:31.701943 46440 processor.cc:41] processor_tid: 46440
+I0508 16:30:31.701997 46441 processor.cc:41] processor_tid: 46441
+I0508 16:30:31.702029 46442 processor.cc:41] processor_tid: 46442
+I0508 16:30:31.702091 46443 processor.cc:41] processor_tid: 46443
+I0508 16:30:31.702126 46444 processor.cc:41] processor_tid: 46444
+I0508 16:30:31.702185 46445 processor.cc:41] processor_tid: 46445
+I0508 16:30:31.702220 46446 processor.cc:41] processor_tid: 46446
+I0508 16:30:31.702276 46429 init.cc:103] Register exit handle succ.
+I0508 16:30:31.702280 46447 processor.cc:41] processor_tid: 46447
+I0508 16:30:31.702703 46429 module_controller.cc:65] Start initialize dag: /apollo/modules/monitor/dag/monitor.dag
+I0508 16:30:31.702757 46429 class_loader.cc:37] Begin LoadLibrary: /apollo/bazel-bin/modules/monitor/libmonitor.so
+I0508 16:30:32.273697 46429 timer.cc:135] start timer [0]
+W0508 16:30:32.504038 46477 rate.cc:95] Detect forward jumps in time
+I0508 16:30:32.774035 46477 scheduler.cc:54] create croutine: /internal/task0
+I0508 16:30:32.774083 46477 scheduler.cc:54] create croutine: /internal/task1
+I0508 16:30:32.774102 46477 scheduler.cc:54] create croutine: /internal/task2
+I0508 16:30:32.774119 46477 scheduler.cc:54] create croutine: /internal/task3
+I0508 16:30:32.774133 46477 scheduler.cc:54] create croutine: /internal/task4
+I0508 16:30:32.774148 46477 scheduler.cc:54] create croutine: /internal/task5
+I0508 16:30:32.774161 46477 scheduler.cc:54] create croutine: /internal/task6
+I0508 16:30:32.774178 46477 scheduler.cc:54] create croutine: /internal/task7
+I0508 16:30:32.774191 46477 scheduler.cc:54] create croutine: /internal/task8
+I0508 16:30:32.774205 46477 scheduler.cc:54] create croutine: /internal/task9
+I0508 16:30:32.774219 46477 scheduler.cc:54] create croutine: /internal/task10
+I0508 16:30:32.774235 46477 scheduler.cc:54] create croutine: /internal/task11
+I0508 16:30:32.774250 46477 scheduler.cc:54] create croutine: /internal/task12
+I0508 16:30:32.774263 46477 scheduler.cc:54] create croutine: /internal/task13
+I0508 16:30:32.774276 46477 scheduler.cc:54] create croutine: /internal/task14
+I0508 16:30:32.774303 46477 scheduler.cc:54] create croutine: /internal/task15
+I0508 16:30:32.775689 46432 scheduler.cc:54] create croutine: monitor_/apollo/hmi/status
+E0508 16:30:32.776216 46432 monitor_manager.cc:51] No HMIStatus was received.
+I0508 16:30:33.276707 46441 scheduler.cc:54] create croutine: monitor_/apollo/canbus/chassis
+I0508 16:30:33.277032 46441 recurrent_runner.cc:30] EsdCanMonitor is running round #1
+I0508 16:30:33.277381 46441 scheduler.cc:54] create croutine: monitor_/apollo/sensor/gnss/gnss_status
+I0508 16:30:33.278990 46441 scheduler.cc:54] create croutine: monitor_/apollo/localization/msf_status
+I0508 16:30:33.282446 46441 scheduler.cc:54] create croutine: monitor_/apollo/common/latency_records
+I0508 16:30:33.284293 46441 scheduler.cc:54] create croutine: monitor_/apollo/sensor/lidar128/compensator/PointCloud2
+I0508 16:30:47.776854 46443 recurrent_runner.cc:30] SummaryMonitor is running round #30
+I0508 16:31:03.273908 46439 recurrent_runner.cc:30] ProcessMonitor is running round #17
+I0508 16:31:17.778391 46439 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #90
+I0508 16:31:32.774006 46442 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #120
+I0508 16:31:47.773936 46446 recurrent_runner.cc:30] GpsMonitor is running round #24
+I0508 16:32:02.776710 46444 recurrent_runner.cc:30] SummaryMonitor is running round #180
+I0508 16:32:17.775926 46433 recurrent_runner.cc:30] ProcessMonitor is running round #61
+I0508 16:32:32.774019 46443 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #240
+I0508 16:32:48.274020 46432 recurrent_runner.cc:30] ResourceMonitor is running round #27
+I0508 16:33:03.273947 46440 recurrent_runner.cc:30] SummaryMonitor is running round #301
+I0508 16:33:18.776921 46445 recurrent_runner.cc:30] LatencyMonitor is running round #95
+I0508 16:33:33.273988 46436 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #361
+I0508 16:33:48.776443 46432 recurrent_runner.cc:30] SummaryMonitor is running round #392
+I0508 16:34:04.275915 46435 recurrent_runner.cc:30] ProcessMonitor is running round #120
+I0508 16:34:19.275918 46435 recurrent_runner.cc:30] ProcessMonitor is running round #128
+I0508 16:34:34.775969 46442 recurrent_runner.cc:30] ResourceMonitor is running round #47
+I0508 16:34:49.778394 46447 recurrent_runner.cc:30] SummaryMonitor is running round #514
+I0508 16:35:05.273993 46435 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #545
+I0508 16:35:20.275996 46438 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #575
+I0508 16:35:35.773932 46439 recurrent_runner.cc:30] SummaryMonitor is running round #606
+I0508 16:35:50.775959 46435 recurrent_runner.cc:30] ProcessMonitor is running round #179
+W0508 16:35:58.276154 46477 rate.cc:95] Detect forward jumps in time
+I0508 16:36:05.774029 46432 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #666
+I0508 16:36:21.277245 46438 recurrent_runner.cc:30] SummaryMonitor is running round #697
+I0508 16:36:36.273969 46440 recurrent_runner.cc:30] SummaryMonitor is running round #727
+I0508 16:36:51.278502 46443 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #757
+W0508 16:36:58.776186 46477 rate.cc:95] Detect forward jumps in time
+I0508 16:37:06.274013 46447 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #787
+I0508 16:37:21.775912 46441 recurrent_runner.cc:30] ProcessMonitor is running round #231
+I0508 16:37:36.773985 46441 recurrent_runner.cc:30] ProcessMonitor is running round #239
+I0508 16:37:52.276417 46446 recurrent_runner.cc:30] LatencyMonitor is running round #247
+I0508 16:38:06.777034 46439 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #908
+I0508 16:38:22.773947 46441 recurrent_runner.cc:30] LocalizationMonitor is running round #90
+I0508 16:38:37.773941 46442 recurrent_runner.cc:30] ChannelMonitor is running round #93
+I0508 16:38:52.773977 46442 recurrent_runner.cc:30] ChannelMonitor is running round #96
+I0508 16:39:08.274024 46443 recurrent_runner.cc:30] ResourceMonitor is running round #99
+I0508 16:39:23.273960 46438 recurrent_runner.cc:30] SummaryMonitor is running round #1061
+I0508 16:39:38.273926 46447 recurrent_runner.cc:30] SummaryMonitor is running round #1091
+I0508 16:39:53.273970 46441 recurrent_runner.cc:30] ProcessMonitor is running round #314
+I0508 16:40:08.273970 46432 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #1151
+I0508 16:40:23.775919 46437 recurrent_runner.cc:30] GpsMonitor is running round #180
+I0508 16:40:38.776433 46447 recurrent_runner.cc:30] SummaryMonitor is running round #1212
+I0508 16:40:53.775931 46437 recurrent_runner.cc:30] SummaryMonitor is running round #1242
+I0508 16:41:09.274133 46436 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #1273
+I0508 16:41:23.776065 46438 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #1302
+I0508 16:41:39.275944 46439 recurrent_runner.cc:30] LocalizationMonitor is running round #128
+I0508 16:41:54.274004 46432 recurrent_runner.cc:30] SocketCanMonitor is running round #208
+I0508 16:42:09.273996 46437 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #1393
+I0508 16:42:24.773972 46447 recurrent_runner.cc:30] GpsMonitor is running round #217
+I0508 16:42:39.773967 46444 recurrent_runner.cc:30] SummaryMonitor is running round #1454
+I0508 16:42:54.273934 46445 recurrent_runner.cc:30] SummaryMonitor is running round #1483
+W0508 16:43:07.776186 46477 rate.cc:95] Detect forward jumps in time
+I0508 16:43:08.773941 46442 recurrent_runner.cc:30] SummaryMonitor is running round #1512
+I0508 16:43:23.776424 46440 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #1542
+I0508 16:43:38.774083 46445 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #1572
+I0508 16:43:54.773916 46447 recurrent_runner.cc:30] ProcessMonitor is running round #451
+I0508 16:44:10.276388 46446 recurrent_runner.cc:30] LatencyMonitor is running round #459
+I0508 16:44:25.274047 46432 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #1665
+I0508 16:44:40.776463 46439 recurrent_runner.cc:30] SummaryMonitor is running round #1696
+I0508 16:44:55.776386 46447 recurrent_runner.cc:30] SummaryMonitor is running round #1726
+I0508 16:45:10.776528 46446 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #1756
+I0508 16:45:26.274003 46436 recurrent_runner.cc:30] ResourceMonitor is running round #171
+I0508 16:45:41.274017 46432 recurrent_runner.cc:30] ResourceMonitor is running round #174
+I0508 16:45:56.773968 46444 recurrent_runner.cc:30] SocketCanMonitor is running round #282
+I0508 16:46:11.776423 46442 recurrent_runner.cc:30] LatencyMonitor is running round #526
+I0508 16:46:26.773941 46440 recurrent_runner.cc:30] GpsMonitor is running round #291
+I0508 16:46:41.773944 46440 recurrent_runner.cc:30] SummaryMonitor is running round #1938
+I0508 16:46:56.773929 46440 recurrent_runner.cc:30] SummaryMonitor is running round #1968
+I0508 16:47:11.776432 46438 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #1998
+I0508 16:47:26.773977 46436 recurrent_runner.cc:30] ResourceMonitor is running round #194
+I0508 16:47:41.774019 46435 recurrent_runner.cc:30] SummaryMonitor is running round #2058
+I0508 16:47:56.776448 46435 recurrent_runner.cc:30] LatencyMonitor is running round #588
+I0508 16:48:11.774051 46442 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #2118
+I0508 16:48:27.773936 46434 recurrent_runner.cc:30] ProcessMonitor is running round #604
+I0508 16:48:42.273991 46439 recurrent_runner.cc:30] ProcessMonitor is running round #613
+I0508 16:48:56.773958 46435 recurrent_runner.cc:30] SummaryMonitor is running round #2208
+I0508 16:49:11.776562 46432 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #2238
+I0508 16:49:26.774015 46433 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #2268
+I0508 16:49:41.774019 46438 recurrent_runner.cc:30] ResourceMonitor is running round #220
+I0508 16:49:56.773996 46439 recurrent_runner.cc:30] LocalizationMonitor is running round #223
+I0508 16:50:11.773990 46440 recurrent_runner.cc:30] ChannelMonitor is running round #226
+I0508 16:50:26.773994 46440 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #2388
+I0508 16:50:42.273975 46433 recurrent_runner.cc:30] SummaryMonitor is running round #2419
+I0508 16:50:57.273977 46437 recurrent_runner.cc:30] SummaryMonitor is running round #2449
+I0508 16:51:12.776432 46439 recurrent_runner.cc:30] LatencyMonitor is running round #699
+I0508 16:51:27.274003 46439 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #2509
+I0508 16:51:42.773943 46442 recurrent_runner.cc:30] EsdCanMonitor is running round #388
+I0508 16:51:57.774026 46436 recurrent_runner.cc:30] SummaryMonitor is running round #2570
+I0508 16:52:12.774098 46445 recurrent_runner.cc:30] SummaryMonitor is running round #2600
+I0508 16:52:28.273984 46445 recurrent_runner.cc:30] ChannelMonitor is running round #252
+I0508 16:52:43.773939 46441 recurrent_runner.cc:30] SummaryMonitor is running round #2662
+I0508 16:52:58.773931 46443 recurrent_runner.cc:30] SummaryMonitor is running round #2692
+I0508 16:53:13.774000 46439 recurrent_runner.cc:30] SummaryMonitor is running round #2722
+I0508 16:53:28.776523 46447 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #2752
+I0508 16:53:43.774082 46438 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #2782
+I0508 16:53:59.273938 46435 recurrent_runner.cc:30] SummaryMonitor is running round #2813
+I0508 16:54:14.273994 46442 recurrent_runner.cc:30] ProcessMonitor is running round #800
+I0508 16:54:29.274008 46437 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #2873
+I0508 16:54:44.773949 46444 recurrent_runner.cc:30] SummaryMonitor is running round #2904
+I0508 16:54:59.773989 46432 recurrent_runner.cc:30] ProcessMonitor is running round #826
+I0508 16:55:14.276922 46432 recurrent_runner.cc:30] SummaryMonitor is running round #2963
+I0508 16:55:29.774283 46442 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #2994
+I0508 16:55:44.277107 46437 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #3023
+I0508 16:56:00.274025 46435 recurrent_runner.cc:30] SummaryMonitor is running round #3055
+I0508 16:56:15.274044 46439 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #3085
+I0508 16:56:31.273974 46436 recurrent_runner.cc:30] EsdCanMonitor is running round #476
+I0508 16:56:45.776433 46438 recurrent_runner.cc:30] SummaryMonitor is running round #3146
+I0508 16:57:00.776543 46436 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #3176
+I0508 16:57:15.776413 46445 recurrent_runner.cc:30] LatencyMonitor is running round #903
+I0508 16:57:30.776434 46443 recurrent_runner.cc:30] SummaryMonitor is running round #3236
+I0508 16:57:45.773941 46439 recurrent_runner.cc:30] SummaryMonitor is running round #3266
+I0508 16:58:01.273977 46445 recurrent_runner.cc:30] GpsMonitor is running round #503
+I0508 16:58:16.276451 46443 recurrent_runner.cc:30] SummaryMonitor is running round #3327
+I0508 16:58:31.273990 46435 recurrent_runner.cc:30] SummaryMonitor is running round #3357
+I0508 16:58:46.273986 46440 recurrent_runner.cc:30] ProcessMonitor is running round #955
+I0508 16:59:01.274004 46444 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #3417
+I0508 16:59:16.276397 46443 recurrent_runner.cc:30] LatencyMonitor is running round #972
+I0508 16:59:31.773978 46432 recurrent_runner.cc:30] GpsMonitor is running round #531
+I0508 16:59:47.273953 46437 recurrent_runner.cc:30] ChannelMonitor is running round #335
+I0508 17:00:01.773998 46437 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #3538
+I0508 17:00:17.773954 46434 recurrent_runner.cc:30] EsdCanMonitor is running round #545
+I0508 17:00:32.273933 46445 recurrent_runner.cc:30] SummaryMonitor is running round #3599
+I0508 17:00:47.773991 46446 recurrent_runner.cc:30] SocketCanMonitor is running round #554
+I0508 17:01:03.273977 46441 recurrent_runner.cc:30] LocalizationMonitor is running round #349
+I0508 17:01:18.273953 46442 recurrent_runner.cc:30] ProcessMonitor is running round #1040
+I0508 17:01:33.276541 46435 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #3721
+I0508 17:01:48.276649 46447 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #3751
+I0508 17:02:04.273955 46436 recurrent_runner.cc:30] EsdCanMonitor is running round #577
+I0508 17:02:18.773929 46435 recurrent_runner.cc:30] SummaryMonitor is running round #3812
+I0508 17:02:34.276515 46438 recurrent_runner.cc:30] ResourceMonitor is running round #366
+I0508 17:02:49.773974 46434 recurrent_runner.cc:30] LocalizationMonitor is running round #369
+I0508 17:03:04.276517 46447 recurrent_runner.cc:30] SummaryMonitor is running round #3903
+I0508 17:03:19.774044 46436 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #3934
+I0508 17:03:35.276501 46446 recurrent_runner.cc:30] LatencyMonitor is running round #1115
+I0508 17:03:50.773905 46435 recurrent_runner.cc:30] SummaryMonitor is running round #3996
+I0508 17:04:05.773952 46435 recurrent_runner.cc:30] SummaryMonitor is running round #4026
+I0508 17:04:20.776546 46432 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #4056
+I0508 17:04:36.273983 46432 recurrent_runner.cc:30] ResourceMonitor is running round #389
+I0508 17:04:51.774044 46442 recurrent_runner.cc:30] LocalizationMonitor is running round #392
+I0508 17:05:06.774068 46439 recurrent_runner.cc:30] SocketCanMonitor is running round #632
+I0508 17:05:21.776450 46436 recurrent_runner.cc:30] LatencyMonitor is running round #1174
+I0508 17:05:36.773958 46444 recurrent_runner.cc:30] GpsMonitor is running round #641
+I0508 17:05:51.776904 46432 recurrent_runner.cc:30] SummaryMonitor is running round #4238
+I0508 17:06:06.774009 46439 recurrent_runner.cc:30] SummaryMonitor is running round #4268
+I0508 17:06:21.779165 46444 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #4298
+I0508 17:06:36.776470 46432 recurrent_runner.cc:30] LatencyMonitor is running round #1217
+I0508 17:06:52.773970 46442 recurrent_runner.cc:30] ChannelMonitor is running round #415
+I0508 17:07:07.274006 46440 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #4389
+I0508 17:07:23.273965 46440 recurrent_runner.cc:30] EsdCanMonitor is running round #673
+I0508 17:07:37.773969 46445 recurrent_runner.cc:30] SummaryMonitor is running round #4450
+I0508 17:07:52.776489 46436 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #4480
+I0508 17:08:07.776940 46432 recurrent_runner.cc:30] LatencyMonitor is running round #1269
+I0508 17:08:23.273946 46438 recurrent_runner.cc:30] ProcessMonitor is running round #1278
+I0508 17:08:38.773969 46441 recurrent_runner.cc:30] ProcessMonitor is running round #1286
+I0508 17:08:53.277004 46445 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #4601
+I0508 17:09:09.273936 46442 recurrent_runner.cc:30] ProcessMonitor is running round #1303
+I0508 17:09:23.773973 46444 recurrent_runner.cc:30] SummaryMonitor is running round #4662
+W0508 17:09:31.097434 46477 rate.cc:95] Detect forward jumps in time
+I0508 17:09:39.662560 46437 recurrent_runner.cc:30] SummaryMonitor is running round #4691
+I0508 17:09:54.662269 46436 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #4721
+W0508 17:10:01.931723 46477 rate.cc:80] Detect backward jumps in time
+I0508 17:10:09.560482 46443 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #4751
+I0508 17:10:25.057983 46432 recurrent_runner.cc:30] ResourceMonitor is running round #455
+I0508 17:10:40.557946 46435 recurrent_runner.cc:30] ProcessMonitor is running round #1355
+I0508 17:10:54.560989 46444 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #4841
+I0508 17:11:09.057994 46444 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #4870
+I0508 17:11:24.557971 46443 recurrent_runner.cc:30] GpsMonitor is running round #747
+I0508 17:11:40.057930 46442 recurrent_runner.cc:30] SummaryMonitor is running round #4932
+I0508 17:11:55.057996 46438 recurrent_runner.cc:30] ProcessMonitor is running round #1398
+I0508 17:12:10.060591 46434 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #4992
+I0508 17:12:26.057965 46447 recurrent_runner.cc:30] LocalizationMonitor is running round #478
+I0508 17:12:41.057993 46436 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #5054
+I0508 17:12:55.560457 46432 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #5083
+I0508 17:13:10.060818 46441 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #5112
+I0508 17:13:25.057998 46437 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #5142
+I0508 17:13:40.557971 46432 recurrent_runner.cc:30] EsdCanMonitor is running round #789
+I0508 17:13:55.057940 46445 recurrent_runner.cc:30] SummaryMonitor is running round #5202
+I0508 17:14:10.057966 46433 recurrent_runner.cc:30] ProcessMonitor is running round #1476
+I0508 17:14:25.058075 46434 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #5262
+I0508 17:14:40.558001 46436 recurrent_runner.cc:30] ResourceMonitor is running round #504
+I0508 17:14:56.057968 46437 recurrent_runner.cc:30] SocketCanMonitor is running round #812
+I0508 17:15:10.557993 46432 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #5353
+I0508 17:15:26.060429 46443 recurrent_runner.cc:30] SummaryMonitor is running round #5384
+I0508 17:15:41.060432 46440 recurrent_runner.cc:30] SummaryMonitor is running round #5414
+I0508 17:15:56.057986 46441 recurrent_runner.cc:30] SummaryMonitor is running round #5444
+I0508 17:16:11.058068 46444 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #5474
+I0508 17:16:26.060452 46445 recurrent_runner.cc:30] ResourceMonitor is running round #524
+W0508 17:16:38.734897 46474 protobuf_factory.cc:217] [modules/common/proto/error_code.proto] A file with this name is already in the pool.
+W0508 17:16:38.735163 46474 protobuf_factory.cc:217] [modules/common/proto/error_code.proto] A file with this name is already in the pool.
+W0508 17:16:38.736430 46474 protobuf_factory.cc:217] [modules/common/proto/error_code.proto] A file with this name is already in the pool.
+W0508 17:16:38.736605 46474 protobuf_factory.cc:217] [modules/common/proto/error_code.proto] A file with this name is already in the pool.
+W0508 17:16:38.736797 46474 protobuf_factory.cc:217] [modules/common/proto/error_code.proto] A file with this name is already in the pool.
+W0508 17:16:38.739753 46474 protobuf_factory.cc:217] [modules/common/proto/error_code.proto] A file with this name is already in the pool.
+W0508 17:16:38.740520 46474 protobuf_factory.cc:217] [modules/common/proto/error_code.proto] A file with this name is already in the pool.
+W0508 17:16:38.740793 46474 protobuf_factory.cc:217] [modules/common/proto/error_code.proto] A file with this name is already in the pool.
+W0508 17:16:38.740976 46474 protobuf_factory.cc:217] [modules/common/proto/error_code.proto] A file with this name is already in the pool.
+W0508 17:16:38.741210 46474 protobuf_factory.cc:217] [modules/common/proto/error_code.proto] A file with this name is already in the pool.
+W0508 17:16:38.741413 46474 protobuf_factory.cc:217] [modules/common/proto/error_code.proto] A file with this name is already in the pool.
+W0508 17:16:38.741591 46474 protobuf_factory.cc:217] [modules/common/proto/error_code.proto] A file with this name is already in the pool.
+W0508 17:16:38.741780 46474 protobuf_factory.cc:217] [modules/common/proto/error_code.proto] A file with this name is already in the pool.
+W0508 17:16:38.741967 46474 protobuf_factory.cc:217] [modules/common/proto/error_code.proto] A file with this name is already in the pool.
+W0508 17:16:38.742146 46474 protobuf_factory.cc:217] [modules/common/proto/error_code.proto] A file with this name is already in the pool.
+W0508 17:16:38.742355 46474 protobuf_factory.cc:217] [modules/common/proto/error_code.proto] A file with this name is already in the pool.
+W0508 17:16:38.742547 46474 protobuf_factory.cc:217] [modules/common/proto/error_code.proto] A file with this name is already in the pool.
+W0508 17:16:38.742872 46474 protobuf_factory.cc:217] [modules/common/proto/error_code.proto] A file with this name is already in the pool.
+W0508 17:16:38.743120 46474 protobuf_factory.cc:217] [modules/common/proto/error_code.proto] A file with this name is already in the pool.
+W0508 17:16:38.743460 46474 protobuf_factory.cc:217] [modules/common/proto/error_code.proto] A file with this name is already in the pool.
+W0508 17:16:38.743786 46474 protobuf_factory.cc:217] [modules/common/proto/error_code.proto] A file with this name is already in the pool.
+W0508 17:16:38.743971 46474 protobuf_factory.cc:217] [modules/common/proto/error_code.proto] A file with this name is already in the pool.
+W0508 17:16:38.744156 46474 protobuf_factory.cc:217] [modules/common/proto/error_code.proto] A file with this name is already in the pool.
+W0508 17:16:38.744333 46474 protobuf_factory.cc:217] [modules/common/proto/error_code.proto] A file with this name is already in the pool.
+W0508 17:16:38.744508 46474 protobuf_factory.cc:217] [modules/common/proto/error_code.proto] A file with this name is already in the pool.
+W0508 17:16:38.744704 46474 protobuf_factory.cc:217] [modules/common/proto/error_code.proto] A file with this name is already in the pool.
+W0508 17:16:38.744887 46474 protobuf_factory.cc:217] [modules/common/proto/error_code.proto] A file with this name is already in the pool.
+W0508 17:16:38.745183 46474 protobuf_factory.cc:217] [modules/common/proto/error_code.proto] A file with this name is already in the pool.
+W0508 17:16:38.745354 46474 protobuf_factory.cc:217] [modules/common/proto/error_code.proto] A file with this name is already in the pool.
+I0508 17:16:41.558115 46433 recurrent_runner.cc:30] LocalizationMonitor is running round #527
+W0508 17:16:41.562381 46477 rate.cc:95] Detect forward jumps in time
+I0508 17:16:44.059048 46444 scheduler.cc:54] create croutine: monitor_/apollo/sensor/gnss/ins_status
+I0508 17:16:56.062223 46438 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #5564
+I0508 17:17:11.058845 46433 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #5594
+I0508 17:17:26.058733 46440 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #5624
+I0508 17:17:42.058620 46445 recurrent_runner.cc:30] ProcessMonitor is running round #1596
+I0508 17:17:57.058641 46442 recurrent_runner.cc:30] SocketCanMonitor is running round #867
+W0508 17:18:00.563143 46477 rate.cc:95] Detect forward jumps in time
+I0508 17:18:12.059414 46439 recurrent_runner.cc:30] ResourceMonitor is running round #544
+W0508 17:18:21.562939 46477 rate.cc:95] Detect forward jumps in time
+I0508 17:18:27.557375 46444 recurrent_runner.cc:30] SocketCanMonitor is running round #876
+W0508 17:18:41.562801 46477 rate.cc:95] Detect forward jumps in time
+I0508 17:18:42.559669 46433 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #5777
+I0508 17:18:57.559494 46446 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #5807
+I0508 17:19:13.062876 46438 recurrent_runner.cc:30] SummaryMonitor is running round #5838
+I0508 17:19:28.059365 46434 recurrent_runner.cc:30] SummaryMonitor is running round #5868
+W0508 17:19:38.569587 46477 rate.cc:95] Detect forward jumps in time
+I0508 17:19:43.063359 46438 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #5898
+I0508 17:19:59.057924 46433 recurrent_runner.cc:30] LocalizationMonitor is running round #564
+I0508 17:20:14.058041 46442 recurrent_runner.cc:30] ProcessMonitor is running round #1681
+I0508 17:20:29.059839 46441 recurrent_runner.cc:30] SocketCanMonitor is running round #913
+I0508 17:20:44.057905 46435 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #6020
+W0508 17:20:53.063199 46477 rate.cc:95] Detect forward jumps in time
+I0508 17:20:58.563266 46446 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #6049
+W0508 17:21:02.065021 46477 rate.cc:95] Detect forward jumps in time
+I0508 17:21:14.057299 46438 recurrent_runner.cc:30] GpsMonitor is running round #927
+W0508 17:21:20.063179 46477 rate.cc:95] Detect forward jumps in time
+I0508 17:21:29.059450 46432 recurrent_runner.cc:30] LocalizationMonitor is running round #581
+I0508 17:21:44.059438 46442 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #6140
+I0508 17:21:59.559444 46433 recurrent_runner.cc:30] EsdCanMonitor is running round #941
+W0508 17:21:59.567610 46477 rate.cc:95] Detect forward jumps in time
+I0508 17:22:14.562332 46435 recurrent_runner.cc:30] SummaryMonitor is running round #6201
+I0508 17:22:29.557386 46434 recurrent_runner.cc:30] SummaryMonitor is running round #6231
+I0508 17:22:45.059461 46439 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #6262
+I0508 17:23:00.057427 46447 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #6292
+I0508 17:23:16.059355 46432 recurrent_runner.cc:30] EsdCanMonitor is running round #964
+I0508 17:23:31.059388 46439 recurrent_runner.cc:30] ProcessMonitor is running round #1790
+I0508 17:23:46.563884 46447 recurrent_runner.cc:30] LatencyMonitor is running round #1798
+W0508 17:23:48.568169 46477 rate.cc:95] Detect forward jumps in time
+I0508 17:24:01.561175 46443 recurrent_runner.cc:30] LatencyMonitor is running round #1806
+I0508 17:24:17.058337 46446 recurrent_runner.cc:30] SummaryMonitor is running round #6446
+I0508 17:24:31.560940 46442 recurrent_runner.cc:30] SummaryMonitor is running round #6475
+I0508 17:24:46.558583 46438 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #6505
+I0508 17:25:01.558403 46445 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #6535
+I0508 17:25:17.058429 46435 recurrent_runner.cc:30] ProcessMonitor is running round #1850
+I0508 17:25:32.058465 46443 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #6596
+I0508 17:25:47.058444 46443 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #6626
+I0508 17:26:02.558429 46436 recurrent_runner.cc:30] EsdCanMonitor is running round #1015
+I0508 17:26:17.558348 46441 recurrent_runner.cc:30] SummaryMonitor is running round #6687
+I0508 17:26:32.560853 46447 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #6717
+I0508 17:26:47.558394 46440 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #6747
+I0508 17:27:03.058375 46435 recurrent_runner.cc:30] EsdCanMonitor is running round #1033
+I0508 17:27:18.558372 46438 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #6809
+I0508 17:27:33.060729 46439 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #6838
+I0508 17:27:48.558406 46435 recurrent_runner.cc:30] GpsMonitor is running round #1047
+I0508 17:28:04.058313 46440 recurrent_runner.cc:30] ProcessMonitor is running round #1943
+I0508 17:28:18.560819 46442 recurrent_runner.cc:30] SummaryMonitor is running round #6929
+I0508 17:28:34.058400 46436 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #6960
+I0508 17:28:48.560808 46444 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #6989
+I0508 17:29:04.058425 46443 recurrent_runner.cc:30] ResourceMonitor is running round #667
+I0508 17:29:19.558368 46440 recurrent_runner.cc:30] SocketCanMonitor is running round #1075
+I0508 17:29:34.558394 46433 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #7081
+I0508 17:29:50.058362 46442 recurrent_runner.cc:30] EsdCanMonitor is running round #1084
+I0508 17:30:04.560739 46445 recurrent_runner.cc:30] SummaryMonitor is running round #7141
+I0508 17:30:19.560839 46432 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #7171
+I0508 17:30:34.558475 46447 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #7201
+I0508 17:30:50.058447 46433 recurrent_runner.cc:30] ResourceMonitor is running round #687
+I0508 17:31:05.560746 46432 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #7263
+I0508 17:31:20.558425 46436 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #7293
+I0508 17:31:36.058360 46435 recurrent_runner.cc:30] GpsMonitor is running round #1116
+I0508 17:31:51.558358 46433 recurrent_runner.cc:30] ProcessMonitor is running round #2070
+I0508 17:32:06.058378 46440 recurrent_runner.cc:30] SummaryMonitor is running round #7384
+I0508 17:32:21.058378 46441 recurrent_runner.cc:30] SummaryMonitor is running round #7414
+I0508 17:32:36.058496 46441 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #7444
+I0508 17:32:51.560720 46432 recurrent_runner.cc:30] SummaryMonitor is running round #7475
+I0508 17:33:06.561549 46438 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #7505
+I0508 17:33:22.058413 46444 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #7536
+I0508 17:33:37.558367 46443 recurrent_runner.cc:30] SummaryMonitor is running round #7567
+I0508 17:33:52.558370 46446 recurrent_runner.cc:30] ProcessMonitor is running round #2138
+I0508 17:34:07.060823 46443 recurrent_runner.cc:30] SummaryMonitor is running round #7626
+I0508 17:34:22.558413 46436 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #7657
+I0508 17:34:37.558404 46436 recurrent_runner.cc:30] ResourceMonitor is running round #730
+I0508 17:34:53.058430 46442 recurrent_runner.cc:30] ProcessMonitor is running round #2172
+I0508 17:35:08.058423 46438 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #7748
+I0508 17:35:23.060706 46435 recurrent_runner.cc:30] LatencyMonitor is running round #2189
+I0508 17:35:37.558488 46434 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #7807
+I0508 17:35:53.558404 46447 recurrent_runner.cc:30] ProcessMonitor is running round #2206
+I0508 17:36:08.061237 46446 recurrent_runner.cc:30] SummaryMonitor is running round #7868
+I0508 17:36:23.558410 46439 recurrent_runner.cc:30] SocketCanMonitor is running round #1204
+I0508 17:36:38.058404 46438 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #7928
+I0508 17:36:54.058321 46440 recurrent_runner.cc:30] EsdCanMonitor is running round #1213
+I0508 17:37:09.058387 46443 recurrent_runner.cc:30] ProcessMonitor is running round #2249
+I0508 17:37:23.558430 46439 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #8019
+I0508 17:37:39.060676 46434 recurrent_runner.cc:30] SummaryMonitor is running round #8050
+I0508 17:37:54.058404 46442 recurrent_runner.cc:30] SummaryMonitor is running round #8080
+I0508 17:38:09.058406 46442 recurrent_runner.cc:30] ProcessMonitor is running round #2283
+I0508 17:38:24.058466 46437 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #8140
+I0508 17:38:39.558413 46433 recurrent_runner.cc:30] LocalizationMonitor is running round #776
+I0508 17:38:55.058385 46433 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #8202
+I0508 17:39:09.558498 46434 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #8231
+I0508 17:39:25.058415 46439 recurrent_runner.cc:30] GpsMonitor is running round #1259
+I0508 17:39:40.058377 46444 recurrent_runner.cc:30] SummaryMonitor is running round #8292
+I0508 17:39:55.058353 46432 recurrent_runner.cc:30] SummaryMonitor is running round #8322
+I0508 17:40:10.060711 46444 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #8352
+I0508 17:40:25.560648 46441 recurrent_runner.cc:30] LatencyMonitor is running round #2359
+I0508 17:40:41.058359 46438 recurrent_runner.cc:30] LocalizationMonitor is running round #799
+I0508 17:40:56.058429 46441 recurrent_runner.cc:30] ProcessMonitor is running round #2376
+I0508 17:41:11.058476 46435 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #8474
+I0508 17:41:26.558326 46435 recurrent_runner.cc:30] EsdCanMonitor is running round #1296
+I0508 17:41:41.558390 46438 recurrent_runner.cc:30] ProcessMonitor is running round #2402
+I0508 17:41:56.058398 46445 recurrent_runner.cc:30] SummaryMonitor is running round #8564
+I0508 17:42:11.558338 46434 recurrent_runner.cc:30] ProcessMonitor is running round #2419
+I0508 17:42:27.058369 46433 recurrent_runner.cc:30] EsdCanMonitor is running round #1315
+I0508 17:42:42.060669 46440 recurrent_runner.cc:30] SummaryMonitor is running round #8656
+I0508 17:42:57.060657 46437 recurrent_runner.cc:30] SummaryMonitor is running round #8686
+I0508 17:43:12.558436 46442 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #8717
+I0508 17:43:27.560643 46447 recurrent_runner.cc:30] LatencyMonitor is running round #2460
+I0508 17:43:42.058465 46443 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #8776
+I0508 17:43:57.558359 46442 recurrent_runner.cc:30] SummaryMonitor is running round #8807
+I0508 17:44:12.558370 46443 recurrent_runner.cc:30] ProcessMonitor is running round #2486
+I0508 17:44:27.558364 46442 recurrent_runner.cc:30] ChannelMonitor is running round #842
+I0508 17:44:43.558359 46445 recurrent_runner.cc:30] EsdCanMonitor is running round #1357
+I0508 17:44:58.558351 46434 recurrent_runner.cc:30] ProcessMonitor is running round #2511
+I0508 17:45:13.058394 46438 recurrent_runner.cc:30] SummaryMonitor is running round #8958
+I0508 17:45:28.558356 46443 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #8989
+I0508 17:45:43.560670 46446 recurrent_runner.cc:30] LatencyMonitor is running round #2536
+I0508 17:45:59.058338 46437 recurrent_runner.cc:30] SummaryMonitor is running round #9050
+I0508 17:46:14.060690 46436 recurrent_runner.cc:30] ChannelMonitor is running round #862
+I0508 17:46:29.058499 46447 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #9110
+I0508 17:46:44.558373 46432 recurrent_runner.cc:30] SummaryMonitor is running round #9141
+I0508 17:46:59.558408 46441 recurrent_runner.cc:30] SummaryMonitor is running round #9171
+I0508 17:47:14.558326 46432 recurrent_runner.cc:30] ProcessMonitor is running round #2587
+I0508 17:47:29.558369 46433 recurrent_runner.cc:30] SocketCanMonitor is running round #1408
+I0508 17:47:44.560681 46434 recurrent_runner.cc:30] LatencyMonitor is running round #2604
+I0508 17:47:59.558408 46437 recurrent_runner.cc:30] GpsMonitor is running round #1417
+I0508 17:48:15.058380 46446 recurrent_runner.cc:30] ChannelMonitor is running round #885
+I0508 17:48:30.058454 46440 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #9352
+I0508 17:48:46.058372 46435 recurrent_runner.cc:30] EsdCanMonitor is running round #1431
+I0508 17:49:00.558368 46444 recurrent_runner.cc:30] SummaryMonitor is running round #9413
+I0508 17:49:15.558370 46437 recurrent_runner.cc:30] SummaryMonitor is running round #9443
+I0508 17:49:30.560777 46437 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #9473
+I0508 17:49:45.558442 46438 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #9503
+I0508 17:50:01.060717 46445 recurrent_runner.cc:30] SummaryMonitor is running round #9534
+I0508 17:50:16.058408 46433 recurrent_runner.cc:30] SummaryMonitor is running round #9564
+I0508 17:50:31.558390 46443 recurrent_runner.cc:30] ChannelMonitor is running round #911
+I0508 17:50:47.060636 46444 recurrent_runner.cc:30] LatencyMonitor is running round #2705
+I0508 17:51:02.058375 46447 recurrent_runner.cc:30] LocalizationMonitor is running round #917
+I0508 17:51:17.058342 46432 recurrent_runner.cc:30] SummaryMonitor is running round #9686
+I0508 17:51:32.560608 46436 recurrent_runner.cc:30] LatencyMonitor is running round #2730
+I0508 17:51:47.058372 46434 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #9746
+I0508 17:52:02.558418 46445 recurrent_runner.cc:30] GpsMonitor is running round #1491
+I0508 17:52:17.558406 46443 recurrent_runner.cc:30] SummaryMonitor is running round #9807
+I0508 17:52:32.558322 46434 recurrent_runner.cc:30] SummaryMonitor is running round #9837
+I0508 17:52:48.558408 46447 recurrent_runner.cc:30] GpsMonitor is running round #1505
+I0508 17:53:03.558362 46432 recurrent_runner.cc:30] ProcessMonitor is running round #2781
+I0508 17:53:18.058398 46440 recurrent_runner.cc:30] SummaryMonitor is running round #9928
+I0508 17:53:33.558380 46444 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #9959
+I0508 17:53:48.058454 46434 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #9988
+I0508 17:54:03.558420 46447 recurrent_runner.cc:30] EsdCanMonitor is running round #1528
+I0508 17:54:19.058403 46447 recurrent_runner.cc:30] ProcessMonitor is running round #2824
+I0508 17:54:34.058363 46438 recurrent_runner.cc:30] GpsMonitor is running round #1537
+I0508 17:54:49.558431 46435 recurrent_runner.cc:30] ProcessMonitor is running round #2841
+I0508 17:55:04.058387 46436 recurrent_runner.cc:30] SummaryMonitor is running round #10140
+I0508 17:55:19.058369 46433 recurrent_runner.cc:30] SummaryMonitor is running round #10170
+I0508 17:55:34.560585 46436 recurrent_runner.cc:30] LatencyMonitor is running round #2866
+I0508 17:55:49.558475 46444 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #10231
+I0508 17:56:05.558378 46438 recurrent_runner.cc:30] SocketCanMonitor is running round #1565
+I0508 17:56:20.558424 46437 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #10293
+I0508 17:56:35.060730 46445 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #10322
+I0508 17:56:51.058415 46432 recurrent_runner.cc:30] EsdCanMonitor is running round #1579
+I0508 17:57:06.058399 46439 recurrent_runner.cc:30] SummaryMonitor is running round #10384
+I0508 17:57:20.560712 46440 recurrent_runner.cc:30] SummaryMonitor is running round #10413
+I0508 17:57:36.058468 46444 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #10444
+I0508 17:57:51.058425 46442 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #10474
+W0508 17:58:01.060727 46477 rate.cc:95] Detect forward jumps in time
+W0508 17:58:06.502882 46477 rate.cc:95] Detect forward jumps in time
+I0508 17:58:06.561369 46437 recurrent_runner.cc:30] SummaryMonitor is running round #10505
