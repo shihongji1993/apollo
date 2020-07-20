@@ -1,0 +1,123 @@
+[[1;32mcyber_launch_68881[0m] [1;32mINFO Launch file [/apollo/modules/drivers/radar/conti_radar/launch/conti_radar.launch][0m
+[[1;32mcyber_launch_68881[0m] [1;32mINFO ========================================================================================================================[0m
+[[1;32mcyber_launch_68881[0m] [1;32mINFO Load module [conti_radar] library: [conti_radar] [CYBER_DEFAULT] conf: [/apollo/modules/drivers/radar/conti_radar/dag/conti_radar.dag] exception_handler: [][0m
+[[1;32mcyber_launch_68881[0m] [1;32mINFO Start process [conti_radar] successfully. pid: 68883[0m
+[[1;32mcyber_launch_68881[0m] [1;32mINFO ------------------------------------------------------------------------------------------------------------------------[0m
+[[1;34mconti_radar[0m] [1;34m WARNING: Logging before InitGoogleLogging() is written to STDERR[0m
+[[1;34mconti_radar[0m] [1;34m I0720 20:46:45.784587 68883 module_argument.cc:81] []command: mainboard -d /apollo/modules/drivers/radar/conti_radar/dag/conti_radar.dag -p conti_radar -s CYBER_DEFAULT [0m
+[[1;34mconti_radar[0m] [1;34m I0720 20:46:45.785215 68883 global_data.cc:155] []host ip: 10.55.5.24[0m
+[[1;34mconti_radar[0m] [1;34m I0720 20:46:45.786164 68883 module_argument.cc:57] []binary_name_ is mainboard, process_group_ is conti_radar, has 1 dag conf[0m
+[[1;34mconti_radar[0m] [1;34m I0720 20:46:45.786173 68883 module_argument.cc:60] []dag_conf: /apollo/modules/drivers/radar/conti_radar/dag/conti_radar.dag[0m
+[[1;34mconti_radar[0m] [1;34m [0;31mE0720 20:46:45.916880 68883 hermes_can_client.cc:66] [mainboard]Open device error code: -12, channel id: 1[0m
+[[1;34mconti_radar[0m] [1;34m [m[0;31mE0720 20:46:45.917001 68883 conti_radar_canbus_component.cc:135] [conti_radar]Failed to start can client[0m
+[[1;34mconti_radar[0m] [1;34m [m[0;31mE0720 20:46:45.917013 68883 component.h:155] [mainboard]Component Init() failed.[0m
+[[1;34mconti_radar[0m] [1;34m [m[0;31mE0720 20:46:45.917549 68883 module_controller.cc:67] [mainboard]Failed to load module: /apollo/modules/drivers/radar/conti_radar/dag/conti_radar.dag[0m
+[[1;34mconti_radar[0m] [1;34m [m[0;31mE0720 20:46:45.917878 68883 mainboard.cc:39] [mainboard]module start error.[0m
+[[1;34mconti_radar[0m] [1;34m [m[0m
+[[1;31mcyber_launch_68881[0m] [1;31mERROR Process [conti_radar] has finished. [pid 68883, cmd mainboard -d /apollo/modules/drivers/radar/conti_radar/dag/conti_radar.dag -p conti_radar -s CYBER_DEFAULT].[0m
+[[1;32mcyber_launch_68881[0m] [1;32mINFO All processes has died.[0m
+[[1;32mcyber_launch_68881[0m] [1;32mINFO Cyber exit.[0m
+[[1;32mcyber_launch_68881[0m] [1;32mINFO All processes have been stopped.[0m
+[[1;32mcyber_launch_68952[0m] [1;32mINFO Launch file [/apollo/modules/drivers/radar/cub_radar/launch/cub_radar.launch][0m
+[[1;32mcyber_launch_68952[0m] [1;32mINFO ========================================================================================================================[0m
+[[1;32mcyber_launch_68952[0m] [1;32mINFO Load module [cub_radar] library: [cub_radar] [CYBER_DEFAULT] conf: [/apollo/modules/drivers/radar/cub_radar/dag/cub_radar.dag] exception_handler: [][0m
+[[1;32mcyber_launch_68952[0m] [1;32mINFO Start process [cub_radar] successfully. pid: 68954[0m
+[[1;32mcyber_launch_68952[0m] [1;32mINFO ------------------------------------------------------------------------------------------------------------------------[0m
+[[1;34mcub_radar[0m] [1;34m WARNING: Logging before InitGoogleLogging() is written to STDERR[0m
+[[1;34mcub_radar[0m] [1;34m I0720 20:47:39.197151 68954 module_argument.cc:81] []command: mainboard -d /apollo/modules/drivers/radar/cub_radar/dag/cub_radar.dag -p cub_radar -s CYBER_DEFAULT [0m
+[[1;34mcub_radar[0m] [1;34m I0720 20:47:39.197484 68954 global_data.cc:155] []host ip: 10.55.5.24[0m
+[[1;34mcub_radar[0m] [1;34m I0720 20:47:39.197986 68954 module_argument.cc:57] []binary_name_ is mainboard, process_group_ is cub_radar, has 1 dag conf[0m
+[[1;34mcub_radar[0m] [1;34m I0720 20:47:39.197996 68954 module_argument.cc:60] []dag_conf: /apollo/modules/drivers/radar/cub_radar/dag/cub_radar.dag[0m
+[[1;32mcyber_launch_68952[0m] [1;32mINFO Keyboard interrupt received. Stop all processes.[0m
+[[1;33mcyber_launch_68952[0m] [1;33mWARNING Waiting for [cub_radar][68954] exit.[0m
+[[1;34mcub_radar[0m] [1;34m [0;31mE0720 20:47:52.496191 68954 usb_can_client.cc:124] [mainboard]close usbcan success[0m
+[[1;34mcub_radar[0m] [1;34m [m>>Get VCI_ReadBoardInfo success![0m
+[[1;32mcyber_launch_68952[0m] [1;32mINFO Process [cub_radar] has been stopped. dag_file: ['/apollo/modules/drivers/radar/cub_radar/dag/cub_radar.dag'][0m
+[[1;32mcyber_launch_68952[0m] [1;32mINFO All processes have been stopped.[0m
+[[1;32mcyber_launch_68952[0m] [1;32mINFO cyber_launch exit.[0m
+[[1;32mcyber_launch_69122[0m] [1;32mINFO Launch file [/apollo/modules/canbus/launch/canbus.launch][0m
+[[1;32mcyber_launch_69122[0m] [1;32mINFO ========================================================================================================================[0m
+[[1;32mcyber_launch_69122[0m] [1;32mINFO Load module [canbus] library: [canbus] [CYBER_DEFAULT] conf: [/apollo/modules/canbus/dag/canbus.dag] exception_handler: [][0m
+[[1;32mcyber_launch_69122[0m] [1;32mINFO Start process [canbus] successfully. pid: 69124[0m
+[[1;32mcyber_launch_69122[0m] [1;32mINFO ------------------------------------------------------------------------------------------------------------------------[0m
+[[1;34mcanbus[0m ] [1;34m WARNING: Logging before InitGoogleLogging() is written to STDERR[0m
+[[1;34mcanbus[0m ] [1;34m I0720 20:51:31.281358 69124 module_argument.cc:81] []command: mainboard -d /apollo/modules/canbus/dag/canbus.dag -p canbus -s CYBER_DEFAULT [0m
+[[1;34mcanbus[0m ] [1;34m I0720 20:51:31.281683 69124 global_data.cc:155] []host ip: 10.55.5.24[0m
+[[1;34mcanbus[0m ] [1;34m I0720 20:51:31.282122 69124 module_argument.cc:57] []binary_name_ is mainboard, process_group_ is canbus, has 1 dag conf[0m
+[[1;34mcanbus[0m ] [1;34m I0720 20:51:31.282135 69124 module_argument.cc:60] []dag_conf: /apollo/modules/canbus/dag/canbus.dag[0m
+[[1;34mcanbus[0m ] [1;34m [0;31mE0720 20:51:31.511683 69124 factory.h:118] [mainboard]Factory could not create Object of type : 1[0m
+[[1;34mcanbus[0m ] [1;34m [m[0;31mE0720 20:51:31.511726 69124 can_client_factory.cc:60] [mainboard]Failed to create CAN client with parameter: brand: ESD_CAN[0m
+[[1;34mcanbus[0m ] [1;34m type: PCI_CARD[0m
+[[1;34mcanbus[0m ] [1;34m channel_id: CHANNEL_ID_ZERO[0m
+[[1;34mcanbus[0m ] [1;34m interface: NATIVE[0m
+[[1;34mcanbus[0m ] [1;34m [m[0;31mE0720 20:51:31.511744 69124 canbus_component.cc:55] [canbus]Failed to create can client.[0m
+[[1;34mcanbus[0m ] [1;34m [m[0;31mE0720 20:51:31.511812 69124 module_controller.cc:67] [mainboard]Failed to load module: /apollo/modules/canbus/dag/canbus.dag[0m
+[[1;34mcanbus[0m ] [1;34m [m[0;31mE0720 20:51:31.512100 69124 mainboard.cc:39] [mainboard]module start error.[0m
+[[1;34mcanbus[0m ] [1;34m [m[0m
+[[1;31mcyber_launch_69122[0m] [1;31mERROR Process [canbus] has finished. [pid 69124, cmd mainboard -d /apollo/modules/canbus/dag/canbus.dag -p canbus -s CYBER_DEFAULT].[0m
+[[1;32mcyber_launch_69122[0m] [1;32mINFO All processes has died.[0m
+[[1;32mcyber_launch_69122[0m] [1;32mINFO Cyber exit.[0m
+[[1;32mcyber_launch_69122[0m] [1;32mINFO All processes have been stopped.[0m
+[[1;32mcyber_launch_69185[0m] [1;32mINFO Launch file [/apollo/modules/drivers/radar/cub_radar/launch/cub_radar.launch][0m
+[[1;32mcyber_launch_69185[0m] [1;32mINFO ========================================================================================================================[0m
+[[1;32mcyber_launch_69185[0m] [1;32mINFO Load module [cub_radar] library: [cub_radar] [CYBER_DEFAULT] conf: [/apollo/modules/drivers/radar/cub_radar/dag/cub_radar.dag] exception_handler: [][0m
+[[1;32mcyber_launch_69185[0m] [1;32mINFO Start process [cub_radar] successfully. pid: 69187[0m
+[[1;32mcyber_launch_69185[0m] [1;32mINFO ------------------------------------------------------------------------------------------------------------------------[0m
+[[1;34mcub_radar[0m] [1;34m WARNING: Logging before InitGoogleLogging() is written to STDERR[0m
+[[1;34mcub_radar[0m] [1;34m I0720 20:51:44.983851 69187 module_argument.cc:81] []command: mainboard -d /apollo/modules/drivers/radar/cub_radar/dag/cub_radar.dag -p cub_radar -s CYBER_DEFAULT [0m
+[[1;34mcub_radar[0m] [1;34m I0720 20:51:44.984176 69187 global_data.cc:155] []host ip: 10.55.5.24[0m
+[[1;34mcub_radar[0m] [1;34m I0720 20:51:44.984637 69187 module_argument.cc:57] []binary_name_ is mainboard, process_group_ is cub_radar, has 1 dag conf[0m
+[[1;34mcub_radar[0m] [1;34m I0720 20:51:44.984647 69187 module_argument.cc:60] []dag_conf: /apollo/modules/drivers/radar/cub_radar/dag/cub_radar.dag[0m
+[[1;32mcyber_launch_69185[0m] [1;32mINFO Keyboard interrupt received. Stop all processes.[0m
+[[1;33mcyber_launch_69185[0m] [1;33mWARNING Waiting for [cub_radar][69187] exit.[0m
+[[1;34mcub_radar[0m] [1;34m [0;31mE0720 20:51:54.403244 69187 usb_can_client.cc:124] [mainboard]close usbcan success[0m
+[[1;34mcub_radar[0m] [1;34m [m>>Get VCI_ReadBoardInfo success![0m
+[[1;32mcyber_launch_69185[0m] [1;32mINFO Process [cub_radar] has been stopped. dag_file: ['/apollo/modules/drivers/radar/cub_radar/dag/cub_radar.dag'][0m
+[[1;32mcyber_launch_69185[0m] [1;32mINFO All processes have been stopped.[0m
+[[1;32mcyber_launch_69185[0m] [1;32mINFO cyber_launch exit.[0m
+[[1;32mcyber_launch_69266[0m] [1;32mINFO Launch file [/apollo/modules/canbus/launch/canbus.launch][0m
+[[1;32mcyber_launch_69266[0m] [1;32mINFO ========================================================================================================================[0m
+[[1;32mcyber_launch_69266[0m] [1;32mINFO Load module [canbus] library: [canbus] [CYBER_DEFAULT] conf: [/apollo/modules/canbus/dag/canbus.dag] exception_handler: [][0m
+[[1;32mcyber_launch_69266[0m] [1;32mINFO Start process [canbus] successfully. pid: 69268[0m
+[[1;32mcyber_launch_69266[0m] [1;32mINFO ------------------------------------------------------------------------------------------------------------------------[0m
+[[1;34mcanbus[0m ] [1;34m WARNING: Logging before InitGoogleLogging() is written to STDERR[0m
+[[1;34mcanbus[0m ] [1;34m I0720 20:52:12.405295 69268 module_argument.cc:81] []command: mainboard -d /apollo/modules/canbus/dag/canbus.dag -p canbus -s CYBER_DEFAULT [0m
+[[1;34mcanbus[0m ] [1;34m I0720 20:52:12.405637 69268 global_data.cc:155] []host ip: 10.55.5.24[0m
+[[1;34mcanbus[0m ] [1;34m I0720 20:52:12.406240 69268 module_argument.cc:57] []binary_name_ is mainboard, process_group_ is canbus, has 1 dag conf[0m
+[[1;34mcanbus[0m ] [1;34m I0720 20:52:12.406252 69268 module_argument.cc:60] []dag_conf: /apollo/modules/canbus/dag/canbus.dag[0m
+[[1;34mcanbus[0m ] [1;34m [0;31mE0720 20:52:12.628919 69268 factory.h:118] [mainboard]Factory could not create Object of type : 1[0m
+[[1;34mcanbus[0m ] [1;34m [m[0;31mE0720 20:52:12.628962 69268 can_client_factory.cc:60] [mainboard]Failed to create CAN client with parameter: brand: ESD_CAN[0m
+[[1;34mcanbus[0m ] [1;34m type: PCI_CARD[0m
+[[1;34mcanbus[0m ] [1;34m channel_id: CHANNEL_ID_ZERO[0m
+[[1;34mcanbus[0m ] [1;34m interface: NATIVE[0m
+[[1;34mcanbus[0m ] [1;34m [m[0;31mE0720 20:52:12.628973 69268 canbus_component.cc:55] [canbus]Failed to create can client.[0m
+[[1;34mcanbus[0m ] [1;34m [m[0;31mE0720 20:52:12.629035 69268 module_controller.cc:67] [mainboard]Failed to load module: /apollo/modules/canbus/dag/canbus.dag[0m
+[[1;34mcanbus[0m ] [1;34m [m[0;31mE0720 20:52:12.629388 69268 mainboard.cc:39] [mainboard]module start error.[0m
+[[1;34mcanbus[0m ] [1;34m [m[0m
+[[1;31mcyber_launch_69266[0m] [1;31mERROR Process [canbus] has finished. [pid 69268, cmd mainboard -d /apollo/modules/canbus/dag/canbus.dag -p canbus -s CYBER_DEFAULT].[0m
+[[1;32mcyber_launch_69266[0m] [1;32mINFO All processes has died.[0m
+[[1;32mcyber_launch_69266[0m] [1;32mINFO Cyber exit.[0m
+[[1;32mcyber_launch_69266[0m] [1;32mINFO All processes have been stopped.[0m
+[[1;32mcyber_launch_69314[0m] [1;32mINFO Launch file [/apollo/modules/canbus/launch/canbus.launch][0m
+[[1;32mcyber_launch_69314[0m] [1;32mINFO ========================================================================================================================[0m
+[[1;32mcyber_launch_69314[0m] [1;32mINFO Load module [canbus] library: [canbus] [CYBER_DEFAULT] conf: [/apollo/modules/canbus/dag/canbus.dag] exception_handler: [][0m
+[[1;32mcyber_launch_69314[0m] [1;32mINFO Start process [canbus] successfully. pid: 69316[0m
+[[1;32mcyber_launch_69314[0m] [1;32mINFO ------------------------------------------------------------------------------------------------------------------------[0m
+[[1;34mcanbus[0m ] [1;34m WARNING: Logging before InitGoogleLogging() is written to STDERR[0m
+[[1;34mcanbus[0m ] [1;34m I0720 20:52:22.714160 69316 module_argument.cc:81] []command: mainboard -d /apollo/modules/canbus/dag/canbus.dag -p canbus -s CYBER_DEFAULT [0m
+[[1;34mcanbus[0m ] [1;34m I0720 20:52:22.714512 69316 global_data.cc:155] []host ip: 10.55.5.24[0m
+[[1;34mcanbus[0m ] [1;34m I0720 20:52:22.714970 69316 module_argument.cc:57] []binary_name_ is mainboard, process_group_ is canbus, has 1 dag conf[0m
+[[1;34mcanbus[0m ] [1;34m I0720 20:52:22.714979 69316 module_argument.cc:60] []dag_conf: /apollo/modules/canbus/dag/canbus.dag[0m
+[[1;34mcanbus[0m ] [1;34m [0;31mE0720 20:52:22.944344 69316 factory.h:118] [mainboard]Factory could not create Object of type : 1[0m
+[[1;34mcanbus[0m ] [1;34m [m[0;31mE0720 20:52:22.944386 69316 can_client_factory.cc:60] [mainboard]Failed to create CAN client with parameter: brand: ESD_CAN[0m
+[[1;34mcanbus[0m ] [1;34m type: PCI_CARD[0m
+[[1;34mcanbus[0m ] [1;34m channel_id: CHANNEL_ID_ZERO[0m
+[[1;34mcanbus[0m ] [1;34m interface: NATIVE[0m
+[[1;34mcanbus[0m ] [1;34m [m[0;31mE0720 20:52:22.944396 69316 canbus_component.cc:55] [canbus]Failed to create can client.[0m
+[[1;34mcanbus[0m ] [1;34m [m[0;31mE0720 20:52:22.944460 69316 module_controller.cc:67] [mainboard]Failed to load module: /apollo/modules/canbus/dag/canbus.dag[0m
+[[1;34mcanbus[0m ] [1;34m [m[0;31mE0720 20:52:22.944752 69316 mainboard.cc:39] [mainboard]module start error.[0m
+[[1;34mcanbus[0m ] [1;34m [m[0m
+[[1;31mcyber_launch_69314[0m] [1;31mERROR Process [canbus] has finished. [pid 69316, cmd mainboard -d /apollo/modules/canbus/dag/canbus.dag -p canbus -s CYBER_DEFAULT].[0m
+[[1;32mcyber_launch_69314[0m] [1;32mINFO All processes has died.[0m
+[[1;32mcyber_launch_69314[0m] [1;32mINFO Cyber exit.[0m
+[[1;32mcyber_launch_69314[0m] [1;32mINFO All processes have been stopped.[0m

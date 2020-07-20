@@ -86,6 +86,7 @@ message AdapterConfig {
     PLANNING_PAD = 74;
 
     STORYTELLING = 75;
+    CUB_RADAR = 76;
   }
   enum Mode {
     RECEIVE_ONLY = 0;

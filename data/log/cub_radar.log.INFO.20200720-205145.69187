@@ -1,0 +1,14 @@
+Log file created at: 2020/07/20 20:51:45
+Running on machine: in_dev_docker
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0720 20:51:45.083865 69187 class_loader_utility.h:78] registerclass:CubRadarCanbusComponent,apollo::cyber::ComponentBase,/apollo/bazel-bin/modules/drivers/radar/cub_radar/libcub_radar.so
+I0720 20:51:45.091115 69187 cub_radar_canbus_component.cc:55] The canbus conf file is loaded: /apollo/modules/drivers/radar/cub_radar/conf/cub_radar_conf.pb.txt
+I0720 20:51:45.091178 69187 cub_radar_canbus_component.cc:66] Can client is successfully created.
+I0720 20:51:45.096041 69187 cub_radar_canbus_component.cc:93] Sensor message manager is successfully created.
+I0720 20:51:45.096057 69187 cub_radar_canbus_component.cc:100] The can receiver is successfully initialized.
+I0720 20:51:45.401552 69187 cub_radar_canbus_component.cc:127] Can client is started.
+I0720 20:51:45.402189 69191 can_receiver.h:135] Can client receiver thread starts.
+I0720 20:51:45.402243 69187 cub_radar_canbus_component.cc:139] Can receiver is started.
+I0720 20:51:54.040083 69187 can_receiver.h:205] Stopping can client receiver ...
+I0720 20:51:54.402974 69192 can_receiver.h:183] Can client receiver thread stopped.
+I0720 20:51:54.403060 69187 can_receiver.h:211] Can client receiver stopped [ok].

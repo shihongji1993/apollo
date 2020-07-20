@@ -1,0 +1,6 @@
+Log file created at: 2020/07/20 20:51:31
+Running on machine: in_dev_docker
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0720 20:51:31.503753 69124 class_loader_utility.h:78] registerclass:CanbusComponent,apollo::cyber::ComponentBase,/apollo/bazel-bin/modules/canbus/libcanbus.so
+I0720 20:51:31.511654 69124 canbus_component.cc:47] The canbus conf file is loaded: /apollo/modules/canbus/conf/canbus_conf.pb.txt
+E0720 20:51:31.511744 69124 canbus_component.cc:55] Failed to create can client.

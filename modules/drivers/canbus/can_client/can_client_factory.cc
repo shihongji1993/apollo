@@ -21,12 +21,11 @@
 #include "modules/drivers/canbus/can_client/esd/esd_can_client.h"
 #endif
 
-#include "modules/drivers/canbus/can_client/socket/socket_can_client_raw.h"
-
-#include "modules/drivers/canbus/can_client/hermes_can/hermes_can_client.h"
-
 #include "cyber/common/log.h"
 #include "modules/common/util/util.h"
+#include "modules/drivers/canbus/can_client/hermes_can/hermes_can_client.h"
+#include "modules/drivers/canbus/can_client/socket/socket_can_client_raw.h"
+#include "modules/drivers/canbus/can_client/usb_can/usb_can_client.h"
 
 namespace apollo {
 namespace drivers {
@@ -48,6 +47,10 @@ void CanClientFactory::RegisterCanClients() {
 
   Register(CANCardParameter::HERMES_CAN,
            []() -> CanClient* { return new can::HermesCanClient(); });
+
+  Register(CANCardParameter::USB_CAN, []() -> CanClient* {
+    return new can::UsbCanClient();
+  });  // my change
 }
 
 std::unique_ptr<CanClient> CanClientFactory::CreateCANClient(

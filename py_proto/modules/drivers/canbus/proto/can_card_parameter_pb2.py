@@ -19,7 +19,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   name='modules/drivers/canbus/proto/can_card_parameter.proto',
   package='apollo.drivers.canbus',
   syntax='proto2',
-  serialized_pb=_b('\n5modules/drivers/canbus/proto/can_card_parameter.proto\x12\x15\x61pollo.drivers.canbus\"\xbe\x04\n\x10\x43\x41NCardParameter\x12\x43\n\x05\x62rand\x18\x01 \x01(\x0e\x32\x34.apollo.drivers.canbus.CANCardParameter.CANCardBrand\x12\x41\n\x04type\x18\x02 \x01(\x0e\x32\x33.apollo.drivers.canbus.CANCardParameter.CANCardType\x12H\n\nchannel_id\x18\x03 \x01(\x0e\x32\x34.apollo.drivers.canbus.CANCardParameter.CANChannelId\x12G\n\tinterface\x18\x04 \x01(\x0e\x32\x34.apollo.drivers.canbus.CANCardParameter.CANInterface\"M\n\x0c\x43\x41NCardBrand\x12\x0c\n\x08\x46\x41KE_CAN\x10\x00\x12\x0b\n\x07\x45SD_CAN\x10\x01\x12\x12\n\x0eSOCKET_CAN_RAW\x10\x02\x12\x0e\n\nHERMES_CAN\x10\x03\")\n\x0b\x43\x41NCardType\x12\x0c\n\x08PCI_CARD\x10\x00\x12\x0c\n\x08USB_CARD\x10\x01\"a\n\x0c\x43\x41NChannelId\x12\x13\n\x0f\x43HANNEL_ID_ZERO\x10\x00\x12\x12\n\x0e\x43HANNEL_ID_ONE\x10\x01\x12\x12\n\x0e\x43HANNEL_ID_TWO\x10\x02\x12\x14\n\x10\x43HANNEL_ID_THREE\x10\x03\"2\n\x0c\x43\x41NInterface\x12\n\n\x06NATIVE\x10\x00\x12\x0b\n\x07VIRTUAL\x10\x01\x12\t\n\x05SLCAN\x10\x02')
+  serialized_pb=_b('\n5modules/drivers/canbus/proto/can_card_parameter.proto\x12\x15\x61pollo.drivers.canbus\"\xcb\x04\n\x10\x43\x41NCardParameter\x12\x43\n\x05\x62rand\x18\x01 \x01(\x0e\x32\x34.apollo.drivers.canbus.CANCardParameter.CANCardBrand\x12\x41\n\x04type\x18\x02 \x01(\x0e\x32\x33.apollo.drivers.canbus.CANCardParameter.CANCardType\x12H\n\nchannel_id\x18\x03 \x01(\x0e\x32\x34.apollo.drivers.canbus.CANCardParameter.CANChannelId\x12G\n\tinterface\x18\x04 \x01(\x0e\x32\x34.apollo.drivers.canbus.CANCardParameter.CANInterface\"Z\n\x0c\x43\x41NCardBrand\x12\x0c\n\x08\x46\x41KE_CAN\x10\x00\x12\x0b\n\x07\x45SD_CAN\x10\x01\x12\x12\n\x0eSOCKET_CAN_RAW\x10\x02\x12\x0e\n\nHERMES_CAN\x10\x03\x12\x0b\n\x07USB_CAN\x10\x04\")\n\x0b\x43\x41NCardType\x12\x0c\n\x08PCI_CARD\x10\x00\x12\x0c\n\x08USB_CARD\x10\x01\"a\n\x0c\x43\x41NChannelId\x12\x13\n\x0f\x43HANNEL_ID_ZERO\x10\x00\x12\x12\n\x0e\x43HANNEL_ID_ONE\x10\x01\x12\x12\n\x0e\x43HANNEL_ID_TWO\x10\x02\x12\x14\n\x10\x43HANNEL_ID_THREE\x10\x03\"2\n\x0c\x43\x41NInterface\x12\n\n\x06NATIVE\x10\x00\x12\x0b\n\x07VIRTUAL\x10\x01\x12\t\n\x05SLCAN\x10\x02')
 )
 
 
@@ -46,11 +46,15 @@ _CANCARDPARAMETER_CANCARDBRAND = _descriptor.EnumDescriptor(
       name='HERMES_CAN', index=3, number=3,
       options=None,
       type=None),
+    _descriptor.EnumValueDescriptor(
+      name='USB_CAN', index=4, number=4,
+      options=None,
+      type=None),
   ],
   containing_type=None,
   options=None,
   serialized_start=384,
-  serialized_end=461,
+  serialized_end=474,
 )
 _sym_db.RegisterEnumDescriptor(_CANCARDPARAMETER_CANCARDBRAND)
 
@@ -71,8 +75,8 @@ _CANCARDPARAMETER_CANCARDTYPE = _descriptor.EnumDescriptor(
   ],
   containing_type=None,
   options=None,
-  serialized_start=463,
-  serialized_end=504,
+  serialized_start=476,
+  serialized_end=517,
 )
 _sym_db.RegisterEnumDescriptor(_CANCARDPARAMETER_CANCARDTYPE)
 
@@ -101,8 +105,8 @@ _CANCARDPARAMETER_CANCHANNELID = _descriptor.EnumDescriptor(
   ],
   containing_type=None,
   options=None,
-  serialized_start=506,
-  serialized_end=603,
+  serialized_start=519,
+  serialized_end=616,
 )
 _sym_db.RegisterEnumDescriptor(_CANCARDPARAMETER_CANCHANNELID)
 
@@ -127,8 +131,8 @@ _CANCARDPARAMETER_CANINTERFACE = _descriptor.EnumDescriptor(
   ],
   containing_type=None,
   options=None,
-  serialized_start=605,
-  serialized_end=655,
+  serialized_start=618,
+  serialized_end=668,
 )
 _sym_db.RegisterEnumDescriptor(_CANCARDPARAMETER_CANINTERFACE)
 
@@ -185,7 +189,7 @@ _CANCARDPARAMETER = _descriptor.Descriptor(
   oneofs=[
   ],
   serialized_start=81,
-  serialized_end=655,
+  serialized_end=668,
 )
 
 _CANCARDPARAMETER.fields_by_name['brand'].enum_type = _CANCARDPARAMETER_CANCARDBRAND

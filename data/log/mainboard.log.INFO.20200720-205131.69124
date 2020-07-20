@@ -1,0 +1,31 @@
+Log file created at: 2020/07/20 20:51:31
+Running on machine: in_dev_docker
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+W0720 20:51:31.282276 69124 scheduler_factory.cc:63] No sched conf found, use default conf.
+I0720 20:51:31.282415 69127 processor.cc:41] processor_tid: 69127
+I0720 20:51:31.282461 69128 processor.cc:41] processor_tid: 69128
+I0720 20:51:31.282490 69129 processor.cc:41] processor_tid: 69129
+I0720 20:51:31.282521 69130 processor.cc:41] processor_tid: 69130
+I0720 20:51:31.282552 69131 processor.cc:41] processor_tid: 69131
+I0720 20:51:31.282647 69132 processor.cc:41] processor_tid: 69132
+I0720 20:51:31.282778 69133 processor.cc:41] processor_tid: 69133
+I0720 20:51:31.282845 69134 processor.cc:41] processor_tid: 69134
+I0720 20:51:31.282850 69135 processor.cc:41] processor_tid: 69135
+I0720 20:51:31.282886 69136 processor.cc:41] processor_tid: 69136
+I0720 20:51:31.282918 69137 processor.cc:41] processor_tid: 69137
+I0720 20:51:31.282950 69138 processor.cc:41] processor_tid: 69138
+I0720 20:51:31.282986 69139 processor.cc:41] processor_tid: 69139
+I0720 20:51:31.283008 69140 processor.cc:41] processor_tid: 69140
+I0720 20:51:31.283035 69141 processor.cc:41] processor_tid: 69141
+I0720 20:51:31.283061 69142 processor.cc:41] processor_tid: 69142
+I0720 20:51:31.283068 69124 init.cc:103] Register exit handle succ.
+I0720 20:51:31.283716 69124 module_controller.cc:65] Start initialize dag: /apollo/modules/canbus/dag/canbus.dag
+I0720 20:51:31.283782 69124 class_loader.cc:37] Begin LoadLibrary: /apollo/bazel-bin/modules/canbus/libcanbus.so
+I0720 20:51:31.511677 69124 can_client_factory.cc:37] CanClientFactory::RegisterCanClients
+E0720 20:51:31.511683 69124 factory.h:118] Factory could not create Object of type : 1
+E0720 20:51:31.511726 69124 can_client_factory.cc:60] Failed to create CAN client with parameter: brand: ESD_CAN
+type: PCI_CARD
+channel_id: CHANNEL_ID_ZERO
+interface: NATIVE
+E0720 20:51:31.511812 69124 module_controller.cc:67] Failed to load module: /apollo/modules/canbus/dag/canbus.dag
+E0720 20:51:31.512100 69124 mainboard.cc:39] module start error.
