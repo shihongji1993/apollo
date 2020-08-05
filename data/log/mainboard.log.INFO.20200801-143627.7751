@@ -1,0 +1,47 @@
+Log file created at: 2020/08/01 14:36:27
+Running on machine: in_dev_docker
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+W0801 14:36:27.542238  7751 scheduler_factory.cc:63] No sched conf found, use default conf.
+I0801 14:36:27.542404  7757 processor.cc:41] processor_tid: 7757
+I0801 14:36:27.542454  7755 log_file_object.cc:185] symlink failed.
+I0801 14:36:27.542510  7759 processor.cc:41] processor_tid: 7759
+I0801 14:36:27.542579  7762 processor.cc:41] processor_tid: 7762
+I0801 14:36:27.542615  7765 processor.cc:41] processor_tid: 7765
+I0801 14:36:27.542659  7767 processor.cc:41] processor_tid: 7767
+I0801 14:36:27.542685  7769 processor.cc:41] processor_tid: 7769
+I0801 14:36:27.542721  7770 processor.cc:41] processor_tid: 7770
+I0801 14:36:27.542762  7772 processor.cc:41] processor_tid: 7772
+I0801 14:36:27.542791  7774 processor.cc:41] processor_tid: 7774
+I0801 14:36:27.543439  7775 processor.cc:41] processor_tid: 7775
+I0801 14:36:27.543467  7778 processor.cc:41] processor_tid: 7778
+I0801 14:36:27.546521  7779 processor.cc:41] processor_tid: 7779
+I0801 14:36:27.546581  7781 processor.cc:41] processor_tid: 7781
+I0801 14:36:27.550525  7783 processor.cc:41] processor_tid: 7783
+I0801 14:36:27.553126  7785 processor.cc:41] processor_tid: 7785
+I0801 14:36:27.553189  7789 processor.cc:41] processor_tid: 7789
+I0801 14:36:27.553200  7751 init.cc:103] Register exit handle succ.
+I0801 14:36:27.554267  7751 module_controller.cc:65] Start initialize dag: /apollo/modules/drivers/camera/dag/camera.dag
+I0801 14:36:27.554363  7751 class_loader.cc:37] Begin LoadLibrary: /apollo/bazel-bin/modules/drivers/camera/libcamera_component.so
+I0801 14:36:27.981473  7751 scheduler.cc:54] create croutine: /internal/task0
+I0801 14:36:27.981541  7751 scheduler.cc:54] create croutine: /internal/task1
+I0801 14:36:27.981572  7751 scheduler.cc:54] create croutine: /internal/task2
+I0801 14:36:27.981600  7751 scheduler.cc:54] create croutine: /internal/task3
+I0801 14:36:27.981623  7751 scheduler.cc:54] create croutine: /internal/task4
+I0801 14:36:27.981649  7751 scheduler.cc:54] create croutine: /internal/task5
+I0801 14:36:27.981685  7751 scheduler.cc:54] create croutine: /internal/task6
+I0801 14:36:27.981711  7751 scheduler.cc:54] create croutine: /internal/task7
+I0801 14:36:27.981734  7751 scheduler.cc:54] create croutine: /internal/task8
+I0801 14:36:27.981761  7751 scheduler.cc:54] create croutine: /internal/task9
+I0801 14:36:27.981784  7751 scheduler.cc:54] create croutine: /internal/task10
+I0801 14:36:27.981812  7751 scheduler.cc:54] create croutine: /internal/task11
+I0801 14:36:27.981837  7751 scheduler.cc:54] create croutine: /internal/task12
+I0801 14:36:27.981859  7751 scheduler.cc:54] create croutine: /internal/task13
+I0801 14:36:27.981881  7751 scheduler.cc:54] create croutine: /internal/task14
+I0801 14:36:27.981904  7751 scheduler.cc:54] create croutine: /internal/task15
+I0801 14:36:27.987519  7751 scheduler.cc:54] create croutine: camera_front_12mm_compress_/apollo/sensor/camera/front_12mm/image
+I0801 14:36:27.988106  7751 scheduler.cc:54] create croutine: camera_front_12mm_compress
+I0801 14:36:28.256848  7757 usb_cam.cc:401] Capability flag: 0x0
+I0801 14:36:28.289944  7757 usb_cam.cc:409] Set framerate to be 20
+I0801 14:36:28.296620  7757 usb_cam.cc:435] Trigger enable, dev:/dev/camera/front_12mm, fps:20, internal:0
+E0801 14:36:28.297369  7757 usb_cam.cc:443] trigger failed:-1
+W0801 14:36:28.696756  7757 usb_cam.cc:863] camera

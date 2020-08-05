@@ -63,7 +63,6 @@ extern "C" {
 #include <string>
 
 #include "cyber/cyber.h"
-
 #include "modules/drivers/camera/proto/config.pb.h"
 
 namespace apollo {
@@ -108,7 +107,7 @@ class UsbCam {
  public:
   UsbCam();
   virtual ~UsbCam();
-
+  // set the config of camera
   virtual bool init(const std::shared_ptr<Config>& camera_config);
   // user use this function to get camera frame data
   virtual bool poll(const CameraImagePtr& raw_image);

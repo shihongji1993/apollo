@@ -1,0 +1,53 @@
+Log file created at: 2020/08/01 16:00:41
+Running on machine: in_dev_docker
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+W0801 16:00:41.006312  6312 scheduler_factory.cc:63] No sched conf found, use default conf.
+I0801 16:00:41.006647  6315 processor.cc:41] processor_tid: 6315
+I0801 16:00:41.006712  6316 processor.cc:41] processor_tid: 6316
+I0801 16:00:41.006752  6317 processor.cc:41] processor_tid: 6317
+I0801 16:00:41.006803  6318 processor.cc:41] processor_tid: 6318
+I0801 16:00:41.006845  6319 processor.cc:41] processor_tid: 6319
+I0801 16:00:41.006896  6320 processor.cc:41] processor_tid: 6320
+I0801 16:00:41.006933  6321 processor.cc:41] processor_tid: 6321
+I0801 16:00:41.006978  6322 processor.cc:41] processor_tid: 6322
+I0801 16:00:41.007062  6323 processor.cc:41] processor_tid: 6323
+I0801 16:00:41.007071  6324 processor.cc:41] processor_tid: 6324
+I0801 16:00:41.007103  6325 processor.cc:41] processor_tid: 6325
+I0801 16:00:41.007136  6326 processor.cc:41] processor_tid: 6326
+I0801 16:00:41.007172  6327 processor.cc:41] processor_tid: 6327
+I0801 16:00:41.007218  6328 processor.cc:41] processor_tid: 6328
+I0801 16:00:41.007270  6329 processor.cc:41] processor_tid: 6329
+I0801 16:00:41.007302  6330 processor.cc:41] processor_tid: 6330
+I0801 16:00:41.007321  6312 init.cc:103] Register exit handle succ.
+I0801 16:00:41.008033  6312 module_controller.cc:65] Start initialize dag: /apollo/modules/monitor/dag/monitor.dag
+I0801 16:00:41.008116  6312 class_loader.cc:37] Begin LoadLibrary: /apollo/bazel-bin/modules/monitor/libmonitor.so
+I0801 16:00:41.789985  6312 timer.cc:135] start timer [0]
+I0801 16:00:42.290357  6358 scheduler.cc:54] create croutine: /internal/task0
+I0801 16:00:42.290442  6358 scheduler.cc:54] create croutine: /internal/task1
+I0801 16:00:42.290482  6358 scheduler.cc:54] create croutine: /internal/task2
+I0801 16:00:42.290522  6358 scheduler.cc:54] create croutine: /internal/task3
+I0801 16:00:42.290554  6358 scheduler.cc:54] create croutine: /internal/task4
+I0801 16:00:42.290588  6358 scheduler.cc:54] create croutine: /internal/task5
+I0801 16:00:42.290616  6358 scheduler.cc:54] create croutine: /internal/task6
+I0801 16:00:42.290649  6358 scheduler.cc:54] create croutine: /internal/task7
+I0801 16:00:42.290684  6358 scheduler.cc:54] create croutine: /internal/task8
+I0801 16:00:42.290719  6358 scheduler.cc:54] create croutine: /internal/task9
+I0801 16:00:42.290750  6358 scheduler.cc:54] create croutine: /internal/task10
+I0801 16:00:42.290787  6358 scheduler.cc:54] create croutine: /internal/task11
+I0801 16:00:42.290824  6358 scheduler.cc:54] create croutine: /internal/task12
+I0801 16:00:42.290861  6358 scheduler.cc:54] create croutine: /internal/task13
+I0801 16:00:42.290892  6358 scheduler.cc:54] create croutine: /internal/task14
+I0801 16:00:42.290913  6358 scheduler.cc:54] create croutine: /internal/task15
+I0801 16:00:42.292238  6316 scheduler.cc:54] create croutine: monitor_/apollo/hmi/status
+E0801 16:00:42.292620  6316 monitor_manager.cc:51] No HMIStatus was received.
+E0801 16:00:42.790232  6317 monitor_manager.cc:51] No HMIStatus was received.
+E0801 16:00:43.292183  6322 monitor_manager.cc:51] No HMIStatus was received.
+E0801 16:00:43.792179  6318 monitor_manager.cc:51] No HMIStatus was received.
+I0801 16:00:44.296939  6315 scheduler.cc:54] create croutine: monitor_/apollo/canbus/chassis
+I0801 16:00:44.297516  6315 recurrent_runner.cc:30] EsdCanMonitor is running round #1
+I0801 16:00:44.298271  6315 scheduler.cc:54] create croutine: monitor_/apollo/sensor/gnss/gnss_status
+I0801 16:00:44.300901  6315 scheduler.cc:54] create croutine: monitor_/apollo/localization/msf_status
+I0801 16:00:44.306318  6315 scheduler.cc:54] create croutine: monitor_/apollo/common/latency_records
+I0801 16:00:44.307734  6315 scheduler.cc:54] create croutine: monitor_/apollo/sensor/lidar128/compensator/PointCloud2
+I0801 16:00:58.792361  6316 recurrent_runner.cc:30] ProcessMonitor is running round #10
+I0801 16:01:13.796286  6321 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #60

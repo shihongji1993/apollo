@@ -29,7 +29,7 @@
 ![camera_integration_look](images/camera_integration_look.jpeg)
 
 ### 摄像头与工控机连接
- 
+	
  - 直接用数据线将设备连接在IPC的USB3.0接口。接口顺序无固定顺序，用户可自行指定。
  
 ![camera_integration_background](images/camera_integration_background.jpeg)
@@ -55,8 +55,7 @@
 
  - 查看摄像头所接的USB端口对应的端口号方法：在docker环境外执行如下命令
  ```
- ll /sys/class/video4linux/video* 
- ```
+ ls -l /sys/class/video4linux/video*
  - 在docker环境外，执行如下命令，使配置的规则文件在本地系统生效:
  
  ```
@@ -82,8 +81,7 @@
  - 在`Module Controller`标签栏下，打开`Camera`开关，开关位置如下图所示：
  
 ![camera_integration_dreamview1](images/camera_integration_dreamview1.png)
-
- - 在`Tasks`标签栏下依次打开`SimControl`和`Camera Sensor`开关，`Camera Sensor`打开后，务必关闭`SimControl`。选择`Mkz Standard Debug`模式，开关在dreamview界面的位置如下图所示：
+在Tasks标签栏下依次打开SimControl和Camera Sensor开关，Camera Sensor打开后，务必关闭SimControl。选择Mkz Standard Debug模式，
  
 ![camera_integration_dreamview2](images/camera_integration_dreamview2.png)
  

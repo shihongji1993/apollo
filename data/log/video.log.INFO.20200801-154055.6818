@@ -1,0 +1,4 @@
+Log file created at: 2020/08/01 15:40:55
+Running on machine: in_dev_docker
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0801 15:40:55.373499  6818 class_loader_utility.h:78] registerclass:CompCameraH265Compressed,apollo::cyber::ComponentBase,/apollo/bazel-bin/modules/drivers/video/libvideo_driver_component.so

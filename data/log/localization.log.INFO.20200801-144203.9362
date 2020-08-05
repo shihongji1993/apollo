@@ -1,0 +1,14 @@
+Log file created at: 2020/08/01 14:42:03
+Running on machine: in_dev_docker
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0801 14:42:03.381160  9362 class_loader_utility.h:78] registerclass:MSFLocalizationComponent,apollo::cyber::ComponentBase,/apollo/bazel-bin/modules/localization/msf/libmsf_localization_component.so
+I0801 14:42:03.381234  9362 class_loader_utility.h:78] registerclass:MSFLocalizationComponent,apollo::cyber::ComponentBase,/apollo/bazel-bin/modules/localization/msf/libmsf_localization_component.so
+I0801 14:42:03.440371  9362 msf_localization.cc:75] map: /apollo/modules/map/data/demo/local_map
+I0801 14:42:03.440407  9362 msf_localization.cc:76] lidar_extrin: /apollo/modules/localization/msf/params/velodyne_params/velodyne128_novatel_extrinsics.yaml
+I0801 14:42:03.440413  9362 msf_localization.cc:77] lidar_height: /apollo/modules/localization/msf/params/velodyne_params/velodyne64_height.yaml
+W0801 14:42:03.440438  9362 msf_localization.cc:85] Can't load utm zone id from map folder, use default value.
+I0801 14:42:03.440492  9362 msf_localization.cc:88] utm zone id: 10
+I0801 14:42:03.440500  9362 msf_localization.cc:102] Vehile imu file: /apollo/modules/localization/msf/params/vehicle_params/vehicle_imu_extrinsics.yaml
+I0801 14:42:03.449738  9362 msf_localization.cc:112] imu_vehicle_quat: 0 0 0 1
+I0801 14:42:03.449798  9362 msf_localization.cc:137] Ant imu lever arm file: /apollo/modules/localization/msf/params/gnss_params/ant_imu_leverarm.yaml
+I0801 14:42:03.455781  9362 msf_localization.cc:150] -0.5016 0.5334 0.8763 0.05 0.05 0.05

@@ -1,0 +1,15 @@
+Log file created at: 2020/08/01 14:42:03
+Running on machine: in_dev_docker
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0801 14:42:03.684751  9579 class_loader_utility.h:78] registerclass:CanbusComponent,apollo::cyber::ComponentBase,/apollo/bazel-bin/modules/canbus/libcanbus.so
+I0801 14:42:03.826318  9579 canbus_component.cc:47] The canbus conf file is loaded: /apollo/modules/canbus/conf/canbus_conf.pb.txt
+I0801 14:42:03.826407  9579 canbus_component.cc:58] Can client is successfully created.
+I0801 14:42:03.826467  9579 vehicle_factory.cc:65] successfully created vehicle factory with brand: LINCOLN_MKZ
+max_enable_fail_attempt: 5
+driving_mode: COMPLETE_AUTO_DRIVE
+I0801 14:42:03.837189  9579 canbus_component.cc:74] Message manager is successfully created.
+I0801 14:42:03.837216  9579 canbus_component.cc:81] The can receiver is successfully initialized.
+I0801 14:42:03.837222  9579 canbus_component.cc:88] The can sender is successfully initialized.
+I0801 14:42:03.837241  9579 canbus_component.cc:95] The vehicle controller is successfully created.
+I0801 14:42:03.837493  9579 lincoln_controller.cc:120] Controller is initialized.
+I0801 14:42:03.837556  9579 canbus_component.cc:103] The vehicle controller is successfully initialized with canbus conf as : brand: LINCOLN_MKZ max_enable_fail_attempt: 5 driving_mode: COMPLETE_AUTO_DRIVE

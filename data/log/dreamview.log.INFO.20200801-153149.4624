@@ -1,0 +1,853 @@
+Log file created at: 2020/08/01 15:31:49
+Running on machine: in_dev_docker
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0801 15:31:49.631311  4624 pin_thread.cc:63] thread 140689829107456 set range affinity
+I0801 15:31:49.639238  4642 processor.cc:41] processor_tid: 4642
+I0801 15:31:49.639258  4624 pin_thread.cc:63] thread 140689820714752 set range affinity
+I0801 15:31:49.643338  4643 processor.cc:41] processor_tid: 4643
+I0801 15:31:49.643363  4624 pin_thread.cc:63] thread 140689812322048 set range affinity
+I0801 15:31:49.647374  4644 processor.cc:41] processor_tid: 4644
+I0801 15:31:49.647397  4624 pin_thread.cc:63] thread 140689803929344 set range affinity
+I0801 15:31:49.655398  4645 processor.cc:41] processor_tid: 4645
+I0801 15:31:49.655515  4624 init.cc:103] Register exit handle succ.
+I0801 15:31:49.659968  4624 map_service.cc:107] Failed to open map meta file: /metaInfo.json
+I0801 15:31:49.660037  4624 map_service.cc:144] Updated with map: x_offset 0, y_offset 0
+I0801 15:31:49.704632  4624 scheduler.cc:54] create croutine: image_handler_/apollo/sensor/camera/front_6mm/image
+I0801 15:31:49.705070  4624 scheduler.cc:54] create croutine: image_handler_/apollo/sensor/camera/front_6mm/image/compressed
+I0801 15:31:49.707834  4624 scheduler.cc:54] create croutine: sim_control_/apollo/localization/pose
+I0801 15:31:49.724973  4624 scheduler.cc:54] create croutine: sim_control_/apollo/planning
+I0801 15:31:49.725566  4624 scheduler.cc:54] create croutine: sim_control_/apollo/routing_response
+I0801 15:31:49.727417  4624 scheduler.cc:54] create croutine: sim_control_/apollo/navigation
+I0801 15:31:49.729948  4624 scheduler.cc:54] create croutine: sim_control_/apollo/prediction
+I0801 15:31:49.740665  4624 scheduler.cc:54] create croutine: data_collection_monitor_/apollo/canbus/chassis
+W0801 15:31:49.741719  4624 data_collection_monitor.cc:117] No corresponding data collection table file found in . Using default one instead.
+I0801 15:31:49.745824  4624 scheduler.cc:54] create croutine: transform_listener_1596267109745392579_/tf
+I0801 15:31:49.746065  4624 scheduler.cc:54] create croutine: transform_listener_1596267109745392579_/tf_static
+I0801 15:31:49.746305  4624 scheduler.cc:54] create croutine: perception_camera_updater_/apollo/sensor/camera/front_6mm/image/compressed
+I0801 15:31:49.746682  4624 scheduler.cc:54] create croutine: perception_camera_updater_/apollo/localization/pose
+I0801 15:31:49.747697  4624 scheduler.cc:54] create croutine: simulation_world_/apollo/routing_request
+I0801 15:31:49.748045  4624 scheduler.cc:54] create croutine: simulation_world_/apollo/routing_response
+I0801 15:31:49.748524  4624 scheduler.cc:54] create croutine: simulation_world_/apollo/canbus/chassis
+I0801 15:31:49.748806  4624 scheduler.cc:54] create croutine: simulation_world_/apollo/sensor/gnss/odometry
+I0801 15:31:49.749205  4624 scheduler.cc:54] create croutine: simulation_world_/apollo/localization/pose
+I0801 15:31:49.749686  4624 scheduler.cc:54] create croutine: simulation_world_/apollo/perception/obstacles
+I0801 15:31:49.749949  4624 scheduler.cc:54] create croutine: simulation_world_/apollo/perception/traffic_light
+I0801 15:31:49.751513  4624 scheduler.cc:54] create croutine: simulation_world_/apollo/prediction
+I0801 15:31:49.756464  4624 scheduler.cc:54] create croutine: simulation_world_/apollo/planning
+I0801 15:31:49.758592  4624 scheduler.cc:54] create croutine: simulation_world_/apollo/control
+I0801 15:31:49.760267  4624 scheduler.cc:54] create croutine: simulation_world_/apollo/navigation
+I0801 15:31:49.761909  4624 scheduler.cc:54] create croutine: simulation_world_/apollo/relative_map
+I0801 15:31:49.762342  4624 scheduler.cc:54] create croutine: simulation_world_/apollo/storytelling
+I0801 15:31:49.762678  4624 scheduler.cc:54] create croutine: simulation_world_/apollo/drive_event
+I0801 15:31:49.762908  4624 scheduler.cc:54] create croutine: simulation_world_/apollo/monitor
+I0801 15:31:49.770535  4624 scheduler.cc:54] create croutine: /internal/task0
+I0801 15:31:49.770570  4624 scheduler.cc:54] create croutine: /internal/task1
+I0801 15:31:49.770586  4624 scheduler.cc:54] create croutine: /internal/task2
+I0801 15:31:49.770602  4624 scheduler.cc:54] create croutine: /internal/task3
+I0801 15:31:49.771979  4624 hmi_worker.cc:165] Loaded HMI config: modes {
+  key: "Car Teleop"
+  value: "/apollo/modules/dreamview/conf/hmi_modes/car_teleop.pb.txt"
+}
+modes {
+  key: "Console Teleop"
+  value: "/apollo/modules/dreamview/conf/hmi_modes/console_teleop.pb.txt"
+}
+modes {
+  key: "Ipc1 Mkz Close Loop"
+  value: "/apollo/modules/dreamview/conf/hmi_modes/ipc1_mkz_close_loop.pb.txt"
+}
+modes {
+  key: "Ipc1 Mkz Standard Debug"
+  value: "/apollo/modules/dreamview/conf/hmi_modes/ipc1_mkz_standard_debug.pb.txt"
+}
+modes {
+  key: "Ipc2 Mkz Close Loop"
+  value: "/apollo/modules/dreamview/conf/hmi_modes/ipc2_mkz_close_loop.pb.txt"
+}
+modes {
+  key: "Ipc2 Mkz Standard Debug"
+  value: "/apollo/modules/dreamview/conf/hmi_modes/ipc2_mkz_standard_debug.pb.txt"
+}
+modes {
+  key: "Map Collection"
+  value: "/apollo/modules/dreamview/conf/hmi_modes/map_collection.pb.txt"
+}
+modes {
+  key: "Mkz Close Loop"
+  value: "/apollo/modules/dreamview/conf/hmi_modes/mkz_close_loop.pb.txt"
+}
+modes {
+  key: "Mkz Standard Debug"
+  value: "/apollo/modules/dreamview/conf/hmi_modes/mkz_standard_debug.pb.txt"
+}
+modes {
+  key: "Mkz Standard Debug Smart Recorder"
+  value: "/apollo/modules/dreamview/conf/hmi_modes/mkz_standard_debug_smart_recorder.pb.txt"
+}
+modes {
+  key: "Navigation"
+  value: "/apollo/modules/dreamview/conf/hmi_modes/navigation.pb.txt"
+}
+modes {
+  key: "Rtk"
+  value: "/apollo/modules/dreamview/conf/hmi_modes/rtk.pb.txt"
+}
+modes {
+  key: "Vehicle Calibration"
+  value: "/apollo/modules/dreamview/conf/hmi_modes/vehicle_calibration.pb.txt"
+}
+maps {
+  key: "Demo"
+  value: "/apollo/modules/map/data/demo"
+}
+maps {
+  key: "San Mateo"
+  value: "/apollo/modules/map/data/san_mateo"
+}
+maps {
+  key: "Sunnyvale Big Loop"
+  value: "/apollo/modules/map/data/sunnyvale_big_loop"
+}
+maps {
+  key: "Sunnyvale Loop"
+  value: "/apollo/modules/map/data/sunnyvale_loop"
+}
+maps {
+  key: "Sunnyvale With Two Offices"
+  value: "/apollo/modules/map/data/sunnyvale_with_two_offices"
+}
+vehicles {
+  key: "Dev Kit"
+  value: "/apollo/modules/calibration/data/dev_kit"
+}
+vehicles {
+  key: "Mkz Example"
+  value: "/apollo/modules/calibration/data/mkz_example"
+}
+I0801 15:31:49.772614  4624 kv_db.cc:64] Executing SQL: CREATE TABLE IF NOT EXISTS key_value (key VARCHAR(128) PRIMARY KEY NOT NULL, value TEXT);
+I0801 15:31:49.773219  4624 kv_db.cc:64] Executing SQL: SELECT value FROM key_value WHERE key='/apollo/hmi/status:current_mode';
+I0801 15:31:49.774196  4624 hmi_worker.cc:205] Loaded HMI mode: modules {
+  key: "Camera"
+  value {
+    start_command: "nohup mainboard -d /apollo/modules/drivers/camera/dag/camera.dag -d /apollo/modules/drivers/video/dag/video.dag &"
+    stop_command: "pkill -f \"/apollo/modules/drivers/camera/dag/camera.dag\""
+    process_monitor_config {
+      command_keywords: "mainboard"
+      command_keywords: "/apollo/modules/drivers/camera/dag/camera.dag"
+    }
+    required_for_safety: true
+  }
+}
+modules {
+  key: "Canbus"
+  value {
+    start_command: "nohup mainboard -d /apollo/modules/canbus/dag/canbus.dag &"
+    stop_command: "pkill -f \"/apollo/modules/canbus/dag/canbus.dag\""
+    process_monitor_config {
+      command_keywords: "mainboard"
+      command_keywords: "/apollo/modules/canbus/dag/canbus.dag"
+    }
+    required_for_safety: true
+  }
+}
+modules {
+  key: "Control"
+  value {
+    start_command: "nohup mainboard -d /apollo/modules/control/dag/control.dag &"
+    stop_command: "pkill -f \"/apollo/modules/control/dag/control.dag\""
+    process_monitor_config {
+      command_keywords: "mainboard"
+      command_keywords: "/apollo/modules/control/dag/control.dag"
+    }
+    required_for_safety: true
+  }
+}
+modules {
+  key: "GPS"
+  value {
+    start_command: "nohup mainboard -d /apollo/modules/drivers/gnss/dag/gnss.dag &"
+    stop_command: "pkill -f \"/apollo/modules/drivers/gnss/dag/gnss.dag\""
+    process_monitor_config {
+      command_keywords: "mainboard"
+      command_keywords: "/apollo/modules/drivers/gnss/dag/gnss.dag"
+    }
+    required_for_safety: true
+  }
+}
+modules {
+  key: "Guardian"
+  value {
+    start_command: "nohup mainboard -d /apollo/modules/guardian/dag/guardian.dag &"
+    stop_command: "pkill -f \"/apollo/modules/guardian/dag/guardian.dag\""
+    process_monitor_config {
+      command_keywords: "mainboard"
+      command_keywords: "/apollo/modules/guardian/dag/guardian.dag"
+    }
+    required_for_safety: true
+  }
+}
+modules {
+  key: "Localization"
+  value {
+    start_command: "nohup mainboard -d /apollo/modules/localization/dag/dag_streaming_msf_localization.dag &"
+    stop_command: "pkill -f \"/apollo/modules/localization/dag/dag_streaming_msf_localization.dag\""
+    process_monitor_config {
+      command_keywords: "mainboard"
+      command_keywords: "/apollo/modules/localization/dag/dag_streaming_msf_localization.dag"
+    }
+    required_for_safety: true
+  }
+}
+modules {
+  key: "Perception"
+  value {
+    start_command: "nohup mainboard -d /apollo/modules/perception/production/dag/dag_streaming_perception.dag &"
+    stop_command: "pkill -f \"/apollo/modules/perception/production/dag/dag_streaming_perception.dag\""
+    process_monitor_config {
+      command_keywords: "mainboard"
+      command_keywords: "/apollo/modules/perception/production/dag/dag_streaming_perception.dag"
+    }
+    required_for_safety: true
+  }
+}
+modules {
+  key: "Planning"
+  value {
+    start_command: "nohup mainboard -d /apollo/modules/planning/dag/planning.dag &"
+    stop_command: "pkill -f \"/apollo/modules/planning/dag/planning.dag\""
+    process_monitor_config {
+      command_keywords: "mainboard"
+      command_keywords: "/apollo/modules/planning/dag/planning.dag"
+    }
+    required_for_safety: true
+  }
+}
+modules {
+  key: "Prediction"
+  value {
+    start_command: "nohup mainboard -d /apollo/modules/prediction/dag/prediction.dag &"
+    stop_command: "pkill -f \"/apollo/modules/prediction/dag/prediction.dag\""
+    process_monitor_config {
+      command_keywords: "mainboard"
+      command_keywords: "/apollo/modules/prediction/dag/prediction.dag"
+    }
+    required_for_safety: true
+  }
+}
+modules {
+  key: "Radar"
+  value {
+    start_command: "nohup mainboard -d /apollo/modules/drivers/radar/conti_radar/dag/conti_radar.dag &"
+    stop_command: "pkill -f \"/apollo/modules/drivers/radar/conti_radar/dag/conti_radar.dag\""
+    process_monitor_config {
+      command_keywords: "mainboard"
+      command_keywords: "/apollo/modules/drivers/radar/conti_radar/dag/conti_radar.dag"
+    }
+    required_for_safety: true
+  }
+}
+modules {
+  key: "Recorder"
+  value {
+    start_command: "/apollo/scripts/record_bag.py --start"
+    stop_command: "/apollo/scripts/record_bag.py --stop"
+    process_monitor_config {
+      command_keywords: "cyber_recorder record"
+    }
+  }
+}
+modules {
+  key: "Routing"
+  value {
+    start_command: "nohup mainboard -d /apollo/modules/routing/dag/routing.dag &"
+    stop_command: "pkill -f \"/apollo/modules/routing/dag/routing.dag\""
+    process_monitor_config {
+      command_keywords: "mainboard"
+      command_keywords: "/apollo/modules/routing/dag/routing.dag"
+    }
+    required_for_safety: true
+  }
+}
+modules {
+  key: "Storytelling"
+  value {
+    start_command: "nohup mainboard -d /apollo/modules/storytelling/dag/storytelling.dag &"
+    stop_command: "pkill -f \"/apollo/modules/storytelling/dag/storytelling.dag\""
+    process_monitor_config {
+      command_keywords: "mainboard"
+      command_keywords: "/apollo/modules/storytelling/dag/storytelling.dag"
+    }
+    required_for_safety: true
+  }
+}
+modules {
+  key: "Third Party Perception"
+  value {
+    start_command: "nohup mainboard -d /apollo/modules/third_party_perception/dag/third_party_perception.dag &"
+    stop_command: "pkill -f \"/apollo/modules/third_party_perception/dag/third_party_perception.dag\""
+    process_monitor_config {
+      command_keywords: "mainboard"
+      command_keywords: "/apollo/modules/third_party_perception/dag/third_party_perception.dag"
+    }
+    required_for_safety: true
+  }
+}
+modules {
+  key: "Traffic Light"
+  value {
+    start_command: "nohup mainboard -d /apollo/modules/perception/production/dag/dag_streaming_perception_trafficlights.dag &"
+    stop_command: "pkill -f \"/apollo/modules/perception/production/dag/dag_streaming_perception_trafficlights.dag\""
+    process_monitor_config {
+      command_keywords: "mainboard"
+      command_keywords: "/apollo/modules/perception/production/dag/dag_streaming_perception_trafficlights.dag"
+    }
+    required_for_safety: true
+  }
+}
+modules {
+  key: "Transform"
+  value {
+    start_command: "nohup mainboard -d /apollo/modules/transform/dag/static_transform.dag &"
+    stop_command: "pkill -f \"/apollo/modules/transform/dag/static_transform.dag\""
+    process_monitor_config {
+      command_keywords: "mainboard"
+      command_keywords: "/apollo/modules/transform/dag/static_transform.dag"
+    }
+    required_for_safety: true
+  }
+}
+modules {
+  key: "Velodyne"
+  value {
+    start_command: "nohup mainboard -d /apollo/modules/drivers/velodyne/dag/velodyne.dag &"
+    stop_command: "pkill -f \"/apollo/modules/drivers/velodyne/dag/velodyne.dag\""
+    process_monitor_config {
+      command_keywords: "mainboard"
+      command_keywords: "/apollo/modules/drivers/velodyne/dag/velodyne.dag"
+    }
+    required_for_safety: true
+  }
+}
+monitored_components {
+  key: "GPS"
+  value {
+    process {
+      command_keywords: "mainboard"
+      command_keywords: "/apollo/modules/drivers/gnss/dag/gnss.dag"
+    }
+  }
+}
+monitored_components {
+  key: "Lidar 128"
+  value {
+    channel {
+      name: "/apollo/sensor/lidar128/compensator/PointCloud2"
+    }
+  }
+}
+monitored_components {
+  key: "Localization"
+  value {
+  }
+}
+monitored_components {
+  key: "Recorder"
+  value {
+    process {
+      command_keywords: "cyber_recorder record"
+    }
+    resource {
+      disk_spaces {
+        path: "/apollo/data"
+        insufficient_space_warning: 8
+        insufficient_space_error: 2
+      }
+      disk_spaces {
+        path: "/media/apollo/internal_nvme"
+        insufficient_space_warning: 128
+        insufficient_space_error: 32
+      }
+    }
+  }
+}
+I0801 15:31:49.774327  4624 kv_db.cc:64] Executing SQL: CREATE TABLE IF NOT EXISTS key_value (key VARCHAR(128) PRIMARY KEY NOT NULL, value TEXT);
+I0801 15:31:49.774405  4624 kv_db.cc:64] Executing SQL: INSERT OR REPLACE INTO key_value (key, value) VALUES ('/apollo/hmi/status:current_mode', 'Mkz Standard Debug');
+I0801 15:31:49.775908  4624 timer.cc:135] start timer [2]
+I0801 15:31:49.776262  4624 scheduler.cc:54] create croutine: point_cloud_/apollo/localization/pose
+I0801 15:31:49.776618  4624 scheduler.cc:54] create croutine: point_cloud_/apollo/sensor/lidar128/compensator/PointCloud2
+I0801 15:31:49.777312  4624 point_cloud_updater.cc:65] Lidar height is updated to 1.89
+I0801 15:31:49.780995  4624 scheduler.cc:54] create croutine: HMI_/apollo/monitor/system_status
+I0801 15:31:49.781503  4624 scheduler.cc:54] create croutine: HMI_/apollo/canbus/chassis
+I0801 15:31:49.876374  4643 simulation_world_service.h:225] Has not received any data from /apollo/canbus/chassis
+I0801 15:31:49.876403  4643 simulation_world_service.h:225] Has not received any data from /apollo/sensor/gnss/odometry
+I0801 15:31:49.876407  4643 simulation_world_service.h:225] Has not received any data from /apollo/localization/pose
+I0801 15:31:49.876411  4643 simulation_world_service.h:225] Has not received any data from /apollo/storytelling
+I0801 15:31:49.876413  4643 simulation_world_service.h:225] Has not received any data from /apollo/perception/obstacles
+I0801 15:31:49.876416  4643 simulation_world_service.h:225] Has not received any data from /apollo/prediction
+I0801 15:31:49.876418  4643 simulation_world_service.h:225] Has not received any data from /apollo/planning
+I0801 15:31:49.876425  4643 simulation_world_service.h:225] Has not received any data from /apollo/control
+I0801 15:31:57.837410  4651 websocket_handler.cc:34] SimWorld: Accepted connection. Total connections: 1
+I0801 15:31:57.848402  4652 websocket_handler.cc:34] Map: Accepted connection. Total connections: 1
+I0801 15:31:57.859304  4653 websocket_handler.cc:34] PointCloud: Accepted connection. Total connections: 1
+I0801 15:31:57.870023  4654 websocket_handler.cc:34] Camera: Accepted connection. Total connections: 1
+W0801 15:31:58.049546  4651 simulation_world_updater.cc:166] Not sending simulation world as the data is not ready!
+W0801 15:31:58.049608  4710 rate.cc:95] Detect forward jumps in time
+I0801 15:31:59.875800  4644 simulation_world_service.h:225] Has not received any data from /apollo/canbus/chassis
+I0801 15:31:59.875824  4644 simulation_world_service.h:225] Has not received any data from /apollo/sensor/gnss/odometry
+I0801 15:31:59.875828  4644 simulation_world_service.h:225] Has not received any data from /apollo/localization/pose
+I0801 15:31:59.875833  4644 simulation_world_service.h:225] Has not received any data from /apollo/storytelling
+I0801 15:31:59.875836  4644 simulation_world_service.h:225] Has not received any data from /apollo/perception/obstacles
+I0801 15:31:59.875839  4644 simulation_world_service.h:225] Has not received any data from /apollo/prediction
+I0801 15:31:59.875842  4644 simulation_world_service.h:225] Has not received any data from /apollo/planning
+I0801 15:31:59.875845  4644 simulation_world_service.h:225] Has not received any data from /apollo/control
+W0801 15:32:08.436820  4651 simulation_world_updater.cc:166] Not sending simulation world as the data is not ready!
+I0801 15:32:09.875757  4643 simulation_world_service.h:225] Has not received any data from /apollo/canbus/chassis
+I0801 15:32:09.875778  4643 simulation_world_service.h:225] Has not received any data from /apollo/sensor/gnss/odometry
+I0801 15:32:09.875782  4643 simulation_world_service.h:225] Has not received any data from /apollo/localization/pose
+I0801 15:32:09.875785  4643 simulation_world_service.h:225] Has not received any data from /apollo/storytelling
+I0801 15:32:09.875788  4643 simulation_world_service.h:225] Has not received any data from /apollo/perception/obstacles
+I0801 15:32:09.875792  4643 simulation_world_service.h:225] Has not received any data from /apollo/prediction
+I0801 15:32:09.875793  4643 simulation_world_service.h:225] Has not received any data from /apollo/planning
+I0801 15:32:09.875797  4643 simulation_world_service.h:225] Has not received any data from /apollo/control
+W0801 15:32:18.436844  4651 simulation_world_updater.cc:166] Not sending simulation world as the data is not ready!
+I0801 15:32:18.455549  4651 hmi_worker.cc:336] HMIAction START_MODULE(Camera) was triggered!
+W0801 15:32:18.461800  4710 rate.cc:95] Detect forward jumps in time
+E0801 15:32:18.469774  4651 hmi_worker.cc:126] FAILED(-1): nohup mainboard -d /apollo/modules/drivers/camera/dag/camera.dag -d /apollo/modules/drivers/video/dag/video.dag &
+W0801 15:32:18.893792  4710 rate.cc:95] Detect forward jumps in time
+W0801 15:32:18.898826  4710 rate.cc:95] Detect forward jumps in time
+W0801 15:32:18.911499  4710 rate.cc:95] Detect forward jumps in time
+W0801 15:32:18.917448  4710 rate.cc:95] Detect forward jumps in time
+W0801 15:32:18.922545  4710 rate.cc:95] Detect forward jumps in time
+I0801 15:32:19.875645  4642 simulation_world_service.h:225] Has not received any data from /apollo/canbus/chassis
+I0801 15:32:19.875669  4642 simulation_world_service.h:225] Has not received any data from /apollo/sensor/gnss/odometry
+I0801 15:32:19.875672  4642 simulation_world_service.h:225] Has not received any data from /apollo/localization/pose
+I0801 15:32:19.875676  4642 simulation_world_service.h:225] Has not received any data from /apollo/storytelling
+I0801 15:32:19.875679  4642 simulation_world_service.h:225] Has not received any data from /apollo/perception/obstacles
+I0801 15:32:19.875682  4642 simulation_world_service.h:225] Has not received any data from /apollo/prediction
+I0801 15:32:19.875684  4642 simulation_world_service.h:225] Has not received any data from /apollo/planning
+I0801 15:32:19.875687  4642 simulation_world_service.h:225] Has not received any data from /apollo/control
+W0801 15:32:28.436892  4651 simulation_world_updater.cc:166] Not sending simulation world as the data is not ready!
+I0801 15:32:29.875638  4642 simulation_world_service.h:225] Has not received any data from /apollo/canbus/chassis
+I0801 15:32:29.875658  4642 simulation_world_service.h:225] Has not received any data from /apollo/sensor/gnss/odometry
+I0801 15:32:29.875663  4642 simulation_world_service.h:225] Has not received any data from /apollo/localization/pose
+I0801 15:32:29.875680  4642 simulation_world_service.h:225] Has not received any data from /apollo/storytelling
+I0801 15:32:29.875682  4642 simulation_world_service.h:225] Has not received any data from /apollo/perception/obstacles
+I0801 15:32:29.875686  4642 simulation_world_service.h:225] Has not received any data from /apollo/prediction
+I0801 15:32:29.875689  4642 simulation_world_service.h:225] Has not received any data from /apollo/planning
+I0801 15:32:29.875691  4642 simulation_world_service.h:225] Has not received any data from /apollo/control
+W0801 15:32:38.436880  4651 simulation_world_updater.cc:166] Not sending simulation world as the data is not ready!
+I0801 15:32:39.875627  4643 simulation_world_service.h:225] Has not received any data from /apollo/canbus/chassis
+I0801 15:32:39.875648  4643 simulation_world_service.h:225] Has not received any data from /apollo/sensor/gnss/odometry
+I0801 15:32:39.875651  4643 simulation_world_service.h:225] Has not received any data from /apollo/localization/pose
+I0801 15:32:39.875655  4643 simulation_world_service.h:225] Has not received any data from /apollo/storytelling
+I0801 15:32:39.875658  4643 simulation_world_service.h:225] Has not received any data from /apollo/perception/obstacles
+I0801 15:32:39.875660  4643 simulation_world_service.h:225] Has not received any data from /apollo/prediction
+I0801 15:32:39.875663  4643 simulation_world_service.h:225] Has not received any data from /apollo/planning
+I0801 15:32:39.875665  4643 simulation_world_service.h:225] Has not received any data from /apollo/control
+W0801 15:32:48.436959  4651 simulation_world_updater.cc:166] Not sending simulation world as the data is not ready!
+I0801 15:32:49.875627  4644 simulation_world_service.h:225] Has not received any data from /apollo/canbus/chassis
+I0801 15:32:49.875650  4644 simulation_world_service.h:225] Has not received any data from /apollo/sensor/gnss/odometry
+I0801 15:32:49.875654  4644 simulation_world_service.h:225] Has not received any data from /apollo/localization/pose
+I0801 15:32:49.875658  4644 simulation_world_service.h:225] Has not received any data from /apollo/storytelling
+I0801 15:32:49.875660  4644 simulation_world_service.h:225] Has not received any data from /apollo/perception/obstacles
+I0801 15:32:49.875663  4644 simulation_world_service.h:225] Has not received any data from /apollo/prediction
+I0801 15:32:49.875665  4644 simulation_world_service.h:225] Has not received any data from /apollo/planning
+I0801 15:32:49.875667  4644 simulation_world_service.h:225] Has not received any data from /apollo/control
+W0801 15:32:58.436830  4651 simulation_world_updater.cc:166] Not sending simulation world as the data is not ready!
+I0801 15:32:59.875623  4642 simulation_world_service.h:225] Has not received any data from /apollo/canbus/chassis
+I0801 15:32:59.875648  4642 simulation_world_service.h:225] Has not received any data from /apollo/sensor/gnss/odometry
+I0801 15:32:59.875651  4642 simulation_world_service.h:225] Has not received any data from /apollo/localization/pose
+I0801 15:32:59.875654  4642 simulation_world_service.h:225] Has not received any data from /apollo/storytelling
+I0801 15:32:59.875658  4642 simulation_world_service.h:225] Has not received any data from /apollo/perception/obstacles
+I0801 15:32:59.875660  4642 simulation_world_service.h:225] Has not received any data from /apollo/prediction
+I0801 15:32:59.875663  4642 simulation_world_service.h:225] Has not received any data from /apollo/planning
+I0801 15:32:59.875665  4642 simulation_world_service.h:225] Has not received any data from /apollo/control
+W0801 15:33:08.436812  4651 simulation_world_updater.cc:166] Not sending simulation world as the data is not ready!
+I0801 15:33:09.875643  4643 simulation_world_service.h:225] Has not received any data from /apollo/canbus/chassis
+I0801 15:33:09.875666  4643 simulation_world_service.h:225] Has not received any data from /apollo/sensor/gnss/odometry
+I0801 15:33:09.875672  4643 simulation_world_service.h:225] Has not received any data from /apollo/localization/pose
+I0801 15:33:09.875677  4643 simulation_world_service.h:225] Has not received any data from /apollo/storytelling
+I0801 15:33:09.875680  4643 simulation_world_service.h:225] Has not received any data from /apollo/perception/obstacles
+I0801 15:33:09.875684  4643 simulation_world_service.h:225] Has not received any data from /apollo/prediction
+I0801 15:33:09.875686  4643 simulation_world_service.h:225] Has not received any data from /apollo/planning
+I0801 15:33:09.875689  4643 simulation_world_service.h:225] Has not received any data from /apollo/control
+W0801 15:33:18.436836  4651 simulation_world_updater.cc:166] Not sending simulation world as the data is not ready!
+I0801 15:33:19.875658  4644 simulation_world_service.h:225] Has not received any data from /apollo/canbus/chassis
+I0801 15:33:19.875684  4644 simulation_world_service.h:225] Has not received any data from /apollo/sensor/gnss/odometry
+I0801 15:33:19.875689  4644 simulation_world_service.h:225] Has not received any data from /apollo/localization/pose
+I0801 15:33:19.875692  4644 simulation_world_service.h:225] Has not received any data from /apollo/storytelling
+I0801 15:33:19.875695  4644 simulation_world_service.h:225] Has not received any data from /apollo/perception/obstacles
+I0801 15:33:19.875706  4644 simulation_world_service.h:225] Has not received any data from /apollo/prediction
+I0801 15:33:19.875710  4644 simulation_world_service.h:225] Has not received any data from /apollo/planning
+I0801 15:33:19.875713  4644 simulation_world_service.h:225] Has not received any data from /apollo/control
+I0801 15:33:22.905886  4651 timer.cc:135] start timer [0]
+I0801 15:33:22.905911  4651 timer.cc:135] start timer [1]
+I0801 15:33:29.143959  4651 timer.cc:142] stop timer, the timer_id: 0
+I0801 15:33:29.143998  4651 timer.cc:142] stop timer, the timer_id: 1
+I0801 15:33:29.875679  4642 simulation_world_service.h:225] Has not received any data from /apollo/sensor/gnss/odometry
+I0801 15:33:29.875708  4642 simulation_world_service.h:225] Has not received any data from /apollo/storytelling
+I0801 15:33:29.875712  4642 simulation_world_service.h:225] Has not received any data from /apollo/perception/obstacles
+I0801 15:33:29.875717  4642 simulation_world_service.h:225] Has not received any data from /apollo/planning
+I0801 15:33:29.875720  4642 simulation_world_service.h:225] Has not received any data from /apollo/control
+W0801 15:33:33.690568  4710 rate.cc:95] Detect forward jumps in time
+I0801 15:33:39.875661  4642 simulation_world_service.h:225] Has not received any data from /apollo/sensor/gnss/odometry
+I0801 15:33:39.875689  4642 simulation_world_service.h:225] Has not received any data from /apollo/storytelling
+I0801 15:33:39.875694  4642 simulation_world_service.h:225] Has not received any data from /apollo/perception/obstacles
+I0801 15:33:39.875699  4642 simulation_world_service.h:225] Has not received any data from /apollo/planning
+I0801 15:33:39.875701  4642 simulation_world_service.h:225] Has not received any data from /apollo/control
+W0801 15:33:43.775919  4710 rate.cc:95] Detect forward jumps in time
+I0801 15:33:49.875638  4644 simulation_world_service.h:225] Has not received any data from /apollo/sensor/gnss/odometry
+I0801 15:33:49.875663  4644 simulation_world_service.h:225] Has not received any data from /apollo/storytelling
+I0801 15:33:49.875665  4644 simulation_world_service.h:225] Has not received any data from /apollo/perception/obstacles
+I0801 15:33:49.875669  4644 simulation_world_service.h:225] Has not received any data from /apollo/planning
+I0801 15:33:49.875672  4644 simulation_world_service.h:225] Has not received any data from /apollo/control
+I0801 15:33:59.875619  4644 simulation_world_service.h:225] Has not received any data from /apollo/sensor/gnss/odometry
+I0801 15:33:59.875641  4644 simulation_world_service.h:225] Has not received any data from /apollo/storytelling
+I0801 15:33:59.875645  4644 simulation_world_service.h:225] Has not received any data from /apollo/perception/obstacles
+I0801 15:33:59.875649  4644 simulation_world_service.h:225] Has not received any data from /apollo/planning
+I0801 15:33:59.875651  4644 simulation_world_service.h:225] Has not received any data from /apollo/control
+I0801 15:34:09.875640  4643 simulation_world_service.h:225] Has not received any data from /apollo/sensor/gnss/odometry
+I0801 15:34:09.875664  4643 simulation_world_service.h:225] Has not received any data from /apollo/storytelling
+I0801 15:34:09.875667  4643 simulation_world_service.h:225] Has not received any data from /apollo/perception/obstacles
+I0801 15:34:09.875672  4643 simulation_world_service.h:225] Has not received any data from /apollo/planning
+I0801 15:34:09.875674  4643 simulation_world_service.h:225] Has not received any data from /apollo/control
+W0801 15:34:10.637717  4710 rate.cc:95] Detect forward jumps in time
+W0801 15:34:16.204727  4710 rate.cc:95] Detect forward jumps in time
+W0801 15:34:16.210559  4710 rate.cc:95] Detect forward jumps in time
+I0801 15:34:19.874692  4644 simulation_world_service.h:225] Has not received any data from /apollo/sensor/gnss/odometry
+I0801 15:34:19.874714  4644 simulation_world_service.h:225] Has not received any data from /apollo/storytelling
+I0801 15:34:19.874717  4644 simulation_world_service.h:225] Has not received any data from /apollo/perception/obstacles
+I0801 15:34:19.874722  4644 simulation_world_service.h:225] Has not received any data from /apollo/planning
+I0801 15:34:19.874724  4644 simulation_world_service.h:225] Has not received any data from /apollo/control
+I0801 15:34:29.874698  4642 simulation_world_service.h:225] Has not received any data from /apollo/sensor/gnss/odometry
+I0801 15:34:29.874723  4642 simulation_world_service.h:225] Has not received any data from /apollo/storytelling
+I0801 15:34:29.874727  4642 simulation_world_service.h:225] Has not received any data from /apollo/perception/obstacles
+I0801 15:34:29.874732  4642 simulation_world_service.h:225] Has not received any data from /apollo/planning
+I0801 15:34:29.874734  4642 simulation_world_service.h:225] Has not received any data from /apollo/control
+I0801 15:34:39.874703  4644 simulation_world_service.h:225] Has not received any data from /apollo/sensor/gnss/odometry
+I0801 15:34:39.874727  4644 simulation_world_service.h:225] Has not received any data from /apollo/storytelling
+I0801 15:34:39.874730  4644 simulation_world_service.h:225] Has not received any data from /apollo/perception/obstacles
+I0801 15:34:39.874734  4644 simulation_world_service.h:225] Has not received any data from /apollo/planning
+I0801 15:34:39.874737  4644 simulation_world_service.h:225] Has not received any data from /apollo/control
+I0801 15:34:49.874684  4643 simulation_world_service.h:225] Has not received any data from /apollo/sensor/gnss/odometry
+I0801 15:34:49.874708  4643 simulation_world_service.h:225] Has not received any data from /apollo/storytelling
+I0801 15:34:49.874711  4643 simulation_world_service.h:225] Has not received any data from /apollo/perception/obstacles
+I0801 15:34:49.874716  4643 simulation_world_service.h:225] Has not received any data from /apollo/planning
+I0801 15:34:49.874718  4643 simulation_world_service.h:225] Has not received any data from /apollo/control
+W0801 15:34:54.476903  4710 rate.cc:95] Detect forward jumps in time
+I0801 15:34:59.876791  4644 simulation_world_service.h:225] Has not received any data from /apollo/sensor/gnss/odometry
+I0801 15:34:59.876830  4644 simulation_world_service.h:225] Has not received any data from /apollo/storytelling
+I0801 15:34:59.876842  4644 simulation_world_service.h:225] Has not received any data from /apollo/perception/obstacles
+I0801 15:34:59.876850  4644 simulation_world_service.h:225] Has not received any data from /apollo/planning
+I0801 15:34:59.876857  4644 simulation_world_service.h:225] Has not received any data from /apollo/control
+I0801 15:35:02.898087  4651 hmi_worker.cc:336] HMIAction STOP_MODULE(Camera) was triggered!
+W0801 15:35:02.908205  4710 rate.cc:95] Detect forward jumps in time
+E0801 15:35:02.932621  4651 hmi_worker.cc:126] FAILED(-1): pkill -f "/apollo/modules/drivers/camera/dag/camera.dag"
+W0801 15:35:05.478706  4710 rate.cc:95] Detect forward jumps in time
+W0801 15:35:05.946636  4710 rate.cc:95] Detect forward jumps in time
+W0801 15:35:09.638986  4710 rate.cc:95] Detect forward jumps in time
+I0801 15:35:09.874819  4642 simulation_world_service.h:225] Has not received any data from /apollo/sensor/gnss/odometry
+I0801 15:35:09.874853  4642 simulation_world_service.h:225] Has not received any data from /apollo/storytelling
+I0801 15:35:09.874858  4642 simulation_world_service.h:225] Has not received any data from /apollo/perception/obstacles
+I0801 15:35:09.874864  4642 simulation_world_service.h:225] Has not received any data from /apollo/planning
+I0801 15:35:09.874867  4642 simulation_world_service.h:225] Has not received any data from /apollo/control
+W0801 15:35:15.639109  4710 rate.cc:95] Detect forward jumps in time
+I0801 15:35:19.876737  4642 simulation_world_service.h:225] Has not received any data from /apollo/sensor/gnss/odometry
+I0801 15:35:19.876765  4642 simulation_world_service.h:225] Has not received any data from /apollo/storytelling
+I0801 15:35:19.876777  4642 simulation_world_service.h:225] Has not received any data from /apollo/perception/obstacles
+I0801 15:35:19.876782  4642 simulation_world_service.h:225] Has not received any data from /apollo/planning
+I0801 15:35:19.876785  4642 simulation_world_service.h:225] Has not received any data from /apollo/control
+I0801 15:35:29.874752  4642 simulation_world_service.h:225] Has not received any data from /apollo/sensor/gnss/odometry
+I0801 15:35:29.874781  4642 simulation_world_service.h:225] Has not received any data from /apollo/storytelling
+I0801 15:35:29.874791  4642 simulation_world_service.h:225] Has not received any data from /apollo/perception/obstacles
+I0801 15:35:29.874797  4642 simulation_world_service.h:225] Has not received any data from /apollo/planning
+I0801 15:35:29.874800  4642 simulation_world_service.h:225] Has not received any data from /apollo/control
+W0801 15:35:39.639201  4710 rate.cc:95] Detect forward jumps in time
+I0801 15:35:39.874773  4644 simulation_world_service.h:225] Has not received any data from /apollo/sensor/gnss/odometry
+I0801 15:35:39.874807  4644 simulation_world_service.h:225] Has not received any data from /apollo/storytelling
+I0801 15:35:39.874812  4644 simulation_world_service.h:225] Has not received any data from /apollo/perception/obstacles
+I0801 15:35:39.874817  4644 simulation_world_service.h:225] Has not received any data from /apollo/planning
+I0801 15:35:39.874821  4644 simulation_world_service.h:225] Has not received any data from /apollo/control
+I0801 15:35:49.874753  4644 simulation_world_service.h:225] Has not received any data from /apollo/sensor/gnss/odometry
+I0801 15:35:49.874781  4644 simulation_world_service.h:225] Has not received any data from /apollo/storytelling
+I0801 15:35:49.874785  4644 simulation_world_service.h:225] Has not received any data from /apollo/perception/obstacles
+I0801 15:35:49.874790  4644 simulation_world_service.h:225] Has not received any data from /apollo/planning
+I0801 15:35:49.874794  4644 simulation_world_service.h:225] Has not received any data from /apollo/control
+I0801 15:35:59.874935  4644 simulation_world_service.h:225] Has not received any data from /apollo/sensor/gnss/odometry
+I0801 15:35:59.874994  4644 simulation_world_service.h:225] Has not received any data from /apollo/storytelling
+I0801 15:35:59.875005  4644 simulation_world_service.h:225] Has not received any data from /apollo/perception/obstacles
+I0801 15:35:59.875016  4644 simulation_world_service.h:225] Has not received any data from /apollo/planning
+I0801 15:35:59.875023  4644 simulation_world_service.h:225] Has not received any data from /apollo/control
+W0801 15:36:09.276784  4710 rate.cc:95] Detect forward jumps in time
+I0801 15:36:09.874754  4642 simulation_world_service.h:225] Has not received any data from /apollo/sensor/gnss/odometry
+I0801 15:36:09.874784  4642 simulation_world_service.h:225] Has not received any data from /apollo/storytelling
+I0801 15:36:09.874789  4642 simulation_world_service.h:225] Has not received any data from /apollo/perception/obstacles
+I0801 15:36:09.874795  4642 simulation_world_service.h:225] Has not received any data from /apollo/planning
+I0801 15:36:09.874799  4642 simulation_world_service.h:225] Has not received any data from /apollo/control
+I0801 15:36:19.876801  4642 simulation_world_service.h:225] Has not received any data from /apollo/sensor/gnss/odometry
+I0801 15:36:19.876840  4642 simulation_world_service.h:225] Has not received any data from /apollo/storytelling
+I0801 15:36:19.876845  4642 simulation_world_service.h:225] Has not received any data from /apollo/perception/obstacles
+I0801 15:36:19.876854  4642 simulation_world_service.h:225] Has not received any data from /apollo/planning
+I0801 15:36:19.876861  4642 simulation_world_service.h:225] Has not received any data from /apollo/control
+W0801 15:36:20.281539  4710 rate.cc:95] Detect forward jumps in time
+I0801 15:36:29.875752  4644 simulation_world_service.h:225] Has not received any data from /apollo/sensor/gnss/odometry
+I0801 15:36:29.875797  4644 simulation_world_service.h:225] Has not received any data from /apollo/storytelling
+I0801 15:36:29.875807  4644 simulation_world_service.h:225] Has not received any data from /apollo/perception/obstacles
+I0801 15:36:29.875816  4644 simulation_world_service.h:225] Has not received any data from /apollo/planning
+I0801 15:36:29.875823  4644 simulation_world_service.h:225] Has not received any data from /apollo/control
+I0801 15:36:39.875710  4644 simulation_world_service.h:225] Has not received any data from /apollo/sensor/gnss/odometry
+I0801 15:36:39.875743  4644 simulation_world_service.h:225] Has not received any data from /apollo/storytelling
+I0801 15:36:39.875748  4644 simulation_world_service.h:225] Has not received any data from /apollo/perception/obstacles
+I0801 15:36:39.875754  4644 simulation_world_service.h:225] Has not received any data from /apollo/planning
+I0801 15:36:39.875758  4644 simulation_world_service.h:225] Has not received any data from /apollo/control
+I0801 15:36:49.873697  4642 simulation_world_service.h:225] Has not received any data from /apollo/sensor/gnss/odometry
+I0801 15:36:49.873729  4642 simulation_world_service.h:225] Has not received any data from /apollo/storytelling
+I0801 15:36:49.873733  4642 simulation_world_service.h:225] Has not received any data from /apollo/perception/obstacles
+I0801 15:36:49.873739  4642 simulation_world_service.h:225] Has not received any data from /apollo/planning
+I0801 15:36:49.873741  4642 simulation_world_service.h:225] Has not received any data from /apollo/control
+W0801 15:36:58.676167  4710 rate.cc:95] Detect forward jumps in time
+I0801 15:36:59.873726  4643 simulation_world_service.h:225] Has not received any data from /apollo/sensor/gnss/odometry
+I0801 15:36:59.873759  4643 simulation_world_service.h:225] Has not received any data from /apollo/storytelling
+I0801 15:36:59.873764  4643 simulation_world_service.h:225] Has not received any data from /apollo/perception/obstacles
+I0801 15:36:59.873770  4643 simulation_world_service.h:225] Has not received any data from /apollo/planning
+I0801 15:36:59.873775  4643 simulation_world_service.h:225] Has not received any data from /apollo/control
+I0801 15:37:09.873684  4642 simulation_world_service.h:225] Has not received any data from /apollo/sensor/gnss/odometry
+I0801 15:37:09.873718  4642 simulation_world_service.h:225] Has not received any data from /apollo/storytelling
+I0801 15:37:09.873723  4642 simulation_world_service.h:225] Has not received any data from /apollo/perception/obstacles
+I0801 15:37:09.873728  4642 simulation_world_service.h:225] Has not received any data from /apollo/planning
+I0801 15:37:09.873730  4642 simulation_world_service.h:225] Has not received any data from /apollo/control
+I0801 15:37:19.873682  4643 simulation_world_service.h:225] Has not received any data from /apollo/sensor/gnss/odometry
+I0801 15:37:19.873710  4643 simulation_world_service.h:225] Has not received any data from /apollo/storytelling
+I0801 15:37:19.873714  4643 simulation_world_service.h:225] Has not received any data from /apollo/perception/obstacles
+I0801 15:37:19.873720  4643 simulation_world_service.h:225] Has not received any data from /apollo/planning
+I0801 15:37:19.873725  4643 simulation_world_service.h:225] Has not received any data from /apollo/control
+I0801 15:37:29.873734  4642 simulation_world_service.h:225] Has not received any data from /apollo/sensor/gnss/odometry
+I0801 15:37:29.873764  4642 simulation_world_service.h:225] Has not received any data from /apollo/storytelling
+I0801 15:37:29.873767  4642 simulation_world_service.h:225] Has not received any data from /apollo/perception/obstacles
+I0801 15:37:29.873771  4642 simulation_world_service.h:225] Has not received any data from /apollo/planning
+I0801 15:37:29.873776  4642 simulation_world_service.h:225] Has not received any data from /apollo/control
+I0801 15:37:39.873730  4643 simulation_world_service.h:225] Has not received any data from /apollo/sensor/gnss/odometry
+I0801 15:37:39.873767  4643 simulation_world_service.h:225] Has not received any data from /apollo/storytelling
+I0801 15:37:39.873772  4643 simulation_world_service.h:225] Has not received any data from /apollo/perception/obstacles
+I0801 15:37:39.873777  4643 simulation_world_service.h:225] Has not received any data from /apollo/planning
+I0801 15:37:39.873781  4643 simulation_world_service.h:225] Has not received any data from /apollo/control
+I0801 15:37:49.875705  4643 simulation_world_service.h:225] Has not received any data from /apollo/sensor/gnss/odometry
+I0801 15:37:49.875743  4643 simulation_world_service.h:225] Has not received any data from /apollo/storytelling
+I0801 15:37:49.875747  4643 simulation_world_service.h:225] Has not received any data from /apollo/perception/obstacles
+I0801 15:37:49.875753  4643 simulation_world_service.h:225] Has not received any data from /apollo/planning
+I0801 15:37:49.875757  4643 simulation_world_service.h:225] Has not received any data from /apollo/control
+W0801 15:37:56.977694  4710 rate.cc:95] Detect forward jumps in time
+I0801 15:37:59.873706  4644 simulation_world_service.h:225] Has not received any data from /apollo/sensor/gnss/odometry
+I0801 15:37:59.873739  4644 simulation_world_service.h:225] Has not received any data from /apollo/storytelling
+I0801 15:37:59.873744  4644 simulation_world_service.h:225] Has not received any data from /apollo/perception/obstacles
+I0801 15:37:59.873749  4644 simulation_world_service.h:225] Has not received any data from /apollo/planning
+I0801 15:37:59.873752  4644 simulation_world_service.h:225] Has not received any data from /apollo/control
+I0801 15:38:09.873688  4644 simulation_world_service.h:225] Has not received any data from /apollo/sensor/gnss/odometry
+I0801 15:38:09.873716  4644 simulation_world_service.h:225] Has not received any data from /apollo/storytelling
+I0801 15:38:09.873720  4644 simulation_world_service.h:225] Has not received any data from /apollo/perception/obstacles
+I0801 15:38:09.873725  4644 simulation_world_service.h:225] Has not received any data from /apollo/planning
+I0801 15:38:09.873728  4644 simulation_world_service.h:225] Has not received any data from /apollo/control
+I0801 15:38:19.873747  4643 simulation_world_service.h:225] Has not received any data from /apollo/sensor/gnss/odometry
+I0801 15:38:19.873780  4643 simulation_world_service.h:225] Has not received any data from /apollo/storytelling
+I0801 15:38:19.873785  4643 simulation_world_service.h:225] Has not received any data from /apollo/perception/obstacles
+I0801 15:38:19.873790  4643 simulation_world_service.h:225] Has not received any data from /apollo/planning
+I0801 15:38:19.873795  4643 simulation_world_service.h:225] Has not received any data from /apollo/control
+I0801 15:38:29.873700  4642 simulation_world_service.h:225] Has not received any data from /apollo/sensor/gnss/odometry
+I0801 15:38:29.873739  4642 simulation_world_service.h:225] Has not received any data from /apollo/storytelling
+I0801 15:38:29.873744  4642 simulation_world_service.h:225] Has not received any data from /apollo/perception/obstacles
+I0801 15:38:29.873749  4642 simulation_world_service.h:225] Has not received any data from /apollo/planning
+I0801 15:38:29.873754  4642 simulation_world_service.h:225] Has not received any data from /apollo/control
+I0801 15:38:39.873692  4643 simulation_world_service.h:225] Has not received any data from /apollo/sensor/gnss/odometry
+I0801 15:38:39.873720  4643 simulation_world_service.h:225] Has not received any data from /apollo/storytelling
+I0801 15:38:39.873724  4643 simulation_world_service.h:225] Has not received any data from /apollo/perception/obstacles
+I0801 15:38:39.873729  4643 simulation_world_service.h:225] Has not received any data from /apollo/planning
+I0801 15:38:39.873733  4643 simulation_world_service.h:225] Has not received any data from /apollo/control
+W0801 15:38:46.389295  4710 rate.cc:95] Detect forward jumps in time
+W0801 15:38:46.395665  4710 rate.cc:95] Detect forward jumps in time
+W0801 15:38:48.178357  4710 rate.cc:95] Detect forward jumps in time
+I0801 15:38:49.875726  4642 simulation_world_service.h:225] Has not received any data from /apollo/sensor/gnss/odometry
+I0801 15:38:49.875761  4642 simulation_world_service.h:225] Has not received any data from /apollo/storytelling
+I0801 15:38:49.875766  4642 simulation_world_service.h:225] Has not received any data from /apollo/perception/obstacles
+I0801 15:38:49.875771  4642 simulation_world_service.h:225] Has not received any data from /apollo/planning
+I0801 15:38:49.875775  4642 simulation_world_service.h:225] Has not received any data from /apollo/control
+I0801 15:38:59.873694  4642 simulation_world_service.h:225] Has not received any data from /apollo/sensor/gnss/odometry
+I0801 15:38:59.873723  4642 simulation_world_service.h:225] Has not received any data from /apollo/storytelling
+I0801 15:38:59.873726  4642 simulation_world_service.h:225] Has not received any data from /apollo/perception/obstacles
+I0801 15:38:59.873731  4642 simulation_world_service.h:225] Has not received any data from /apollo/planning
+I0801 15:38:59.873734  4642 simulation_world_service.h:225] Has not received any data from /apollo/control
+W0801 15:39:01.337559  4710 rate.cc:95] Detect forward jumps in time
+I0801 15:39:09.873734  4642 simulation_world_service.h:225] Has not received any data from /apollo/sensor/gnss/odometry
+I0801 15:39:09.873766  4642 simulation_world_service.h:225] Has not received any data from /apollo/storytelling
+I0801 15:39:09.873771  4642 simulation_world_service.h:225] Has not received any data from /apollo/perception/obstacles
+I0801 15:39:09.873777  4642 simulation_world_service.h:225] Has not received any data from /apollo/planning
+I0801 15:39:09.873781  4642 simulation_world_service.h:225] Has not received any data from /apollo/control
+W0801 15:39:16.577584  4710 rate.cc:95] Detect forward jumps in time
+I0801 15:39:19.873703  4642 simulation_world_service.h:225] Has not received any data from /apollo/sensor/gnss/odometry
+I0801 15:39:19.873739  4642 simulation_world_service.h:225] Has not received any data from /apollo/storytelling
+I0801 15:39:19.873746  4642 simulation_world_service.h:225] Has not received any data from /apollo/perception/obstacles
+I0801 15:39:19.873755  4642 simulation_world_service.h:225] Has not received any data from /apollo/planning
+I0801 15:39:19.873761  4642 simulation_world_service.h:225] Has not received any data from /apollo/control
+I0801 15:39:29.875711  4644 simulation_world_service.h:225] Has not received any data from /apollo/sensor/gnss/odometry
+I0801 15:39:29.875741  4644 simulation_world_service.h:225] Has not received any data from /apollo/storytelling
+I0801 15:39:29.875746  4644 simulation_world_service.h:225] Has not received any data from /apollo/perception/obstacles
+I0801 15:39:29.875751  4644 simulation_world_service.h:225] Has not received any data from /apollo/planning
+I0801 15:39:29.875756  4644 simulation_world_service.h:225] Has not received any data from /apollo/control
+I0801 15:39:39.873713  4644 simulation_world_service.h:225] Has not received any data from /apollo/sensor/gnss/odometry
+I0801 15:39:39.873742  4644 simulation_world_service.h:225] Has not received any data from /apollo/storytelling
+I0801 15:39:39.873747  4644 simulation_world_service.h:225] Has not received any data from /apollo/perception/obstacles
+I0801 15:39:39.873752  4644 simulation_world_service.h:225] Has not received any data from /apollo/planning
+I0801 15:39:39.873756  4644 simulation_world_service.h:225] Has not received any data from /apollo/control
+W0801 15:39:42.878556  4710 rate.cc:95] Detect forward jumps in time
+I0801 15:39:49.873709  4644 simulation_world_service.h:225] Has not received any data from /apollo/sensor/gnss/odometry
+I0801 15:39:49.873744  4644 simulation_world_service.h:225] Has not received any data from /apollo/storytelling
+I0801 15:39:49.873747  4644 simulation_world_service.h:225] Has not received any data from /apollo/perception/obstacles
+I0801 15:39:49.873752  4644 simulation_world_service.h:225] Has not received any data from /apollo/planning
+I0801 15:39:49.873755  4644 simulation_world_service.h:225] Has not received any data from /apollo/control
+W0801 15:39:57.681116  4710 rate.cc:95] Detect forward jumps in time
+W0801 15:39:57.783619  4710 rate.cc:95] Detect forward jumps in time
+W0801 15:39:57.787636  4710 rate.cc:95] Detect forward jumps in time
+I0801 15:39:59.877413  4642 simulation_world_service.h:225] Has not received any data from /apollo/sensor/gnss/odometry
+I0801 15:39:59.877486  4642 simulation_world_service.h:225] Has not received any data from /apollo/storytelling
+I0801 15:39:59.877496  4642 simulation_world_service.h:225] Has not received any data from /apollo/perception/obstacles
+I0801 15:39:59.877506  4642 simulation_world_service.h:225] Has not received any data from /apollo/planning
+I0801 15:39:59.877512  4642 simulation_world_service.h:225] Has not received any data from /apollo/control
+W0801 15:40:00.480371  4710 rate.cc:95] Detect forward jumps in time
+W0801 15:40:01.482631  4710 rate.cc:95] Detect forward jumps in time
+W0801 15:40:01.581923  4710 rate.cc:95] Detect forward jumps in time
+W0801 15:40:01.642899  4710 rate.cc:95] Detect forward jumps in time
+W0801 15:40:02.680310  4710 rate.cc:95] Detect forward jumps in time
+I0801 15:40:09.874449  4644 simulation_world_service.h:225] Has not received any data from /apollo/sensor/gnss/odometry
+I0801 15:40:09.874478  4644 simulation_world_service.h:225] Has not received any data from /apollo/storytelling
+I0801 15:40:09.874482  4644 simulation_world_service.h:225] Has not received any data from /apollo/perception/obstacles
+I0801 15:40:09.874487  4644 simulation_world_service.h:225] Has not received any data from /apollo/planning
+I0801 15:40:09.874491  4644 simulation_world_service.h:225] Has not received any data from /apollo/control
+I0801 15:40:19.874513  4642 simulation_world_service.h:225] Has not received any data from /apollo/sensor/gnss/odometry
+I0801 15:40:19.874573  4642 simulation_world_service.h:225] Has not received any data from /apollo/storytelling
+I0801 15:40:19.874577  4642 simulation_world_service.h:225] Has not received any data from /apollo/perception/obstacles
+I0801 15:40:19.874583  4642 simulation_world_service.h:225] Has not received any data from /apollo/planning
+I0801 15:40:19.874586  4642 simulation_world_service.h:225] Has not received any data from /apollo/control
+I0801 15:40:29.874444  4644 simulation_world_service.h:225] Has not received any data from /apollo/sensor/gnss/odometry
+I0801 15:40:29.874471  4644 simulation_world_service.h:225] Has not received any data from /apollo/storytelling
+I0801 15:40:29.874475  4644 simulation_world_service.h:225] Has not received any data from /apollo/perception/obstacles
+I0801 15:40:29.874480  4644 simulation_world_service.h:225] Has not received any data from /apollo/planning
+I0801 15:40:29.874485  4644 simulation_world_service.h:225] Has not received any data from /apollo/control
+W0801 15:40:35.638759  4710 rate.cc:95] Detect forward jumps in time
+I0801 15:40:39.874442  4644 simulation_world_service.h:225] Has not received any data from /apollo/sensor/gnss/odometry
+I0801 15:40:39.874475  4644 simulation_world_service.h:225] Has not received any data from /apollo/storytelling
+I0801 15:40:39.874480  4644 simulation_world_service.h:225] Has not received any data from /apollo/perception/obstacles
+I0801 15:40:39.874485  4644 simulation_world_service.h:225] Has not received any data from /apollo/planning
+I0801 15:40:39.874488  4644 simulation_world_service.h:225] Has not received any data from /apollo/control
+W0801 15:40:43.876533  4710 rate.cc:95] Detect forward jumps in time
+I0801 15:40:49.874473  4644 simulation_world_service.h:225] Has not received any data from /apollo/sensor/gnss/odometry
+I0801 15:40:49.874500  4644 simulation_world_service.h:225] Has not received any data from /apollo/storytelling
+I0801 15:40:49.874503  4644 simulation_world_service.h:225] Has not received any data from /apollo/perception/obstacles
+I0801 15:40:49.874508  4644 simulation_world_service.h:225] Has not received any data from /apollo/planning
+I0801 15:40:49.874513  4644 simulation_world_service.h:225] Has not received any data from /apollo/control
+W0801 15:40:55.264714  4710 rate.cc:95] Detect forward jumps in time
+W0801 15:40:55.564049  4710 rate.cc:95] Detect forward jumps in time
+W0801 15:40:55.578536  4710 rate.cc:95] Detect forward jumps in time
+W0801 15:40:55.612089  4710 rate.cc:95] Detect forward jumps in time
+W0801 15:40:55.628453  4710 rate.cc:95] Detect forward jumps in time
+W0801 15:40:55.646961  4710 rate.cc:95] Detect forward jumps in time
+W0801 15:40:56.277294  4710 rate.cc:95] Detect forward jumps in time
+W0801 15:40:58.775141  4710 rate.cc:95] Detect forward jumps in time
+W0801 15:40:59.590008  4710 rate.cc:95] Detect forward jumps in time
+W0801 15:40:59.654932  4710 rate.cc:95] Detect forward jumps in time
+W0801 15:40:59.793422  4710 rate.cc:95] Detect forward jumps in time
+W0801 15:40:59.798550  4710 rate.cc:95] Detect forward jumps in time
+W0801 15:40:59.808007  4710 rate.cc:95] Detect forward jumps in time
+I0801 15:40:59.875106  4642 simulation_world_service.h:225] Has not received any data from /apollo/sensor/gnss/odometry
+I0801 15:40:59.875144  4642 simulation_world_service.h:225] Has not received any data from /apollo/storytelling
+I0801 15:40:59.875152  4642 simulation_world_service.h:225] Has not received any data from /apollo/perception/obstacles
+I0801 15:40:59.875162  4642 simulation_world_service.h:225] Has not received any data from /apollo/planning
+I0801 15:40:59.875169  4642 simulation_world_service.h:225] Has not received any data from /apollo/control
+W0801 15:41:00.154994  4710 rate.cc:95] Detect forward jumps in time
+W0801 15:41:00.357745  4710 rate.cc:95] Detect forward jumps in time
+W0801 15:41:00.387955  4710 rate.cc:95] Detect forward jumps in time
+W0801 15:41:00.692831  4710 rate.cc:95] Detect forward jumps in time
+W0801 15:41:00.757931  4710 rate.cc:95] Detect forward jumps in time
+W0801 15:41:00.787859  4710 rate.cc:95] Detect forward jumps in time
+W0801 15:41:03.044301  4710 rate.cc:95] Detect forward jumps in time
+W0801 15:41:04.378558  4710 rate.cc:95] Detect forward jumps in time
+W0801 15:41:04.451267  4710 rate.cc:95] Detect forward jumps in time
+W0801 15:41:04.574564  4710 rate.cc:95] Detect forward jumps in time
+W0801 15:41:04.657267  4710 rate.cc:95] Detect forward jumps in time
+W0801 15:41:04.698173  4710 rate.cc:95] Detect forward jumps in time
+W0801 15:41:04.770653  4710 rate.cc:95] Detect forward jumps in time
+W0801 15:41:04.776875  4710 rate.cc:95] Detect forward jumps in time
+W0801 15:41:04.886566  4710 rate.cc:95] Detect forward jumps in time
+W0801 15:41:04.886620  4710 rate.cc:95] Detect forward jumps in time
+W0801 15:41:05.052731  4710 rate.cc:95] Detect forward jumps in time
+W0801 15:41:05.469041  4710 rate.cc:95] Detect forward jumps in time
+W0801 15:41:05.767520  4710 rate.cc:95] Detect forward jumps in time
+W0801 15:41:05.885843  4710 rate.cc:95] Detect forward jumps in time
+W0801 15:41:05.994118  4710 rate.cc:95] Detect forward jumps in time
+W0801 15:41:06.002300  4710 rate.cc:95] Detect forward jumps in time
+W0801 15:41:06.390072  4710 rate.cc:95] Detect forward jumps in time
+W0801 15:41:06.750589  4710 rate.cc:95] Detect forward jumps in time
+W0801 15:41:06.750654  4710 rate.cc:95] Detect forward jumps in time
+W0801 15:41:06.810632  4710 rate.cc:95] Detect forward jumps in time
+W0801 15:41:06.908004  4710 rate.cc:95] Detect forward jumps in time
+W0801 15:41:06.986572  4710 rate.cc:95] Detect forward jumps in time
+W0801 15:41:07.540087  4710 rate.cc:95] Detect forward jumps in time
+W0801 15:41:08.443948  4710 rate.cc:95] Detect forward jumps in time
+W0801 15:41:08.444003  4710 rate.cc:95] Detect forward jumps in time
+W0801 15:41:08.578619  4710 rate.cc:95] Detect forward jumps in time
+W0801 15:41:08.970608  4710 rate.cc:95] Detect forward jumps in time
+W0801 15:41:09.095302  4710 rate.cc:95] Detect forward jumps in time
+W0801 15:41:09.342566  4710 rate.cc:95] Detect forward jumps in time
+W0801 15:41:09.342620  4710 rate.cc:95] Detect forward jumps in time
+W0801 15:41:09.585815  4710 rate.cc:95] Detect forward jumps in time
+I0801 15:41:09.876109  4642 simulation_world_service.h:225] Has not received any data from /apollo/sensor/gnss/odometry
+I0801 15:41:09.876154  4642 simulation_world_service.h:225] Has not received any data from /apollo/storytelling
+I0801 15:41:09.876158  4642 simulation_world_service.h:225] Has not received any data from /apollo/perception/obstacles
+I0801 15:41:09.876165  4642 simulation_world_service.h:225] Has not received any data from /apollo/planning
+I0801 15:41:09.876171  4642 simulation_world_service.h:225] Has not received any data from /apollo/control
+W0801 15:41:10.190968  4710 rate.cc:95] Detect forward jumps in time
+W0801 15:41:10.206405  4710 rate.cc:95] Detect forward jumps in time
+W0801 15:41:10.218051  4710 rate.cc:95] Detect forward jumps in time
+W0801 15:41:10.586542  4710 rate.cc:95] Detect forward jumps in time
+W0801 15:41:10.602563  4710 rate.cc:95] Detect forward jumps in time
+W0801 15:41:10.902148  4710 rate.cc:95] Detect forward jumps in time
+W0801 15:41:11.998576  4710 rate.cc:95] Detect forward jumps in time
+W0801 15:41:12.043431  4710 rate.cc:95] Detect forward jumps in time
+W0801 15:41:12.079989  4710 rate.cc:95] Detect forward jumps in time
+W0801 15:41:12.836418  4710 rate.cc:95] Detect forward jumps in time
+W0801 15:41:14.138684  4710 rate.cc:95] Detect forward jumps in time
+W0801 15:41:14.443902  4710 rate.cc:95] Detect forward jumps in time
+W0801 15:41:14.575896  4710 rate.cc:95] Detect forward jumps in time
+W0801 15:41:14.684379  4710 rate.cc:95] Detect forward jumps in time
+W0801 15:41:14.737918  4710 rate.cc:95] Detect forward jumps in time
+W0801 15:41:14.747861  4710 rate.cc:95] Detect forward jumps in time
+W0801 15:41:14.780081  4710 rate.cc:95] Detect forward jumps in time
+W0801 15:41:14.940735  4710 rate.cc:95] Detect forward jumps in time
+I0801 15:41:19.873970  4644 simulation_world_service.h:225] Has not received any data from /apollo/sensor/gnss/odometry
+I0801 15:41:19.874002  4644 simulation_world_service.h:225] Has not received any data from /apollo/storytelling
+I0801 15:41:19.874007  4644 simulation_world_service.h:225] Has not received any data from /apollo/perception/obstacles
+I0801 15:41:19.874012  4644 simulation_world_service.h:225] Has not received any data from /apollo/planning
+I0801 15:41:19.874017  4644 simulation_world_service.h:225] Has not received any data from /apollo/control
+W0801 15:41:21.278599  4710 rate.cc:95] Detect forward jumps in time
+W0801 15:41:21.534118  4710 rate.cc:95] Detect forward jumps in time
+W0801 15:41:22.650552  4710 rate.cc:95] Detect forward jumps in time
+W0801 15:41:23.150560  4710 rate.cc:95] Detect forward jumps in time
+W0801 15:41:23.442003  4710 rate.cc:95] Detect forward jumps in time
+W0801 15:41:23.482723  4710 rate.cc:95] Detect forward jumps in time
+W0801 15:41:23.541057  4710 rate.cc:95] Detect forward jumps in time
+W0801 15:41:24.867727  4710 rate.cc:95] Detect forward jumps in time
+W0801 15:41:25.630571  4710 rate.cc:95] Detect forward jumps in time
+W0801 15:41:26.064769  4710 rate.cc:95] Detect forward jumps in time
+W0801 15:41:27.137253  4710 rate.cc:95] Detect forward jumps in time
+W0801 15:41:27.189282  4710 rate.cc:95] Detect forward jumps in time
+I0801 15:41:29.875416  4642 simulation_world_service.h:225] Has not received any data from /apollo/sensor/gnss/odometry
+I0801 15:41:29.875444  4642 simulation_world_service.h:225] Has not received any data from /apollo/storytelling
+I0801 15:41:29.875448  4642 simulation_world_service.h:225] Has not received any data from /apollo/perception/obstacles
+I0801 15:41:29.875452  4642 simulation_world_service.h:225] Has not received any data from /apollo/planning
+I0801 15:41:29.875455  4642 simulation_world_service.h:225] Has not received any data from /apollo/control
+I0801 15:41:29.914083  4651 hmi_worker.cc:336] HMIAction STOP_MODULE(Camera) was triggered!
+W0801 15:41:29.923270  4710 rate.cc:95] Detect forward jumps in time
+E0801 15:41:29.956907  4651 hmi_worker.cc:126] FAILED(-1): pkill -f "/apollo/modules/drivers/camera/dag/camera.dag"
+I0801 15:41:39.875404  4643 simulation_world_service.h:225] Has not received any data from /apollo/sensor/gnss/odometry
+I0801 15:41:39.875454  4643 simulation_world_service.h:225] Has not received any data from /apollo/storytelling
+I0801 15:41:39.875460  4643 simulation_world_service.h:225] Has not received any data from /apollo/perception/obstacles
+I0801 15:41:39.875481  4643 simulation_world_service.h:225] Has not received any data from /apollo/planning
+I0801 15:41:39.875486  4643 simulation_world_service.h:225] Has not received any data from /apollo/control

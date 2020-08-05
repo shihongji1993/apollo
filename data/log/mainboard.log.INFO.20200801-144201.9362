@@ -1,0 +1,23 @@
+Log file created at: 2020/08/01 14:42:01
+Running on machine: in_dev_docker
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+W0801 14:42:01.234524  9362 scheduler_factory.cc:63] No sched conf found, use default conf.
+I0801 14:42:01.241979  9387 processor.cc:41] processor_tid: 9387
+I0801 14:42:01.250535  9390 processor.cc:41] processor_tid: 9390
+I0801 14:42:01.258551  9393 processor.cc:41] processor_tid: 9393
+I0801 14:42:01.270581  9400 processor.cc:41] processor_tid: 9400
+I0801 14:42:01.282614  9407 processor.cc:41] processor_tid: 9407
+I0801 14:42:01.291146  9412 processor.cc:41] processor_tid: 9412
+I0801 14:42:01.293663  9421 processor.cc:41] processor_tid: 9421
+I0801 14:42:01.303723  9427 processor.cc:41] processor_tid: 9427
+I0801 14:42:01.326093  9434 processor.cc:41] processor_tid: 9434
+I0801 14:42:01.338569  9437 processor.cc:41] processor_tid: 9437
+I0801 14:42:01.350528  9443 processor.cc:41] processor_tid: 9443
+I0801 14:42:01.366549  9449 processor.cc:41] processor_tid: 9449
+I0801 14:42:01.382711  9455 processor.cc:41] processor_tid: 9455
+I0801 14:42:01.402549  9463 processor.cc:41] processor_tid: 9463
+I0801 14:42:01.410653  9467 processor.cc:41] processor_tid: 9467
+I0801 14:42:01.443804  9469 processor.cc:41] processor_tid: 9469
+I0801 14:42:01.443814  9362 init.cc:103] Register exit handle succ.
+I0801 14:42:01.471329  9362 module_controller.cc:65] Start initialize dag: /apollo/modules/localization/dag/dag_streaming_msf_localization.dag
+I0801 14:42:01.471480  9362 class_loader.cc:37] Begin LoadLibrary: /apollo/bazel-bin/modules/localization/msf/libmsf_localization_component.so

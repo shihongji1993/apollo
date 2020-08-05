@@ -16,12 +16,14 @@
 
 #include "modules/drivers/radar/cub_radar/protocol/cluster_general_info_100.h"
 
+#include <iostream>
+#include <string>
+
 #include "glog/logging.h"
 #include "modules/common/time/time.h"
 #include "modules/drivers/canbus/common/byte.h"
 #include "modules/drivers/canbus/common/canbus_consts.h"
 #include "modules/drivers/radar/cub_radar/protocol/const_vars.h"
-
 namespace apollo {
 namespace drivers {
 namespace cub_radar {
@@ -41,13 +43,20 @@ void ClusterGeneralInfo100::Parse(const std::uint8_t* bytes, int32_t length,
   obs->set_lateral_vel(LateryVelocity(bytes, length));
   obs->set_longitude_dist(LongitudePosition(bytes, length));
   obs->set_lateral_dist(LateralPosition(bytes, length));
+  // obs->set_longitude_dist_rms((double)(0.0));
+  // obs->set_lateral_dist_rms((double)(0.0));
+  // obs->set_longitude_vel_rms((double)(0.0));
+  // obs->set_lateral_vel_rms((double)(0.0));
+  // obs->set_probexist((double)(1.0));
+  // obs->set_dynprop((int)(0));    // state of cluster
+  // obs->set_rcs((double)(15.0));  // Radar Cross section
+
   double timestamp = apollo::common::time::Clock::NowInSeconds();
   auto header = obs->mutable_header();
   header->CopyFrom(cub_radar->header());
   header->set_timestamp_sec(timestamp);
-
-  // visual();
-
+  // AINFO << (cub_radar->header().timestamp_sec());
+  // printf << ObstacleId(bytes, length) << std::endl;
   AINFO << std::hex << (int)(bytes[0]) << " " << (int)(bytes[1]) << " "
         << (int)(bytes[2]) << " " << (int)(bytes[3]) << " " << (int)(bytes[4])
         << " " << (int)(bytes[5]) << " " << (int)(bytes[6]) << " "
@@ -59,22 +68,10 @@ void ClusterGeneralInfo100::Parse(const std::uint8_t* bytes, int32_t length,
         << " id " << ObstacleId(bytes, length);
 }
 
-double InverseCode(uint32_t x) {
-  double ret;
-  if (x > 0b100000000000) {
-    ret = 0XFFF - x + 1;
-    ret = -ret;
-  } else {
-    ret = x;
-  }
-  return ret;
-}
-
 int ClusterGeneralInfo100::ObstacleId(const std::uint8_t* bytes,
                                       int32_t length) const {
   Byte t0(bytes + 1);
   uint32_t x = t0.get_byte(0, 8);
-
   int ret = x;
   return ret;
 }
@@ -83,14 +80,13 @@ double ClusterGeneralInfo100::LateryVelocity(const std::uint8_t* bytes,
                                              int32_t length) const {
   Byte t0(bytes + 2);
   uint32_t x = t0.get_byte(0, 8);
-
   Byte t1(bytes + 3);
   uint32_t t = t1.get_byte(4, 4);
   x <<= 4;
   x |= t;
   double ret;
-  ret = InverseCode(x) * 0.1;
-  return ret;
+  ret = InverseCode(x);
+  return ret * 0.1;
 }
 
 double ClusterGeneralInfo100::LongitudeVelocity(const std::uint8_t* bytes,
@@ -103,8 +99,8 @@ double ClusterGeneralInfo100::LongitudeVelocity(const std::uint8_t* bytes,
   x <<= 8;
   x |= t;
   double ret;
-  ret = InverseCode(x) * 0.1;
-  return ret;
+  ret = InverseCode(x);
+  return ret * 0.1;
 }
 
 double ClusterGeneralInfo100::LateralPosition(const std::uint8_t* bytes,
@@ -116,21 +112,31 @@ double ClusterGeneralInfo100::LateralPosition(const std::uint8_t* bytes,
   uint32_t t = t1.get_byte(4, 4);
   x <<= 4;
   x |= t;
-  double ret = InverseCode(x) * 0.1;
-  return ret;
+  double ret = InverseCode(x);
+  return ret * 0.1;
 }
 
 double ClusterGeneralInfo100::LongitudePosition(const std::uint8_t* bytes,
                                                 int32_t length) const {
   Byte t0(bytes + 6);
   uint32_t x = t0.get_byte(0, 4);
-
   Byte t1(bytes + 7);
   uint32_t t = t1.get_byte(0, 8);
   x <<= 8;
   x |= t;
   double ret;
-  ret = InverseCode(x) * 0.1;
+  ret = InverseCode(x);
+  return ret * 0.1;
+}
+
+double ClusterGeneralInfo100::InverseCode(uint32_t x) const {
+  double ret;
+  if (x > 0b100000000000) {
+    ret = 0XFFF - x + 1;
+    ret = -ret;
+  } else {
+    ret = x;
+  }
   return ret;
 }
 }  // namespace cub_radar

@@ -1,0 +1,64 @@
+Log file created at: 2020/08/01 14:42:01
+Running on machine: in_dev_docker
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+W0801 14:42:01.600839  9397 scheduler_factory.cc:63] No sched conf found, use default conf.
+I0801 14:42:01.614732  9491 processor.cc:41] processor_tid: 9491
+I0801 14:42:01.629981  9494 processor.cc:41] processor_tid: 9494
+I0801 14:42:01.656950  9496 processor.cc:41] processor_tid: 9496
+I0801 14:42:01.667008  9502 processor.cc:41] processor_tid: 9502
+I0801 14:42:01.684953  9505 processor.cc:41] processor_tid: 9505
+I0801 14:42:01.696317  9511 processor.cc:41] processor_tid: 9511
+I0801 14:42:01.703088  9518 processor.cc:41] processor_tid: 9518
+I0801 14:42:01.710834  9522 processor.cc:41] processor_tid: 9522
+I0801 14:42:01.721506  9528 processor.cc:41] processor_tid: 9528
+I0801 14:42:01.731041  9534 processor.cc:41] processor_tid: 9534
+I0801 14:42:01.738292  9540 processor.cc:41] processor_tid: 9540
+I0801 14:42:01.745792  9544 processor.cc:41] processor_tid: 9544
+I0801 14:42:01.759613  9549 processor.cc:41] processor_tid: 9549
+I0801 14:42:01.765738  9560 processor.cc:41] processor_tid: 9560
+I0801 14:42:01.778833  9566 processor.cc:41] processor_tid: 9566
+I0801 14:42:01.790618  9573 processor.cc:41] processor_tid: 9573
+I0801 14:42:01.790632  9397 init.cc:103] Register exit handle succ.
+I0801 14:42:01.793323  9397 module_controller.cc:65] Start initialize dag: /apollo/modules/drivers/velodyne/dag/velodyne.dag
+I0801 14:42:01.794402  9397 class_loader.cc:37] Begin LoadLibrary: /apollo/bazel-bin/modules/drivers/velodyne/driver/libvelodyne_driver_component.so
+I0801 14:42:05.083864  9397 class_loader.cc:37] Begin LoadLibrary: /apollo/bazel-bin/modules/drivers/velodyne/parser/libvelodyne_convert_component.so
+I0801 14:42:05.695184  9397 scheduler.cc:54] create croutine: velodyne_128_convert_/apollo/sensor/lidar128/Scan
+I0801 14:42:05.696384  9397 scheduler.cc:54] create croutine: velodyne_128_convert
+I0801 14:42:05.727200  9397 scheduler.cc:54] create croutine: velodyne_16_front_up_convert_/apollo/sensor/lidar16/front/up/Scan
+I0801 14:42:05.734270  9397 scheduler.cc:54] create croutine: velodyne_16_front_up_convert
+I0801 14:42:05.782635  9397 scheduler.cc:54] create croutine: velodyne_16_front_center_convert_/apollo/sensor/lidar16/front/center/Scan
+I0801 14:42:05.786322  9397 scheduler.cc:54] create croutine: velodyne_16_front_center_convert
+I0801 14:42:05.845170  9397 scheduler.cc:54] create croutine: velodyne_16_rear_left_convert_/apollo/sensor/lidar16/rear/left/Scan
+I0801 14:42:05.848948  9397 scheduler.cc:54] create croutine: velodyne_16_rear_left_convert
+I0801 14:42:06.002456  9397 scheduler.cc:54] create croutine: velodyne_16_rear_right_convert_/apollo/sensor/lidar16/rear/right/Scan
+I0801 14:42:06.004657  9397 scheduler.cc:54] create croutine: velodyne_16_rear_right_convert
+I0801 14:42:06.004951  9397 class_loader.cc:37] Begin LoadLibrary: /apollo/bazel-bin/modules/drivers/velodyne/fusion/libvelodyne_fusion_component.so
+I0801 14:42:06.210909  9397 scheduler.cc:54] create croutine: transform_listener_1596264126209529823_/tf
+I0801 14:42:06.215016  9397 scheduler.cc:54] create croutine: transform_listener_1596264126209529823_/tf_static
+I0801 14:42:06.215449  9397 scheduler.cc:54] create croutine: /internal/task0
+I0801 14:42:06.215489  9397 scheduler.cc:54] create croutine: /internal/task1
+I0801 14:42:06.215520  9397 scheduler.cc:54] create croutine: /internal/task2
+I0801 14:42:06.215603  9397 scheduler.cc:54] create croutine: /internal/task3
+I0801 14:42:06.215631  9397 scheduler.cc:54] create croutine: /internal/task4
+I0801 14:42:06.215659  9397 scheduler.cc:54] create croutine: /internal/task5
+I0801 14:42:06.215719  9397 scheduler.cc:54] create croutine: /internal/task6
+I0801 14:42:06.215776  9397 scheduler.cc:54] create croutine: /internal/task7
+I0801 14:42:06.215831  9397 scheduler.cc:54] create croutine: /internal/task8
+I0801 14:42:06.215858  9397 scheduler.cc:54] create croutine: /internal/task9
+I0801 14:42:06.215883  9397 scheduler.cc:54] create croutine: /internal/task10
+I0801 14:42:06.215914  9397 scheduler.cc:54] create croutine: /internal/task11
+I0801 14:42:06.215976  9397 scheduler.cc:54] create croutine: /internal/task12
+I0801 14:42:06.216003  9397 scheduler.cc:54] create croutine: /internal/task13
+I0801 14:42:06.216032  9397 scheduler.cc:54] create croutine: /internal/task14
+I0801 14:42:06.216066  9397 scheduler.cc:54] create croutine: /internal/task15
+I0801 14:42:06.223276  9397 scheduler.cc:54] create croutine: velodyne_fusion_/apollo/sensor/lidar16/rear/left/PointCloud2
+I0801 14:42:06.230374  9397 scheduler.cc:54] create croutine: velodyne_fusion_/apollo/sensor/lidar16/rear/right/PointCloud2
+I0801 14:42:06.264150  9397 scheduler.cc:54] create croutine: velodyne_fusion_/apollo/sensor/lidar16/front/center/PointCloud2
+I0801 14:42:06.267005  9397 scheduler.cc:54] create croutine: velodyne_fusion
+I0801 14:42:06.267482  9397 class_loader.cc:37] Begin LoadLibrary: /apollo/bazel-bin/modules/drivers/velodyne/compensator/libvelodyne_compensator_component.so
+I0801 14:42:06.561187  9397 scheduler.cc:54] create croutine: velodyne16_fusion_compensator_/apollo/sensor/lidar16/fusion/PointCloud2
+I0801 14:42:06.561902  9397 scheduler.cc:54] create croutine: velodyne16_fusion_compensator
+I0801 14:42:06.565774  9397 scheduler.cc:54] create croutine: velodyne16_front_up_compensator_/apollo/sensor/lidar16/front/up/PointCloud2
+I0801 14:42:06.566380  9397 scheduler.cc:54] create croutine: velodyne16_front_up_compensator
+I0801 14:42:06.571828  9397 scheduler.cc:54] create croutine: velodyne128_compensator_/apollo/sensor/lidar128/PointCloud2
+I0801 14:42:06.573210  9397 scheduler.cc:54] create croutine: velodyne128_compensator

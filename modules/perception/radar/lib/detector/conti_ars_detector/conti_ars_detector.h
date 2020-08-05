@@ -18,7 +18,6 @@
 #include <string>
 
 #include "cyber/common/macros.h"
-
 #include "modules/perception/radar/common/radar_util.h"
 #include "modules/perception/radar/lib/interface/base_detector.h"
 

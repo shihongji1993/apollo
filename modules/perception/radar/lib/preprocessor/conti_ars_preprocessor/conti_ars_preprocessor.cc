@@ -14,6 +14,7 @@
  * limitations under the License.
  *****************************************************************************/
 #include "modules/perception/radar/lib/preprocessor/conti_ars_preprocessor/conti_ars_preprocessor.h"
+
 #include "modules/perception/lib/utils/perf.h"
 
 namespace apollo {

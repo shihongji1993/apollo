@@ -1,0 +1,44 @@
+Log file created at: 2020/08/01 14:42:01
+Running on machine: in_dev_docker
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+W0801 14:42:01.208932  9360 scheduler_factory.cc:63] No sched conf found, use default conf.
+I0801 14:42:01.214967  9375 processor.cc:41] processor_tid: 9375
+I0801 14:42:01.221052  9376 processor.cc:41] processor_tid: 9376
+I0801 14:42:01.222071  9379 processor.cc:41] processor_tid: 9379
+I0801 14:42:01.234544  9380 processor.cc:41] processor_tid: 9380
+I0801 14:42:01.250576  9386 processor.cc:41] processor_tid: 9386
+I0801 14:42:01.266551  9394 processor.cc:41] processor_tid: 9394
+I0801 14:42:01.282543  9404 processor.cc:41] processor_tid: 9404
+I0801 14:42:01.294629  9411 processor.cc:41] processor_tid: 9411
+I0801 14:42:01.303802  9428 processor.cc:41] processor_tid: 9428
+I0801 14:42:01.314579  9431 processor.cc:41] processor_tid: 9431
+I0801 14:42:01.335036  9435 processor.cc:41] processor_tid: 9435
+I0801 14:42:01.346534  9441 processor.cc:41] processor_tid: 9441
+I0801 14:42:01.362741  9446 processor.cc:41] processor_tid: 9446
+I0801 14:42:01.377327  9454 processor.cc:41] processor_tid: 9454
+I0801 14:42:01.402640  9458 processor.cc:41] processor_tid: 9458
+I0801 14:42:01.406971  9466 processor.cc:41] processor_tid: 9466
+I0801 14:42:01.406980  9360 init.cc:103] Register exit handle succ.
+I0801 14:42:01.423264  9360 module_controller.cc:65] Start initialize dag: /apollo/modules/prediction/dag/prediction.dag
+I0801 14:42:01.423521  9360 class_loader.cc:37] Begin LoadLibrary: /apollo/bazel-bin/modules/prediction/libprediction_component.so
+I0801 14:42:12.976976  9360 scheduler.cc:54] create croutine: prediction_/apollo/planning
+I0801 14:42:12.982055  9360 scheduler.cc:54] create croutine: prediction_/apollo/localization/pose
+I0801 14:42:12.983958  9360 scheduler.cc:54] create croutine: prediction_/apollo/storytelling
+I0801 14:42:13.018211  9360 scheduler.cc:54] create croutine: prediction_/apollo/perception/obstacles
+I0801 14:42:13.020123  9360 scheduler.cc:54] create croutine: prediction
+I0801 14:42:23.725448  9428 scheduler.cc:54] create croutine: /internal/task0
+I0801 14:42:23.725534  9428 scheduler.cc:54] create croutine: /internal/task1
+I0801 14:42:23.725694  9428 scheduler.cc:54] create croutine: /internal/task2
+I0801 14:42:23.725735  9428 scheduler.cc:54] create croutine: /internal/task3
+I0801 14:42:23.725769  9428 scheduler.cc:54] create croutine: /internal/task4
+I0801 14:42:23.725808  9428 scheduler.cc:54] create croutine: /internal/task5
+I0801 14:42:23.725853  9428 scheduler.cc:54] create croutine: /internal/task6
+I0801 14:42:23.725884  9428 scheduler.cc:54] create croutine: /internal/task7
+I0801 14:42:23.725946  9428 scheduler.cc:54] create croutine: /internal/task8
+I0801 14:42:23.725997  9428 scheduler.cc:54] create croutine: /internal/task9
+I0801 14:42:23.726038  9428 scheduler.cc:54] create croutine: /internal/task10
+I0801 14:42:23.726080  9428 scheduler.cc:54] create croutine: /internal/task11
+I0801 14:42:23.726125  9428 scheduler.cc:54] create croutine: /internal/task12
+I0801 14:42:23.726163  9428 scheduler.cc:54] create croutine: /internal/task13
+I0801 14:42:23.726197  9428 scheduler.cc:54] create croutine: /internal/task14
+I0801 14:42:23.726231  9428 scheduler.cc:54] create croutine: /internal/task15

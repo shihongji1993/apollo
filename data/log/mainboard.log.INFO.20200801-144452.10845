@@ -1,0 +1,161 @@
+Log file created at: 2020/08/01 14:44:52
+Running on machine: in_dev_docker
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+W0801 14:44:52.035715 10845 scheduler_factory.cc:63] No sched conf found, use default conf.
+I0801 14:44:52.035845 10848 processor.cc:41] processor_tid: 10848
+I0801 14:44:52.035882 10849 processor.cc:41] processor_tid: 10849
+I0801 14:44:52.035917 10850 processor.cc:41] processor_tid: 10850
+I0801 14:44:52.035953 10851 processor.cc:41] processor_tid: 10851
+I0801 14:44:52.035996 10852 processor.cc:41] processor_tid: 10852
+I0801 14:44:52.036020 10853 processor.cc:41] processor_tid: 10853
+I0801 14:44:52.036057 10854 processor.cc:41] processor_tid: 10854
+I0801 14:44:52.036104 10855 processor.cc:41] processor_tid: 10855
+I0801 14:44:52.036121 10856 processor.cc:41] processor_tid: 10856
+I0801 14:44:52.036149 10857 processor.cc:41] processor_tid: 10857
+I0801 14:44:52.036180 10858 processor.cc:41] processor_tid: 10858
+I0801 14:44:52.036213 10859 processor.cc:41] processor_tid: 10859
+I0801 14:44:52.036242 10860 processor.cc:41] processor_tid: 10860
+I0801 14:44:52.036273 10861 processor.cc:41] processor_tid: 10861
+I0801 14:44:52.036299 10862 processor.cc:41] processor_tid: 10862
+I0801 14:44:52.036326 10863 processor.cc:41] processor_tid: 10863
+I0801 14:44:52.036336 10845 init.cc:103] Register exit handle succ.
+I0801 14:44:52.036814 10845 module_controller.cc:65] Start initialize dag: /apollo/modules/monitor/dag/monitor.dag
+I0801 14:44:52.036902 10845 class_loader.cc:37] Begin LoadLibrary: /apollo/bazel-bin/modules/monitor/libmonitor.so
+I0801 14:44:52.482177 10845 timer.cc:135] start timer [0]
+W0801 14:44:52.770556 10894 rate.cc:95] Detect forward jumps in time
+W0801 14:44:52.798523 10894 rate.cc:95] Detect forward jumps in time
+W0801 14:44:52.806565 10894 rate.cc:95] Detect forward jumps in time
+W0801 14:44:52.814586 10894 rate.cc:95] Detect forward jumps in time
+W0801 14:44:52.822530 10894 rate.cc:95] Detect forward jumps in time
+W0801 14:44:52.826723 10894 rate.cc:95] Detect forward jumps in time
+I0801 14:44:52.999068 10894 scheduler.cc:54] create croutine: /internal/task0
+I0801 14:44:52.999136 10894 scheduler.cc:54] create croutine: /internal/task1
+I0801 14:44:52.999168 10894 scheduler.cc:54] create croutine: /internal/task2
+I0801 14:44:52.999192 10894 scheduler.cc:54] create croutine: /internal/task3
+I0801 14:44:52.999213 10894 scheduler.cc:54] create croutine: /internal/task4
+I0801 14:44:52.999240 10894 scheduler.cc:54] create croutine: /internal/task5
+I0801 14:44:52.999259 10894 scheduler.cc:54] create croutine: /internal/task6
+I0801 14:44:52.999280 10894 scheduler.cc:54] create croutine: /internal/task7
+I0801 14:44:52.999297 10894 scheduler.cc:54] create croutine: /internal/task8
+I0801 14:44:52.999315 10894 scheduler.cc:54] create croutine: /internal/task9
+I0801 14:44:52.999333 10894 scheduler.cc:54] create croutine: /internal/task10
+I0801 14:44:52.999353 10894 scheduler.cc:54] create croutine: /internal/task11
+I0801 14:44:52.999369 10894 scheduler.cc:54] create croutine: /internal/task12
+I0801 14:44:52.999390 10894 scheduler.cc:54] create croutine: /internal/task13
+I0801 14:44:52.999408 10894 scheduler.cc:54] create croutine: /internal/task14
+I0801 14:44:52.999424 10894 scheduler.cc:54] create croutine: /internal/task15
+I0801 14:44:53.000407 10848 scheduler.cc:54] create croutine: monitor_/apollo/hmi/status
+E0801 14:44:53.000820 10848 monitor_manager.cc:51] No HMIStatus was received.
+I0801 14:44:53.504362 10851 scheduler.cc:54] create croutine: monitor_/apollo/canbus/chassis
+I0801 14:44:53.504760 10851 recurrent_runner.cc:30] EsdCanMonitor is running round #1
+I0801 14:44:53.505159 10851 scheduler.cc:54] create croutine: monitor_/apollo/sensor/gnss/gnss_status
+I0801 14:44:53.507028 10851 scheduler.cc:54] create croutine: monitor_/apollo/localization/msf_status
+I0801 14:44:53.511046 10851 scheduler.cc:54] create croutine: monitor_/apollo/common/latency_records
+I0801 14:44:53.511698 10851 scheduler.cc:54] create croutine: monitor_/apollo/sensor/lidar128/compensator/PointCloud2
+W0801 14:44:56.507203 10894 rate.cc:95] Detect forward jumps in time
+W0801 14:44:58.504263 10894 rate.cc:95] Detect forward jumps in time
+W0801 14:45:03.502936 10894 rate.cc:95] Detect forward jumps in time
+W0801 14:45:03.526350 10894 rate.cc:95] Detect forward jumps in time
+W0801 14:45:03.538523 10894 rate.cc:95] Detect forward jumps in time
+W0801 14:45:03.545667 10894 rate.cc:95] Detect forward jumps in time
+W0801 14:45:03.563390 10894 rate.cc:95] Detect forward jumps in time
+W0801 14:45:03.572625 10894 rate.cc:95] Detect forward jumps in time
+I0801 14:45:08.000676 10863 recurrent_runner.cc:30] SummaryMonitor is running round #30
+W0801 14:45:11.706602 10894 rate.cc:95] Detect forward jumps in time
+W0801 14:45:12.622689 10894 rate.cc:95] Detect forward jumps in time
+W0801 14:45:14.135948 10894 rate.cc:95] Detect forward jumps in time
+W0801 14:45:14.181555 10894 rate.cc:95] Detect forward jumps in time
+W0801 14:45:14.186540 10894 rate.cc:95] Detect forward jumps in time
+W0801 14:45:14.192138 10894 rate.cc:95] Detect forward jumps in time
+W0801 14:45:14.196678 10894 rate.cc:95] Detect forward jumps in time
+W0801 14:45:14.250560 10894 rate.cc:95] Detect forward jumps in time
+W0801 14:45:14.264026 10894 rate.cc:95] Detect forward jumps in time
+W0801 14:45:14.282586 10894 rate.cc:95] Detect forward jumps in time
+I0801 14:45:23.000429 10857 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #60
+W0801 14:45:32.186745 10894 rate.cc:95] Detect forward jumps in time
+W0801 14:45:32.210513 10894 rate.cc:95] Detect forward jumps in time
+W0801 14:45:32.214733 10894 rate.cc:95] Detect forward jumps in time
+W0801 14:45:32.258522 10894 rate.cc:95] Detect forward jumps in time
+W0801 14:45:32.266523 10894 rate.cc:95] Detect forward jumps in time
+W0801 14:45:32.272326 10894 rate.cc:95] Detect forward jumps in time
+W0801 14:45:32.276252 10894 rate.cc:95] Detect forward jumps in time
+W0801 14:45:32.521334 10894 rate.cc:95] Detect forward jumps in time
+I0801 14:45:37.999617 10848 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #90
+I0801 14:45:53.003047 10859 recurrent_runner.cc:30] LatencyMonitor is running round #35
+W0801 14:45:55.150523 10894 rate.cc:95] Detect forward jumps in time
+W0801 14:46:04.005808 10894 rate.cc:95] Detect forward jumps in time
+I0801 14:46:08.500174 10850 recurrent_runner.cc:30] LocalizationMonitor is running round #15
+W0801 14:46:10.002676 10894 rate.cc:95] Detect forward jumps in time
+W0801 14:46:11.035382 10894 rate.cc:95] Detect forward jumps in time
+W0801 14:46:11.502583 10894 rate.cc:95] Detect forward jumps in time
+W0801 14:46:13.641861 10894 rate.cc:95] Detect forward jumps in time
+I0801 14:46:24.004206 10863 recurrent_runner.cc:30] LatencyMonitor is running round #52
+W0801 14:46:26.190647 10894 rate.cc:95] Detect forward jumps in time
+W0801 14:46:38.306594 10894 rate.cc:95] Detect forward jumps in time
+I0801 14:46:38.509800 10856 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #211
+I0801 14:46:54.500751 10848 recurrent_runner.cc:30] SummaryMonitor is running round #243
+I0801 14:47:09.500779 10856 recurrent_runner.cc:30] ProcessMonitor is running round #77
+W0801 14:47:14.506613 10894 rate.cc:95] Detect forward jumps in time
+I0801 14:47:24.498924 10853 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #303
+I0801 14:47:39.501049 10859 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #333
+W0801 14:47:42.375178 10894 rate.cc:95] Detect forward jumps in time
+I0801 14:47:55.000854 10859 recurrent_runner.cc:30] LocalizationMonitor is running round #35
+I0801 14:48:10.498942 10850 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #395
+I0801 14:48:25.498893 10862 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #425
+W0801 14:48:30.003382 10894 rate.cc:95] Detect forward jumps in time
+W0801 14:48:33.506820 10894 rate.cc:95] Detect forward jumps in time
+I0801 14:48:41.005194 10859 recurrent_runner.cc:30] SummaryMonitor is running round #456
+I0801 14:48:56.004313 10860 recurrent_runner.cc:30] SummaryMonitor is running round #486
+I0801 14:49:11.501029 10854 recurrent_runner.cc:30] ProcessMonitor is running round #143
+I0801 14:49:26.499115 10863 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #547
+I0801 14:49:41.501324 10851 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #577
+W0801 14:49:54.505839 10894 rate.cc:95] Detect forward jumps in time
+I0801 14:49:57.000133 10859 recurrent_runner.cc:30] SummaryMonitor is running round #608
+W0801 14:50:00.682583 10894 rate.cc:95] Detect forward jumps in time
+W0801 14:50:00.736636 10894 rate.cc:95] Detect forward jumps in time
+W0801 14:50:00.752025 10894 rate.cc:95] Detect forward jumps in time
+W0801 14:50:00.778570 10894 rate.cc:95] Detect forward jumps in time
+I0801 14:50:12.000936 10848 recurrent_runner.cc:30] SummaryMonitor is running round #638
+W0801 14:50:14.506703 10894 rate.cc:95] Detect forward jumps in time
+W0801 14:50:27.469463 10894 rate.cc:95] Detect forward jumps in time
+I0801 14:50:27.500967 10856 recurrent_runner.cc:30] ProcessMonitor is running round #185
+W0801 14:50:27.676205 10894 rate.cc:95] Detect forward jumps in time
+I0801 14:50:43.000407 10848 recurrent_runner.cc:30] EsdCanMonitor is running round #107
+I0801 14:50:58.000434 10862 recurrent_runner.cc:30] SummaryMonitor is running round #730
+I0801 14:51:13.000383 10854 recurrent_runner.cc:30] SummaryMonitor is running round #760
+I0801 14:51:28.000478 10857 recurrent_runner.cc:30] SummaryMonitor is running round #790
+I0801 14:51:43.500433 10853 recurrent_runner.cc:30] SocketCanMonitor is running round #126
+I0801 14:51:58.500444 10852 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #851
+I0801 14:52:13.503620 10855 recurrent_runner.cc:30] LatencyMonitor is running round #242
+I0801 14:52:28.503571 10857 recurrent_runner.cc:30] LatencyMonitor is running round #250
+I0801 14:52:44.003651 10858 recurrent_runner.cc:30] SummaryMonitor is running round #942
+I0801 14:52:59.503578 10853 recurrent_runner.cc:30] ChannelMonitor is running round #93
+I0801 14:53:15.000382 10853 recurrent_runner.cc:30] GpsMonitor is running round #154
+I0801 14:53:30.500387 10856 recurrent_runner.cc:30] LocalizationMonitor is running round #99
+I0801 14:53:45.500396 10860 recurrent_runner.cc:30] SummaryMonitor is running round #1065
+I0801 14:54:01.000473 10856 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #1096
+I0801 14:54:16.000469 10851 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #1126
+W0801 14:54:31.463948 10894 rate.cc:95] Detect forward jumps in time
+I0801 14:54:31.507608 10857 recurrent_runner.cc:30] LatencyMonitor is running round #314
+W0801 14:54:31.508225 10894 rate.cc:95] Detect forward jumps in time
+I0801 14:54:46.998473 10858 recurrent_runner.cc:30] SummaryMonitor is running round #1188
+I0801 14:55:02.000829 10853 recurrent_runner.cc:30] SummaryMonitor is running round #1218
+I0801 14:55:18.000478 10863 recurrent_runner.cc:30] EsdCanMonitor is running round #191
+I0801 14:55:32.998467 10859 recurrent_runner.cc:30] SummaryMonitor is running round #1280
+I0801 14:55:48.000478 10858 recurrent_runner.cc:30] SummaryMonitor is running round #1310
+I0801 14:56:03.506268 10856 recurrent_runner.cc:30] LatencyMonitor is running round #364
+W0801 14:56:03.506577 10894 rate.cc:95] Detect forward jumps in time
+I0801 14:56:17.998925 10863 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #1370
+I0801 14:56:34.000828 10859 recurrent_runner.cc:30] EsdCanMonitor is running round #214
+I0801 14:56:49.000842 10862 recurrent_runner.cc:30] SummaryMonitor is running round #1432
+I0801 14:57:04.004137 10848 recurrent_runner.cc:30] ChannelMonitor is running round #139
+I0801 14:57:19.500900 10854 recurrent_runner.cc:30] ResourceMonitor is running round #142
+W0801 14:57:22.002723 10894 rate.cc:95] Detect forward jumps in time
+I0801 14:57:35.000771 10851 recurrent_runner.cc:30] SummaryMonitor is running round #1524
+I0801 14:57:50.500833 10862 recurrent_runner.cc:30] SocketCanMonitor is running round #237
+W0801 14:57:51.002596 10894 rate.cc:95] Detect forward jumps in time
+I0801 14:58:05.500874 10856 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #1585
+I0801 14:58:20.500944 10853 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #1615
+I0801 14:58:23.746656 10845 timer.cc:142] stop timer, the timer_id: 0
+I0801 14:58:23.746771 10845 class_loader.cc:46] There are still classobjs have not been deleted, classobj_ref_count_: 1
+I0801 14:58:23.746783 10845 mainboard.cc:45] exit mainboard.

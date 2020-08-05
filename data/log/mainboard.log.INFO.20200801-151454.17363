@@ -1,0 +1,23 @@
+Log file created at: 2020/08/01 15:14:54
+Running on machine: in_dev_docker
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+W0801 15:14:54.939994 17363 scheduler_factory.cc:63] No sched conf found, use default conf.
+I0801 15:14:54.940253 17365 processor.cc:41] processor_tid: 17365
+I0801 15:14:54.940316 17366 processor.cc:41] processor_tid: 17366
+I0801 15:14:54.942250 17367 processor.cc:41] processor_tid: 17367
+I0801 15:14:54.942540 17368 processor.cc:41] processor_tid: 17368
+I0801 15:14:54.942626 17369 processor.cc:41] processor_tid: 17369
+I0801 15:14:54.942687 17370 processor.cc:41] processor_tid: 17370
+I0801 15:14:54.942785 17371 processor.cc:41] processor_tid: 17371
+I0801 15:14:54.942858 17372 processor.cc:41] processor_tid: 17372
+I0801 15:14:54.942863 17373 processor.cc:41] processor_tid: 17373
+I0801 15:14:54.942905 17374 processor.cc:41] processor_tid: 17374
+I0801 15:14:54.942940 17375 processor.cc:41] processor_tid: 17375
+I0801 15:14:54.942986 17376 processor.cc:41] processor_tid: 17376
+I0801 15:14:54.943060 17377 processor.cc:41] processor_tid: 17377
+I0801 15:14:54.943094 17378 processor.cc:41] processor_tid: 17378
+I0801 15:14:54.943127 17379 processor.cc:41] processor_tid: 17379
+I0801 15:14:54.943151 17380 processor.cc:41] processor_tid: 17380
+I0801 15:14:54.943173 17363 init.cc:103] Register exit handle succ.
+I0801 15:14:54.943905 17363 module_controller.cc:65] Start initialize dag: /apollo/modules/drivers/camera/dag/camera.dag
+I0801 15:14:54.944015 17363 class_loader.cc:37] Begin LoadLibrary: /apollo/bazel-bin/modules/drivers/camera/libcamera_component.so

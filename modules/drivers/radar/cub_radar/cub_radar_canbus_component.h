@@ -35,10 +35,10 @@
 #include "modules/drivers/proto/cub_radar.pb.h"
 #include "modules/drivers/radar/cub_radar/cub_radar_message_manager.h"
 #include "modules/drivers/radar/cub_radar/protocol/motion_input_speed_300.h"
-#include "modules/drivers/radar/cub_radar/protocol/motion_input_yawrate_301.h"
-#include "modules/drivers/radar/cub_radar/protocol/radar_config_200.h"
 #include "modules/localization/proto/localization.pb.h"
-
+// #include
+// "modules/drivers/radar/cub_radar/protocol/motion_input_yawrate_301.h"
+#include "modules/drivers/radar/cub_radar/protocol/radar_config_200.h"
 /**
  * @namespace apollo::drivers
  * @brief apollo::drivers
@@ -62,7 +62,7 @@ class CubRadarCanbusComponent : public apollo::cyber::Component<> {
  private:
   bool OnError(const std::string& error_msg);
   void RegisterCanClients();
-  apollo::common::ErrorCode ConfigureRadar();
+  //   apollo::common::ErrorCode ConfigureRadar();
   bool Start();
   void Stop();
 
@@ -81,6 +81,7 @@ class CubRadarCanbusComponent : public apollo::cyber::Component<> {
   int64_t last_timestamp_ = 0;
   bool start_success_ = false;
   apollo::common::monitor::MonitorLogBuffer monitor_logger_buffer_;
+  bool enable_log_ = true;
 };
 
 CYBER_REGISTER_COMPONENT(CubRadarCanbusComponent)

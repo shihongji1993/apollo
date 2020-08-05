@@ -1,0 +1,56 @@
+Log file created at: 2020/08/01 14:44:13
+Running on machine: in_dev_docker
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+W0801 14:44:13.010982 10423 scheduler_factory.cc:63] No sched conf found, use default conf.
+I0801 14:44:13.011210 10426 processor.cc:41] processor_tid: 10426
+I0801 14:44:13.011263 10427 processor.cc:41] processor_tid: 10427
+I0801 14:44:13.011868 10428 processor.cc:41] processor_tid: 10428
+I0801 14:44:13.011901 10429 processor.cc:41] processor_tid: 10429
+I0801 14:44:13.011931 10430 processor.cc:41] processor_tid: 10430
+I0801 14:44:13.011960 10431 processor.cc:41] processor_tid: 10431
+I0801 14:44:13.011986 10432 processor.cc:41] processor_tid: 10432
+I0801 14:44:13.012012 10433 processor.cc:41] processor_tid: 10433
+I0801 14:44:13.012064 10434 processor.cc:41] processor_tid: 10434
+I0801 14:44:13.012225 10435 processor.cc:41] processor_tid: 10435
+I0801 14:44:13.012261 10436 processor.cc:41] processor_tid: 10436
+I0801 14:44:13.012277 10437 processor.cc:41] processor_tid: 10437
+I0801 14:44:13.012302 10438 processor.cc:41] processor_tid: 10438
+I0801 14:44:13.012322 10439 processor.cc:41] processor_tid: 10439
+I0801 14:44:13.012352 10440 processor.cc:41] processor_tid: 10440
+I0801 14:44:13.012373 10441 processor.cc:41] processor_tid: 10441
+I0801 14:44:13.012382 10423 init.cc:103] Register exit handle succ.
+I0801 14:44:13.012781 10423 module_controller.cc:65] Start initialize dag: /apollo/modules/monitor/dag/monitor.dag
+I0801 14:44:13.012850 10423 class_loader.cc:37] Begin LoadLibrary: /apollo/bazel-bin/modules/monitor/libmonitor.so
+I0801 14:44:13.494274 10423 timer.cc:135] start timer [0]
+I0801 14:44:13.994933 10468 scheduler.cc:54] create croutine: /internal/task0
+I0801 14:44:13.994998 10468 scheduler.cc:54] create croutine: /internal/task1
+I0801 14:44:13.995029 10468 scheduler.cc:54] create croutine: /internal/task2
+I0801 14:44:13.995051 10468 scheduler.cc:54] create croutine: /internal/task3
+I0801 14:44:13.995069 10468 scheduler.cc:54] create croutine: /internal/task4
+I0801 14:44:13.995088 10468 scheduler.cc:54] create croutine: /internal/task5
+I0801 14:44:13.995105 10468 scheduler.cc:54] create croutine: /internal/task6
+I0801 14:44:13.995121 10468 scheduler.cc:54] create croutine: /internal/task7
+I0801 14:44:13.995141 10468 scheduler.cc:54] create croutine: /internal/task8
+I0801 14:44:13.995157 10468 scheduler.cc:54] create croutine: /internal/task9
+I0801 14:44:13.995173 10468 scheduler.cc:54] create croutine: /internal/task10
+I0801 14:44:13.995193 10468 scheduler.cc:54] create croutine: /internal/task11
+I0801 14:44:13.995208 10468 scheduler.cc:54] create croutine: /internal/task12
+I0801 14:44:13.995226 10468 scheduler.cc:54] create croutine: /internal/task13
+I0801 14:44:13.995244 10468 scheduler.cc:54] create croutine: /internal/task14
+I0801 14:44:13.995259 10468 scheduler.cc:54] create croutine: /internal/task15
+I0801 14:44:13.996253 10426 scheduler.cc:54] create croutine: monitor_/apollo/hmi/status
+E0801 14:44:13.996646 10426 monitor_manager.cc:51] No HMIStatus was received.
+E0801 14:44:14.496762 10432 monitor_manager.cc:51] No HMIStatus was received.
+E0801 14:44:14.996755 10427 monitor_manager.cc:51] No HMIStatus was received.
+E0801 14:44:15.496767 10440 monitor_manager.cc:51] No HMIStatus was received.
+E0801 14:44:15.996780 10428 monitor_manager.cc:51] No HMIStatus was received.
+E0801 14:44:16.496767 10434 monitor_manager.cc:51] No HMIStatus was received.
+E0801 14:44:16.996786 10439 monitor_manager.cc:51] No HMIStatus was received.
+E0801 14:44:17.496767 10437 monitor_manager.cc:51] No HMIStatus was received.
+W0801 14:44:17.998673 10468 rate.cc:95] Detect forward jumps in time
+I0801 14:44:18.001338 10434 scheduler.cc:54] create croutine: monitor_/apollo/canbus/chassis
+I0801 14:44:18.001842 10434 recurrent_runner.cc:30] EsdCanMonitor is running round #1
+I0801 14:44:18.002447 10434 scheduler.cc:54] create croutine: monitor_/apollo/sensor/gnss/gnss_status
+I0801 14:44:18.004897 10434 scheduler.cc:54] create croutine: monitor_/apollo/localization/msf_status
+I0801 14:44:18.011229 10434 scheduler.cc:54] create croutine: monitor_/apollo/common/latency_records
+I0801 14:44:18.012423 10434 scheduler.cc:54] create croutine: monitor_/apollo/sensor/lidar128/compensator/PointCloud2

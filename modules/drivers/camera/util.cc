@@ -131,7 +131,7 @@ void yuv2rgb_avx2(uint8_t* yuv, uint8_t* rgb) {
 }
 
 void yuyv2rgb_avx(unsigned char* YUV, unsigned char* RGB, int NumPixels) {
-  assert(NumPixels == (1920 * 1080));
+  // assert(NumPixels == (1920 * 1080));
   bool align = Aligned(YUV) & Aligned(RGB);
   uint8_t* yuv_offset = YUV;
   uint8_t* rgb_offset = RGB;

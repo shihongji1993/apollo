@@ -47,7 +47,7 @@ class CubRadarMessageManager
       std::shared_ptr<apollo::drivers::canbus::CanClient> can_client);
 
  private:
-  bool is_configured_ = false;
+  //   bool is_configured_ = false;
   RadarConfig200 radar_config_;
   std::shared_ptr<apollo::drivers::canbus::CanClient> can_client_;
   std::shared_ptr<apollo::cyber::Writer<CubRadar>> cub_radar_writer_;

@@ -1,0 +1,85 @@
+Log file created at: 2020/08/01 15:50:36
+Running on machine: in_dev_docker
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+W0801 15:50:36.083050  5141 scheduler_factory.cc:63] No sched conf found, use default conf.
+I0801 15:50:36.083228  5143 processor.cc:41] processor_tid: 5143
+I0801 15:50:36.083263  5144 processor.cc:41] processor_tid: 5144
+I0801 15:50:36.083295  5145 processor.cc:41] processor_tid: 5145
+I0801 15:50:36.083331  5146 processor.cc:41] processor_tid: 5146
+I0801 15:50:36.083349  5147 processor.cc:41] processor_tid: 5147
+I0801 15:50:36.083372  5148 processor.cc:41] processor_tid: 5148
+I0801 15:50:36.083416  5149 processor.cc:41] processor_tid: 5149
+I0801 15:50:36.083443  5150 processor.cc:41] processor_tid: 5150
+I0801 15:50:36.083503  5151 processor.cc:41] processor_tid: 5151
+I0801 15:50:36.083509  5152 processor.cc:41] processor_tid: 5152
+I0801 15:50:36.083528  5153 processor.cc:41] processor_tid: 5153
+I0801 15:50:36.083561  5154 processor.cc:41] processor_tid: 5154
+I0801 15:50:36.083587  5155 processor.cc:41] processor_tid: 5155
+I0801 15:50:36.083622  5156 processor.cc:41] processor_tid: 5156
+I0801 15:50:36.083653  5157 processor.cc:41] processor_tid: 5157
+I0801 15:50:36.083683  5158 processor.cc:41] processor_tid: 5158
+I0801 15:50:36.083698  5141 init.cc:103] Register exit handle succ.
+I0801 15:50:36.084338  5141 module_controller.cc:65] Start initialize dag: /apollo/modules/drivers/camera/dag/camera.dag
+I0801 15:50:36.084511  5141 class_loader.cc:37] Begin LoadLibrary: /apollo/bazel-bin/modules/drivers/camera/libcamera_component.so
+I0801 15:50:36.427287  5141 scheduler.cc:54] create croutine: /internal/task0
+I0801 15:50:36.427417  5141 scheduler.cc:54] create croutine: /internal/task1
+I0801 15:50:36.427471  5141 scheduler.cc:54] create croutine: /internal/task2
+I0801 15:50:36.427510  5141 scheduler.cc:54] create croutine: /internal/task3
+I0801 15:50:36.427544  5141 scheduler.cc:54] create croutine: /internal/task4
+I0801 15:50:36.427594  5141 scheduler.cc:54] create croutine: /internal/task5
+I0801 15:50:36.427626  5141 scheduler.cc:54] create croutine: /internal/task6
+I0801 15:50:36.427772  5141 scheduler.cc:54] create croutine: /internal/task7
+I0801 15:50:36.427810  5141 scheduler.cc:54] create croutine: /internal/task8
+I0801 15:50:36.427857  5141 scheduler.cc:54] create croutine: /internal/task9
+I0801 15:50:36.427889  5141 scheduler.cc:54] create croutine: /internal/task10
+I0801 15:50:36.427923  5141 scheduler.cc:54] create croutine: /internal/task11
+I0801 15:50:36.428004  5141 scheduler.cc:54] create croutine: /internal/task12
+I0801 15:50:36.428062  5141 scheduler.cc:54] create croutine: /internal/task13
+I0801 15:50:36.428108  5141 scheduler.cc:54] create croutine: /internal/task14
+I0801 15:50:36.428166  5141 scheduler.cc:54] create croutine: /internal/task15
+I0801 15:50:36.434005  5141 scheduler.cc:54] create croutine: camera_front_6mm_compress_/apollo/sensor/camera/front_6mm/image
+I0801 15:50:36.435150  5141 scheduler.cc:54] create croutine: camera_front_6mm_compress
+I0801 15:50:36.449127  5141 scheduler.cc:54] create croutine: camera_front_12mm_compress_/apollo/sensor/camera/front_12mm/image
+I0801 15:50:36.450418  5141 scheduler.cc:54] create croutine: camera_front_12mm_compress
+I0801 15:50:36.450592  5141 module_controller.cc:65] Start initialize dag: /apollo/modules/drivers/video/dag/video.dag
+I0801 15:50:36.451081  5141 class_loader.cc:37] Begin LoadLibrary: /apollo/bazel-bin/modules/drivers/video/libvideo_driver_component.so
+E0801 15:50:36.554641  5154 usb_cam.cc:368] VIDIOC_S_FMT
+I0801 15:50:36.688596  5144 usb_cam.cc:401] Capability flag: 0x0
+I0801 15:50:36.722368  5144 usb_cam.cc:409] Set framerate to be 20
+I0801 15:50:36.728842  5144 usb_cam.cc:435] Trigger enable, dev:/dev/camera/front_6mm, fps:20, internal:0
+E0801 15:50:36.729053  5144 usb_cam.cc:443] trigger failed:-1
+W0801 15:50:37.129091  5144 usb_cam.cc:863] camera
+E0801 15:50:37.129113  5144 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+I0801 15:50:37.132009  5144 segment.cc:51] msg_size: 6220858 larger than current shm_buffer_size: 16384 , need recreate.
+I0801 15:50:37.151345  5158 segment.cc:51] msg_size: 33339 larger than current shm_buffer_size: 16384 , need recreate.
+W0801 15:50:37.301002  5158 usb_cam.cc:848] stamp jump.last stamp:518350931000 current stamp:518830960000
+W0801 15:50:37.301038  5158 usb_cam.cc:863] camera
+E0801 15:50:37.301041  5158 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0801 15:50:37.477087  5145 usb_cam.cc:848] stamp jump.last stamp:518830960000 current stamp:519006983000
+W0801 15:50:37.477129  5145 usb_cam.cc:863] camera
+E0801 15:50:37.477133  5145 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0801 15:50:37.649008  5153 usb_cam.cc:848] stamp jump.last stamp:519006983000 current stamp:519178996000
+W0801 15:50:37.649044  5153 usb_cam.cc:863] camera
+E0801 15:50:37.649047  5153 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0801 15:50:37.821050  5144 usb_cam.cc:848] stamp jump.last stamp:519178996000 current stamp:519355007000
+W0801 15:50:37.821089  5144 usb_cam.cc:863] camera
+E0801 15:50:37.821092  5144 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0801 15:50:37.997061  5158 usb_cam.cc:848] stamp jump.last stamp:519355007000 current stamp:519527023000
+W0801 15:50:37.997105  5158 usb_cam.cc:863] camera
+E0801 15:50:37.997109  5158 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0801 15:50:38.169072  5147 usb_cam.cc:848] stamp jump.last stamp:519527023000 current stamp:519703077000
+W0801 15:50:38.169109  5147 usb_cam.cc:863] camera
+E0801 15:50:38.169113  5147 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0801 15:50:38.345090  5149 usb_cam.cc:848] stamp jump.last stamp:519703077000 current stamp:519875051000
+W0801 15:50:38.345137  5149 usb_cam.cc:863] camera
+E0801 15:50:38.345141  5149 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0801 15:50:38.517103  5143 usb_cam.cc:848] stamp jump.last stamp:519875051000 current stamp:520047063000
+W0801 15:50:38.517146  5143 usb_cam.cc:863] camera
+E0801 15:50:38.517150  5143 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0801 15:50:38.689149  5150 usb_cam.cc:848] stamp jump.last stamp:520047063000 current stamp:520223073000
+W0801 15:50:38.689203  5150 usb_cam.cc:863] camera
+E0801 15:50:38.689208  5150 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+E0801 15:50:38.695677  5144 usb_cam.cc:368] VIDIOC_S_FMT
+W0801 15:50:38.777139  5150 usb_cam.cc:848] stamp jump.last stamp:520223073000 current stamp:520311125000
+W0801 15:50:38.777194  5150 usb_cam.cc:863] camera
+E0801 15:50:38.777200  5150 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm

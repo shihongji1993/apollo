@@ -1,0 +1,20 @@
+Log file created at: 2020/08/01 14:42:02
+Running on machine: in_dev_docker
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0801 14:42:02.139053  9409 class_loader_utility.h:78] registerclass:StaticTransformComponent,apollo::cyber::ComponentBase,/apollo/bazel-bin/modules/transform/libstatic_transform_component.so
+I0801 14:42:02.173768  9409 static_transform_component.cc:45] Broadcast static transform, frame id [novatel], child frame id [velodyne128]
+E0801 14:42:02.173817  9409 static_transform_component.cc:60] Extrinsic yaml file does not exist: /apollo/modules/drivers/velodyne/params/velodyne128_novatel_extrinsics.yaml
+I0801 14:42:02.173878  9409 static_transform_component.cc:45] Broadcast static transform, frame id [localization], child frame id [novatel]
+I0801 14:42:02.177371  9409 static_transform_component.cc:45] Broadcast static transform, frame id [velodyne128], child frame id [front_6mm]
+I0801 14:42:02.191779  9409 static_transform_component.cc:45] Broadcast static transform, frame id [velodyne128], child frame id [front_12mm]
+I0801 14:42:02.198884  9409 static_transform_component.cc:45] Broadcast static transform, frame id [novatel], child frame id [lidar16_front_up]
+E0801 14:42:02.199208  9409 static_transform_component.cc:60] Extrinsic yaml file does not exist: /apollo/modules/drivers/velodyne/params/lidar16_front_up_novatel_extrinsics.yaml
+I0801 14:42:02.199542  9409 static_transform_component.cc:45] Broadcast static transform, frame id [novatel], child frame id [lidar16_front]
+E0801 14:42:02.199584  9409 static_transform_component.cc:60] Extrinsic yaml file does not exist: /apollo/modules/drivers/velodyne/params/lidar16_front_novatel_extrinsics.yaml
+I0801 14:42:02.199928  9409 static_transform_component.cc:45] Broadcast static transform, frame id [novatel], child frame id [lidar16_rear_left]
+E0801 14:42:02.199960  9409 static_transform_component.cc:60] Extrinsic yaml file does not exist: /apollo/modules/drivers/velodyne/params/lidar16_rear_left_novatel_extrinsics.yaml
+I0801 14:42:02.200398  9409 static_transform_component.cc:45] Broadcast static transform, frame id [novatel], child frame id [lidar16_rear_right]
+E0801 14:42:02.200425  9409 static_transform_component.cc:60] Extrinsic yaml file does not exist: /apollo/modules/drivers/velodyne/params/lidar16_rear_right_novatel_extrinsics.yaml
+I0801 14:42:02.200569  9409 static_transform_component.cc:45] Broadcast static transform, frame id [velodyne128], child frame id [radar_front]
+I0801 14:42:02.212216  9409 static_transform_component.cc:45] Broadcast static transform, frame id [velodyne128], child frame id [radar_rear]
+E0801 14:42:02.212505  9409 static_transform_component.cc:60] Extrinsic yaml file does not exist: /apollo/modules/perception/data/params/radar_rear_extrinsics.yaml

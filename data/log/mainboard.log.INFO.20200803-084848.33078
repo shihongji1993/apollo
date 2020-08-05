@@ -1,0 +1,955 @@
+Log file created at: 2020/08/03 08:48:48
+Running on machine: in_dev_docker
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+W0803 08:48:48.850286 33078 scheduler_factory.cc:63] No sched conf found, use default conf.
+I0803 08:48:48.851893 33080 processor.cc:41] processor_tid: 33080
+I0803 08:48:48.852869 33081 processor.cc:41] processor_tid: 33081
+I0803 08:48:48.853055 33082 processor.cc:41] processor_tid: 33082
+I0803 08:48:48.853108 33083 processor.cc:41] processor_tid: 33083
+I0803 08:48:48.853163 33084 processor.cc:41] processor_tid: 33084
+I0803 08:48:48.853214 33085 processor.cc:41] processor_tid: 33085
+I0803 08:48:48.853255 33086 processor.cc:41] processor_tid: 33086
+I0803 08:48:48.853368 33087 processor.cc:41] processor_tid: 33087
+I0803 08:48:48.853408 33088 processor.cc:41] processor_tid: 33088
+I0803 08:48:48.853463 33089 processor.cc:41] processor_tid: 33089
+I0803 08:48:48.853516 33090 processor.cc:41] processor_tid: 33090
+I0803 08:48:48.853607 33091 processor.cc:41] processor_tid: 33091
+I0803 08:48:48.855875 33092 processor.cc:41] processor_tid: 33092
+I0803 08:48:48.859838 33093 processor.cc:41] processor_tid: 33093
+I0803 08:48:48.859947 33094 processor.cc:41] processor_tid: 33094
+I0803 08:48:48.859980 33095 processor.cc:41] processor_tid: 33095
+I0803 08:48:48.859990 33078 init.cc:103] Register exit handle succ.
+I0803 08:48:48.860781 33078 module_controller.cc:65] Start initialize dag: /apollo/modules/drivers/camera/dag/camera.dag
+I0803 08:48:48.860939 33078 class_loader.cc:37] Begin LoadLibrary: /apollo/bazel-bin/modules/drivers/camera/libcamera_component.so
+I0803 08:48:49.432644 33078 scheduler.cc:54] create croutine: /internal/task0
+I0803 08:48:49.432775 33078 scheduler.cc:54] create croutine: /internal/task1
+I0803 08:48:49.432816 33078 scheduler.cc:54] create croutine: /internal/task2
+I0803 08:48:49.432847 33078 scheduler.cc:54] create croutine: /internal/task3
+I0803 08:48:49.432878 33078 scheduler.cc:54] create croutine: /internal/task4
+I0803 08:48:49.432907 33078 scheduler.cc:54] create croutine: /internal/task5
+I0803 08:48:49.432934 33078 scheduler.cc:54] create croutine: /internal/task6
+I0803 08:48:49.432958 33078 scheduler.cc:54] create croutine: /internal/task7
+I0803 08:48:49.432986 33078 scheduler.cc:54] create croutine: /internal/task8
+I0803 08:48:49.433012 33078 scheduler.cc:54] create croutine: /internal/task9
+I0803 08:48:49.433038 33078 scheduler.cc:54] create croutine: /internal/task10
+I0803 08:48:49.433066 33078 scheduler.cc:54] create croutine: /internal/task11
+I0803 08:48:49.433092 33078 scheduler.cc:54] create croutine: /internal/task12
+I0803 08:48:49.433493 33078 scheduler.cc:54] create croutine: /internal/task13
+I0803 08:48:49.433573 33078 scheduler.cc:54] create croutine: /internal/task14
+I0803 08:48:49.433604 33078 scheduler.cc:54] create croutine: /internal/task15
+I0803 08:48:49.437101 33078 scheduler.cc:54] create croutine: camera_front_6mm_compress_/apollo/sensor/camera/front_6mm/image
+I0803 08:48:49.437963 33078 scheduler.cc:54] create croutine: camera_front_6mm_compress
+I0803 08:48:49.443468 33078 scheduler.cc:54] create croutine: camera_front_12mm_compress_/apollo/sensor/camera/front_12mm/image
+I0803 08:48:49.448037 33078 scheduler.cc:54] create croutine: camera_front_12mm_compress
+I0803 08:48:49.448356 33078 module_controller.cc:65] Start initialize dag: /apollo/modules/drivers/video/dag/video.dag
+I0803 08:48:49.448716 33078 class_loader.cc:37] Begin LoadLibrary: /apollo/bazel-bin/modules/drivers/video/libvideo_driver_component.so
+E0803 08:48:49.547924 33083 usb_cam.cc:368] VIDIOC_S_FMT
+I0803 08:48:49.691850 33080 usb_cam.cc:401] Capability flag: 0x0
+I0803 08:48:49.725548 33080 usb_cam.cc:409] Set framerate to be 20
+I0803 08:48:49.732676 33080 usb_cam.cc:435] Trigger enable, dev:/dev/camera/front_6mm, fps:20, internal:0
+E0803 08:48:49.733388 33080 usb_cam.cc:443] trigger failed:-1
+W0803 08:48:50.132983 33080 usb_cam.cc:863] camera
+E0803 08:48:50.133028 33080 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:48:50.304754 33087 usb_cam.cc:848] stamp jump.last stamp:10809845429000 current stamp:10810325462000
+W0803 08:48:50.304805 33087 usb_cam.cc:863] camera
+E0803 08:48:50.304811 33087 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:48:50.480813 33093 usb_cam.cc:848] stamp jump.last stamp:10810325462000 current stamp:10810501437000
+W0803 08:48:50.480866 33093 usb_cam.cc:863] camera
+E0803 08:48:50.480872 33093 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:48:50.652911 33080 usb_cam.cc:848] stamp jump.last stamp:10810501437000 current stamp:10810673435000
+W0803 08:48:50.652988 33080 usb_cam.cc:863] camera
+E0803 08:48:50.652993 33080 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:48:50.824764 33087 usb_cam.cc:848] stamp jump.last stamp:10810673435000 current stamp:10810849433000
+W0803 08:48:50.824820 33087 usb_cam.cc:863] camera
+E0803 08:48:50.824826 33087 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:48:51.000756 33095 usb_cam.cc:848] stamp jump.last stamp:10810849433000 current stamp:10811021435000
+W0803 08:48:51.000809 33095 usb_cam.cc:863] camera
+E0803 08:48:51.000815 33095 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:48:51.172756 33095 usb_cam.cc:848] stamp jump.last stamp:10811021435000 current stamp:10811197494000
+W0803 08:48:51.172803 33095 usb_cam.cc:863] camera
+E0803 08:48:51.172808 33095 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:48:51.348769 33094 usb_cam.cc:848] stamp jump.last stamp:10811197494000 current stamp:10811369435000
+W0803 08:48:51.348830 33094 usb_cam.cc:863] camera
+E0803 08:48:51.348835 33094 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:48:51.520789 33081 usb_cam.cc:848] stamp jump.last stamp:10811369435000 current stamp:10811541439000
+W0803 08:48:51.520881 33081 usb_cam.cc:863] camera
+E0803 08:48:51.520891 33081 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:48:51.692768 33080 usb_cam.cc:848] stamp jump.last stamp:10811541439000 current stamp:10811717436000
+W0803 08:48:51.692822 33080 usb_cam.cc:863] camera
+E0803 08:48:51.692827 33080 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+E0803 08:48:51.699224 33087 usb_cam.cc:368] VIDIOC_S_FMT
+W0803 08:48:51.868789 33080 usb_cam.cc:848] stamp jump.last stamp:10811717436000 current stamp:10811889437000
+W0803 08:48:51.868878 33080 usb_cam.cc:863] camera
+E0803 08:48:51.868885 33080 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:48:52.040778 33082 usb_cam.cc:848] stamp jump.last stamp:10811889437000 current stamp:10812065499000
+W0803 08:48:52.040832 33082 usb_cam.cc:863] camera
+E0803 08:48:52.040836 33082 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:48:52.216756 33090 usb_cam.cc:848] stamp jump.last stamp:10812065499000 current stamp:10812237438000
+W0803 08:48:52.216817 33090 usb_cam.cc:863] camera
+E0803 08:48:52.216825 33090 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:48:52.388752 33089 usb_cam.cc:848] stamp jump.last stamp:10812237438000 current stamp:10812409437000
+W0803 08:48:52.388806 33089 usb_cam.cc:863] camera
+E0803 08:48:52.388814 33089 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:48:52.564802 33085 usb_cam.cc:848] stamp jump.last stamp:10812409437000 current stamp:10812585441000
+W0803 08:48:52.564853 33085 usb_cam.cc:863] camera
+E0803 08:48:52.564859 33085 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:48:52.736750 33087 usb_cam.cc:848] stamp jump.last stamp:10812585441000 current stamp:10812757441000
+W0803 08:48:52.736806 33087 usb_cam.cc:863] camera
+E0803 08:48:52.736811 33087 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:48:52.908761 33091 usb_cam.cc:848] stamp jump.last stamp:10812757441000 current stamp:10812933439000
+W0803 08:48:52.908809 33091 usb_cam.cc:863] camera
+E0803 08:48:52.908815 33091 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:48:53.084791 33082 usb_cam.cc:848] stamp jump.last stamp:10812933439000 current stamp:10813105441000
+W0803 08:48:53.084839 33082 usb_cam.cc:863] camera
+E0803 08:48:53.084844 33082 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:48:53.256785 33090 usb_cam.cc:848] stamp jump.last stamp:10813105441000 current stamp:10813281500000
+W0803 08:48:53.256829 33090 usb_cam.cc:863] camera
+E0803 08:48:53.256834 33090 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:48:53.432755 33084 usb_cam.cc:848] stamp jump.last stamp:10813281500000 current stamp:10813453447000
+W0803 08:48:53.432811 33084 usb_cam.cc:863] camera
+E0803 08:48:53.432816 33084 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:48:53.604751 33093 usb_cam.cc:848] stamp jump.last stamp:10813453447000 current stamp:10813625444000
+W0803 08:48:53.604799 33093 usb_cam.cc:863] camera
+E0803 08:48:53.604804 33093 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:48:53.776778 33080 usb_cam.cc:848] stamp jump.last stamp:10813625444000 current stamp:10813801441000
+W0803 08:48:53.776835 33080 usb_cam.cc:863] camera
+E0803 08:48:53.776841 33080 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+E0803 08:48:53.783463 33095 usb_cam.cc:368] VIDIOC_S_FMT
+W0803 08:48:53.952795 33080 usb_cam.cc:848] stamp jump.last stamp:10813801441000 current stamp:10813973443000
+W0803 08:48:53.952877 33080 usb_cam.cc:863] camera
+E0803 08:48:53.952883 33080 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:48:54.124774 33082 usb_cam.cc:848] stamp jump.last stamp:10813973443000 current stamp:10814149474000
+W0803 08:48:54.124821 33082 usb_cam.cc:863] camera
+E0803 08:48:54.124826 33082 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:48:54.300755 33089 usb_cam.cc:848] stamp jump.last stamp:10814149474000 current stamp:10814321443000
+W0803 08:48:54.300808 33089 usb_cam.cc:863] camera
+E0803 08:48:54.300813 33089 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:48:54.472756 33089 usb_cam.cc:848] stamp jump.last stamp:10814321443000 current stamp:10814493485000
+W0803 08:48:54.472802 33089 usb_cam.cc:863] camera
+E0803 08:48:54.472808 33089 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:48:54.648811 33083 usb_cam.cc:848] stamp jump.last stamp:10814493485000 current stamp:10814669448000
+W0803 08:48:54.648860 33083 usb_cam.cc:863] camera
+E0803 08:48:54.648866 33083 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:48:54.820783 33083 usb_cam.cc:848] stamp jump.last stamp:10814669448000 current stamp:10814841448000
+W0803 08:48:54.820861 33083 usb_cam.cc:863] camera
+E0803 08:48:54.820869 33083 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:48:54.992805 33080 usb_cam.cc:848] stamp jump.last stamp:10814841448000 current stamp:10815017446000
+W0803 08:48:54.992858 33080 usb_cam.cc:863] camera
+E0803 08:48:54.992864 33080 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:48:55.168758 33080 usb_cam.cc:848] stamp jump.last stamp:10815017446000 current stamp:10815189444000
+W0803 08:48:55.168817 33080 usb_cam.cc:863] camera
+E0803 08:48:55.168825 33080 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:48:55.340765 33080 usb_cam.cc:848] stamp jump.last stamp:10815189444000 current stamp:10815365505000
+W0803 08:48:55.340809 33080 usb_cam.cc:863] camera
+E0803 08:48:55.340814 33080 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:48:55.516803 33088 usb_cam.cc:848] stamp jump.last stamp:10815365505000 current stamp:10815537448000
+W0803 08:48:55.516860 33088 usb_cam.cc:863] camera
+E0803 08:48:55.516870 33088 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:48:55.688753 33088 usb_cam.cc:848] stamp jump.last stamp:10815537448000 current stamp:10815709453000
+W0803 08:48:55.688796 33088 usb_cam.cc:863] camera
+E0803 08:48:55.688802 33088 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:48:55.860769 33083 usb_cam.cc:848] stamp jump.last stamp:10815709453000 current stamp:10815885450000
+W0803 08:48:55.860821 33083 usb_cam.cc:863] camera
+E0803 08:48:55.860826 33083 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+E0803 08:48:55.866338 33090 usb_cam.cc:368] VIDIOC_S_FMT
+W0803 08:48:56.036761 33083 usb_cam.cc:848] stamp jump.last stamp:10815885450000 current stamp:10816057452000
+W0803 08:48:56.036814 33083 usb_cam.cc:863] camera
+E0803 08:48:56.036820 33083 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:48:56.208767 33084 usb_cam.cc:848] stamp jump.last stamp:10816057452000 current stamp:10816233508000
+W0803 08:48:56.208818 33084 usb_cam.cc:863] camera
+E0803 08:48:56.208824 33084 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:48:56.384814 33089 usb_cam.cc:848] stamp jump.last stamp:10816233508000 current stamp:10816405451000
+W0803 08:48:56.384886 33089 usb_cam.cc:863] camera
+E0803 08:48:56.384893 33089 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:48:56.556805 33089 usb_cam.cc:848] stamp jump.last stamp:10816405451000 current stamp:10816577456000
+W0803 08:48:56.556860 33089 usb_cam.cc:863] camera
+E0803 08:48:56.556866 33089 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:48:56.732831 33085 usb_cam.cc:848] stamp jump.last stamp:10816577456000 current stamp:10816753451000
+W0803 08:48:56.732920 33085 usb_cam.cc:863] camera
+E0803 08:48:56.732928 33085 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:48:56.904786 33082 usb_cam.cc:848] stamp jump.last stamp:10816753451000 current stamp:10816925455000
+W0803 08:48:56.904871 33082 usb_cam.cc:863] camera
+E0803 08:48:56.904882 33082 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:48:57.076772 33082 usb_cam.cc:848] stamp jump.last stamp:10816925455000 current stamp:10817101471000
+W0803 08:48:57.076823 33082 usb_cam.cc:863] camera
+E0803 08:48:57.076835 33082 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:48:57.252763 33082 usb_cam.cc:848] stamp jump.last stamp:10817101471000 current stamp:10817273459000
+W0803 08:48:57.252813 33082 usb_cam.cc:863] camera
+E0803 08:48:57.252820 33082 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:48:57.424768 33081 usb_cam.cc:848] stamp jump.last stamp:10817273459000 current stamp:10817445478000
+W0803 08:48:57.424813 33081 usb_cam.cc:863] camera
+E0803 08:48:57.424818 33081 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:48:57.600832 33089 usb_cam.cc:848] stamp jump.last stamp:10817445478000 current stamp:10817621455000
+W0803 08:48:57.600898 33089 usb_cam.cc:863] camera
+E0803 08:48:57.600906 33089 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:48:57.772773 33087 usb_cam.cc:848] stamp jump.last stamp:10817621455000 current stamp:10817793461000
+W0803 08:48:57.772820 33087 usb_cam.cc:863] camera
+E0803 08:48:57.772825 33087 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:48:57.944787 33087 usb_cam.cc:848] stamp jump.last stamp:10817793461000 current stamp:10817969456000
+W0803 08:48:57.944846 33087 usb_cam.cc:863] camera
+E0803 08:48:57.944852 33087 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+E0803 08:48:57.949012 33080 usb_cam.cc:368] VIDIOC_S_FMT
+W0803 08:48:58.120777 33080 usb_cam.cc:848] stamp jump.last stamp:10817969456000 current stamp:10818141471000
+W0803 08:48:58.120834 33080 usb_cam.cc:863] camera
+E0803 08:48:58.120841 33080 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:48:58.292796 33092 usb_cam.cc:848] stamp jump.last stamp:10818141471000 current stamp:10818317515000
+W0803 08:48:58.292857 33092 usb_cam.cc:863] camera
+E0803 08:48:58.292863 33092 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:48:58.468787 33081 usb_cam.cc:848] stamp jump.last stamp:10818317515000 current stamp:10818489453000
+W0803 08:48:58.468859 33081 usb_cam.cc:863] camera
+E0803 08:48:58.468869 33081 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:48:58.640782 33089 usb_cam.cc:848] stamp jump.last stamp:10818489453000 current stamp:10818661456000
+W0803 08:48:58.640831 33089 usb_cam.cc:863] camera
+E0803 08:48:58.640837 33089 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:48:58.812878 33088 usb_cam.cc:848] stamp jump.last stamp:10818661456000 current stamp:10818837481000
+W0803 08:48:58.812937 33088 usb_cam.cc:863] camera
+E0803 08:48:58.812942 33088 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:48:58.900768 33084 usb_cam.cc:848] stamp jump.last stamp:10818837481000 current stamp:10818925519000
+W0803 08:48:58.900808 33084 usb_cam.cc:863] camera
+E0803 08:48:58.900813 33084 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:48:59.076777 33080 usb_cam.cc:848] stamp jump.last stamp:10818925519000 current stamp:10819097458000
+W0803 08:48:59.076830 33080 usb_cam.cc:863] camera
+E0803 08:48:59.076838 33080 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:48:59.248793 33092 usb_cam.cc:848] stamp jump.last stamp:10819097458000 current stamp:10819269454000
+W0803 08:48:59.248872 33092 usb_cam.cc:863] camera
+E0803 08:48:59.248881 33092 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:48:59.420836 33081 usb_cam.cc:848] stamp jump.last stamp:10819269454000 current stamp:10819445475000
+W0803 08:48:59.420943 33081 usb_cam.cc:863] camera
+E0803 08:48:59.420953 33081 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:48:59.596868 33081 usb_cam.cc:848] stamp jump.last stamp:10819445475000 current stamp:10819617477000
+W0803 08:48:59.596978 33081 usb_cam.cc:863] camera
+E0803 08:48:59.596987 33081 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:48:59.768817 33094 usb_cam.cc:848] stamp jump.last stamp:10819617477000 current stamp:10819793494000
+W0803 08:48:59.768898 33094 usb_cam.cc:863] camera
+E0803 08:48:59.768904 33094 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:48:59.944892 33086 usb_cam.cc:848] stamp jump.last stamp:10819793494000 current stamp:10819965463000
+W0803 08:48:59.945044 33086 usb_cam.cc:863] camera
+E0803 08:48:59.945065 33086 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+E0803 08:48:59.959334 33080 usb_cam.cc:368] VIDIOC_S_FMT
+W0803 08:49:00.116796 33086 usb_cam.cc:848] stamp jump.last stamp:10819965463000 current stamp:10820137470000
+W0803 08:49:00.116878 33086 usb_cam.cc:863] camera
+E0803 08:49:00.116888 33086 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:00.292855 33095 usb_cam.cc:848] stamp jump.last stamp:10820137470000 current stamp:10820313482000
+W0803 08:49:00.292938 33095 usb_cam.cc:863] camera
+E0803 08:49:00.292948 33095 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:00.464813 33089 usb_cam.cc:848] stamp jump.last stamp:10820313482000 current stamp:10820485468000
+W0803 08:49:00.464884 33089 usb_cam.cc:863] camera
+E0803 08:49:00.464892 33089 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:00.636816 33081 usb_cam.cc:848] stamp jump.last stamp:10820485468000 current stamp:10820661463000
+W0803 08:49:00.636888 33081 usb_cam.cc:863] camera
+E0803 08:49:00.636898 33081 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:00.812765 33094 usb_cam.cc:848] stamp jump.last stamp:10820661463000 current stamp:10820833466000
+W0803 08:49:00.812813 33094 usb_cam.cc:863] camera
+E0803 08:49:00.812819 33094 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:00.984802 33094 usb_cam.cc:848] stamp jump.last stamp:10820833466000 current stamp:10821009530000
+W0803 08:49:00.984869 33094 usb_cam.cc:863] camera
+E0803 08:49:00.984879 33094 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:01.160845 33093 usb_cam.cc:848] stamp jump.last stamp:10821009530000 current stamp:10821181473000
+W0803 08:49:01.160904 33093 usb_cam.cc:863] camera
+E0803 08:49:01.160909 33093 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:01.332841 33091 usb_cam.cc:848] stamp jump.last stamp:10821181473000 current stamp:10821353489000
+W0803 08:49:01.332939 33091 usb_cam.cc:863] camera
+E0803 08:49:01.332950 33091 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:01.504869 33085 usb_cam.cc:848] stamp jump.last stamp:10821353489000 current stamp:10821529488000
+W0803 08:49:01.504976 33085 usb_cam.cc:863] camera
+E0803 08:49:01.504990 33085 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:01.680788 33090 usb_cam.cc:848] stamp jump.last stamp:10821529488000 current stamp:10821701469000
+W0803 08:49:01.680845 33090 usb_cam.cc:863] camera
+E0803 08:49:01.680853 33090 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:01.852793 33087 usb_cam.cc:848] stamp jump.last stamp:10821701469000 current stamp:10821877526000
+W0803 08:49:01.852849 33087 usb_cam.cc:863] camera
+E0803 08:49:01.852855 33087 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+E0803 08:49:01.959844 33080 usb_cam.cc:368] VIDIOC_S_FMT
+W0803 08:49:02.028772 33084 usb_cam.cc:848] stamp jump.last stamp:10821877526000 current stamp:10822049486000
+W0803 08:49:02.028820 33084 usb_cam.cc:863] camera
+E0803 08:49:02.028826 33084 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:02.200799 33095 usb_cam.cc:848] stamp jump.last stamp:10822049486000 current stamp:10822221470000
+W0803 08:49:02.200853 33095 usb_cam.cc:863] camera
+E0803 08:49:02.200858 33095 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:02.376896 33095 usb_cam.cc:848] stamp jump.last stamp:10822221470000 current stamp:10822397469000
+W0803 08:49:02.376997 33095 usb_cam.cc:863] camera
+E0803 08:49:02.377008 33095 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:02.548909 33081 usb_cam.cc:848] stamp jump.last stamp:10822397469000 current stamp:10822569472000
+W0803 08:49:02.549072 33081 usb_cam.cc:863] camera
+E0803 08:49:02.549094 33081 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:02.819079 33088 usb_cam.cc:848] stamp jump.last stamp:10822569472000 current stamp:10822745473000
+W0803 08:49:02.819159 33088 usb_cam.cc:863] camera
+E0803 08:49:02.819171 33088 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:02.980798 33082 usb_cam.cc:848] stamp jump.last stamp:10822745473000 current stamp:10823005491000
+W0803 08:49:02.980890 33082 usb_cam.cc:863] camera
+E0803 08:49:02.980895 33082 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:03.156788 33094 usb_cam.cc:848] stamp jump.last stamp:10823005491000 current stamp:10823177489000
+W0803 08:49:03.156838 33094 usb_cam.cc:863] camera
+E0803 08:49:03.156844 33094 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:03.328799 33094 usb_cam.cc:848] stamp jump.last stamp:10823177489000 current stamp:10823353533000
+W0803 08:49:03.328855 33094 usb_cam.cc:863] camera
+E0803 08:49:03.328860 33094 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:03.504828 33095 usb_cam.cc:848] stamp jump.last stamp:10823353533000 current stamp:10823525473000
+W0803 08:49:03.504894 33095 usb_cam.cc:863] camera
+E0803 08:49:03.504904 33095 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:03.676826 33090 usb_cam.cc:848] stamp jump.last stamp:10823525473000 current stamp:10823697479000
+W0803 08:49:03.676932 33090 usb_cam.cc:863] camera
+E0803 08:49:03.676939 33090 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:03.852919 33088 usb_cam.cc:848] stamp jump.last stamp:10823697479000 current stamp:10823873475000
+W0803 08:49:03.853018 33088 usb_cam.cc:863] camera
+E0803 08:49:03.853025 33088 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+E0803 08:49:03.990979 33086 usb_cam.cc:368] VIDIOC_S_FMT
+W0803 08:49:04.024809 33082 usb_cam.cc:848] stamp jump.last stamp:10823873475000 current stamp:10824045474000
+W0803 08:49:04.024866 33082 usb_cam.cc:863] camera
+E0803 08:49:04.024871 33082 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:04.196867 33092 usb_cam.cc:848] stamp jump.last stamp:10824045474000 current stamp:10824221462000
+W0803 08:49:04.196966 33092 usb_cam.cc:863] camera
+E0803 08:49:04.196974 33092 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:04.372908 33085 usb_cam.cc:848] stamp jump.last stamp:10824221462000 current stamp:10824393536000
+W0803 08:49:04.373015 33085 usb_cam.cc:863] camera
+E0803 08:49:04.373026 33085 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:04.544912 33095 usb_cam.cc:848] stamp jump.last stamp:10824393536000 current stamp:10824569536000
+W0803 08:49:04.545027 33095 usb_cam.cc:863] camera
+E0803 08:49:04.545037 33095 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:04.720801 33095 usb_cam.cc:848] stamp jump.last stamp:10824569536000 current stamp:10824741484000
+W0803 08:49:04.720877 33095 usb_cam.cc:863] camera
+E0803 08:49:04.720885 33095 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:04.892814 33095 usb_cam.cc:848] stamp jump.last stamp:10824741484000 current stamp:10824913504000
+W0803 08:49:04.892899 33095 usb_cam.cc:863] camera
+E0803 08:49:04.892911 33095 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:05.064813 33082 usb_cam.cc:848] stamp jump.last stamp:10824913504000 current stamp:10825089475000
+W0803 08:49:05.064867 33082 usb_cam.cc:863] camera
+E0803 08:49:05.064874 33082 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:05.240783 33089 usb_cam.cc:848] stamp jump.last stamp:10825089475000 current stamp:10825261505000
+W0803 08:49:05.240828 33089 usb_cam.cc:863] camera
+E0803 08:49:05.240833 33089 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:05.412784 33081 usb_cam.cc:848] stamp jump.last stamp:10825261505000 current stamp:10825437524000
+W0803 08:49:05.412832 33081 usb_cam.cc:863] camera
+E0803 08:49:05.412838 33081 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:05.588819 33087 usb_cam.cc:848] stamp jump.last stamp:10825437524000 current stamp:10825609480000
+W0803 08:49:05.588868 33087 usb_cam.cc:863] camera
+E0803 08:49:05.588873 33087 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:05.760802 33080 usb_cam.cc:848] stamp jump.last stamp:10825609480000 current stamp:10825781481000
+W0803 08:49:05.760852 33080 usb_cam.cc:863] camera
+E0803 08:49:05.760857 33080 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:05.936830 33080 usb_cam.cc:848] stamp jump.last stamp:10825781481000 current stamp:10825957482000
+W0803 08:49:05.936882 33080 usb_cam.cc:863] camera
+E0803 08:49:05.936889 33080 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+E0803 08:49:06.069979 33093 usb_cam.cc:368] VIDIOC_S_FMT
+W0803 08:49:06.108786 33082 usb_cam.cc:848] stamp jump.last stamp:10825957482000 current stamp:10826129483000
+W0803 08:49:06.108829 33082 usb_cam.cc:863] camera
+E0803 08:49:06.108834 33082 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:06.280831 33091 usb_cam.cc:848] stamp jump.last stamp:10826129483000 current stamp:10826305481000
+W0803 08:49:06.280889 33091 usb_cam.cc:863] camera
+E0803 08:49:06.280895 33091 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:06.456810 33091 usb_cam.cc:848] stamp jump.last stamp:10826305481000 current stamp:10826477482000
+W0803 08:49:06.456866 33091 usb_cam.cc:863] camera
+E0803 08:49:06.456871 33091 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:06.628877 33090 usb_cam.cc:848] stamp jump.last stamp:10826477482000 current stamp:10826653553000
+W0803 08:49:06.628968 33090 usb_cam.cc:863] camera
+E0803 08:49:06.628975 33090 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:06.804838 33090 usb_cam.cc:848] stamp jump.last stamp:10826653553000 current stamp:10826825489000
+W0803 08:49:06.804885 33090 usb_cam.cc:863] camera
+E0803 08:49:06.804890 33090 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:06.976804 33084 usb_cam.cc:848] stamp jump.last stamp:10826825489000 current stamp:10826997486000
+W0803 08:49:06.976861 33084 usb_cam.cc:863] camera
+E0803 08:49:06.976866 33084 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:07.148833 33082 usb_cam.cc:848] stamp jump.last stamp:10826997486000 current stamp:10827173486000
+W0803 08:49:07.148921 33082 usb_cam.cc:863] camera
+E0803 08:49:07.148931 33082 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:07.324836 33092 usb_cam.cc:848] stamp jump.last stamp:10827173486000 current stamp:10827345486000
+W0803 08:49:07.324925 33092 usb_cam.cc:863] camera
+E0803 08:49:07.324934 33092 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:07.496822 33092 usb_cam.cc:848] stamp jump.last stamp:10827345486000 current stamp:10827521549000
+W0803 08:49:07.496891 33092 usb_cam.cc:863] camera
+E0803 08:49:07.496897 33092 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:07.672884 33092 usb_cam.cc:848] stamp jump.last stamp:10827521549000 current stamp:10827693532000
+W0803 08:49:07.673010 33092 usb_cam.cc:863] camera
+E0803 08:49:07.673023 33092 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:07.844961 33080 usb_cam.cc:848] stamp jump.last stamp:10827693532000 current stamp:10827865496000
+W0803 08:49:07.845139 33080 usb_cam.cc:863] camera
+E0803 08:49:07.845158 33080 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:08.020874 33084 usb_cam.cc:848] stamp jump.last stamp:10827865496000 current stamp:10828041509000
+W0803 08:49:08.020929 33084 usb_cam.cc:863] camera
+E0803 08:49:08.020936 33084 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+E0803 08:49:08.154567 33089 usb_cam.cc:368] VIDIOC_S_FMT
+W0803 08:49:08.192801 33084 usb_cam.cc:848] stamp jump.last stamp:10828041509000 current stamp:10828213505000
+W0803 08:49:08.192852 33084 usb_cam.cc:863] camera
+E0803 08:49:08.192858 33084 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:08.367900 33083 usb_cam.cc:848] stamp jump.last stamp:10828213505000 current stamp:10828389488000
+W0803 08:49:08.368062 33083 usb_cam.cc:863] camera
+E0803 08:49:08.368078 33083 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:08.540884 33088 usb_cam.cc:848] stamp jump.last stamp:10828389488000 current stamp:10828561498000
+W0803 08:49:08.540994 33088 usb_cam.cc:863] camera
+E0803 08:49:08.541005 33088 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:08.712883 33088 usb_cam.cc:848] stamp jump.last stamp:10828561498000 current stamp:10828733495000
+W0803 08:49:08.712962 33088 usb_cam.cc:863] camera
+E0803 08:49:08.712970 33088 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:08.888870 33093 usb_cam.cc:848] stamp jump.last stamp:10828733495000 current stamp:10828909515000
+W0803 08:49:08.888936 33093 usb_cam.cc:863] camera
+E0803 08:49:08.888942 33093 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:09.060801 33094 usb_cam.cc:848] stamp jump.last stamp:10828909515000 current stamp:10829081495000
+W0803 08:49:09.060855 33094 usb_cam.cc:863] camera
+E0803 08:49:09.060861 33094 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:09.232817 33084 usb_cam.cc:848] stamp jump.last stamp:10829081495000 current stamp:10829257478000
+W0803 08:49:09.232867 33084 usb_cam.cc:863] camera
+E0803 08:49:09.232872 33084 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:09.408794 33081 usb_cam.cc:848] stamp jump.last stamp:10829257478000 current stamp:10829429481000
+W0803 08:49:09.408834 33081 usb_cam.cc:863] camera
+E0803 08:49:09.408839 33081 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:09.580814 33090 usb_cam.cc:848] stamp jump.last stamp:10829429481000 current stamp:10829605532000
+W0803 08:49:09.580857 33090 usb_cam.cc:863] camera
+E0803 08:49:09.580860 33090 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:09.756790 33088 usb_cam.cc:848] stamp jump.last stamp:10829605532000 current stamp:10829777495000
+W0803 08:49:09.756834 33088 usb_cam.cc:863] camera
+E0803 08:49:09.756837 33088 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:09.928786 33088 usb_cam.cc:848] stamp jump.last stamp:10829777495000 current stamp:10829949494000
+W0803 08:49:09.928833 33088 usb_cam.cc:863] camera
+E0803 08:49:09.928838 33088 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:10.100849 33094 usb_cam.cc:848] stamp jump.last stamp:10829949494000 current stamp:10830125493000
+W0803 08:49:10.100893 33094 usb_cam.cc:863] camera
+E0803 08:49:10.100898 33094 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:10.188807 33085 usb_cam.cc:848] stamp jump.last stamp:10830125493000 current stamp:10830213560000
+W0803 08:49:10.188858 33085 usb_cam.cc:863] camera
+E0803 08:49:10.188863 33085 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+E0803 08:49:10.193150 33091 usb_cam.cc:368] VIDIOC_S_FMT
+W0803 08:49:10.364801 33087 usb_cam.cc:848] stamp jump.last stamp:10830213560000 current stamp:10830385493000
+W0803 08:49:10.364861 33087 usb_cam.cc:863] camera
+E0803 08:49:10.364867 33087 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:10.536792 33083 usb_cam.cc:848] stamp jump.last stamp:10830385493000 current stamp:10830557498000
+W0803 08:49:10.536832 33083 usb_cam.cc:863] camera
+E0803 08:49:10.536837 33083 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:10.708817 33090 usb_cam.cc:848] stamp jump.last stamp:10830557498000 current stamp:10830733495000
+W0803 08:49:10.708868 33090 usb_cam.cc:863] camera
+E0803 08:49:10.708873 33090 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:10.884800 33080 usb_cam.cc:848] stamp jump.last stamp:10830733495000 current stamp:10830905493000
+W0803 08:49:10.884842 33080 usb_cam.cc:863] camera
+E0803 08:49:10.884847 33080 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:11.056810 33089 usb_cam.cc:848] stamp jump.last stamp:10830905493000 current stamp:10831081545000
+W0803 08:49:11.056867 33089 usb_cam.cc:863] camera
+E0803 08:49:11.056872 33089 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:11.232794 33089 usb_cam.cc:848] stamp jump.last stamp:10831081545000 current stamp:10831253496000
+W0803 08:49:11.232836 33089 usb_cam.cc:863] camera
+E0803 08:49:11.232842 33089 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:11.404814 33095 usb_cam.cc:848] stamp jump.last stamp:10831253496000 current stamp:10831425499000
+W0803 08:49:11.404870 33095 usb_cam.cc:863] camera
+E0803 08:49:11.404875 33095 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:11.580832 33086 usb_cam.cc:848] stamp jump.last stamp:10831425499000 current stamp:10831601497000
+W0803 08:49:11.580879 33086 usb_cam.cc:863] camera
+E0803 08:49:11.580883 33086 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:11.752815 33082 usb_cam.cc:848] stamp jump.last stamp:10831601497000 current stamp:10831773499000
+W0803 08:49:11.752872 33082 usb_cam.cc:863] camera
+E0803 08:49:11.752880 33082 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:11.924839 33093 usb_cam.cc:848] stamp jump.last stamp:10831773499000 current stamp:10831949497000
+W0803 08:49:11.924887 33093 usb_cam.cc:863] camera
+E0803 08:49:11.924891 33093 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:12.100800 33093 usb_cam.cc:848] stamp jump.last stamp:10831949497000 current stamp:10832121499000
+W0803 08:49:12.100845 33093 usb_cam.cc:863] camera
+E0803 08:49:12.100850 33093 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+E0803 08:49:12.237861 33089 usb_cam.cc:368] VIDIOC_S_FMT
+W0803 08:49:12.272819 33091 usb_cam.cc:848] stamp jump.last stamp:10832121499000 current stamp:10832297559000
+W0803 08:49:12.272866 33091 usb_cam.cc:863] camera
+E0803 08:49:12.272871 33091 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:12.448858 33095 usb_cam.cc:848] stamp jump.last stamp:10832297559000 current stamp:10832469500000
+W0803 08:49:12.448913 33095 usb_cam.cc:863] camera
+E0803 08:49:12.448920 33095 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:12.620815 33095 usb_cam.cc:848] stamp jump.last stamp:10832469500000 current stamp:10832641503000
+W0803 08:49:12.620887 33095 usb_cam.cc:863] camera
+E0803 08:49:12.620895 33095 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:12.792824 33082 usb_cam.cc:848] stamp jump.last stamp:10832641503000 current stamp:10832817501000
+W0803 08:49:12.792871 33082 usb_cam.cc:863] camera
+E0803 08:49:12.792877 33082 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:12.968819 33088 usb_cam.cc:848] stamp jump.last stamp:10832817501000 current stamp:10832989502000
+W0803 08:49:12.968881 33088 usb_cam.cc:863] camera
+E0803 08:49:12.968889 33088 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:13.140882 33093 usb_cam.cc:848] stamp jump.last stamp:10832989502000 current stamp:10833165563000
+W0803 08:49:13.140942 33093 usb_cam.cc:863] camera
+E0803 08:49:13.140947 33093 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:13.316856 33089 usb_cam.cc:848] stamp jump.last stamp:10833165563000 current stamp:10833337507000
+W0803 08:49:13.316929 33089 usb_cam.cc:863] camera
+E0803 08:49:13.316942 33089 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:13.488858 33092 usb_cam.cc:848] stamp jump.last stamp:10833337507000 current stamp:10833509521000
+W0803 08:49:13.488919 33092 usb_cam.cc:863] camera
+E0803 08:49:13.488924 33092 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:13.664986 33092 usb_cam.cc:848] stamp jump.last stamp:10833509521000 current stamp:10833685523000
+W0803 08:49:13.665109 33092 usb_cam.cc:863] camera
+E0803 08:49:13.665127 33092 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:13.836833 33082 usb_cam.cc:848] stamp jump.last stamp:10833685523000 current stamp:10833857515000
+W0803 08:49:13.836895 33082 usb_cam.cc:863] camera
+E0803 08:49:13.836903 33082 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:14.008945 33084 usb_cam.cc:848] stamp jump.last stamp:10833857515000 current stamp:10834033524000
+W0803 08:49:14.009084 33084 usb_cam.cc:863] camera
+E0803 08:49:14.009099 33084 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:14.184806 33093 usb_cam.cc:848] stamp jump.last stamp:10834033524000 current stamp:10834205501000
+W0803 08:49:14.184851 33093 usb_cam.cc:863] camera
+E0803 08:49:14.184856 33093 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+E0803 08:49:14.323385 33089 usb_cam.cc:368] VIDIOC_S_FMT
+W0803 08:49:14.356809 33081 usb_cam.cc:848] stamp jump.last stamp:10834205501000 current stamp:10834377508000
+W0803 08:49:14.356855 33081 usb_cam.cc:863] camera
+E0803 08:49:14.356859 33081 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:14.532867 33086 usb_cam.cc:848] stamp jump.last stamp:10834377508000 current stamp:10834553507000
+W0803 08:49:14.532913 33086 usb_cam.cc:863] camera
+E0803 08:49:14.532918 33086 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:14.704813 33095 usb_cam.cc:848] stamp jump.last stamp:10834553507000 current stamp:10834725514000
+W0803 08:49:14.704857 33095 usb_cam.cc:863] camera
+E0803 08:49:14.704864 33095 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:14.876861 33082 usb_cam.cc:848] stamp jump.last stamp:10834725514000 current stamp:10834901507000
+W0803 08:49:14.876920 33082 usb_cam.cc:863] camera
+E0803 08:49:14.876929 33082 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:15.053040 33085 usb_cam.cc:848] stamp jump.last stamp:10834901507000 current stamp:10835073516000
+W0803 08:49:15.053202 33085 usb_cam.cc:863] camera
+E0803 08:49:15.053218 33085 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:15.224870 33091 usb_cam.cc:848] stamp jump.last stamp:10835073516000 current stamp:10835249552000
+W0803 08:49:15.224946 33091 usb_cam.cc:863] camera
+E0803 08:49:15.224953 33091 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:15.400835 33083 usb_cam.cc:848] stamp jump.last stamp:10835249552000 current stamp:10835421511000
+W0803 08:49:15.400904 33083 usb_cam.cc:863] camera
+E0803 08:49:15.400913 33083 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:15.572893 33083 usb_cam.cc:848] stamp jump.last stamp:10835421511000 current stamp:10835593515000
+W0803 08:49:15.573014 33083 usb_cam.cc:863] camera
+E0803 08:49:15.573029 33083 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:15.744901 33094 usb_cam.cc:848] stamp jump.last stamp:10835593515000 current stamp:10835769511000
+W0803 08:49:15.744988 33094 usb_cam.cc:863] camera
+E0803 08:49:15.744995 33094 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:15.832983 33084 usb_cam.cc:848] stamp jump.last stamp:10835769511000 current stamp:10835857575000
+W0803 08:49:15.833127 33084 usb_cam.cc:863] camera
+E0803 08:49:15.833134 33084 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:16.008895 33087 usb_cam.cc:848] stamp jump.last stamp:10835857575000 current stamp:10836029518000
+W0803 08:49:16.009007 33087 usb_cam.cc:863] camera
+E0803 08:49:16.009017 33087 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:16.181032 33087 usb_cam.cc:848] stamp jump.last stamp:10836029518000 current stamp:10836201519000
+W0803 08:49:16.181195 33087 usb_cam.cc:863] camera
+E0803 08:49:16.181217 33087 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:16.352833 33087 usb_cam.cc:848] stamp jump.last stamp:10836201519000 current stamp:10836377531000
+W0803 08:49:16.352883 33087 usb_cam.cc:863] camera
+E0803 08:49:16.352890 33087 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+E0803 08:49:16.356422 33090 usb_cam.cc:368] VIDIOC_S_FMT
+W0803 08:49:16.528817 33087 usb_cam.cc:848] stamp jump.last stamp:10836377531000 current stamp:10836549514000
+W0803 08:49:16.528861 33087 usb_cam.cc:863] camera
+E0803 08:49:16.528865 33087 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:16.700855 33083 usb_cam.cc:848] stamp jump.last stamp:10836549514000 current stamp:10836725561000
+W0803 08:49:16.700911 33083 usb_cam.cc:863] camera
+E0803 08:49:16.700917 33083 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:16.876829 33088 usb_cam.cc:848] stamp jump.last stamp:10836725561000 current stamp:10836897515000
+W0803 08:49:16.876879 33088 usb_cam.cc:863] camera
+E0803 08:49:16.876884 33088 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:17.048861 33081 usb_cam.cc:848] stamp jump.last stamp:10836897515000 current stamp:10837069517000
+W0803 08:49:17.048951 33081 usb_cam.cc:863] camera
+E0803 08:49:17.048960 33081 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:17.224875 33089 usb_cam.cc:848] stamp jump.last stamp:10837069517000 current stamp:10837245540000
+W0803 08:49:17.224933 33089 usb_cam.cc:863] camera
+E0803 08:49:17.224942 33089 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:17.396817 33090 usb_cam.cc:848] stamp jump.last stamp:10837245540000 current stamp:10837417521000
+W0803 08:49:17.396864 33090 usb_cam.cc:863] camera
+E0803 08:49:17.396870 33090 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:17.569105 33092 usb_cam.cc:848] stamp jump.last stamp:10837417521000 current stamp:10837593540000
+W0803 08:49:17.569257 33092 usb_cam.cc:863] camera
+E0803 08:49:17.569272 33092 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:17.744860 33095 usb_cam.cc:848] stamp jump.last stamp:10837593540000 current stamp:10837765544000
+W0803 08:49:17.744946 33095 usb_cam.cc:863] camera
+E0803 08:49:17.744958 33095 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:17.916972 33084 usb_cam.cc:848] stamp jump.last stamp:10837765544000 current stamp:10837941569000
+W0803 08:49:17.917104 33084 usb_cam.cc:863] camera
+E0803 08:49:17.917116 33084 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:18.092876 33091 usb_cam.cc:848] stamp jump.last stamp:10837941569000 current stamp:10838113519000
+W0803 08:49:18.092924 33091 usb_cam.cc:863] camera
+E0803 08:49:18.092929 33091 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:18.264843 33086 usb_cam.cc:848] stamp jump.last stamp:10838113519000 current stamp:10838285521000
+W0803 08:49:18.264900 33086 usb_cam.cc:863] camera
+E0803 08:49:18.264905 33086 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:18.436887 33086 usb_cam.cc:848] stamp jump.last stamp:10838285521000 current stamp:10838461521000
+W0803 08:49:18.436941 33086 usb_cam.cc:863] camera
+E0803 08:49:18.436946 33086 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+E0803 08:49:18.441819 33087 usb_cam.cc:368] VIDIOC_S_FMT
+W0803 08:49:18.612836 33086 usb_cam.cc:848] stamp jump.last stamp:10838461521000 current stamp:10838633522000
+W0803 08:49:18.612877 33086 usb_cam.cc:863] camera
+E0803 08:49:18.612881 33086 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:18.784848 33094 usb_cam.cc:848] stamp jump.last stamp:10838633522000 current stamp:10838809580000
+W0803 08:49:18.784898 33094 usb_cam.cc:863] camera
+E0803 08:49:18.784902 33094 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:18.960819 33088 usb_cam.cc:848] stamp jump.last stamp:10838809580000 current stamp:10838981522000
+W0803 08:49:18.960865 33088 usb_cam.cc:863] camera
+E0803 08:49:18.960870 33088 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:19.132849 33089 usb_cam.cc:848] stamp jump.last stamp:10838981522000 current stamp:10839153524000
+W0803 08:49:19.132911 33089 usb_cam.cc:863] camera
+E0803 08:49:19.132916 33089 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:19.304898 33089 usb_cam.cc:848] stamp jump.last stamp:10839153524000 current stamp:10839329522000
+W0803 08:49:19.304946 33089 usb_cam.cc:863] camera
+E0803 08:49:19.304953 33089 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:19.392829 33092 usb_cam.cc:848] stamp jump.last stamp:10839329522000 current stamp:10839417584000
+W0803 08:49:19.392871 33092 usb_cam.cc:863] camera
+E0803 08:49:19.392875 33092 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:19.568837 33082 usb_cam.cc:848] stamp jump.last stamp:10839417584000 current stamp:10839589522000
+W0803 08:49:19.568898 33082 usb_cam.cc:863] camera
+E0803 08:49:19.568905 33082 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:19.740850 33085 usb_cam.cc:848] stamp jump.last stamp:10839589522000 current stamp:10839761526000
+W0803 08:49:19.740907 33085 usb_cam.cc:863] camera
+E0803 08:49:19.740912 33085 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:19.912838 33094 usb_cam.cc:848] stamp jump.last stamp:10839761526000 current stamp:10839937525000
+W0803 08:49:19.912881 33094 usb_cam.cc:863] camera
+E0803 08:49:19.912887 33094 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:20.088845 33081 usb_cam.cc:848] stamp jump.last stamp:10839937525000 current stamp:10840109527000
+W0803 08:49:20.088891 33081 usb_cam.cc:863] camera
+E0803 08:49:20.088896 33081 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:20.260843 33080 usb_cam.cc:848] stamp jump.last stamp:10840109527000 current stamp:10840285567000
+W0803 08:49:20.260891 33080 usb_cam.cc:863] camera
+E0803 08:49:20.260895 33080 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:20.436846 33087 usb_cam.cc:848] stamp jump.last stamp:10840285567000 current stamp:10840457531000
+W0803 08:49:20.436897 33087 usb_cam.cc:863] camera
+E0803 08:49:20.436902 33087 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:20.608839 33082 usb_cam.cc:848] stamp jump.last stamp:10840457531000 current stamp:10840629529000
+W0803 08:49:20.608889 33082 usb_cam.cc:863] camera
+E0803 08:49:20.608894 33082 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+E0803 08:49:20.613842 33085 usb_cam.cc:368] VIDIOC_S_FMT
+W0803 08:49:20.785029 33082 usb_cam.cc:848] stamp jump.last stamp:10840629529000 current stamp:10840805524000
+W0803 08:49:20.785152 33082 usb_cam.cc:863] camera
+E0803 08:49:20.785166 33082 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:20.956941 33084 usb_cam.cc:848] stamp jump.last stamp:10840805524000 current stamp:10840977554000
+W0803 08:49:20.957031 33084 usb_cam.cc:863] camera
+E0803 08:49:20.957041 33084 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:21.128856 33084 usb_cam.cc:848] stamp jump.last stamp:10840977554000 current stamp:10841153532000
+W0803 08:49:21.128999 33084 usb_cam.cc:863] camera
+E0803 08:49:21.129016 33084 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:21.304899 33080 usb_cam.cc:848] stamp jump.last stamp:10841153532000 current stamp:10841325558000
+W0803 08:49:21.304996 33080 usb_cam.cc:863] camera
+E0803 08:49:21.305003 33080 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:21.476851 33092 usb_cam.cc:848] stamp jump.last stamp:10841325558000 current stamp:10841501589000
+W0803 08:49:21.476903 33092 usb_cam.cc:863] camera
+E0803 08:49:21.476909 33092 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:21.652835 33085 usb_cam.cc:848] stamp jump.last stamp:10841501589000 current stamp:10841673532000
+W0803 08:49:21.652890 33085 usb_cam.cc:863] camera
+E0803 08:49:21.652896 33085 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:21.824849 33082 usb_cam.cc:848] stamp jump.last stamp:10841673532000 current stamp:10841845534000
+W0803 08:49:21.824903 33082 usb_cam.cc:863] camera
+E0803 08:49:21.824909 33082 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:21.996850 33088 usb_cam.cc:848] stamp jump.last stamp:10841845534000 current stamp:10842021530000
+W0803 08:49:21.996893 33088 usb_cam.cc:863] camera
+E0803 08:49:21.996898 33088 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:22.172857 33084 usb_cam.cc:848] stamp jump.last stamp:10842021530000 current stamp:10842193540000
+W0803 08:49:22.172910 33084 usb_cam.cc:863] camera
+E0803 08:49:22.172915 33084 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:22.344857 33083 usb_cam.cc:848] stamp jump.last stamp:10842193540000 current stamp:10842369578000
+W0803 08:49:22.344925 33083 usb_cam.cc:863] camera
+E0803 08:49:22.344931 33083 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:22.520833 33087 usb_cam.cc:848] stamp jump.last stamp:10842369578000 current stamp:10842541532000
+W0803 08:49:22.520879 33087 usb_cam.cc:863] camera
+E0803 08:49:22.520882 33087 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:22.692848 33093 usb_cam.cc:848] stamp jump.last stamp:10842541532000 current stamp:10842713548000
+W0803 08:49:22.692894 33093 usb_cam.cc:863] camera
+E0803 08:49:22.692898 33093 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+E0803 08:49:22.697664 33094 usb_cam.cc:368] VIDIOC_S_FMT
+W0803 08:49:22.868870 33093 usb_cam.cc:848] stamp jump.last stamp:10842713548000 current stamp:10842889532000
+W0803 08:49:22.868916 33093 usb_cam.cc:863] camera
+E0803 08:49:22.868919 33093 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:23.040915 33090 usb_cam.cc:848] stamp jump.last stamp:10842889532000 current stamp:10843061537000
+W0803 08:49:23.040988 33090 usb_cam.cc:863] camera
+E0803 08:49:23.040994 33090 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:23.212862 33084 usb_cam.cc:848] stamp jump.last stamp:10843061537000 current stamp:10843237534000
+W0803 08:49:23.212910 33084 usb_cam.cc:863] camera
+E0803 08:49:23.212915 33084 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:23.388840 33083 usb_cam.cc:848] stamp jump.last stamp:10843237534000 current stamp:10843409536000
+W0803 08:49:23.388885 33083 usb_cam.cc:863] camera
+E0803 08:49:23.388890 33083 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:23.560861 33083 usb_cam.cc:848] stamp jump.last stamp:10843409536000 current stamp:10843581546000
+W0803 08:49:23.560911 33083 usb_cam.cc:863] camera
+E0803 08:49:23.560916 33083 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:23.736884 33082 usb_cam.cc:848] stamp jump.last stamp:10843581546000 current stamp:10843757538000
+W0803 08:49:23.736927 33082 usb_cam.cc:863] camera
+E0803 08:49:23.736932 33082 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:23.908898 33093 usb_cam.cc:848] stamp jump.last stamp:10843757538000 current stamp:10843929558000
+W0803 08:49:23.908974 33093 usb_cam.cc:863] camera
+E0803 08:49:23.908982 33093 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:24.080862 33089 usb_cam.cc:848] stamp jump.last stamp:10843929558000 current stamp:10844105537000
+W0803 08:49:24.080930 33089 usb_cam.cc:863] camera
+E0803 08:49:24.080940 33089 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:24.256935 33089 usb_cam.cc:848] stamp jump.last stamp:10844105537000 current stamp:10844277539000
+W0803 08:49:24.257053 33089 usb_cam.cc:863] camera
+E0803 08:49:24.257067 33089 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:24.428907 33089 usb_cam.cc:848] stamp jump.last stamp:10844277539000 current stamp:10844453625000
+W0803 08:49:24.428995 33089 usb_cam.cc:863] camera
+E0803 08:49:24.429003 33089 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:24.604890 33089 usb_cam.cc:848] stamp jump.last stamp:10844453625000 current stamp:10844625566000
+W0803 08:49:24.604976 33089 usb_cam.cc:863] camera
+E0803 08:49:24.604987 33089 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:24.776854 33091 usb_cam.cc:848] stamp jump.last stamp:10844625566000 current stamp:10844797543000
+W0803 08:49:24.776899 33091 usb_cam.cc:863] camera
+E0803 08:49:24.776903 33091 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+E0803 08:49:24.779211 33081 usb_cam.cc:368] VIDIOC_S_FMT
+W0803 08:49:24.948913 33091 usb_cam.cc:848] stamp jump.last stamp:10844797543000 current stamp:10844973541000
+W0803 08:49:24.948968 33091 usb_cam.cc:863] camera
+E0803 08:49:24.948973 33091 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:25.036864 33090 usb_cam.cc:848] stamp jump.last stamp:10844973541000 current stamp:10845061587000
+W0803 08:49:25.036923 33090 usb_cam.cc:863] camera
+E0803 08:49:25.036928 33090 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:25.212841 33086 usb_cam.cc:848] stamp jump.last stamp:10845061587000 current stamp:10845233542000
+W0803 08:49:25.212885 33086 usb_cam.cc:863] camera
+E0803 08:49:25.212890 33086 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:25.384881 33092 usb_cam.cc:848] stamp jump.last stamp:10845233542000 current stamp:10845405532000
+W0803 08:49:25.384966 33092 usb_cam.cc:863] camera
+E0803 08:49:25.384979 33092 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:25.556897 33085 usb_cam.cc:848] stamp jump.last stamp:10845405532000 current stamp:10845581556000
+W0803 08:49:25.556974 33085 usb_cam.cc:863] camera
+E0803 08:49:25.556979 33085 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:25.732908 33085 usb_cam.cc:848] stamp jump.last stamp:10845581556000 current stamp:10845753547000
+W0803 08:49:25.733017 33085 usb_cam.cc:863] camera
+E0803 08:49:25.733026 33085 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:25.905082 33093 usb_cam.cc:848] stamp jump.last stamp:10845753547000 current stamp:10845929607000
+W0803 08:49:25.905242 33093 usb_cam.cc:863] camera
+E0803 08:49:25.905253 33093 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:26.080920 33080 usb_cam.cc:848] stamp jump.last stamp:10845929607000 current stamp:10846101566000
+W0803 08:49:26.081029 33080 usb_cam.cc:863] camera
+E0803 08:49:26.081040 33080 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:26.252871 33086 usb_cam.cc:848] stamp jump.last stamp:10846101566000 current stamp:10846273550000
+W0803 08:49:26.252929 33086 usb_cam.cc:863] camera
+E0803 08:49:26.252935 33086 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:26.428889 33087 usb_cam.cc:848] stamp jump.last stamp:10846273550000 current stamp:10846449546000
+W0803 08:49:26.428930 33087 usb_cam.cc:863] camera
+E0803 08:49:26.428936 33087 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:26.600849 33094 usb_cam.cc:848] stamp jump.last stamp:10846449546000 current stamp:10846621549000
+W0803 08:49:26.600898 33094 usb_cam.cc:863] camera
+E0803 08:49:26.600903 33094 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:26.772869 33082 usb_cam.cc:848] stamp jump.last stamp:10846621549000 current stamp:10846797545000
+W0803 08:49:26.772919 33082 usb_cam.cc:863] camera
+E0803 08:49:26.772924 33082 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+E0803 08:49:26.916407 33091 usb_cam.cc:368] VIDIOC_S_FMT
+W0803 08:49:26.948909 33093 usb_cam.cc:848] stamp jump.last stamp:10846797545000 current stamp:10846969547000
+W0803 08:49:26.948990 33093 usb_cam.cc:863] camera
+E0803 08:49:26.948995 33093 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:27.120899 33090 usb_cam.cc:848] stamp jump.last stamp:10846969547000 current stamp:10847145615000
+W0803 08:49:27.120961 33090 usb_cam.cc:863] camera
+E0803 08:49:27.120968 33090 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:27.297044 33086 usb_cam.cc:848] stamp jump.last stamp:10847145615000 current stamp:10847317542000
+W0803 08:49:27.297260 33086 usb_cam.cc:863] camera
+E0803 08:49:27.297276 33086 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:27.468961 33083 usb_cam.cc:848] stamp jump.last stamp:10847317542000 current stamp:10847489581000
+W0803 08:49:27.469070 33083 usb_cam.cc:863] camera
+E0803 08:49:27.469080 33083 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:27.640919 33089 usb_cam.cc:848] stamp jump.last stamp:10847489581000 current stamp:10847665551000
+W0803 08:49:27.640978 33089 usb_cam.cc:863] camera
+E0803 08:49:27.640985 33089 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:27.816874 33089 usb_cam.cc:848] stamp jump.last stamp:10847665551000 current stamp:10847837562000
+W0803 08:49:27.816926 33089 usb_cam.cc:863] camera
+E0803 08:49:27.816932 33089 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:27.988974 33093 usb_cam.cc:848] stamp jump.last stamp:10847837562000 current stamp:10848013611000
+W0803 08:49:27.989078 33093 usb_cam.cc:863] camera
+E0803 08:49:27.989091 33093 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:28.164917 33095 usb_cam.cc:848] stamp jump.last stamp:10848013611000 current stamp:10848185587000
+W0803 08:49:28.165009 33095 usb_cam.cc:863] camera
+E0803 08:49:28.165019 33095 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:28.336889 33087 usb_cam.cc:848] stamp jump.last stamp:10848185587000 current stamp:10848357591000
+W0803 08:49:28.336956 33087 usb_cam.cc:863] camera
+E0803 08:49:28.336961 33087 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:28.512892 33083 usb_cam.cc:848] stamp jump.last stamp:10848357591000 current stamp:10848533577000
+W0803 08:49:28.512938 33083 usb_cam.cc:863] camera
+E0803 08:49:28.512943 33083 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:28.684906 33085 usb_cam.cc:848] stamp jump.last stamp:10848533577000 current stamp:10848705575000
+W0803 08:49:28.684991 33085 usb_cam.cc:863] camera
+E0803 08:49:28.685003 33085 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:28.856878 33088 usb_cam.cc:848] stamp jump.last stamp:10848705575000 current stamp:10848881554000
+W0803 08:49:28.856938 33088 usb_cam.cc:863] camera
+E0803 08:49:28.856945 33088 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+E0803 08:49:28.999325 33080 usb_cam.cc:368] VIDIOC_S_FMT
+W0803 08:49:29.032867 33084 usb_cam.cc:848] stamp jump.last stamp:10848881554000 current stamp:10849053572000
+W0803 08:49:29.032917 33084 usb_cam.cc:863] camera
+E0803 08:49:29.032928 33084 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:29.204923 33090 usb_cam.cc:848] stamp jump.last stamp:10849053572000 current stamp:10849225573000
+W0803 08:49:29.204986 33090 usb_cam.cc:863] camera
+E0803 08:49:29.204993 33090 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:29.380944 33094 usb_cam.cc:848] stamp jump.last stamp:10849225573000 current stamp:10849401559000
+W0803 08:49:29.381052 33094 usb_cam.cc:863] camera
+E0803 08:49:29.381067 33094 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:29.552992 33094 usb_cam.cc:848] stamp jump.last stamp:10849401559000 current stamp:10849573574000
+W0803 08:49:29.553145 33094 usb_cam.cc:863] camera
+E0803 08:49:29.553158 33094 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:29.724886 33085 usb_cam.cc:848] stamp jump.last stamp:10849573574000 current stamp:10849749578000
+W0803 08:49:29.724963 33085 usb_cam.cc:863] camera
+E0803 08:49:29.724970 33085 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:29.900980 33091 usb_cam.cc:848] stamp jump.last stamp:10849749578000 current stamp:10849921585000
+W0803 08:49:29.901098 33091 usb_cam.cc:863] camera
+E0803 08:49:29.901108 33091 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:30.072894 33091 usb_cam.cc:848] stamp jump.last stamp:10849921585000 current stamp:10850097636000
+W0803 08:49:30.072947 33091 usb_cam.cc:863] camera
+E0803 08:49:30.072952 33091 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:30.248879 33095 usb_cam.cc:848] stamp jump.last stamp:10850097636000 current stamp:10850269557000
+W0803 08:49:30.248950 33095 usb_cam.cc:863] camera
+E0803 08:49:30.248956 33095 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:30.420876 33083 usb_cam.cc:848] stamp jump.last stamp:10850269557000 current stamp:10850441559000
+W0803 08:49:30.420922 33083 usb_cam.cc:863] camera
+E0803 08:49:30.420928 33083 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:30.592934 33082 usb_cam.cc:848] stamp jump.last stamp:10850441559000 current stamp:10850617560000
+W0803 08:49:30.592978 33082 usb_cam.cc:863] camera
+E0803 08:49:30.592983 33082 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:30.680866 33089 usb_cam.cc:848] stamp jump.last stamp:10850617560000 current stamp:10850705602000
+W0803 08:49:30.680914 33089 usb_cam.cc:863] camera
+E0803 08:49:30.680918 33089 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:30.856895 33093 usb_cam.cc:848] stamp jump.last stamp:10850705602000 current stamp:10850877560000
+W0803 08:49:30.857002 33093 usb_cam.cc:863] camera
+E0803 08:49:30.857012 33093 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:31.028872 33080 usb_cam.cc:848] stamp jump.last stamp:10850877560000 current stamp:10851049562000
+W0803 08:49:31.028916 33080 usb_cam.cc:863] camera
+E0803 08:49:31.028921 33080 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+E0803 08:49:31.035420 33084 usb_cam.cc:368] VIDIOC_S_FMT
+W0803 08:49:31.200884 33080 usb_cam.cc:848] stamp jump.last stamp:10851049562000 current stamp:10851225581000
+W0803 08:49:31.200932 33080 usb_cam.cc:863] camera
+E0803 08:49:31.200937 33080 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:31.376883 33087 usb_cam.cc:848] stamp jump.last stamp:10851225581000 current stamp:10851397563000
+W0803 08:49:31.376937 33087 usb_cam.cc:863] camera
+E0803 08:49:31.376945 33087 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:31.549178 33083 usb_cam.cc:848] stamp jump.last stamp:10851397563000 current stamp:10851573643000
+W0803 08:49:31.549319 33083 usb_cam.cc:863] camera
+E0803 08:49:31.549329 33083 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:31.724963 33083 usb_cam.cc:848] stamp jump.last stamp:10851573643000 current stamp:10851745564000
+W0803 08:49:31.725080 33083 usb_cam.cc:863] camera
+E0803 08:49:31.725091 33083 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:31.896888 33092 usb_cam.cc:848] stamp jump.last stamp:10851745564000 current stamp:10851917581000
+W0803 08:49:31.896942 33092 usb_cam.cc:863] camera
+E0803 08:49:31.896947 33092 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:32.072897 33091 usb_cam.cc:848] stamp jump.last stamp:10851917581000 current stamp:10852093563000
+W0803 08:49:32.072940 33091 usb_cam.cc:863] camera
+E0803 08:49:32.072945 33091 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:32.244871 33091 usb_cam.cc:848] stamp jump.last stamp:10852093563000 current stamp:10852265566000
+W0803 08:49:32.244915 33091 usb_cam.cc:863] camera
+E0803 08:49:32.244920 33091 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:32.416903 33095 usb_cam.cc:848] stamp jump.last stamp:10852265566000 current stamp:10852441563000
+W0803 08:49:32.416975 33095 usb_cam.cc:863] camera
+E0803 08:49:32.416981 33095 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:32.592866 33085 usb_cam.cc:848] stamp jump.last stamp:10852441563000 current stamp:10852613568000
+W0803 08:49:32.592911 33085 usb_cam.cc:863] camera
+E0803 08:49:32.592916 33085 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:32.765130 33088 usb_cam.cc:848] stamp jump.last stamp:10852613568000 current stamp:10852789625000
+W0803 08:49:32.765290 33088 usb_cam.cc:863] camera
+E0803 08:49:32.765300 33088 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:32.940973 33092 usb_cam.cc:848] stamp jump.last stamp:10852789625000 current stamp:10852961591000
+W0803 08:49:32.941119 33092 usb_cam.cc:863] camera
+E0803 08:49:32.941138 33092 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:33.112967 33086 usb_cam.cc:848] stamp jump.last stamp:10852961591000 current stamp:10853133579000
+W0803 08:49:33.113050 33086 usb_cam.cc:863] camera
+E0803 08:49:33.113057 33086 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+E0803 08:49:33.124542 33090 usb_cam.cc:368] VIDIOC_S_FMT
+W0803 08:49:33.284986 33086 usb_cam.cc:848] stamp jump.last stamp:10853133579000 current stamp:10853309586000
+W0803 08:49:33.285076 33086 usb_cam.cc:863] camera
+E0803 08:49:33.285082 33086 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:33.460884 33094 usb_cam.cc:848] stamp jump.last stamp:10853309586000 current stamp:10853481569000
+W0803 08:49:33.460942 33094 usb_cam.cc:863] camera
+E0803 08:49:33.460950 33094 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:33.632987 33085 usb_cam.cc:848] stamp jump.last stamp:10853481569000 current stamp:10853657630000
+W0803 08:49:33.633069 33085 usb_cam.cc:863] camera
+E0803 08:49:33.633080 33085 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:33.808991 33093 usb_cam.cc:848] stamp jump.last stamp:10853657630000 current stamp:10853829574000
+W0803 08:49:33.809101 33093 usb_cam.cc:863] camera
+E0803 08:49:33.809110 33093 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:33.980881 33080 usb_cam.cc:848] stamp jump.last stamp:10853829574000 current stamp:10854001574000
+W0803 08:49:33.980939 33080 usb_cam.cc:863] camera
+E0803 08:49:33.980947 33080 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:34.156909 33090 usb_cam.cc:848] stamp jump.last stamp:10854001574000 current stamp:10854177560000
+W0803 08:49:34.156961 33090 usb_cam.cc:863] camera
+E0803 08:49:34.156967 33090 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:34.328860 33091 usb_cam.cc:848] stamp jump.last stamp:10854177560000 current stamp:10854349580000
+W0803 08:49:34.328908 33091 usb_cam.cc:863] camera
+E0803 08:49:34.328913 33091 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:34.500897 33095 usb_cam.cc:848] stamp jump.last stamp:10854349580000 current stamp:10854525573000
+W0803 08:49:34.500972 33095 usb_cam.cc:863] camera
+E0803 08:49:34.500980 33095 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:34.676887 33083 usb_cam.cc:848] stamp jump.last stamp:10854525573000 current stamp:10854697575000
+W0803 08:49:34.676947 33083 usb_cam.cc:863] camera
+E0803 08:49:34.676954 33083 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:34.848889 33088 usb_cam.cc:848] stamp jump.last stamp:10854697575000 current stamp:10854873632000
+W0803 08:49:34.848937 33088 usb_cam.cc:863] camera
+E0803 08:49:34.848943 33088 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:35.024921 33080 usb_cam.cc:848] stamp jump.last stamp:10854873632000 current stamp:10855045573000
+W0803 08:49:35.024966 33080 usb_cam.cc:863] camera
+E0803 08:49:35.024971 33080 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:35.196879 33086 usb_cam.cc:848] stamp jump.last stamp:10855045573000 current stamp:10855217575000
+W0803 08:49:35.196919 33086 usb_cam.cc:863] camera
+E0803 08:49:35.196923 33086 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+E0803 08:49:35.201792 33082 usb_cam.cc:368] VIDIOC_S_FMT
+W0803 08:49:35.368886 33086 usb_cam.cc:848] stamp jump.last stamp:10855217575000 current stamp:10855393574000
+W0803 08:49:35.368932 33086 usb_cam.cc:863] camera
+E0803 08:49:35.368937 33086 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:35.544978 33094 usb_cam.cc:848] stamp jump.last stamp:10855393574000 current stamp:10855565578000
+W0803 08:49:35.545086 33094 usb_cam.cc:863] camera
+E0803 08:49:35.545094 33094 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:35.716997 33084 usb_cam.cc:848] stamp jump.last stamp:10855565578000 current stamp:10855741633000
+W0803 08:49:35.717113 33084 usb_cam.cc:863] camera
+E0803 08:49:35.717123 33084 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:35.892923 33084 usb_cam.cc:848] stamp jump.last stamp:10855741633000 current stamp:10855913579000
+W0803 08:49:35.893038 33084 usb_cam.cc:863] camera
+E0803 08:49:35.893045 33084 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:36.064957 33090 usb_cam.cc:848] stamp jump.last stamp:10855913579000 current stamp:10856085582000
+W0803 08:49:36.065068 33090 usb_cam.cc:863] camera
+E0803 08:49:36.065080 33090 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:36.236963 33082 usb_cam.cc:848] stamp jump.last stamp:10856085582000 current stamp:10856261578000
+W0803 08:49:36.237038 33082 usb_cam.cc:863] camera
+E0803 08:49:36.237046 33082 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:36.324915 33086 usb_cam.cc:848] stamp jump.last stamp:10856261578000 current stamp:10856349627000
+W0803 08:49:36.324985 33086 usb_cam.cc:863] camera
+E0803 08:49:36.324990 33086 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:36.500960 33089 usb_cam.cc:848] stamp jump.last stamp:10856349627000 current stamp:10856521581000
+W0803 08:49:36.501057 33089 usb_cam.cc:863] camera
+E0803 08:49:36.501067 33089 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:36.672900 33083 usb_cam.cc:848] stamp jump.last stamp:10856521581000 current stamp:10856693583000
+W0803 08:49:36.672974 33083 usb_cam.cc:863] camera
+E0803 08:49:36.672986 33083 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:36.844899 33093 usb_cam.cc:848] stamp jump.last stamp:10856693583000 current stamp:10856869578000
+W0803 08:49:36.844964 33093 usb_cam.cc:863] camera
+E0803 08:49:36.844971 33093 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:37.021001 33081 usb_cam.cc:848] stamp jump.last stamp:10856869578000 current stamp:10857041591000
+W0803 08:49:37.021139 33081 usb_cam.cc:863] camera
+E0803 08:49:37.021153 33081 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:37.192907 33081 usb_cam.cc:848] stamp jump.last stamp:10857041591000 current stamp:10857217645000
+W0803 08:49:37.192960 33081 usb_cam.cc:863] camera
+E0803 08:49:37.192966 33081 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+E0803 08:49:37.246245 33082 usb_cam.cc:368] VIDIOC_S_FMT
+W0803 08:49:37.368971 33081 usb_cam.cc:848] stamp jump.last stamp:10857217645000 current stamp:10857389609000
+W0803 08:49:37.369081 33081 usb_cam.cc:863] camera
+E0803 08:49:37.369092 33081 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:37.540899 33085 usb_cam.cc:848] stamp jump.last stamp:10857389609000 current stamp:10857561585000
+W0803 08:49:37.540946 33085 usb_cam.cc:863] camera
+E0803 08:49:37.540951 33085 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:37.716939 33083 usb_cam.cc:848] stamp jump.last stamp:10857561585000 current stamp:10857737598000
+W0803 08:49:37.716998 33083 usb_cam.cc:863] camera
+E0803 08:49:37.717006 33083 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:37.888965 33088 usb_cam.cc:848] stamp jump.last stamp:10857737598000 current stamp:10857909598000
+W0803 08:49:37.889066 33088 usb_cam.cc:863] camera
+E0803 08:49:37.889075 33088 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:38.060920 33080 usb_cam.cc:848] stamp jump.last stamp:10857909598000 current stamp:10858085584000
+W0803 08:49:38.060983 33080 usb_cam.cc:863] camera
+E0803 08:49:38.060989 33080 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:38.236908 33091 usb_cam.cc:848] stamp jump.last stamp:10858085584000 current stamp:10858257586000
+W0803 08:49:38.236994 33091 usb_cam.cc:863] camera
+E0803 08:49:38.237005 33091 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:38.408972 33095 usb_cam.cc:848] stamp jump.last stamp:10858257586000 current stamp:10858433646000
+W0803 08:49:38.409060 33095 usb_cam.cc:863] camera
+E0803 08:49:38.409068 33095 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:38.584895 33094 usb_cam.cc:848] stamp jump.last stamp:10858433646000 current stamp:10858605584000
+W0803 08:49:38.584964 33094 usb_cam.cc:863] camera
+E0803 08:49:38.584970 33094 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:38.756909 33093 usb_cam.cc:848] stamp jump.last stamp:10858605584000 current stamp:10858777590000
+W0803 08:49:38.756970 33093 usb_cam.cc:863] camera
+E0803 08:49:38.756978 33093 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:38.928923 33088 usb_cam.cc:848] stamp jump.last stamp:10858777590000 current stamp:10858953586000
+W0803 08:49:38.928975 33088 usb_cam.cc:863] camera
+E0803 08:49:38.928980 33088 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:39.104907 33088 usb_cam.cc:848] stamp jump.last stamp:10858953586000 current stamp:10859125600000
+W0803 08:49:39.104979 33088 usb_cam.cc:863] camera
+E0803 08:49:39.104991 33088 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:39.276911 33088 usb_cam.cc:848] stamp jump.last stamp:10859125600000 current stamp:10859301647000
+W0803 08:49:39.276965 33088 usb_cam.cc:863] camera
+E0803 08:49:39.276970 33088 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+E0803 08:49:39.282265 33089 usb_cam.cc:368] VIDIOC_S_FMT
+W0803 08:49:39.452930 33088 usb_cam.cc:848] stamp jump.last stamp:10859301647000 current stamp:10859473598000
+W0803 08:49:39.452997 33088 usb_cam.cc:863] camera
+E0803 08:49:39.453003 33088 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:39.624912 33088 usb_cam.cc:848] stamp jump.last stamp:10859473598000 current stamp:10859645591000
+W0803 08:49:39.624970 33088 usb_cam.cc:863] camera
+E0803 08:49:39.624976 33088 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:39.800923 33083 usb_cam.cc:848] stamp jump.last stamp:10859645591000 current stamp:10859821588000
+W0803 08:49:39.800969 33083 usb_cam.cc:863] camera
+E0803 08:49:39.800974 33083 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:39.972914 33090 usb_cam.cc:848] stamp jump.last stamp:10859821588000 current stamp:10859993593000
+W0803 08:49:39.972961 33090 usb_cam.cc:863] camera
+E0803 08:49:39.972966 33090 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:40.144913 33082 usb_cam.cc:848] stamp jump.last stamp:10859993593000 current stamp:10860169588000
+W0803 08:49:40.144968 33082 usb_cam.cc:863] camera
+E0803 08:49:40.144974 33082 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:40.320904 33081 usb_cam.cc:848] stamp jump.last stamp:10860169588000 current stamp:10860341593000
+W0803 08:49:40.320958 33081 usb_cam.cc:863] camera
+E0803 08:49:40.320967 33081 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm
+W0803 08:49:40.492914 33085 usb_cam.cc:848] stamp jump.last stamp:10860341593000 current stamp:10860517642000
+W0803 08:49:40.492965 33085 usb_cam.cc:863] camera
+E0803 08:49:40.492971 33085 usb_cam.cc:867] Wrong Buffer Len: 1843200, dev: /dev/camera/front_6mm

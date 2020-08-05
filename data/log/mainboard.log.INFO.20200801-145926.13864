@@ -1,0 +1,53 @@
+Log file created at: 2020/08/01 14:59:26
+Running on machine: in_dev_docker
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+W0801 14:59:26.235832 13864 scheduler_factory.cc:63] No sched conf found, use default conf.
+I0801 14:59:26.235973 13867 processor.cc:41] processor_tid: 13867
+I0801 14:59:26.238554 13868 processor.cc:41] processor_tid: 13868
+I0801 14:59:26.238656 13869 processor.cc:41] processor_tid: 13869
+I0801 14:59:26.238687 13870 processor.cc:41] processor_tid: 13870
+I0801 14:59:26.238767 13871 processor.cc:41] processor_tid: 13871
+I0801 14:59:26.238816 13872 processor.cc:41] processor_tid: 13872
+I0801 14:59:26.238870 13873 processor.cc:41] processor_tid: 13873
+I0801 14:59:26.238940 13874 processor.cc:41] processor_tid: 13874
+I0801 14:59:26.238945 13875 processor.cc:41] processor_tid: 13875
+I0801 14:59:26.238991 13876 processor.cc:41] processor_tid: 13876
+I0801 14:59:26.239022 13877 processor.cc:41] processor_tid: 13877
+I0801 14:59:26.239087 13878 processor.cc:41] processor_tid: 13878
+I0801 14:59:26.239121 13879 processor.cc:41] processor_tid: 13879
+I0801 14:59:26.239203 13880 processor.cc:41] processor_tid: 13880
+I0801 14:59:26.239292 13881 processor.cc:41] processor_tid: 13881
+I0801 14:59:26.239332 13882 processor.cc:41] processor_tid: 13882
+I0801 14:59:26.239351 13864 init.cc:103] Register exit handle succ.
+I0801 14:59:26.241132 13864 module_controller.cc:65] Start initialize dag: /apollo/modules/monitor/dag/monitor.dag
+I0801 14:59:26.241362 13864 class_loader.cc:37] Begin LoadLibrary: /apollo/bazel-bin/modules/monitor/libmonitor.so
+I0801 14:59:26.930959 13864 timer.cc:135] start timer [0]
+I0801 14:59:27.432024 13910 scheduler.cc:54] create croutine: /internal/task0
+I0801 14:59:27.432272 13910 scheduler.cc:54] create croutine: /internal/task1
+I0801 14:59:27.432330 13910 scheduler.cc:54] create croutine: /internal/task2
+I0801 14:59:27.432381 13910 scheduler.cc:54] create croutine: /internal/task3
+I0801 14:59:27.432435 13910 scheduler.cc:54] create croutine: /internal/task4
+I0801 14:59:27.432479 13910 scheduler.cc:54] create croutine: /internal/task5
+I0801 14:59:27.432518 13910 scheduler.cc:54] create croutine: /internal/task6
+I0801 14:59:27.432576 13910 scheduler.cc:54] create croutine: /internal/task7
+I0801 14:59:27.432618 13910 scheduler.cc:54] create croutine: /internal/task8
+I0801 14:59:27.432659 13910 scheduler.cc:54] create croutine: /internal/task9
+I0801 14:59:27.432703 13910 scheduler.cc:54] create croutine: /internal/task10
+I0801 14:59:27.432760 13910 scheduler.cc:54] create croutine: /internal/task11
+I0801 14:59:27.432798 13910 scheduler.cc:54] create croutine: /internal/task12
+I0801 14:59:27.432848 13910 scheduler.cc:54] create croutine: /internal/task13
+I0801 14:59:27.432884 13910 scheduler.cc:54] create croutine: /internal/task14
+I0801 14:59:27.432917 13910 scheduler.cc:54] create croutine: /internal/task15
+W0801 14:59:27.433360 13910 rate.cc:95] Detect forward jumps in time
+I0801 14:59:27.435640 13867 scheduler.cc:54] create croutine: monitor_/apollo/hmi/status
+E0801 14:59:27.436153 13867 monitor_manager.cc:51] No HMIStatus was received.
+E0801 14:59:27.933331 13870 monitor_manager.cc:51] No HMIStatus was received.
+E0801 14:59:28.433663 13868 monitor_manager.cc:51] No HMIStatus was received.
+W0801 14:59:28.435322 13910 rate.cc:95] Detect forward jumps in time
+I0801 14:59:28.940924 13882 scheduler.cc:54] create croutine: monitor_/apollo/canbus/chassis
+I0801 14:59:28.941828 13882 recurrent_runner.cc:30] EsdCanMonitor is running round #1
+I0801 14:59:28.942859 13882 scheduler.cc:54] create croutine: monitor_/apollo/sensor/gnss/gnss_status
+I0801 14:59:28.946187 13882 scheduler.cc:54] create croutine: monitor_/apollo/localization/msf_status
+I0801 14:59:28.956022 13882 scheduler.cc:54] create croutine: monitor_/apollo/common/latency_records
+I0801 14:59:28.958956 13882 scheduler.cc:54] create croutine: monitor_/apollo/sensor/lidar128/compensator/PointCloud2
+I0801 14:59:43.933290 13876 recurrent_runner.cc:30] ProcessMonitor is running round #9

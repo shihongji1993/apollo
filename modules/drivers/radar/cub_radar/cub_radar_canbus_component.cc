@@ -81,7 +81,7 @@ bool CubRadarCanbusComponent::Init() {
                                                  &input_speed);
     sender_message_speed.Update();
     can_client_->SendSingleFrame({sender_message_speed.CanFrame()});
-  =====test send message==============*/
+  //=====test send message==============*/
 
   sensor_message_manager_ = std::unique_ptr<CubRadarMessageManager>(
       new CubRadarMessageManager(cub_radar_writer_));
@@ -93,8 +93,7 @@ bool CubRadarCanbusComponent::Init() {
   AINFO << "Sensor message manager is successfully created.";
 
   if (can_receiver_.Init(can_client_.get(), sensor_message_manager_.get(),
-                         cub_radar_conf_.can_conf().enable_receiver_log()) !=
-      ErrorCode::OK) {
+                         enable_log_) != ErrorCode::OK) {
     return OnError("Failed to init can receiver.");
   }
   AINFO << "The can receiver is successfully initialized.";
@@ -103,13 +102,13 @@ bool CubRadarCanbusComponent::Init() {
   return start_success_;
 }
 
-apollo::common::ErrorCode CubRadarCanbusComponent::ConfigureRadar() {
-  RadarConfig200 radar_config;
-  radar_config.set_radar_conf(cub_radar_conf_.radar_conf());
-  SenderMessage<CubRadar> sender_message(RadarConfig200::ID, &radar_config);
-  sender_message.Update();
-  return can_client_->SendSingleFrame({sender_message.CanFrame()});
-}
+// apollo::common::ErrorCode CubRadarCanbusComponent::ConfigureRadar() {
+//   RadarConfig200 radar_config;
+//   radar_config.set_radar_conf(cub_radar_conf_.radar_conf());
+//   SenderMessage<CubRadar> sender_message(RadarConfig200::ID, &radar_config);
+//   sender_message.Update();
+//   return can_client_->SendSingleFrame({sender_message.CanFrame()});
+// }
 
 // apollo::common::ErrorCode CubRadarCanbusComponent::SetVecilotyRadar() {
 //   RadarConfig200 radar_config;
@@ -140,7 +139,6 @@ bool CubRadarCanbusComponent::Start() {
 
   // last step: publish monitor messages
   monitor_logger_buffer_.INFO("Canbus is started.");
-
   return true;
 }
 
@@ -160,7 +158,7 @@ bool CubRadarCanbusComponent::OnError(const std::string& error_msg) {
 
 void CubRadarCanbusComponent::PoseCallback(
     const std::shared_ptr<LocalizationEstimate>& pose_msg) {
-  auto send_interval = cub_radar_conf_.radar_conf().input_send_interval();
+  uint64_t send_interval = 20000000;
   uint64_t now_nsec = cyber::Time().Now().ToNanosecond();
   if (last_nsec_ != 0 && (now_nsec - last_nsec_) < send_interval) {
     return;

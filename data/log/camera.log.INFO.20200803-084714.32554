@@ -1,0 +1,127 @@
+Log file created at: 2020/08/03 08:47:14
+Running on machine: in_dev_docker
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0803 08:47:14.961231 32554 class_loader_utility.h:78] registerclass:CompressComponent,apollo::cyber::ComponentBase,/apollo/bazel-bin/modules/drivers/camera/libcamera_component.so
+I0803 08:47:14.961324 32554 class_loader_utility.h:78] registerclass:CameraComponent,apollo::cyber::ComponentBase,/apollo/bazel-bin/modules/drivers/camera/libcamera_component.so
+I0803 08:47:14.968909 32554 camera_component.cc:29] UsbCam config: camera_dev: "/dev/camera/front_6mm"
+frame_id: "camera_front_6mm"
+pixel_format: "yuyv"
+io_method: IO_METHOD_MMAP
+width: 1280
+height: 720
+frame_rate: 10
+monochrome: false
+brightness: 15
+contrast: 30
+saturation: 32
+sharpness: 32
+gain: 16
+auto_focus: true
+focus: -1
+auto_exposure: true
+exposure: 166
+auto_white_balance: true
+white_balance: 4600
+bytes_per_pixel: 2
+trigger_internal: 0
+trigger_fps: 20
+channel_name: "/apollo/sensor/camera/front_6mm/image"
+device_wait_ms: 2000
+spin_rate: 200
+output_type: RGB
+compress_conf {
+  output_channel: "/apollo/sensor/camera/front_6mm/image/compressed"
+  image_pool_size: 100
+}
+I0803 08:47:14.975414 32554 compress_component.cc:35] Camera config: 
+camera_dev: "/dev/camera/front_6mm"
+frame_id: "camera_front_6mm"
+pixel_format: "yuyv"
+io_method: IO_METHOD_MMAP
+width: 1280
+height: 720
+frame_rate: 10
+monochrome: false
+brightness: 15
+contrast: 30
+saturation: 32
+sharpness: 32
+gain: 16
+auto_focus: true
+focus: -1
+auto_exposure: true
+exposure: 166
+auto_white_balance: true
+white_balance: 4600
+bytes_per_pixel: 2
+trigger_internal: 0
+trigger_fps: 20
+channel_name: "/apollo/sensor/camera/front_6mm/image"
+device_wait_ms: 2000
+spin_rate: 200
+output_type: RGB
+compress_conf {
+  output_channel: "/apollo/sensor/camera/front_6mm/image/compressed"
+  image_pool_size: 100
+}
+I0803 08:47:14.981690 32554 camera_component.cc:29] UsbCam config: camera_dev: "/dev/camera/front_12mm"
+frame_id: "camera_front_12mm"
+pixel_format: "yuyv"
+io_method: IO_METHOD_MMAP
+width: 1280
+height: 720
+frame_rate: 10
+monochrome: false
+brightness: 15
+contrast: 30
+saturation: 32
+sharpness: 32
+gain: 16
+auto_focus: true
+focus: -1
+auto_exposure: true
+exposure: 166
+auto_white_balance: true
+white_balance: 4600
+bytes_per_pixel: 2
+trigger_internal: 0
+trigger_fps: 20
+channel_name: "/apollo/sensor/camera/front_12mm/image"
+device_wait_ms: 2000
+spin_rate: 200
+output_type: RGB
+compress_conf {
+  output_channel: "/apollo/sensor/camera/front_12mm/image/compressed"
+  image_pool_size: 100
+}
+I0803 08:47:14.984633 32554 compress_component.cc:35] Camera config: 
+camera_dev: "/dev/camera/front_12mm"
+frame_id: "camera_front_12mm"
+pixel_format: "yuyv"
+io_method: IO_METHOD_MMAP
+width: 1280
+height: 720
+frame_rate: 10
+monochrome: false
+brightness: 15
+contrast: 30
+saturation: 32
+sharpness: 32
+gain: 16
+auto_focus: true
+focus: -1
+auto_exposure: true
+exposure: 166
+auto_white_balance: true
+white_balance: 4600
+bytes_per_pixel: 2
+trigger_internal: 0
+trigger_fps: 20
+channel_name: "/apollo/sensor/camera/front_12mm/image"
+device_wait_ms: 2000
+spin_rate: 200
+output_type: RGB
+compress_conf {
+  output_channel: "/apollo/sensor/camera/front_12mm/image/compressed"
+  image_pool_size: 100
+}

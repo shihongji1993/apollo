@@ -29,10 +29,6 @@ namespace drivers {
 namespace canbus {
 namespace can {
 
-VCI_BOARD_INFO pInfo;       // save the broad info。
-VCI_BOARD_INFO pInfo1[50];  //
-int num = 0;                // the num of device。
-
 using apollo::common::ErrorCode;
 
 bool UsbCanClient::Init(const CANCardParameter &parameter) {
@@ -41,10 +37,9 @@ bool UsbCanClient::Init(const CANCardParameter &parameter) {
               "parameter is "
            << parameter.DebugString();
     return false;
-  } else {
-    port_ = parameter.channel_id();
-    return true;
   }
+  port_ = parameter.channel_id();
+  return true;
 }
 
 UsbCanClient::~UsbCanClient() {
@@ -57,59 +52,43 @@ ErrorCode UsbCanClient::Start() {
   if (is_started_) {
     return ErrorCode::OK;
   }
-
   if (port_ > MAX_CAN_PORT || port_ < 0) {
     AERROR << "can port number [" << port_ << "] is out of the range [0,"
            << MAX_CAN_PORT << "]";
     return ErrorCode::CAN_CLIENT_ERROR_BASE;
   }
-
-  num = VCI_FindUsbDevice2(pInfo1);
-  dev_handler_ = VCI_OpenDevice(VCI_USBCAN2, 0, 0);
-  if (dev_handler_ == 0)  // open device
-  {
+  num_ = VCI_FindUsbDevice2(pInfo1_);
+  dev_handler_ = VCI_OpenDevice(VCI_USBCAN2, dev_index_, reserved_para_);
+  if (dev_handler_ == 0) {
     AERROR << "Open device error code: " << dev_handler_;
     return ErrorCode::CAN_CLIENT_ERROR_BASE;
   }
   AINFO << "Open device succ code: " << dev_handler_;
 
-  dev_handler_ = VCI_ReadBoardInfo(VCI_USBCAN2, 0, &pInfo);
-  if (dev_handler_ != 0)  // read the Board Info。
-  {
-    printf(">>Get VCI_ReadBoardInfo success!\n");
+  dev_handler_ = VCI_ReadBoardInfo(VCI_USBCAN2, dev_index_, &pInfo_);
+  // read the Board Info。
+  if (dev_handler_ != 0) {
+    AINFO << ">>Get VCI_ReadBoardInfo success!\n";
   }
 
-  VCI_INIT_CONFIG config;
-  config.AccCode = 0;
+  VCI_INIT_CONFIG config;       // Initialization parameters
+  config.AccCode = 0;           // set the mask
   config.AccMask = 0xFFFFFFFF;  // set the mask
-  config.Filter = 1;
-  config.Timing0 = 0x01; /*250 Kbps  0x03  0x1C*/
-  config.Timing1 = 0x1C;
-  config.Mode = 0;  // normal mode
+  config.Filter = 1;            // Receive all frames
+  config.Timing0 = 0x01;        // set the Baud rate  250 Kbps
+  config.Timing1 = 0x1C;        // set the Baud rate  250 Kbps
+  config.Mode = 0;              // normal mode
 
-  dev_handler_ = VCI_InitCAN(VCI_USBCAN2, 0, 0, &config);
+  dev_handler_ = VCI_InitCAN(VCI_USBCAN2, dev_index_, can_index_, &config);
   if (dev_handler_ != 1) {
-    printf(">>Init CAN1 error\n");
-    VCI_CloseDevice(VCI_USBCAN2, 0);
+    AINFO << ">>Init CAN1 error";
+    VCI_CloseDevice(VCI_USBCAN2, dev_index_);
   }
-  dev_handler_ = VCI_StartCAN(VCI_USBCAN2, 0, 0);
+  dev_handler_ = VCI_StartCAN(VCI_USBCAN2, dev_index_, can_index_);
   if (dev_handler_ != 1) {
-    printf(">>Start CAN1 error\n");
-    VCI_CloseDevice(VCI_USBCAN2, 0);
+    AINFO << ">>Start CAN1 error";
+    VCI_CloseDevice(VCI_USBCAN2, dev_index_);
   }
-
-  dev_handler_ = VCI_InitCAN(VCI_USBCAN2, 0, 1, &config);
-  if (dev_handler_ != 1) {
-    printf(">>Init CAN2 error\n");
-    VCI_CloseDevice(VCI_USBCAN2, 0);
-  }
-
-  dev_handler_ = VCI_StartCAN(VCI_USBCAN2, 0, 1);
-  if (dev_handler_ != 1) {
-    printf(">>Start CAN2 error\n");
-    VCI_CloseDevice(VCI_USBCAN2, 0);
-  }
-
   is_started_ = true;
   return ErrorCode::OK;
 }
@@ -117,7 +96,7 @@ ErrorCode UsbCanClient::Start() {
 void UsbCanClient::Stop() {
   if (is_started_) {
     is_started_ = false;
-    dev_handler_ = VCI_CloseDevice(VCI_USBCAN2, 0);  // close device。
+    dev_handler_ = VCI_CloseDevice(VCI_USBCAN2, dev_index_);  // close device。
     if (dev_handler_ != 1) {
       AERROR << "close usbcan fail!the port:" << port_;
     } else {
@@ -138,19 +117,21 @@ ErrorCode UsbCanClient::Send(const std::vector<CanFrame> &frames,
     AERROR << "frame num is incorrect.";
     return ErrorCode::CAN_CLIENT_ERROR_FRAME_NUM;
   }
+
   if (!is_started_) {
-    AERROR << "Esd can client has not been initiated! Please init first!";
+    AERROR << "USB can client has not been initiated! Please init first!";
     return ErrorCode::CAN_CLIENT_ERROR_SEND_FAILED;
   }
 
-  for (size_t i = 0; i < frames.size(); i++) {
+  for (size_t i = 0; i < frames.size(); ++i) {
     send_frames_[0].ID = frames[i].id;
     send_frames_[0].SendType = 0;
     send_frames_[0].RemoteFlag = 0;
-    send_frames_[0].ExternFlag = 1;
+    send_frames_[0].ExternFlag = 0;
     send_frames_[0].DataLen = frames[i].len;
     std::memcpy(send_frames_[0].Data, frames[i].data, frames[i].len);
-    int senlen = VCI_Transmit(VCI_USBCAN2, 0, 0, send_frames_, 1);
+    int senlen =
+        VCI_Transmit(VCI_USBCAN2, dev_index_, can_index_, send_frames_, 1);
     if (senlen != 1) {
       AERROR << "send message failed" << std::endl;
       return ErrorCode::CAN_CLIENT_ERROR_BASE;
@@ -172,13 +153,13 @@ ErrorCode UsbCanClient::Receive(std::vector<CanFrame> *const frames,
            << "], frame_num:" << *frame_num;
     return ErrorCode::CAN_CLIENT_ERROR_FRAME_NUM;
   }
-  int ret = VCI_Receive(VCI_USBCAN2, 0, 0, recv_frames_, 3000, 100);
-
+  int ret = VCI_Receive(VCI_USBCAN2, dev_index_, can_index_, recv_frames_,
+                        MAX_CAN_RECV_FRAME_LEN, reserved_para_);
   if (ret == 0) {
     return ErrorCode::CAN_CLIENT_ERROR_BASE;
   }
 
-  for (int i = 0; i < ret; i++) {
+  for (int i = 0; i < ret; ++i) {
     CanFrame cf;
     cf.id = recv_frames_[i].ID;
     cf.len = recv_frames_[i].DataLen;

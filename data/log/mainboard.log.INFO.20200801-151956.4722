@@ -1,0 +1,28 @@
+Log file created at: 2020/08/01 15:19:56
+Running on machine: in_dev_docker
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+W0801 15:19:56.346338  4722 scheduler_factory.cc:63] No sched conf found, use default conf.
+I0801 15:19:56.346532  4728 processor.cc:41] processor_tid: 4728
+I0801 15:19:56.346616  4730 processor.cc:41] processor_tid: 4730
+I0801 15:19:56.346652  4732 processor.cc:41] processor_tid: 4732
+I0801 15:19:56.346691  4734 processor.cc:41] processor_tid: 4734
+I0801 15:19:56.346724  4736 processor.cc:41] processor_tid: 4736
+I0801 15:19:56.346769  4738 processor.cc:41] processor_tid: 4738
+I0801 15:19:56.346796  4740 processor.cc:41] processor_tid: 4740
+I0801 15:19:56.346848  4742 processor.cc:41] processor_tid: 4742
+I0801 15:19:56.346863  4744 processor.cc:41] processor_tid: 4744
+I0801 15:19:56.346895  4746 processor.cc:41] processor_tid: 4746
+I0801 15:19:56.346925  4748 processor.cc:41] processor_tid: 4748
+I0801 15:19:56.346951  4750 processor.cc:41] processor_tid: 4750
+I0801 15:19:56.346982  4752 processor.cc:41] processor_tid: 4752
+I0801 15:19:56.347014  4754 processor.cc:41] processor_tid: 4754
+I0801 15:19:56.347046  4756 processor.cc:41] processor_tid: 4756
+I0801 15:19:56.347077  4758 processor.cc:41] processor_tid: 4758
+I0801 15:19:56.347081  4722 init.cc:103] Register exit handle succ.
+I0801 15:19:56.347499  4722 module_controller.cc:65] Start initialize dag: /apollo/modules/drivers/camera/dag/camera.dag
+I0801 15:19:56.347580  4722 class_loader.cc:37] Begin LoadLibrary: /apollo/bazel-bin/modules/drivers/camera/libcamera_component.so
+E0801 15:19:56.650123  4722 file.cc:81] Failed to parse file /apollo/modules/drivers/camera/conf/camera_front_12mm.pb.txt as text proto.
+E0801 15:19:56.650266  4722 file.cc:103] Failed to parse file /apollo/modules/drivers/camera/conf/camera_front_12mm.pb.txt as binary proto.
+E0801 15:19:56.650312  4722 component.h:155] Component Init() failed.
+E0801 15:19:56.650399  4722 module_controller.cc:67] Failed to load module: /apollo/modules/drivers/camera/dag/camera.dag
+E0801 15:19:56.650929  4722 mainboard.cc:39] module start error.

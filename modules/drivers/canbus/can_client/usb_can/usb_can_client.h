@@ -40,45 +40,27 @@ namespace drivers {
 namespace canbus {
 namespace can {
 
-// int m_run0 = 1;
-
-/**
- * @class EsdCanClient
- * @brief The class which defines an ESD CAN client which inherits CanClient.
- */
 class UsbCanClient : public CanClient {
  public:
-  /**
-   * @brief Initialize the ESD CAN client by specified CAN card parameters.
-   * @param parameter CAN card parameters to initialize the CAN client.
-   * @return If the initialization is successful.
-   */
+  // Initialize the USB CAN client by specified CAN card parameters.
+  // parameter CAN card parameters to initialize the CAN client.
+  // return True If the initialization is successful.
   bool Init(const CANCardParameter &parameter) override;
 
-  /**
-   * @brief Destructor
-   */
   virtual ~UsbCanClient();
 
-  /**
-   * @brief Start the ESD CAN client.
-   * @return The status of the start action which is defined by
-   *         apollo::common::ErrorCode.
-   */
+  // Start the USB CAN client.
+  // return the status of the start action which is defined by
+  // apollo::common::ErrorCode.
   apollo::common::ErrorCode Start() override;
 
-  /**
-   * @brief Stop the ESD CAN client.
-   */
   void Stop() override;
 
-  /**
-   * @brief Send messages
-   * @param frames The messages to send.
-   * @param frame_num The amount of messages to send.
-   * @return The status of the sending action which is defined by
-   *         apollo::common::ErrorCode.
-   */
+  // function: Send messages
+  // param：frames The messages to send.
+  // param：frame_num The amount of messages to send.
+  // return the status of the sending action which is defined by
+  // apollo::common::ErrorCode.
   apollo::common::ErrorCode Send(const std::vector<CanFrame> &frames,
                                  int32_t *const frame_num) override;
 
@@ -99,11 +81,17 @@ class UsbCanClient : public CanClient {
   std::string GetErrorString(const int32_t status) override;
 
  private:
-  // void *receive_func(void *param1);  //receive thread。
+  CANCardParameter::CANChannelId port_;              // the port
+  VCI_CAN_OBJ send_frames_[MAX_CAN_SEND_FRAME_LEN];  // the data to send
+  VCI_CAN_OBJ
+  recv_frames_[MAX_CAN_RECV_FRAME_LEN];    // save the data received by Can
+  VCI_BOARD_INFO pInfo_;                   // save the broad info。
+  VCI_BOARD_INFO pInfo1_[MAX_SERIAL_MUM];  // save the broad info。
+  int num_ = 0;                            // the num of device。
   DWORD dev_handler_ = 0;
-  CANCardParameter::CANChannelId port_;
-  VCI_CAN_OBJ send_frames_[MAX_CAN_SEND_FRAME_LEN];
-  VCI_CAN_OBJ recv_frames_[3000];
+  const DWORD dev_index_ = 0;
+  const DWORD can_index_ = 0;
+  const DWORD reserved_para_ = 0;
 };
 
 }  // namespace can

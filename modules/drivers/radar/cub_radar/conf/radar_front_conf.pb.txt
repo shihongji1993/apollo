@@ -7,7 +7,7 @@ can_conf {
   }
 
   enable_debug_mode: false
-  enable_receiver_log: false
+  enable_receiver_log: true
 }
 
 radar_conf {

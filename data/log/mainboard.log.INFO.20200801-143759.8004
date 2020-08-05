@@ -1,0 +1,203 @@
+Log file created at: 2020/08/01 14:37:59
+Running on machine: in_dev_docker
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+W0801 14:37:59.371270  8004 scheduler_factory.cc:63] No sched conf found, use default conf.
+I0801 14:37:59.371450  8010 processor.cc:41] processor_tid: 8010
+I0801 14:37:59.371521  8012 processor.cc:41] processor_tid: 8012
+I0801 14:37:59.371552  8014 processor.cc:41] processor_tid: 8014
+I0801 14:37:59.371592  8015 processor.cc:41] processor_tid: 8015
+I0801 14:37:59.371629  8016 processor.cc:41] processor_tid: 8016
+I0801 14:37:59.371657  8017 processor.cc:41] processor_tid: 8017
+I0801 14:37:59.371681  8018 processor.cc:41] processor_tid: 8018
+I0801 14:37:59.371706  8019 processor.cc:41] processor_tid: 8019
+I0801 14:37:59.371752  8020 processor.cc:41] processor_tid: 8020
+I0801 14:37:59.371760  8021 processor.cc:41] processor_tid: 8021
+I0801 14:37:59.371784  8022 processor.cc:41] processor_tid: 8022
+I0801 14:37:59.371809  8023 processor.cc:41] processor_tid: 8023
+I0801 14:37:59.371829  8024 processor.cc:41] processor_tid: 8024
+I0801 14:37:59.371850  8025 processor.cc:41] processor_tid: 8025
+I0801 14:37:59.371868  8026 processor.cc:41] processor_tid: 8026
+I0801 14:37:59.371891  8027 processor.cc:41] processor_tid: 8027
+I0801 14:37:59.371897  8004 init.cc:103] Register exit handle succ.
+I0801 14:37:59.372300  8004 module_controller.cc:65] Start initialize dag: /apollo/modules/drivers/camera/dag/camera.dag
+I0801 14:37:59.372428  8004 class_loader.cc:37] Begin LoadLibrary: /apollo/bazel-bin/modules/drivers/camera/libcamera_component.so
+I0801 14:37:59.633496  8004 scheduler.cc:54] create croutine: /internal/task0
+I0801 14:37:59.633569  8004 scheduler.cc:54] create croutine: /internal/task1
+I0801 14:37:59.633607  8004 scheduler.cc:54] create croutine: /internal/task2
+I0801 14:37:59.633646  8004 scheduler.cc:54] create croutine: /internal/task3
+I0801 14:37:59.633679  8004 scheduler.cc:54] create croutine: /internal/task4
+I0801 14:37:59.633715  8004 scheduler.cc:54] create croutine: /internal/task5
+I0801 14:37:59.633747  8004 scheduler.cc:54] create croutine: /internal/task6
+I0801 14:37:59.633780  8004 scheduler.cc:54] create croutine: /internal/task7
+I0801 14:37:59.633812  8004 scheduler.cc:54] create croutine: /internal/task8
+I0801 14:37:59.633844  8004 scheduler.cc:54] create croutine: /internal/task9
+I0801 14:37:59.633877  8004 scheduler.cc:54] create croutine: /internal/task10
+I0801 14:37:59.633911  8004 scheduler.cc:54] create croutine: /internal/task11
+I0801 14:37:59.633942  8004 scheduler.cc:54] create croutine: /internal/task12
+I0801 14:37:59.633973  8004 scheduler.cc:54] create croutine: /internal/task13
+I0801 14:37:59.634004  8004 scheduler.cc:54] create croutine: /internal/task14
+I0801 14:37:59.634034  8004 scheduler.cc:54] create croutine: /internal/task15
+I0801 14:37:59.635774  8004 scheduler.cc:54] create croutine: camera_front_12mm_compress_/apollo/sensor/camera/front_12mm/image
+I0801 14:37:59.636214  8004 scheduler.cc:54] create croutine: camera_front_12mm_compress
+I0801 14:37:59.892624  8010 usb_cam.cc:401] Capability flag: 0x0
+I0801 14:37:59.925843  8010 usb_cam.cc:409] Set framerate to be 20
+I0801 14:37:59.932478  8010 usb_cam.cc:435] Trigger enable, dev:/dev/camera/front_12mm, fps:20, internal:0
+E0801 14:37:59.932618  8010 usb_cam.cc:443] trigger failed:-1
+W0801 14:38:00.332687  8010 usb_cam.cc:863] camera
+W0801 14:38:00.504621  8010 usb_cam.cc:848] stamp jump.last stamp:1152564126000 current stamp:1153044104000
+W0801 14:38:00.504654  8010 usb_cam.cc:863] camera
+W0801 14:38:00.680663  8018 usb_cam.cc:848] stamp jump.last stamp:1153044104000 current stamp:1153220093000
+W0801 14:38:00.680696  8018 usb_cam.cc:863] camera
+W0801 14:38:00.852572  8017 usb_cam.cc:848] stamp jump.last stamp:1153220093000 current stamp:1153392086000
+W0801 14:38:00.852607  8017 usb_cam.cc:863] camera
+W0801 14:38:01.024608  8017 usb_cam.cc:848] stamp jump.last stamp:1153392086000 current stamp:1153568075000
+W0801 14:38:01.024641  8017 usb_cam.cc:863] camera
+W0801 14:38:01.200592  8017 usb_cam.cc:848] stamp jump.last stamp:1153568075000 current stamp:1153740068000
+W0801 14:38:01.200626  8017 usb_cam.cc:863] camera
+W0801 14:38:01.372547  8024 usb_cam.cc:848] stamp jump.last stamp:1153740068000 current stamp:1153916103000
+W0801 14:38:01.372584  8024 usb_cam.cc:863] camera
+W0801 14:38:01.548527  8021 usb_cam.cc:848] stamp jump.last stamp:1153916103000 current stamp:1154088050000
+W0801 14:38:01.548563  8021 usb_cam.cc:863] camera
+W0801 14:38:01.720521  8021 usb_cam.cc:848] stamp jump.last stamp:1154088050000 current stamp:1154260044000
+W0801 14:38:01.720552  8021 usb_cam.cc:863] camera
+W0801 14:38:01.892581  8010 usb_cam.cc:848] stamp jump.last stamp:1154260044000 current stamp:1154436024000
+W0801 14:38:01.892616  8010 usb_cam.cc:863] camera
+W0801 14:38:02.068496  8010 usb_cam.cc:848] stamp jump.last stamp:1154436024000 current stamp:1154608025000
+W0801 14:38:02.068529  8010 usb_cam.cc:863] camera
+W0801 14:38:02.240550  8017 usb_cam.cc:848] stamp jump.last stamp:1154608025000 current stamp:1154784014000
+W0801 14:38:02.240583  8017 usb_cam.cc:863] camera
+W0801 14:38:02.416520  8017 usb_cam.cc:848] stamp jump.last stamp:1154784014000 current stamp:1154956008000
+W0801 14:38:02.416553  8017 usb_cam.cc:863] camera
+W0801 14:38:02.588552  8026 usb_cam.cc:848] stamp jump.last stamp:1154956008000 current stamp:1155128001000
+W0801 14:38:02.588585  8026 usb_cam.cc:863] camera
+W0801 14:38:02.764570  8012 usb_cam.cc:848] stamp jump.last stamp:1155128001000 current stamp:1155303990000
+W0801 14:38:02.764602  8012 usb_cam.cc:863] camera
+W0801 14:38:02.936532  8025 usb_cam.cc:848] stamp jump.last stamp:1155303990000 current stamp:1155475983000
+W0801 14:38:02.936565  8025 usb_cam.cc:863] camera
+W0801 14:38:03.108492  8025 usb_cam.cc:848] stamp jump.last stamp:1155475983000 current stamp:1155651971000
+W0801 14:38:03.108525  8025 usb_cam.cc:863] camera
+W0801 14:38:03.284490  8024 usb_cam.cc:848] stamp jump.last stamp:1155651971000 current stamp:1155823965000
+W0801 14:38:03.284523  8024 usb_cam.cc:863] camera
+W0801 14:38:03.456455  8022 usb_cam.cc:848] stamp jump.last stamp:1155823965000 current stamp:1155999992000
+W0801 14:38:03.456498  8022 usb_cam.cc:863] camera
+W0801 14:38:03.632455  8026 usb_cam.cc:848] stamp jump.last stamp:1155999992000 current stamp:1156171947000
+W0801 14:38:03.632488  8026 usb_cam.cc:863] camera
+W0801 14:38:03.804420  8026 usb_cam.cc:848] stamp jump.last stamp:1156171947000 current stamp:1156343931000
+W0801 14:38:03.804451  8026 usb_cam.cc:863] camera
+W0801 14:38:03.976455  8020 usb_cam.cc:848] stamp jump.last stamp:1156343931000 current stamp:1156519930000
+W0801 14:38:03.976488  8020 usb_cam.cc:863] camera
+W0801 14:38:04.152400  8020 usb_cam.cc:848] stamp jump.last stamp:1156519930000 current stamp:1156691922000
+W0801 14:38:04.152434  8020 usb_cam.cc:863] camera
+W0801 14:38:04.324400  8020 usb_cam.cc:848] stamp jump.last stamp:1156691922000 current stamp:1156867956000
+W0801 14:38:04.324434  8020 usb_cam.cc:863] camera
+W0801 14:38:04.500383  8027 usb_cam.cc:848] stamp jump.last stamp:1156867956000 current stamp:1157039904000
+W0801 14:38:04.500419  8027 usb_cam.cc:863] camera
+W0801 14:38:04.672399  8027 usb_cam.cc:848] stamp jump.last stamp:1157039904000 current stamp:1157211897000
+W0801 14:38:04.672435  8027 usb_cam.cc:863] camera
+W0801 14:38:04.848460  8021 usb_cam.cc:848] stamp jump.last stamp:1157211897000 current stamp:1157387878000
+W0801 14:38:04.848496  8021 usb_cam.cc:863] camera
+W0801 14:38:05.020357  8021 usb_cam.cc:848] stamp jump.last stamp:1157387878000 current stamp:1157559879000
+W0801 14:38:05.020393  8021 usb_cam.cc:863] camera
+W0801 14:38:05.192391  8017 usb_cam.cc:848] stamp jump.last stamp:1157559879000 current stamp:1157735868000
+W0801 14:38:05.192425  8017 usb_cam.cc:863] camera
+W0801 14:38:05.368386  8022 usb_cam.cc:848] stamp jump.last stamp:1157735868000 current stamp:1157907860000
+W0801 14:38:05.368419  8022 usb_cam.cc:863] camera
+W0801 14:38:05.540333  8022 usb_cam.cc:848] stamp jump.last stamp:1157907860000 current stamp:1158083893000
+W0801 14:38:05.540366  8022 usb_cam.cc:863] camera
+W0801 14:38:05.716348  8018 usb_cam.cc:848] stamp jump.last stamp:1158083893000 current stamp:1158255838000
+W0801 14:38:05.716382  8018 usb_cam.cc:863] camera
+W0801 14:38:05.888319  8012 usb_cam.cc:848] stamp jump.last stamp:1158255838000 current stamp:1158427830000
+W0801 14:38:05.888352  8012 usb_cam.cc:863] camera
+W0801 14:38:06.060309  8012 usb_cam.cc:848] stamp jump.last stamp:1158427830000 current stamp:1158603817000
+W0801 14:38:06.060343  8012 usb_cam.cc:863] camera
+W0801 14:38:06.236301  8020 usb_cam.cc:848] stamp jump.last stamp:1158603817000 current stamp:1158775796000
+W0801 14:38:06.236336  8020 usb_cam.cc:863] camera
+W0801 14:38:06.408282  8020 usb_cam.cc:848] stamp jump.last stamp:1158775796000 current stamp:1158951832000
+W0801 14:38:06.408314  8020 usb_cam.cc:863] camera
+W0801 14:38:06.584251  8020 usb_cam.cc:848] stamp jump.last stamp:1158951832000 current stamp:1159123746000
+W0801 14:38:06.584285  8020 usb_cam.cc:863] camera
+W0801 14:38:06.756245  8016 usb_cam.cc:848] stamp jump.last stamp:1159123746000 current stamp:1159295723000
+W0801 14:38:06.756279  8016 usb_cam.cc:863] camera
+W0801 14:38:06.932245  8019 usb_cam.cc:848] stamp jump.last stamp:1159295723000 current stamp:1159471695000
+W0801 14:38:06.932277  8019 usb_cam.cc:863] camera
+W0801 14:38:07.104176  8017 usb_cam.cc:848] stamp jump.last stamp:1159471695000 current stamp:1159643673000
+W0801 14:38:07.104212  8017 usb_cam.cc:863] camera
+W0801 14:38:07.276127  8017 usb_cam.cc:848] stamp jump.last stamp:1159643673000 current stamp:1159819650000
+W0801 14:38:07.276161  8017 usb_cam.cc:863] camera
+W0801 14:38:07.452126  8022 usb_cam.cc:848] stamp jump.last stamp:1159819650000 current stamp:1159991622000
+W0801 14:38:07.452158  8022 usb_cam.cc:863] camera
+W0801 14:38:07.624109  8018 usb_cam.cc:848] stamp jump.last stamp:1159991622000 current stamp:1160167658000
+W0801 14:38:07.624142  8018 usb_cam.cc:863] camera
+W0801 14:38:07.800045  8016 usb_cam.cc:848] stamp jump.last stamp:1160167658000 current stamp:1160339572000
+W0801 14:38:07.800081  8016 usb_cam.cc:863] camera
+W0801 14:38:07.972023  8016 usb_cam.cc:848] stamp jump.last stamp:1160339572000 current stamp:1160511549000
+W0801 14:38:07.972057  8016 usb_cam.cc:863] camera
+W0801 14:38:08.144001  8016 usb_cam.cc:848] stamp jump.last stamp:1160511549000 current stamp:1160687521000
+W0801 14:38:08.144033  8016 usb_cam.cc:863] camera
+W0801 14:38:08.319967  8016 usb_cam.cc:848] stamp jump.last stamp:1160687521000 current stamp:1160859498000
+W0801 14:38:08.320001  8016 usb_cam.cc:863] camera
+W0801 14:38:08.491951  8016 usb_cam.cc:848] stamp jump.last stamp:1160859498000 current stamp:1161035518000
+W0801 14:38:08.491987  8016 usb_cam.cc:863] camera
+W0801 14:38:08.667923  8026 usb_cam.cc:848] stamp jump.last stamp:1161035518000 current stamp:1161207448000
+W0801 14:38:08.667960  8026 usb_cam.cc:863] camera
+W0801 14:38:08.839903  8010 usb_cam.cc:848] stamp jump.last stamp:1161207448000 current stamp:1161379425000
+W0801 14:38:08.839939  8010 usb_cam.cc:863] camera
+W0801 14:38:09.015939  8021 usb_cam.cc:848] stamp jump.last stamp:1161379425000 current stamp:1161555398000
+W0801 14:38:09.015972  8021 usb_cam.cc:863] camera
+W0801 14:38:09.187881  8017 usb_cam.cc:848] stamp jump.last stamp:1161555398000 current stamp:1161727376000
+W0801 14:38:09.187917  8017 usb_cam.cc:863] camera
+W0801 14:38:09.359830  8022 usb_cam.cc:848] stamp jump.last stamp:1161727376000 current stamp:1161903347000
+W0801 14:38:09.359863  8022 usb_cam.cc:863] camera
+W0801 14:38:09.535830  8016 usb_cam.cc:848] stamp jump.last stamp:1161903347000 current stamp:1162075325000
+W0801 14:38:09.535862  8016 usb_cam.cc:863] camera
+W0801 14:38:09.707778  8016 usb_cam.cc:848] stamp jump.last stamp:1162075325000 current stamp:1162251361000
+W0801 14:38:09.707813  8016 usb_cam.cc:863] camera
+W0801 14:38:09.883795  8025 usb_cam.cc:848] stamp jump.last stamp:1162251361000 current stamp:1162423266000
+W0801 14:38:09.883831  8025 usb_cam.cc:863] camera
+W0801 14:38:10.055727  8025 usb_cam.cc:848] stamp jump.last stamp:1162423266000 current stamp:1162595252000
+W0801 14:38:10.055759  8025 usb_cam.cc:863] camera
+W0801 14:38:10.227741  8020 usb_cam.cc:848] stamp jump.last stamp:1162595252000 current stamp:1162771225000
+W0801 14:38:10.227775  8020 usb_cam.cc:863] camera
+W0801 14:38:10.403673  8020 usb_cam.cc:848] stamp jump.last stamp:1162771225000 current stamp:1162943202000
+W0801 14:38:10.403705  8020 usb_cam.cc:863] camera
+W0801 14:38:10.575655  8026 usb_cam.cc:848] stamp jump.last stamp:1162943202000 current stamp:1163119238000
+W0801 14:38:10.575690  8026 usb_cam.cc:863] camera
+W0801 14:38:10.751655  8016 usb_cam.cc:848] stamp jump.last stamp:1163119238000 current stamp:1163291152000
+W0801 14:38:10.751688  8016 usb_cam.cc:863] camera
+W0801 14:38:10.923637  8024 usb_cam.cc:848] stamp jump.last stamp:1163291152000 current stamp:1163463129000
+W0801 14:38:10.923671  8024 usb_cam.cc:863] camera
+W0801 14:38:11.095639  8014 usb_cam.cc:848] stamp jump.last stamp:1163463129000 current stamp:1163639102000
+W0801 14:38:11.095672  8014 usb_cam.cc:863] camera
+W0801 14:38:11.271574  8018 usb_cam.cc:848] stamp jump.last stamp:1163639102000 current stamp:1163811079000
+W0801 14:38:11.271636  8018 usb_cam.cc:863] camera
+W0801 14:38:11.443567  8018 usb_cam.cc:848] stamp jump.last stamp:1163811079000 current stamp:1163987051000
+W0801 14:38:11.443603  8018 usb_cam.cc:863] camera
+W0801 14:38:11.619500  8026 usb_cam.cc:848] stamp jump.last stamp:1163987051000 current stamp:1164159029000
+W0801 14:38:11.619534  8026 usb_cam.cc:863] camera
+W0801 14:38:11.791481  8026 usb_cam.cc:848] stamp jump.last stamp:1164159029000 current stamp:1164331006000
+W0801 14:38:11.791513  8026 usb_cam.cc:863] camera
+W0801 14:38:11.967548  8026 usb_cam.cc:848] stamp jump.last stamp:1164331006000 current stamp:1164506979000
+W0801 14:38:11.967581  8026 usb_cam.cc:863] camera
+W0801 14:38:12.139430  8021 usb_cam.cc:848] stamp jump.last stamp:1164506979000 current stamp:1164678957000
+W0801 14:38:12.139464  8021 usb_cam.cc:863] camera
+W0801 14:38:12.311417  8020 usb_cam.cc:848] stamp jump.last stamp:1164678957000 current stamp:1164854929000
+W0801 14:38:12.311452  8020 usb_cam.cc:863] camera
+W0801 14:38:12.487375  8010 usb_cam.cc:848] stamp jump.last stamp:1164854929000 current stamp:1165026907000
+W0801 14:38:12.487409  8010 usb_cam.cc:863] camera
+W0801 14:38:12.659391  8010 usb_cam.cc:848] stamp jump.last stamp:1165026907000 current stamp:1165202927000
+W0801 14:38:12.659425  8010 usb_cam.cc:863] camera
+W0801 14:38:12.835361  8010 usb_cam.cc:848] stamp jump.last stamp:1165202927000 current stamp:1165374857000
+W0801 14:38:12.835393  8010 usb_cam.cc:863] camera
+W0801 14:38:13.007373  8026 usb_cam.cc:848] stamp jump.last stamp:1165374857000 current stamp:1165546835000
+W0801 14:38:13.007406  8026 usb_cam.cc:863] camera
+W0801 14:38:13.179320  8026 usb_cam.cc:848] stamp jump.last stamp:1165546835000 current stamp:1165722807000
+W0801 14:38:13.179354  8026 usb_cam.cc:863] camera
+W0801 14:38:13.355285  8026 usb_cam.cc:848] stamp jump.last stamp:1165722807000 current stamp:1165894784000
+W0801 14:38:13.355321  8026 usb_cam.cc:863] camera
+W0801 14:38:13.527237  8026 usb_cam.cc:848] stamp jump.last stamp:1165894784000 current stamp:1166070757000
+W0801 14:38:13.527269  8026 usb_cam.cc:863] camera
+W0801 14:38:13.703198  8010 usb_cam.cc:848] stamp jump.last stamp:1166070757000 current stamp:1166242735000
+W0801 14:38:13.703238  8010 usb_cam.cc:863] camera
+W0801 14:38:13.875219  8024 usb_cam.cc:848] stamp jump.last stamp:1166242735000 current stamp:1166414712000
+W0801 14:38:13.875253  8024 usb_cam.cc:863] camera
+I0801 14:38:14.016192  8004 mainboard.cc:45] exit mainboard.

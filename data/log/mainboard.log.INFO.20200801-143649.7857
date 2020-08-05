@@ -1,0 +1,24 @@
+Log file created at: 2020/08/01 14:36:49
+Running on machine: in_dev_docker
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+W0801 14:36:49.660095  7857 scheduler_factory.cc:63] No sched conf found, use default conf.
+I0801 14:36:49.660248  7862 processor.cc:41] processor_tid: 7862
+I0801 14:36:49.660305  7863 processor.cc:41] processor_tid: 7863
+I0801 14:36:49.660341  7864 processor.cc:41] processor_tid: 7864
+I0801 14:36:49.660370  7865 processor.cc:41] processor_tid: 7865
+I0801 14:36:49.660392  7866 processor.cc:41] processor_tid: 7866
+I0801 14:36:49.660426  7867 processor.cc:41] processor_tid: 7867
+I0801 14:36:49.660456  7868 processor.cc:41] processor_tid: 7868
+I0801 14:36:49.660481  7869 processor.cc:41] processor_tid: 7869
+I0801 14:36:49.660521  7870 processor.cc:41] processor_tid: 7870
+I0801 14:36:49.660538  7871 processor.cc:41] processor_tid: 7871
+I0801 14:36:49.660560  7872 processor.cc:41] processor_tid: 7872
+I0801 14:36:49.660586  7873 processor.cc:41] processor_tid: 7873
+I0801 14:36:49.660619  7874 processor.cc:41] processor_tid: 7874
+I0801 14:36:49.660645  7875 processor.cc:41] processor_tid: 7875
+I0801 14:36:49.660673  7876 processor.cc:41] processor_tid: 7876
+I0801 14:36:49.660699  7877 processor.cc:41] processor_tid: 7877
+I0801 14:36:49.660701  7857 init.cc:103] Register exit handle succ.
+I0801 14:36:49.660917  7857 module_controller.cc:65] Start initialize dag: /apollo/modules/drivers/video/dag/video.dag
+I0801 14:36:49.660964  7857 class_loader.cc:37] Begin LoadLibrary: /apollo/bazel-bin/modules/drivers/video/libvideo_driver_component.so
+I0801 14:38:13.720592  7857 mainboard.cc:45] exit mainboard.

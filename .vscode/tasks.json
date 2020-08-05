@@ -1,0 +1,91 @@
+
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build the apollo project",
+            "type": "shell",
+            "command": "bash apollo_docker.sh build",
+            "group": {
+                "kind": "build",
+                "isDefault": true 
+            },
+
+            "problemMatcher": {
+                "owner": "cc",
+                "fileLocation": [
+                    "relative",
+                    "${workspaceFolder}"
+                ],
+                "pattern": {
+                    "regexp": "^(.*):(\\d+):(\\d+):\\s+(warning|error):\\s+(.*)$",
+                    "file": 1,
+                    "line": 2,
+                    "column": 3,
+                    "severity": 4,
+                    "message": 5
+                }
+            }
+        }, 
+        {
+            "label": "run all unit tests for the apollo project",
+            "type": "shell",           
+            "command": "bash apollo_docker.sh test",
+            "problemMatcher": {
+                "owner": "cc",
+                "fileLocation": [
+                    "relative",
+                    "${workspaceFolder}"
+                ],
+                "pattern": {
+                    "regexp": "^(.*):(\\d+):(\\d+):\\s+(warning|error):\\s+(.*)$",
+                    "file": 1,
+                    "line": 2,
+                    "column": 3,
+                    "severity": 4,
+                    "message": 5
+                }
+            }
+        },
+        {
+            "label": "code style check for the apollo project",
+            "type": "shell",            
+            "command": "bash apollo_docker.sh lint",          
+            "problemMatcher": {
+                "owner": "cc",
+                "fileLocation": [
+                    "relative",
+                    "${workspaceFolder}"
+                ],
+                "pattern": {
+                    "regexp": "^(.*):(\\d+):(\\d+):\\s+(warning|error):\\s+(.*)$",
+                    "file": 1,
+                    "line": 2,
+                    "column": 3,
+                    "severity": 4,
+                    "message": 5
+                }
+            }
+        },
+        {
+            "label": "clean the apollo project",
+            "type": "shell",            
+            "command": "bash apollo_docker.sh clean",           
+            "problemMatcher": {
+                "owner": "cc",
+                "fileLocation": [
+                    "relative",
+                    "${workspaceFolder}"
+                ],
+                "pattern": {
+                    "regexp": "^(.*):(\\d+):(\\d+):\\s+(warning|error):\\s+(.*)$",
+                    "file": 1,
+                    "line": 2,
+                    "column": 3,
+                    "severity": 4,
+                    "message": 5
+                }
+            }
+        }
+    ]
+}

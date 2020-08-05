@@ -1,0 +1,653 @@
+Log file created at: 2020/08/03 08:43:35
+Running on machine: in_dev_docker
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+W0803 08:43:35.856550 30829 scheduler_factory.cc:63] No sched conf found, use default conf.
+I0803 08:43:35.856731 30835 processor.cc:41] processor_tid: 30835
+I0803 08:43:35.856773 30837 processor.cc:41] processor_tid: 30837
+I0803 08:43:35.856824 30839 processor.cc:41] processor_tid: 30839
+I0803 08:43:35.856854 30842 processor.cc:41] processor_tid: 30842
+I0803 08:43:35.856894 30844 processor.cc:41] processor_tid: 30844
+I0803 08:43:35.856940 30846 processor.cc:41] processor_tid: 30846
+I0803 08:43:35.856973 30849 processor.cc:41] processor_tid: 30849
+I0803 08:43:35.857033 30850 processor.cc:41] processor_tid: 30850
+I0803 08:43:35.857076 30852 processor.cc:41] processor_tid: 30852
+I0803 08:43:35.857112 30854 processor.cc:41] processor_tid: 30854
+I0803 08:43:35.857147 30856 processor.cc:41] processor_tid: 30856
+I0803 08:43:35.857192 30858 processor.cc:41] processor_tid: 30858
+I0803 08:43:35.857221 30860 processor.cc:41] processor_tid: 30860
+I0803 08:43:35.857296 30863 processor.cc:41] processor_tid: 30863
+I0803 08:43:35.857318 30865 processor.cc:41] processor_tid: 30865
+I0803 08:43:35.857343 30866 processor.cc:41] processor_tid: 30866
+I0803 08:43:35.857352 30829 init.cc:103] Register exit handle succ.
+I0803 08:43:35.857846 30829 module_controller.cc:65] Start initialize dag: /apollo/modules/drivers/camera/dag/camera.dag
+I0803 08:43:35.857957 30829 class_loader.cc:37] Begin LoadLibrary: /apollo/bazel-bin/modules/drivers/camera/libcamera_component.so
+I0803 08:43:36.130348 30829 scheduler.cc:54] create croutine: /internal/task0
+I0803 08:43:36.130416 30829 scheduler.cc:54] create croutine: /internal/task1
+I0803 08:43:36.130451 30829 scheduler.cc:54] create croutine: /internal/task2
+I0803 08:43:36.130482 30829 scheduler.cc:54] create croutine: /internal/task3
+I0803 08:43:36.130507 30829 scheduler.cc:54] create croutine: /internal/task4
+I0803 08:43:36.130535 30829 scheduler.cc:54] create croutine: /internal/task5
+I0803 08:43:36.130560 30829 scheduler.cc:54] create croutine: /internal/task6
+I0803 08:43:36.130584 30829 scheduler.cc:54] create croutine: /internal/task7
+I0803 08:43:36.130605 30829 scheduler.cc:54] create croutine: /internal/task8
+I0803 08:43:36.130630 30829 scheduler.cc:54] create croutine: /internal/task9
+I0803 08:43:36.130656 30829 scheduler.cc:54] create croutine: /internal/task10
+I0803 08:43:36.130684 30829 scheduler.cc:54] create croutine: /internal/task11
+I0803 08:43:36.130707 30829 scheduler.cc:54] create croutine: /internal/task12
+I0803 08:43:36.130729 30829 scheduler.cc:54] create croutine: /internal/task13
+I0803 08:43:36.130754 30829 scheduler.cc:54] create croutine: /internal/task14
+I0803 08:43:36.130779 30829 scheduler.cc:54] create croutine: /internal/task15
+I0803 08:43:36.133000 30829 scheduler.cc:54] create croutine: camera_front_6mm_compress_/apollo/sensor/camera/front_6mm/image
+I0803 08:43:36.133388 30829 scheduler.cc:54] create croutine: camera_front_6mm_compress
+E0803 08:43:36.134574 30849 usb_cam.cc:275] Cannot identify '/dev/camera/front_12mm': 2, No such file or directory
+I0803 08:43:36.136046 30829 scheduler.cc:54] create croutine: camera_front_12mm_compress_/apollo/sensor/camera/front_12mm/image
+I0803 08:43:36.136842 30829 scheduler.cc:54] create croutine: camera_front_12mm_compress
+I0803 08:43:36.275758 30863 usb_cam.cc:401] Capability flag: 0x0
+I0803 08:43:36.279589 30863 usb_cam.cc:409] Set framerate to be 10
+I0803 08:43:36.398130 30863 usb_cam.cc:435] Trigger enable, dev:/dev/camera/front_6mm, fps:20, internal:0
+E0803 08:43:36.398289 30863 usb_cam.cc:443] trigger failed:-1
+W0803 08:43:36.762271 30863 usb_cam.cc:863] camera
+W0803 08:43:36.862190 30850 usb_cam.cc:848] stamp jump.last stamp:10496510907000 current stamp:10496878960000
+W0803 08:43:36.862226 30850 usb_cam.cc:863] camera
+W0803 08:43:37.134874 30846 usb_cam.cc:863] camera
+W0803 08:43:37.262189 30854 usb_cam.cc:848] stamp jump.last stamp:10496978963000 current stamp:10497278969000
+W0803 08:43:37.262224 30854 usb_cam.cc:863] camera
+W0803 08:43:37.462190 30856 usb_cam.cc:848] stamp jump.last stamp:10497278969000 current stamp:10497478969000
+W0803 08:43:37.462224 30856 usb_cam.cc:863] camera
+W0803 08:43:37.562206 30850 usb_cam.cc:863] camera
+W0803 08:43:37.662207 30839 usb_cam.cc:863] camera
+W0803 08:43:37.762208 30866 usb_cam.cc:863] camera
+W0803 08:43:38.135062 30842 usb_cam.cc:863] camera
+E0803 08:43:38.136250 30844 usb_cam.cc:275] Cannot identify '/dev/camera/front_12mm': 2, No such file or directory
+W0803 08:43:38.262193 30863 usb_cam.cc:848] stamp jump.last stamp:10497878971000 current stamp:10498278944000
+W0803 08:43:38.262226 30863 usb_cam.cc:863] camera
+W0803 08:43:38.470566 30858 usb_cam.cc:863] camera
+W0803 08:43:38.669701 30865 usb_cam.cc:848] stamp jump.last stamp:10498378974000 current stamp:10498678954000
+W0803 08:43:38.669742 30865 usb_cam.cc:863] camera
+W0803 08:43:38.862191 30865 usb_cam.cc:848] stamp jump.last stamp:10498678954000 current stamp:10498878970000
+W0803 08:43:38.862227 30865 usb_cam.cc:863] camera
+W0803 08:43:38.962208 30844 usb_cam.cc:863] camera
+W0803 08:43:39.162189 30842 usb_cam.cc:848] stamp jump.last stamp:10498978975000 current stamp:10499178945000
+W0803 08:43:39.162223 30842 usb_cam.cc:863] camera
+W0803 08:43:39.262207 30842 usb_cam.cc:863] camera
+W0803 08:43:39.478420 30860 usb_cam.cc:863] camera
+W0803 08:43:39.662189 30837 usb_cam.cc:848] stamp jump.last stamp:10499378961000 current stamp:10499678944000
+W0803 08:43:39.662221 30837 usb_cam.cc:863] camera
+W0803 08:43:39.762205 30837 usb_cam.cc:863] camera
+W0803 08:43:39.862205 30837 usb_cam.cc:863] camera
+W0803 08:43:39.962208 30844 usb_cam.cc:863] camera
+W0803 08:43:40.162191 30849 usb_cam.cc:848] stamp jump.last stamp:10499978974000 current stamp:10500178954000
+W0803 08:43:40.162222 30849 usb_cam.cc:863] camera
+E0803 08:43:40.170038 30842 usb_cam.cc:275] Cannot identify '/dev/camera/front_12mm': 2, No such file or directory
+W0803 08:43:40.262241 30849 usb_cam.cc:863] camera
+W0803 08:43:40.483407 30858 usb_cam.cc:863] camera
+W0803 08:43:40.662225 30866 usb_cam.cc:848] stamp jump.last stamp:10500378974000 current stamp:10500678944000
+W0803 08:43:40.662261 30866 usb_cam.cc:863] camera
+W0803 08:43:40.762207 30865 usb_cam.cc:863] camera
+W0803 08:43:40.862246 30846 usb_cam.cc:863] camera
+W0803 08:43:41.170241 30856 usb_cam.cc:863] camera
+W0803 08:43:41.362190 30854 usb_cam.cc:848] stamp jump.last stamp:10500978970000 current stamp:10501378946000
+W0803 08:43:41.362221 30854 usb_cam.cc:863] camera
+W0803 08:43:41.492687 30858 usb_cam.cc:863] camera
+W0803 08:43:41.770195 30865 usb_cam.cc:848] stamp jump.last stamp:10501478976000 current stamp:10501678953000
+W0803 08:43:41.770227 30865 usb_cam.cc:863] camera
+W0803 08:43:41.962225 30844 usb_cam.cc:848] stamp jump.last stamp:10501678953000 current stamp:10501978970000
+W0803 08:43:41.962258 30844 usb_cam.cc:863] camera
+W0803 08:43:42.062204 30850 usb_cam.cc:863] camera
+W0803 08:43:42.162209 30849 usb_cam.cc:863] camera
+W0803 08:43:42.262208 30849 usb_cam.cc:863] camera
+E0803 08:43:42.269466 30835 usb_cam.cc:275] Cannot identify '/dev/camera/front_12mm': 2, No such file or directory
+W0803 08:43:42.500151 30858 usb_cam.cc:863] camera
+W0803 08:43:42.777463 30863 usb_cam.cc:848] stamp jump.last stamp:10502378956000 current stamp:10502678954000
+W0803 08:43:42.777498 30863 usb_cam.cc:863] camera
+W0803 08:43:42.962180 30844 usb_cam.cc:848] stamp jump.last stamp:10502678954000 current stamp:10502978952000
+W0803 08:43:42.962216 30844 usb_cam.cc:863] camera
+W0803 08:43:43.062209 30842 usb_cam.cc:863] camera
+W0803 08:43:43.162206 30856 usb_cam.cc:863] camera
+W0803 08:43:43.269760 30835 usb_cam.cc:863] camera
+W0803 08:43:43.507876 30858 usb_cam.cc:848] stamp jump.last stamp:10503278960000 current stamp:10503478954000
+W0803 08:43:43.507907 30858 usb_cam.cc:863] camera
+W0803 08:43:43.662200 30846 usb_cam.cc:848] stamp jump.last stamp:10503478954000 current stamp:10503678971000
+W0803 08:43:43.662240 30846 usb_cam.cc:863] camera
+W0803 08:43:43.762207 30850 usb_cam.cc:863] camera
+W0803 08:43:43.862203 30860 usb_cam.cc:863] camera
+W0803 08:43:43.962194 30856 usb_cam.cc:863] camera
+E0803 08:43:44.276947 30835 usb_cam.cc:275] Cannot identify '/dev/camera/front_12mm': 2, No such file or directory
+W0803 08:43:44.277043 30852 usb_cam.cc:863] camera
+W0803 08:43:44.462188 30865 usb_cam.cc:848] stamp jump.last stamp:10504078958000 current stamp:10504478953000
+W0803 08:43:44.462219 30865 usb_cam.cc:863] camera
+W0803 08:43:44.562237 30858 usb_cam.cc:863] camera
+W0803 08:43:44.670117 30846 usb_cam.cc:863] camera
+W0803 08:43:44.869663 30860 usb_cam.cc:848] stamp jump.last stamp:10504678976000 current stamp:10504878954000
+W0803 08:43:44.869715 30860 usb_cam.cc:863] camera
+W0803 08:43:45.062188 30849 usb_cam.cc:848] stamp jump.last stamp:10504878954000 current stamp:10505078954000
+W0803 08:43:45.062222 30849 usb_cam.cc:863] camera
+W0803 08:43:45.162206 30866 usb_cam.cc:863] camera
+W0803 08:43:45.358247 30852 usb_cam.cc:848] stamp jump.last stamp:10505178959000 current stamp:10505378974000
+W0803 08:43:45.358278 30852 usb_cam.cc:863] camera
+W0803 08:43:45.458251 30863 usb_cam.cc:863] camera
+W0803 08:43:45.558248 30844 usb_cam.cc:863] camera
+W0803 08:43:45.658241 30844 usb_cam.cc:863] camera
+W0803 08:43:45.758251 30842 usb_cam.cc:863] camera
+W0803 08:43:45.858238 30860 usb_cam.cc:863] camera
+W0803 08:43:46.069733 30835 usb_cam.cc:863] camera
+W0803 08:43:46.258208 30837 usb_cam.cc:848] stamp jump.last stamp:10505978958000 current stamp:10506278953000
+W0803 08:43:46.258239 30837 usb_cam.cc:863] camera
+W0803 08:43:46.358222 30837 usb_cam.cc:863] camera
+E0803 08:43:46.365891 30863 usb_cam.cc:275] Cannot identify '/dev/camera/front_12mm': 2, No such file or directory
+W0803 08:43:46.565045 30846 usb_cam.cc:863] camera
+W0803 08:43:46.764881 30856 usb_cam.cc:848] stamp jump.last stamp:10506478956000 current stamp:10506778972000
+W0803 08:43:46.764914 30856 usb_cam.cc:863] camera
+W0803 08:43:46.958200 30849 usb_cam.cc:848] stamp jump.last stamp:10506778972000 current stamp:10506978955000
+W0803 08:43:46.958237 30849 usb_cam.cc:863] camera
+W0803 08:43:47.058218 30835 usb_cam.cc:863] camera
+W0803 08:43:47.366113 30858 usb_cam.cc:863] camera
+W0803 08:43:47.572824 30844 usb_cam.cc:848] stamp jump.last stamp:10507178954000 current stamp:10507578971000
+W0803 08:43:47.572854 30844 usb_cam.cc:863] camera
+W0803 08:43:47.758203 30856 usb_cam.cc:848] stamp jump.last stamp:10507578971000 current stamp:10507778953000
+W0803 08:43:47.758235 30856 usb_cam.cc:863] camera
+W0803 08:43:47.858217 30860 usb_cam.cc:863] camera
+W0803 08:43:47.958209 30849 usb_cam.cc:863] camera
+W0803 08:43:48.058216 30835 usb_cam.cc:863] camera
+W0803 08:43:48.371090 30837 usb_cam.cc:863] camera
+E0803 08:43:48.373026 30846 usb_cam.cc:275] Cannot identify '/dev/camera/front_12mm': 2, No such file or directory
+W0803 08:43:48.558202 30837 usb_cam.cc:848] stamp jump.last stamp:10508178954000 current stamp:10508578971000
+W0803 08:43:48.558233 30837 usb_cam.cc:863] camera
+W0803 08:43:48.658222 30842 usb_cam.cc:863] camera
+W0803 08:43:48.758225 30842 usb_cam.cc:863] camera
+W0803 08:43:48.965078 30849 usb_cam.cc:863] camera
+W0803 08:43:49.158200 30849 usb_cam.cc:848] stamp jump.last stamp:10508878956000 current stamp:10509178944000
+W0803 08:43:49.158236 30849 usb_cam.cc:863] camera
+W0803 08:43:49.258222 30846 usb_cam.cc:863] camera
+W0803 08:43:49.564811 30837 usb_cam.cc:863] camera
+W0803 08:43:49.758200 30856 usb_cam.cc:848] stamp jump.last stamp:10509378954000 current stamp:10509778958000
+W0803 08:43:49.758235 30856 usb_cam.cc:863] camera
+W0803 08:43:49.858218 30860 usb_cam.cc:863] camera
+W0803 08:43:49.972417 30863 usb_cam.cc:863] camera
+W0803 08:43:50.165634 30849 usb_cam.cc:848] stamp jump.last stamp:10509978972000 current stamp:10510178972000
+W0803 08:43:50.165665 30849 usb_cam.cc:863] camera
+W0803 08:43:50.358198 30846 usb_cam.cc:848] stamp jump.last stamp:10510178972000 current stamp:10510378954000
+W0803 08:43:50.358230 30846 usb_cam.cc:863] camera
+W0803 08:43:50.458230 30837 usb_cam.cc:863] camera
+E0803 08:43:50.465667 30854 usb_cam.cc:275] Cannot identify '/dev/camera/front_12mm': 2, No such file or directory
+W0803 08:43:50.558248 30837 usb_cam.cc:863] camera
+W0803 08:43:50.864923 30860 usb_cam.cc:863] camera
+W0803 08:43:51.058202 30850 usb_cam.cc:848] stamp jump.last stamp:10510678955000 current stamp:10511078953000
+W0803 08:43:51.058235 30850 usb_cam.cc:863] camera
+W0803 08:43:51.270138 30858 usb_cam.cc:863] camera
+W0803 08:43:51.465871 30856 usb_cam.cc:848] stamp jump.last stamp:10511178976000 current stamp:10511478955000
+W0803 08:43:51.465903 30856 usb_cam.cc:863] camera
+W0803 08:43:51.658207 30866 usb_cam.cc:848] stamp jump.last stamp:10511478955000 current stamp:10511678973000
+W0803 08:43:51.658241 30866 usb_cam.cc:863] camera
+W0803 08:43:51.758216 30865 usb_cam.cc:863] camera
+W0803 08:43:51.876992 30860 usb_cam.cc:863] camera
+W0803 08:43:52.058207 30839 usb_cam.cc:848] stamp jump.last stamp:10511878977000 current stamp:10512078955000
+W0803 08:43:52.058241 30839 usb_cam.cc:863] camera
+W0803 08:43:52.158213 30844 usb_cam.cc:863] camera
+W0803 08:43:52.465982 30854 usb_cam.cc:863] camera
+E0803 08:43:52.472494 30856 usb_cam.cc:275] Cannot identify '/dev/camera/front_12mm': 2, No such file or directory
+W0803 08:43:52.658217 30835 usb_cam.cc:848] stamp jump.last stamp:10512278957000 current stamp:10512678974000
+W0803 08:43:52.658257 30835 usb_cam.cc:863] camera
+W0803 08:43:52.758263 30863 usb_cam.cc:863] camera
+W0803 08:43:52.858242 30863 usb_cam.cc:863] camera
+W0803 08:43:52.958238 30839 usb_cam.cc:863] camera
+W0803 08:43:53.058259 30858 usb_cam.cc:863] camera
+W0803 08:43:53.158248 30858 usb_cam.cc:863] camera
+W0803 08:43:53.258234 30837 usb_cam.cc:863] camera
+W0803 08:43:53.358247 30842 usb_cam.cc:863] camera
+W0803 08:43:53.458243 30835 usb_cam.cc:863] camera
+W0803 08:43:53.558233 30852 usb_cam.cc:863] camera
+W0803 08:43:53.658239 30860 usb_cam.cc:863] camera
+W0803 08:43:53.758240 30860 usb_cam.cc:863] camera
+W0803 08:43:53.858230 30860 usb_cam.cc:863] camera
+W0803 08:43:53.958245 30856 usb_cam.cc:863] camera
+W0803 08:43:54.058252 30837 usb_cam.cc:863] camera
+W0803 08:43:54.158277 30854 usb_cam.cc:863] camera
+W0803 08:43:54.258249 30865 usb_cam.cc:863] camera
+W0803 08:43:54.358245 30863 usb_cam.cc:863] camera
+W0803 08:43:54.458258 30852 usb_cam.cc:863] camera
+W0803 08:43:54.558254 30839 usb_cam.cc:863] camera
+E0803 08:43:54.566764 30860 usb_cam.cc:275] Cannot identify '/dev/camera/front_12mm': 2, No such file or directory
+W0803 08:43:54.658252 30839 usb_cam.cc:863] camera
+W0803 08:43:54.758245 30856 usb_cam.cc:863] camera
+W0803 08:43:54.858237 30837 usb_cam.cc:863] camera
+W0803 08:43:54.958217 30854 usb_cam.cc:863] camera
+W0803 08:43:55.265724 30835 usb_cam.cc:863] camera
+W0803 08:43:55.458205 30835 usb_cam.cc:848] stamp jump.last stamp:10515078956000 current stamp:10515478956000
+W0803 08:43:55.458241 30835 usb_cam.cc:863] camera
+W0803 08:43:55.558224 30835 usb_cam.cc:863] camera
+W0803 08:43:55.658215 30850 usb_cam.cc:863] camera
+W0803 08:43:55.766379 30858 usb_cam.cc:863] camera
+W0803 08:43:55.965195 30854 usb_cam.cc:848] stamp jump.last stamp:10515778957000 current stamp:10515978973000
+W0803 08:43:55.965229 30854 usb_cam.cc:863] camera
+W0803 08:43:56.158210 30863 usb_cam.cc:848] stamp jump.last stamp:10515978973000 current stamp:10516178948000
+W0803 08:43:56.158253 30863 usb_cam.cc:863] camera
+W0803 08:43:56.258219 30863 usb_cam.cc:863] camera
+W0803 08:43:56.358245 30860 usb_cam.cc:863] camera
+W0803 08:43:56.458214 30839 usb_cam.cc:863] camera
+E0803 08:43:56.773525 30842 usb_cam.cc:275] Cannot identify '/dev/camera/front_12mm': 2, No such file or directory
+W0803 08:43:56.773612 30858 usb_cam.cc:863] camera
+W0803 08:43:56.958209 30866 usb_cam.cc:848] stamp jump.last stamp:10516578956000 current stamp:10516978956000
+W0803 08:43:56.958242 30866 usb_cam.cc:863] camera
+W0803 08:43:57.058213 30849 usb_cam.cc:863] camera
+W0803 08:43:57.158218 30846 usb_cam.cc:863] camera
+W0803 08:43:57.258219 30846 usb_cam.cc:863] camera
+W0803 08:43:57.358219 30850 usb_cam.cc:863] camera
+W0803 08:43:57.470620 30844 usb_cam.cc:863] camera
+W0803 08:43:57.658200 30837 usb_cam.cc:848] stamp jump.last stamp:10517478975000 current stamp:10517678957000
+W0803 08:43:57.658236 30837 usb_cam.cc:863] camera
+W0803 08:43:57.758216 30858 usb_cam.cc:863] camera
+W0803 08:43:57.858218 30854 usb_cam.cc:863] camera
+W0803 08:43:58.165257 30863 usb_cam.cc:863] camera
+W0803 08:43:58.358243 30846 usb_cam.cc:848] stamp jump.last stamp:10517978957000 current stamp:10518378979000
+W0803 08:43:58.358291 30846 usb_cam.cc:863] camera
+W0803 08:43:58.458218 30844 usb_cam.cc:863] camera
+W0803 08:43:58.665632 30865 usb_cam.cc:863] camera
+E0803 08:43:58.865099 30849 usb_cam.cc:275] Cannot identify '/dev/camera/front_12mm': 2, No such file or directory
+W0803 08:43:58.865164 30852 usb_cam.cc:848] stamp jump.last stamp:10518578958000 current stamp:10518878956000
+W0803 08:43:58.865186 30852 usb_cam.cc:863] camera
+W0803 08:43:59.058203 30863 usb_cam.cc:848] stamp jump.last stamp:10518878956000 current stamp:10519078975000
+W0803 08:43:59.058239 30863 usb_cam.cc:863] camera
+W0803 08:43:59.158216 30850 usb_cam.cc:863] camera
+W0803 08:43:59.258215 30846 usb_cam.cc:863] camera
+W0803 08:43:59.358217 30844 usb_cam.cc:863] camera
+W0803 08:43:59.458212 30842 usb_cam.cc:863] camera
+W0803 08:43:59.558214 30866 usb_cam.cc:863] camera
+W0803 08:43:59.870194 30854 usb_cam.cc:863] camera
+W0803 08:44:00.164902 30839 usb_cam.cc:848] stamp jump.last stamp:10519678976000 current stamp:10520074960000
+W0803 08:44:00.164932 30839 usb_cam.cc:863] camera
+W0803 08:44:00.365275 30844 usb_cam.cc:848] stamp jump.last stamp:10520074960000 current stamp:10520374971000
+W0803 08:44:00.365312 30844 usb_cam.cc:863] camera
+W0803 08:44:00.558208 30842 usb_cam.cc:848] stamp jump.last stamp:10520374971000 current stamp:10520574978000
+W0803 08:44:00.558241 30842 usb_cam.cc:863] camera
+W0803 08:44:00.658208 30835 usb_cam.cc:863] camera
+W0803 08:44:00.758216 30852 usb_cam.cc:863] camera
+W0803 08:44:01.164999 30850 usb_cam.cc:863] camera
+E0803 08:44:01.172052 30839 usb_cam.cc:275] Cannot identify '/dev/camera/front_12mm': 2, No such file or directory
+W0803 08:44:01.358199 30856 usb_cam.cc:848] stamp jump.last stamp:10520874984000 current stamp:10521374979000
+W0803 08:44:01.358230 30856 usb_cam.cc:863] camera
+W0803 08:44:01.458256 30837 usb_cam.cc:863] camera
+W0803 08:44:01.558218 30837 usb_cam.cc:863] camera
+W0803 08:44:01.758198 30860 usb_cam.cc:848] stamp jump.last stamp:10521574984000 current stamp:10521774961000
+W0803 08:44:01.758231 30860 usb_cam.cc:863] camera
+W0803 08:44:01.858253 30852 usb_cam.cc:863] camera
+W0803 08:44:01.958221 30839 usb_cam.cc:863] camera
+W0803 08:44:02.058216 30856 usb_cam.cc:863] camera
+W0803 08:44:02.158215 30865 usb_cam.cc:863] camera
+W0803 08:44:02.565783 30842 usb_cam.cc:863] camera
+W0803 08:44:02.758201 30863 usb_cam.cc:848] stamp jump.last stamp:10522274966000 current stamp:10522774962000
+W0803 08:44:02.758235 30863 usb_cam.cc:863] camera
+W0803 08:44:02.858217 30852 usb_cam.cc:863] camera
+W0803 08:44:03.058204 30846 usb_cam.cc:848] stamp jump.last stamp:10522874992000 current stamp:10523074982000
+W0803 08:44:03.058244 30846 usb_cam.cc:863] camera
+W0803 08:44:03.258234 30865 usb_cam.cc:848] stamp jump.last stamp:10523074982000 current stamp:10523274962000
+W0803 08:44:03.258267 30865 usb_cam.cc:863] camera
+E0803 08:44:03.265096 30866 usb_cam.cc:275] Cannot identify '/dev/camera/front_12mm': 2, No such file or directory
+W0803 08:44:03.358217 30837 usb_cam.cc:863] camera
+W0803 08:44:03.458220 30835 usb_cam.cc:863] camera
+W0803 08:44:03.558219 30863 usb_cam.cc:863] camera
+W0803 08:44:03.658218 30863 usb_cam.cc:863] camera
+W0803 08:44:04.065882 30844 usb_cam.cc:863] camera
+W0803 08:44:04.258203 30844 usb_cam.cc:848] stamp jump.last stamp:10523774959000 current stamp:10524274964000
+W0803 08:44:04.258239 30844 usb_cam.cc:863] camera
+W0803 08:44:04.358215 30842 usb_cam.cc:863] camera
+W0803 08:44:04.565723 30850 usb_cam.cc:863] camera
+W0803 08:44:04.758199 30863 usb_cam.cc:848] stamp jump.last stamp:10524474985000 current stamp:10524774982000
+W0803 08:44:04.758231 30863 usb_cam.cc:863] camera
+W0803 08:44:05.068327 30849 usb_cam.cc:863] camera
+W0803 08:44:05.258201 30844 usb_cam.cc:848] stamp jump.last stamp:10524874967000 current stamp:10525274963000
+W0803 08:44:05.258235 30844 usb_cam.cc:863] camera
+E0803 08:44:05.265460 30837 usb_cam.cc:275] Cannot identify '/dev/camera/front_12mm': 2, No such file or directory
+W0803 08:44:05.358217 30835 usb_cam.cc:863] camera
+W0803 08:44:05.573076 30850 usb_cam.cc:863] camera
+W0803 08:44:05.758203 30863 usb_cam.cc:848] stamp jump.last stamp:10525474960000 current stamp:10525774965000
+W0803 08:44:05.758235 30863 usb_cam.cc:863] camera
+W0803 08:44:05.858217 30846 usb_cam.cc:863] camera
+W0803 08:44:06.075937 30849 usb_cam.cc:863] camera
+W0803 08:44:06.265725 30837 usb_cam.cc:848] stamp jump.last stamp:10525974969000 current stamp:10526274981000
+W0803 08:44:06.265756 30837 usb_cam.cc:863] camera
+W0803 08:44:06.458233 30854 usb_cam.cc:848] stamp jump.last stamp:10526274981000 current stamp:10526474963000
+W0803 08:44:06.458264 30854 usb_cam.cc:863] camera
+W0803 08:44:06.558249 30850 usb_cam.cc:863] camera
+W0803 08:44:06.658219 30856 usb_cam.cc:863] camera
+W0803 08:44:06.865602 30858 usb_cam.cc:863] camera
+W0803 08:44:07.058241 30849 usb_cam.cc:848] stamp jump.last stamp:10526774968000 current stamp:10527074962000
+W0803 08:44:07.058279 30849 usb_cam.cc:863] camera
+W0803 08:44:07.158217 30849 usb_cam.cc:863] camera
+W0803 08:44:07.369837 30860 usb_cam.cc:848] stamp jump.last stamp:10527174988000 current stamp:10527374964000
+W0803 08:44:07.369868 30860 usb_cam.cc:863] camera
+E0803 08:44:07.376346 30860 usb_cam.cc:275] Cannot identify '/dev/camera/front_12mm': 2, No such file or directory
+W0803 08:44:07.558204 30854 usb_cam.cc:848] stamp jump.last stamp:10527374964000 current stamp:10527574964000
+W0803 08:44:07.558239 30854 usb_cam.cc:863] camera
+W0803 08:44:07.658221 30850 usb_cam.cc:863] camera
+W0803 08:44:07.758222 30863 usb_cam.cc:863] camera
+W0803 08:44:07.872483 30866 usb_cam.cc:863] camera
+W0803 08:44:08.167652 30849 usb_cam.cc:848] stamp jump.last stamp:10527874986000 current stamp:10528074963000
+W0803 08:44:08.167685 30849 usb_cam.cc:863] camera
+W0803 08:44:08.358201 30860 usb_cam.cc:848] stamp jump.last stamp:10528074963000 current stamp:10528374964000
+W0803 08:44:08.358232 30860 usb_cam.cc:863] camera
+W0803 08:44:08.458217 30839 usb_cam.cc:863] camera
+W0803 08:44:08.558216 30839 usb_cam.cc:863] camera
+W0803 08:44:08.658215 30863 usb_cam.cc:863] camera
+W0803 08:44:08.758216 30865 usb_cam.cc:863] camera
+W0803 08:44:08.858220 30844 usb_cam.cc:863] camera
+W0803 08:44:08.958218 30844 usb_cam.cc:863] camera
+W0803 08:44:09.174379 30852 usb_cam.cc:863] camera
+E0803 08:44:09.465026 30850 usb_cam.cc:275] Cannot identify '/dev/camera/front_12mm': 2, No such file or directory
+W0803 08:44:09.465080 30856 usb_cam.cc:848] stamp jump.last stamp:10529074977000 current stamp:10529374982000
+W0803 08:44:09.465102 30856 usb_cam.cc:863] camera
+W0803 08:44:09.658200 30846 usb_cam.cc:848] stamp jump.last stamp:10529374982000 current stamp:10529674964000
+W0803 08:44:09.658236 30846 usb_cam.cc:863] camera
+W0803 08:44:09.758217 30842 usb_cam.cc:863] camera
+W0803 08:44:09.858218 30837 usb_cam.cc:863] camera
+W0803 08:44:10.058203 30835 usb_cam.cc:848] stamp jump.last stamp:10529874970000 current stamp:10530074946000
+W0803 08:44:10.058235 30835 usb_cam.cc:863] camera
+W0803 08:44:10.158218 30835 usb_cam.cc:863] camera
+W0803 08:44:10.258215 30835 usb_cam.cc:863] camera
+W0803 08:44:10.358217 30839 usb_cam.cc:863] camera
+W0803 08:44:10.665884 30846 usb_cam.cc:863] camera
+W0803 08:44:10.858202 30842 usb_cam.cc:848] stamp jump.last stamp:10530474989000 current stamp:10530874983000
+W0803 08:44:10.858234 30842 usb_cam.cc:863] camera
+W0803 08:44:10.958204 30844 usb_cam.cc:863] camera
+W0803 08:44:11.054267 30860 usb_cam.cc:863] camera
+W0803 08:44:11.154259 30850 usb_cam.cc:863] camera
+W0803 08:44:11.265023 30856 usb_cam.cc:863] camera
+W0803 08:44:11.454233 30839 usb_cam.cc:848] stamp jump.last stamp:10531274972000 current stamp:10531474966000
+W0803 08:44:11.454267 30839 usb_cam.cc:863] camera
+W0803 08:44:11.554229 30846 usb_cam.cc:863] camera
+E0803 08:44:11.560760 30866 usb_cam.cc:275] Cannot identify '/dev/camera/front_12mm': 2, No such file or directory
+W0803 08:44:11.654240 30842 usb_cam.cc:863] camera
+W0803 08:44:11.964915 30849 usb_cam.cc:863] camera
+W0803 08:44:12.160897 30850 usb_cam.cc:848] stamp jump.last stamp:10531774966000 current stamp:10532174967000
+W0803 08:44:12.160928 30850 usb_cam.cc:863] camera
+W0803 08:44:12.354254 30858 usb_cam.cc:848] stamp jump.last stamp:10532174967000 current stamp:10532374967000
+W0803 08:44:12.354290 30858 usb_cam.cc:863] camera
+W0803 08:44:12.454264 30865 usb_cam.cc:863] camera
+W0803 08:44:12.664237 30842 usb_cam.cc:863] camera
+W0803 08:44:12.976593 30852 usb_cam.cc:848] stamp jump.last stamp:10532574985000 current stamp:10532874971000
+W0803 08:44:12.976625 30852 usb_cam.cc:863] camera
+W0803 08:44:13.154217 30854 usb_cam.cc:848] stamp jump.last stamp:10532874971000 current stamp:10533174966000
+W0803 08:44:13.154248 30854 usb_cam.cc:863] camera
+W0803 08:44:13.277473 30863 usb_cam.cc:863] camera
+W0803 08:44:13.454214 30858 usb_cam.cc:848] stamp jump.last stamp:10533274986000 current stamp:10533474959000
+W0803 08:44:13.454250 30858 usb_cam.cc:863] camera
+W0803 08:44:13.554227 30837 usb_cam.cc:863] camera
+E0803 08:44:13.561708 30844 usb_cam.cc:275] Cannot identify '/dev/camera/front_12mm': 2, No such file or directory
+W0803 08:44:13.654232 30842 usb_cam.cc:863] camera
+W0803 08:44:13.754259 30849 usb_cam.cc:863] camera
+W0803 08:44:13.854261 30835 usb_cam.cc:863] camera
+W0803 08:44:14.166708 30856 usb_cam.cc:863] camera
+W0803 08:44:14.354212 30839 usb_cam.cc:848] stamp jump.last stamp:10533974970000 current stamp:10534374966000
+W0803 08:44:14.354246 30839 usb_cam.cc:863] camera
+W0803 08:44:14.454236 30865 usb_cam.cc:863] camera
+W0803 08:44:14.554229 30858 usb_cam.cc:863] camera
+W0803 08:44:14.654238 30844 usb_cam.cc:863] camera
+W0803 08:44:14.754230 30860 usb_cam.cc:863] camera
+W0803 08:44:14.854271 30854 usb_cam.cc:863] camera
+W0803 08:44:15.174185 30863 usb_cam.cc:863] camera
+W0803 08:44:15.354216 30839 usb_cam.cc:848] stamp jump.last stamp:10534974970000 current stamp:10535374968000
+W0803 08:44:15.354249 30839 usb_cam.cc:863] camera
+W0803 08:44:15.454231 30865 usb_cam.cc:863] camera
+W0803 08:44:15.554230 30837 usb_cam.cc:863] camera
+E0803 08:44:15.565469 30842 usb_cam.cc:275] Cannot identify '/dev/camera/front_12mm': 2, No such file or directory
+W0803 08:44:15.761790 30849 usb_cam.cc:863] camera
+W0803 08:44:15.954248 30854 usb_cam.cc:848] stamp jump.last stamp:10535674969000 current stamp:10535974967000
+W0803 08:44:15.954282 30854 usb_cam.cc:863] camera
+W0803 08:44:16.054231 30866 usb_cam.cc:863] camera
+W0803 08:44:16.460853 30865 usb_cam.cc:863] camera
+W0803 08:44:16.654214 30865 usb_cam.cc:848] stamp jump.last stamp:10536174961000 current stamp:10536674968000
+W0803 08:44:16.654247 30865 usb_cam.cc:863] camera
+W0803 08:44:16.754232 30865 usb_cam.cc:863] camera
+W0803 08:44:16.854233 30850 usb_cam.cc:863] camera
+W0803 08:44:16.954233 30854 usb_cam.cc:863] camera
+W0803 08:44:17.054275 30846 usb_cam.cc:863] camera
+W0803 08:44:17.460994 30858 usb_cam.cc:863] camera
+E0803 08:44:17.565708 30842 usb_cam.cc:275] Cannot identify '/dev/camera/front_12mm': 2, No such file or directory
+W0803 08:44:17.654251 30837 usb_cam.cc:848] stamp jump.last stamp:10537174970000 current stamp:10537674976000
+W0803 08:44:17.654285 30837 usb_cam.cc:863] camera
+W0803 08:44:17.754230 30860 usb_cam.cc:863] camera
+W0803 08:44:17.854233 30849 usb_cam.cc:863] camera
+W0803 08:44:17.954231 30863 usb_cam.cc:863] camera
+W0803 08:44:18.054230 30863 usb_cam.cc:863] camera
+W0803 08:44:18.154227 30844 usb_cam.cc:863] camera
+W0803 08:44:18.254237 30842 usb_cam.cc:863] camera
+W0803 08:44:18.761153 30865 usb_cam.cc:863] camera
+W0803 08:44:18.954233 30856 usb_cam.cc:848] stamp jump.last stamp:10538374993000 current stamp:10538974993000
+W0803 08:44:18.954279 30856 usb_cam.cc:863] camera
+W0803 08:44:19.054263 30866 usb_cam.cc:863] camera
+W0803 08:44:19.154273 30858 usb_cam.cc:863] camera
+W0803 08:44:19.254235 30842 usb_cam.cc:863] camera
+W0803 08:44:19.354233 30842 usb_cam.cc:863] camera
+W0803 08:44:19.768642 30850 usb_cam.cc:863] camera
+E0803 08:44:19.775050 30854 usb_cam.cc:275] Cannot identify '/dev/camera/front_12mm': 2, No such file or directory
+W0803 08:44:19.954219 30850 usb_cam.cc:848] stamp jump.last stamp:10539474970000 current stamp:10539974987000
+W0803 08:44:19.954255 30850 usb_cam.cc:863] camera
+W0803 08:44:20.054246 30846 usb_cam.cc:863] camera
+W0803 08:44:20.154237 30837 usb_cam.cc:863] camera
+W0803 08:44:20.254243 30835 usb_cam.cc:863] camera
+W0803 08:44:20.354246 30835 usb_cam.cc:863] camera
+W0803 08:44:20.454232 30849 usb_cam.cc:863] camera
+W0803 08:44:20.554231 30854 usb_cam.cc:863] camera
+W0803 08:44:21.061362 30863 usb_cam.cc:863] camera
+W0803 08:44:21.262303 30842 usb_cam.cc:848] stamp jump.last stamp:10540674971000 current stamp:10541274970000
+W0803 08:44:21.262336 30842 usb_cam.cc:863] camera
+W0803 08:44:21.454217 30842 usb_cam.cc:848] stamp jump.last stamp:10541274970000 current stamp:10541474989000
+W0803 08:44:21.454250 30842 usb_cam.cc:863] camera
+W0803 08:44:21.554232 30849 usb_cam.cc:863] camera
+W0803 08:44:21.654229 30854 usb_cam.cc:863] camera
+E0803 08:44:22.063277 30858 usb_cam.cc:275] Cannot identify '/dev/camera/front_12mm': 2, No such file or directory
+W0803 08:44:22.063381 30846 usb_cam.cc:863] camera
+W0803 08:44:22.254215 30860 usb_cam.cc:848] stamp jump.last stamp:10541774973000 current stamp:10542274971000
+W0803 08:44:22.254249 30860 usb_cam.cc:863] camera
+W0803 08:44:22.354235 30835 usb_cam.cc:863] camera
+W0803 08:44:22.560891 30849 usb_cam.cc:863] camera
+W0803 08:44:22.754216 30844 usb_cam.cc:848] stamp jump.last stamp:10542474991000 current stamp:10542774972000
+W0803 08:44:22.754251 30844 usb_cam.cc:863] camera
+W0803 08:44:22.854231 30837 usb_cam.cc:863] camera
+W0803 08:44:23.070232 30852 usb_cam.cc:863] camera
+W0803 08:44:23.361129 30835 usb_cam.cc:848] stamp jump.last stamp:10542974972000 current stamp:10543274971000
+W0803 08:44:23.361160 30835 usb_cam.cc:863] camera
+W0803 08:44:23.554215 30856 usb_cam.cc:848] stamp jump.last stamp:10543274971000 current stamp:10543574973000
+W0803 08:44:23.554250 30856 usb_cam.cc:863] camera
+W0803 08:44:23.654230 30854 usb_cam.cc:863] camera
+W0803 08:44:23.754232 30844 usb_cam.cc:863] camera
+W0803 08:44:23.854233 30863 usb_cam.cc:863] camera
+E0803 08:44:24.076735 30865 usb_cam.cc:275] Cannot identify '/dev/camera/front_12mm': 2, No such file or directory
+W0803 08:44:24.076838 30860 usb_cam.cc:863] camera
+W0803 08:44:24.254215 30850 usb_cam.cc:848] stamp jump.last stamp:10543974973000 current stamp:10544274973000
+W0803 08:44:24.254246 30850 usb_cam.cc:863] camera
+W0803 08:44:24.354231 30850 usb_cam.cc:863] camera
+W0803 08:44:24.454236 30850 usb_cam.cc:863] camera
+W0803 08:44:24.761162 30844 usb_cam.cc:863] camera
+W0803 08:44:24.954217 30846 usb_cam.cc:848] stamp jump.last stamp:10544574991000 current stamp:10544974973000
+W0803 08:44:24.954252 30846 usb_cam.cc:863] camera
+W0803 08:44:25.054235 30865 usb_cam.cc:863] camera
+W0803 08:44:25.154235 30860 usb_cam.cc:863] camera
+W0803 08:44:25.254235 30839 usb_cam.cc:863] camera
+W0803 08:44:25.354233 30849 usb_cam.cc:863] camera
+W0803 08:44:25.466449 30854 usb_cam.cc:863] camera
+W0803 08:44:25.654249 30858 usb_cam.cc:848] stamp jump.last stamp:10545470948000 current stamp:10545670976000
+W0803 08:44:25.654281 30858 usb_cam.cc:863] camera
+W0803 08:44:25.754233 30858 usb_cam.cc:863] camera
+W0803 08:44:26.061792 30865 usb_cam.cc:863] camera
+E0803 08:44:26.260996 30839 usb_cam.cc:275] Cannot identify '/dev/camera/front_12mm': 2, No such file or directory
+W0803 08:44:26.261046 30856 usb_cam.cc:848] stamp jump.last stamp:10545870983000 current stamp:10546270994000
+W0803 08:44:26.261068 30856 usb_cam.cc:863] camera
+W0803 08:44:26.454216 30866 usb_cam.cc:848] stamp jump.last stamp:10546270994000 current stamp:10546470970000
+W0803 08:44:26.454247 30866 usb_cam.cc:863] camera
+W0803 08:44:26.661388 30837 usb_cam.cc:863] camera
+W0803 08:44:26.854230 30852 usb_cam.cc:848] stamp jump.last stamp:10546571002000 current stamp:10546870978000
+W0803 08:44:26.854264 30852 usb_cam.cc:863] camera
+W0803 08:44:26.954259 30865 usb_cam.cc:863] camera
+W0803 08:44:27.054268 30835 usb_cam.cc:863] camera
+W0803 08:44:27.254245 30856 usb_cam.cc:848] stamp jump.last stamp:10547071003000 current stamp:10547271002000
+W0803 08:44:27.254292 30856 usb_cam.cc:863] camera
+W0803 08:44:27.354267 30850 usb_cam.cc:863] camera
+W0803 08:44:27.454258 30854 usb_cam.cc:863] camera
+W0803 08:44:27.554260 30854 usb_cam.cc:863] camera
+W0803 08:44:27.654274 30858 usb_cam.cc:863] camera
+W0803 08:44:27.754271 30852 usb_cam.cc:863] camera
+W0803 08:44:27.854254 30842 usb_cam.cc:863] camera
+W0803 08:44:27.954258 30835 usb_cam.cc:863] camera
+W0803 08:44:28.054265 30839 usb_cam.cc:863] camera
+W0803 08:44:28.154258 30839 usb_cam.cc:863] camera
+W0803 08:44:28.254259 30844 usb_cam.cc:863] camera
+E0803 08:44:28.263224 30866 usb_cam.cc:275] Cannot identify '/dev/camera/front_12mm': 2, No such file or directory
+W0803 08:44:28.354254 30844 usb_cam.cc:863] camera
+W0803 08:44:28.454237 30858 usb_cam.cc:863] camera
+W0803 08:44:28.763814 30860 usb_cam.cc:863] camera
+W0803 08:44:28.964094 30835 usb_cam.cc:848] stamp jump.last stamp:10548571001000 current stamp:10548970979000
+W0803 08:44:28.964128 30835 usb_cam.cc:863] camera
+W0803 08:44:29.154219 30835 usb_cam.cc:848] stamp jump.last stamp:10548970979000 current stamp:10549170980000
+W0803 08:44:29.154250 30835 usb_cam.cc:863] camera
+W0803 08:44:29.254266 30863 usb_cam.cc:863] camera
+W0803 08:44:29.363322 30844 usb_cam.cc:863] camera
+W0803 08:44:29.554217 30846 usb_cam.cc:848] stamp jump.last stamp:10549370984000 current stamp:10549570979000
+W0803 08:44:29.554252 30846 usb_cam.cc:863] camera
+W0803 08:44:29.654265 30865 usb_cam.cc:863] camera
+W0803 08:44:29.754233 30860 usb_cam.cc:863] camera
+W0803 08:44:29.854235 30850 usb_cam.cc:863] camera
+W0803 08:44:30.261584 30863 usb_cam.cc:863] camera
+E0803 08:44:30.266397 30854 usb_cam.cc:275] Cannot identify '/dev/camera/front_12mm': 2, No such file or directory
+W0803 08:44:30.454219 30844 usb_cam.cc:848] stamp jump.last stamp:10549970986000 current stamp:10550470999000
+W0803 08:44:30.454253 30844 usb_cam.cc:863] camera
+W0803 08:44:30.554235 30842 usb_cam.cc:863] camera
+W0803 08:44:30.654234 30865 usb_cam.cc:863] camera
+W0803 08:44:30.860882 30850 usb_cam.cc:863] camera
+W0803 08:44:31.268740 30863 usb_cam.cc:848] stamp jump.last stamp:10550770988000 current stamp:10551070981000
+W0803 08:44:31.268771 30863 usb_cam.cc:863] camera
+W0803 08:44:31.454221 30852 usb_cam.cc:848] stamp jump.last stamp:10551070981000 current stamp:10551470986000
+W0803 08:44:31.454254 30852 usb_cam.cc:863] camera
+W0803 08:44:31.654217 30846 usb_cam.cc:848] stamp jump.last stamp:10551470986000 current stamp:10551670982000
+W0803 08:44:31.654255 30846 usb_cam.cc:863] camera
+W0803 08:44:31.754235 30846 usb_cam.cc:863] camera
+W0803 08:44:31.854234 30846 usb_cam.cc:863] camera
+W0803 08:44:31.954237 30866 usb_cam.cc:863] camera
+W0803 08:44:32.276525 30844 usb_cam.cc:863] camera
+E0803 08:44:32.282968 30858 usb_cam.cc:275] Cannot identify '/dev/camera/front_12mm': 2, No such file or directory
+W0803 08:44:32.454218 30844 usb_cam.cc:848] stamp jump.last stamp:10552070987000 current stamp:10552470982000
+W0803 08:44:32.454249 30844 usb_cam.cc:863] camera
+W0803 08:44:32.554299 30842 usb_cam.cc:863] camera
+W0803 08:44:32.666911 30856 usb_cam.cc:863] camera
+W0803 08:44:32.861907 30846 usb_cam.cc:848] stamp jump.last stamp:10552670986000 current stamp:10552871000000
+W0803 08:44:32.861937 30846 usb_cam.cc:863] camera
+W0803 08:44:33.054220 30837 usb_cam.cc:848] stamp jump.last stamp:10552871000000 current stamp:10553070982000
+W0803 08:44:33.054257 30837 usb_cam.cc:863] camera
+W0803 08:44:33.154234 30852 usb_cam.cc:863] camera
+W0803 08:44:33.254271 30865 usb_cam.cc:863] camera
+W0803 08:44:33.354269 30842 usb_cam.cc:863] camera
+W0803 08:44:33.674459 30835 usb_cam.cc:863] camera
+W0803 08:44:33.871043 30846 usb_cam.cc:848] stamp jump.last stamp:10553471005000 current stamp:10553870983000
+W0803 08:44:33.871074 30846 usb_cam.cc:863] camera
+W0803 08:44:34.054220 30837 usb_cam.cc:848] stamp jump.last stamp:10553870983000 current stamp:10554070983000
+W0803 08:44:34.054253 30837 usb_cam.cc:863] camera
+W0803 08:44:34.154234 30844 usb_cam.cc:863] camera
+E0803 08:44:34.361640 30849 usb_cam.cc:275] Cannot identify '/dev/camera/front_12mm': 2, No such file or directory
+W0803 08:44:34.361737 30842 usb_cam.cc:863] camera
+W0803 08:44:34.554219 30835 usb_cam.cc:848] stamp jump.last stamp:10554270987000 current stamp:10554571001000
+W0803 08:44:34.554255 30835 usb_cam.cc:863] camera
+W0803 08:44:34.654239 30835 usb_cam.cc:863] camera
+W0803 08:44:34.877962 30863 usb_cam.cc:863] camera
+W0803 08:44:35.054220 30837 usb_cam.cc:848] stamp jump.last stamp:10554770989000 current stamp:10555071002000
+W0803 08:44:35.054256 30837 usb_cam.cc:863] camera
+W0803 08:44:35.154239 30844 usb_cam.cc:863] camera
+W0803 08:44:35.254240 30860 usb_cam.cc:863] camera
+W0803 08:44:35.354238 30860 usb_cam.cc:863] camera
+W0803 08:44:35.561688 30850 usb_cam.cc:863] camera
+W0803 08:44:35.754220 30835 usb_cam.cc:848] stamp jump.last stamp:10555470989000 current stamp:10555770984000
+W0803 08:44:35.754251 30835 usb_cam.cc:863] camera
+W0803 08:44:35.854238 30835 usb_cam.cc:863] camera
+W0803 08:44:36.161119 30849 usb_cam.cc:863] camera
+W0803 08:44:36.361763 30854 usb_cam.cc:848] stamp jump.last stamp:10555970988000 current stamp:10556370985000
+W0803 08:44:36.361794 30854 usb_cam.cc:863] camera
+E0803 08:44:36.366637 30839 usb_cam.cc:275] Cannot identify '/dev/camera/front_12mm': 2, No such file or directory
+W0803 08:44:36.554214 30866 usb_cam.cc:848] stamp jump.last stamp:10556370985000 current stamp:10556571002000
+W0803 08:44:36.554246 30866 usb_cam.cc:863] camera
+W0803 08:44:36.654229 30863 usb_cam.cc:863] camera
+W0803 08:44:36.861109 30837 usb_cam.cc:863] camera
+W0803 08:44:37.168363 30849 usb_cam.cc:848] stamp jump.last stamp:10556771009000 current stamp:10557070986000
+W0803 08:44:37.168395 30849 usb_cam.cc:863] camera
+W0803 08:44:37.350239 30849 usb_cam.cc:848] stamp jump.last stamp:10557070986000 current stamp:10557370981000
+W0803 08:44:37.350271 30849 usb_cam.cc:863] camera
+W0803 08:44:37.450250 30854 usb_cam.cc:863] camera
+W0803 08:44:37.661453 30863 usb_cam.cc:863] camera
+W0803 08:44:37.850232 30852 usb_cam.cc:848] stamp jump.last stamp:10557570987000 current stamp:10557870987000
+W0803 08:44:37.850265 30852 usb_cam.cc:863] camera
+W0803 08:44:37.950249 30865 usb_cam.cc:863] camera
+W0803 08:44:38.050249 30842 usb_cam.cc:863] camera
+W0803 08:44:38.356992 30849 usb_cam.cc:863] camera
+E0803 08:44:38.369253 30854 usb_cam.cc:275] Cannot identify '/dev/camera/front_12mm': 2, No such file or directory
+W0803 08:44:38.550240 30854 usb_cam.cc:848] stamp jump.last stamp:10558171006000 current stamp:10558570992000
+W0803 08:44:38.550272 30854 usb_cam.cc:863] camera
+W0803 08:44:38.650249 30835 usb_cam.cc:863] camera
+W0803 08:44:38.750288 30837 usb_cam.cc:863] camera
+W0803 08:44:38.850252 30844 usb_cam.cc:863] camera
+W0803 08:44:39.057452 30842 usb_cam.cc:863] camera
+W0803 08:44:39.364547 30846 usb_cam.cc:848] stamp jump.last stamp:10558971005000 current stamp:10559271005000
+W0803 08:44:39.364578 30846 usb_cam.cc:863] camera
+W0803 08:44:39.559897 30858 usb_cam.cc:848] stamp jump.last stamp:10559271005000 current stamp:10559570987000
+W0803 08:44:39.559931 30858 usb_cam.cc:863] camera
+W0803 08:44:39.750233 30835 usb_cam.cc:848] stamp jump.last stamp:10559570987000 current stamp:10559770977000
+W0803 08:44:39.750264 30835 usb_cam.cc:863] camera
+W0803 08:44:39.850283 30837 usb_cam.cc:863] camera
+W0803 08:44:39.950250 30865 usb_cam.cc:863] camera
+W0803 08:44:40.050249 30865 usb_cam.cc:863] camera
+W0803 08:44:40.150249 30865 usb_cam.cc:863] camera
+W0803 08:44:40.250285 30846 usb_cam.cc:863] camera
+W0803 08:44:40.350275 30854 usb_cam.cc:863] camera
+W0803 08:44:40.450253 30852 usb_cam.cc:863] camera
+E0803 08:44:40.456755 30837 usb_cam.cc:275] Cannot identify '/dev/camera/front_12mm': 2, No such file or directory
+W0803 08:44:40.550251 30852 usb_cam.cc:863] camera
+W0803 08:44:40.957017 30839 usb_cam.cc:863] camera
+W0803 08:44:41.150265 30849 usb_cam.cc:848] stamp jump.last stamp:10560670988000 current stamp:10561170988000
+W0803 08:44:41.150295 30849 usb_cam.cc:863] camera
+W0803 08:44:41.250248 30849 usb_cam.cc:863] camera
+W0803 08:44:41.357810 30858 usb_cam.cc:863] camera
+W0803 08:44:41.550235 30837 usb_cam.cc:848] stamp jump.last stamp:10561370988000 current stamp:10561571007000
+W0803 08:44:41.550268 30837 usb_cam.cc:863] camera
+W0803 08:44:41.650251 30844 usb_cam.cc:863] camera
+W0803 08:44:41.963963 30842 usb_cam.cc:863] camera
+W0803 08:44:42.150235 30865 usb_cam.cc:848] stamp jump.last stamp:10561771007000 current stamp:10562171007000
+W0803 08:44:42.150269 30865 usb_cam.cc:863] camera
+W0803 08:44:42.250252 30849 usb_cam.cc:863] camera
+W0803 08:44:42.350248 30863 usb_cam.cc:863] camera
+W0803 08:44:42.450253 30858 usb_cam.cc:863] camera
+E0803 08:44:42.457343 30837 usb_cam.cc:275] Cannot identify '/dev/camera/front_12mm': 2, No such file or directory
+W0803 08:44:42.550251 30852 usb_cam.cc:863] camera
+W0803 08:44:42.657662 30860 usb_cam.cc:863] camera
+W0803 08:44:42.850234 30850 usb_cam.cc:848] stamp jump.last stamp:10562670990000 current stamp:10562870990000
+W0803 08:44:42.850266 30850 usb_cam.cc:863] camera
+W0803 08:44:42.950253 30865 usb_cam.cc:863] camera
+W0803 08:44:43.050251 30846 usb_cam.cc:863] camera
+W0803 08:44:43.150252 30863 usb_cam.cc:863] camera
+W0803 08:44:43.457640 30837 usb_cam.cc:863] camera
+W0803 08:44:43.650243 30852 usb_cam.cc:848] stamp jump.last stamp:10563271012000 current stamp:10563670991000
+W0803 08:44:43.650275 30852 usb_cam.cc:863] camera
+W0803 08:44:43.750250 30839 usb_cam.cc:863] camera
+W0803 08:44:43.850282 30850 usb_cam.cc:863] camera
+W0803 08:44:43.950256 30850 usb_cam.cc:863] camera
+W0803 08:44:44.160234 30863 usb_cam.cc:863] camera
+W0803 08:44:44.350268 30837 usb_cam.cc:848] stamp jump.last stamp:10564071010000 current stamp:10564370992000
+W0803 08:44:44.350301 30837 usb_cam.cc:863] camera
+W0803 08:44:44.450253 30852 usb_cam.cc:863] camera
+E0803 08:44:44.459559 30860 usb_cam.cc:275] Cannot identify '/dev/camera/front_12mm': 2, No such file or directory
+W0803 08:44:44.550253 30852 usb_cam.cc:863] camera
+W0803 08:44:44.858140 30849 usb_cam.cc:863] camera
+W0803 08:44:45.050243 30846 usb_cam.cc:848] stamp jump.last stamp:10564671010000 current stamp:10565070992000
+W0803 08:44:45.050277 30846 usb_cam.cc:863] camera
+W0803 08:44:45.166970 30863 usb_cam.cc:863] camera
+W0803 08:44:45.459758 30842 usb_cam.cc:848] stamp jump.last stamp:10565170994000 current stamp:10565371009000
+W0803 08:44:45.459798 30842 usb_cam.cc:863] camera
+W0803 08:44:45.650238 30842 usb_cam.cc:848] stamp jump.last stamp:10565371009000 current stamp:10565671009000
+W0803 08:44:45.650272 30842 usb_cam.cc:863] camera
+W0803 08:44:45.865639 30850 usb_cam.cc:863] camera
+W0803 08:44:46.057554 30835 usb_cam.cc:848] stamp jump.last stamp:10565770995000 current stamp:10566070993000
+W0803 08:44:46.057586 30835 usb_cam.cc:863] camera
+W0803 08:44:46.250239 30844 usb_cam.cc:848] stamp jump.last stamp:10566070993000 current stamp:10566271015000
+W0803 08:44:46.250272 30844 usb_cam.cc:863] camera
+W0803 08:44:46.350255 30860 usb_cam.cc:863] camera
+E0803 08:44:46.659756 30849 usb_cam.cc:275] Cannot identify '/dev/camera/front_12mm': 2, No such file or directory
+W0803 08:44:46.659845 30842 usb_cam.cc:863] camera
+W0803 08:44:46.850237 30854 usb_cam.cc:848] stamp jump.last stamp:10566470997000 current stamp:10566870993000
+W0803 08:44:46.850272 30854 usb_cam.cc:863] camera
+W0803 08:44:46.950248 30846 usb_cam.cc:863] camera

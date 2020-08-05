@@ -1,0 +1,6 @@
+Log file created at: 2020/08/01 14:42:12
+Running on machine: in_dev_docker
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0801 14:42:12.886252  9360 hdmap.cc:24] Loading HDMap: /apollo/modules/map/data/demo/base_map.txt ...
+W0801 14:42:12.939452  9360 hdmap_common.cc:630] stop sign 2has no overlap with any junction.
+I0801 14:42:12.941342  9360 hdmap_util.cc:78] Load HDMap success: /apollo/modules/map/data/demo/base_map.txt

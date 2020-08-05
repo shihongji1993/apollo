@@ -35,11 +35,9 @@ class ClusterGeneralInfo100
              CubRadar* cub_radar) const override;
 
  private:
+  double InverseCode(uint32_t x) const;
+
   int ObstacleId(const std::uint8_t* bytes, int32_t length) const;
-
-  // int counting_time(const std::uint8_t* bytes, int32_t length) const;
-
-  // double velocity(const std::uint8_t* bytes, int32_t length) const;
 
   double LongitudePosition(const std::uint8_t* bytes, int32_t length) const;
 
@@ -48,30 +46,6 @@ class ClusterGeneralInfo100
   double LateryVelocity(const std::uint8_t* bytes, int32_t length) const;
 
   double LongitudeVelocity(const std::uint8_t* bytes, int32_t length) const;
-
-  // double lateral_vel(const std::uint8_t* bytes, int32_t length) const;
-
-  // double rcs(const std::uint8_t* bytes, int32_t length) const;
-
-  // int dynprop(const std::uint8_t* bytes, int32_t length) const;
-  // int visual() {
-  //   sf::RenderWindow window(sf::VideoMode(200, 200), "SFML works!");
-  //   sf::CircleShape shape(100.f);
-  //   shape.setFillColor(sf::Color::Green);
-
-  //   while (window.isOpen()) {
-  //     sf::Event event;
-  //     while (window.pollEvent(event)) {
-  //       if (event.type == sf::Event::Closed) window.close();
-  //     }
-
-  //     window.clear();
-  //     window.draw(shape);
-  //     window.display();
-  //   }
-
-  //   return 0;
-  // }
 };
 
 }  // namespace cub_radar

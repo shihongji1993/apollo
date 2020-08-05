@@ -23,17 +23,18 @@
 
 #include "modules/common/util/message_util.h"
 #include "modules/drivers/radar/cub_radar/protocol/cluster_general_info_100.h"
-#include "modules/drivers/radar/cub_radar/protocol/cluster_list_status_600.h"
+// #include "modules/drivers/radar/cub_radar/protocol/cluster_list_status_600.h"
+// #include "modules/drivers/radar/cub_radar/protocol/object_list_status_60a.h"
+// #include "modules/drivers/radar/cub_radar/protocol/radar_state_201.h"
+
 // #include
 // "modules/drivers/radar/cub_radar/protocol/cluster_quality_info_702.h"
 // #include
 // "modules/drivers/radar/cub_radar/protocol/object_extended_info_60d.h"
 // #include
 // "modules/drivers/radar/cub_radar/protocol/object_general_info_60b.h"
-#include "modules/drivers/radar/cub_radar/protocol/object_list_status_60a.h"
 // #include
 // "modules/drivers/radar/cub_radar/protocol/object_quality_info_60c.h"
-#include "modules/drivers/radar/cub_radar/protocol/radar_state_201.h"
 
 namespace apollo {
 namespace drivers {
@@ -46,7 +47,7 @@ using apollo::drivers::canbus::CanClient;
 using apollo::drivers::canbus::ProtocolData;
 using apollo::drivers::canbus::SenderMessage;
 
-CubRadarMessageManager::CubRadarMessageManager(  //需要修改
+CubRadarMessageManager::CubRadarMessageManager(
     const std::shared_ptr<Writer<CubRadar>> &writer)
     : cub_radar_writer_(writer) {
   // AddRecvProtocolData<RadarState201, true>();
@@ -93,50 +94,7 @@ void CubRadarMessageManager::Parse(const uint32_t message_id,
   }
   std::lock_guard<std::mutex> lock(sensor_data_mutex_);
 
-  //   // read radar state message first
-  //   return;
-  // }
-
-  // trigger publishment
-  // if (message_id == ClusterListStatus600::ID ||
-  //     message_id == ObjectListStatus60A::ID) {
-  //   ADEBUG << sensor_data_.ShortDebugString();
-
-  //   if (sensor_data_.contiobs_size() <=
-  //       sensor_data_.object_list_status().nof_objects()) {
-  //     // maybe lost an object_list_status msg
-  //     cub_radar_writer_->Write(std::make_shared<CubRadar>(sensor_data_));
-  //   }
-  //   sensor_data_.Clear();
-  //   // fill header when receive the general info message
-  //   common::util::FillHeader("cub_radar", &sensor_data_);
-  // }
-
   sensor_protocol_data->Parse(data, length, &sensor_data_);
-
-  // if (message_id == RadarState201::ID) {
-  //   ADEBUG << sensor_data_.ShortDebugString();
-  //   if (sensor_data_.radar_state().send_quality() ==
-  //           radar_config_.radar_conf().send_quality() &&
-  //       sensor_data_.radar_state().send_ext_info() ==
-  //           radar_config_.radar_conf().send_ext_info() &&
-  //       sensor_data_.radar_state().max_distance() ==
-  //           radar_config_.radar_conf().max_distance() &&
-  //       sensor_data_.radar_state().output_type() ==
-  //           radar_config_.radar_conf().output_type() &&
-  //       sensor_data_.radar_state().rcs_threshold() ==
-  //           radar_config_.radar_conf().rcs_threshold() &&
-  //       sensor_data_.radar_state().radar_power() ==
-  //           radar_config_.radar_conf().radar_power()) {
-  //     is_configured_ = true;
-  //   } else {
-  //     AINFO << "configure radar again";
-  //     SenderMessage<CubRadar> sender_message(RadarConfig200::ID,
-  //                                            &radar_config_);
-  //     sender_message.Update();
-  //     can_client_->SendSingleFrame({sender_message.CanFrame()});
-  //   }
-  // }
 
   received_ids_.insert(id_object);
   // check if need to check period

@@ -1,0 +1,815 @@
+Log file created at: 2020/08/01 14:42:01
+Running on machine: in_dev_docker
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+W0801 14:42:01.673508  9384 scheduler_factory.cc:63] No sched conf found, use default conf.
+I0801 14:42:01.691730  9507 processor.cc:41] processor_tid: 9507
+I0801 14:42:01.703016  9516 processor.cc:41] processor_tid: 9516
+I0801 14:42:01.716818  9523 processor.cc:41] processor_tid: 9523
+I0801 14:42:01.737138  9529 processor.cc:41] processor_tid: 9529
+I0801 14:42:01.744709  9542 processor.cc:41] processor_tid: 9542
+I0801 14:42:01.754632  9548 processor.cc:41] processor_tid: 9548
+I0801 14:42:01.763136  9554 processor.cc:41] processor_tid: 9554
+I0801 14:42:01.780485  9565 processor.cc:41] processor_tid: 9565
+I0801 14:42:01.790680  9575 processor.cc:41] processor_tid: 9575
+I0801 14:42:01.808005  9581 processor.cc:41] processor_tid: 9581
+I0801 14:42:01.816745  9593 processor.cc:41] processor_tid: 9593
+I0801 14:42:01.828711  9596 processor.cc:41] processor_tid: 9596
+I0801 14:42:01.846861  9604 processor.cc:41] processor_tid: 9604
+I0801 14:42:01.865267  9611 processor.cc:41] processor_tid: 9611
+I0801 14:42:01.885154  9615 processor.cc:41] processor_tid: 9615
+I0801 14:42:01.891737  9624 processor.cc:41] processor_tid: 9624
+I0801 14:42:01.891842  9384 init.cc:103] Register exit handle succ.
+I0801 14:42:01.893481  9384 module_controller.cc:65] Start initialize dag: /apollo/modules/storytelling/dag/storytelling.dag
+I0801 14:42:01.893693  9384 class_loader.cc:37] Begin LoadLibrary: /apollo/bazel-bin/modules/storytelling/libstorytelling.so
+I0801 14:42:03.688283  9384 scheduler.cc:54] create croutine: storytelling_/apollo/planning
+I0801 14:42:03.690778  9384 timer.cc:135] start timer [0]
+I0801 14:42:03.806368  9816 scheduler.cc:54] create croutine: /internal/task0
+I0801 14:42:03.806439  9816 scheduler.cc:54] create croutine: /internal/task1
+I0801 14:42:03.806473  9816 scheduler.cc:54] create croutine: /internal/task2
+I0801 14:42:03.806521  9816 scheduler.cc:54] create croutine: /internal/task3
+I0801 14:42:03.806552  9816 scheduler.cc:54] create croutine: /internal/task4
+I0801 14:42:03.806587  9816 scheduler.cc:54] create croutine: /internal/task5
+I0801 14:42:03.806614  9816 scheduler.cc:54] create croutine: /internal/task6
+I0801 14:42:03.806646  9816 scheduler.cc:54] create croutine: /internal/task7
+I0801 14:42:03.806753  9816 scheduler.cc:54] create croutine: /internal/task8
+I0801 14:42:03.806788  9816 scheduler.cc:54] create croutine: /internal/task9
+I0801 14:42:03.806921  9816 scheduler.cc:54] create croutine: /internal/task10
+I0801 14:42:03.806957  9816 scheduler.cc:54] create croutine: /internal/task11
+I0801 14:42:03.806988  9816 scheduler.cc:54] create croutine: /internal/task12
+I0801 14:42:03.807025  9816 scheduler.cc:54] create croutine: /internal/task13
+I0801 14:42:03.807061  9816 scheduler.cc:54] create croutine: /internal/task14
+I0801 14:42:03.807091  9816 scheduler.cc:54] create croutine: /internal/task15
+E0801 14:42:03.807235  9593 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:03.811070  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:03.907318  9611 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:04.005048  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:04.005069  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:04.010787  9611 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:04.011238  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:04.105545  9611 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:04.207507  9581 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:04.211874  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:04.281358  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:04.310894  9611 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:04.326535  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:04.346652  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:04.361203  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:04.376132  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:04.382557  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:04.389304  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:04.395339  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:04.408762  9615 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:04.414816  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:04.434762  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:04.442879  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:04.459084  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:04.476897  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:04.492815  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:04.497351  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:04.524658  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:04.527046  9604 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:04.545719  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:04.566532  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:04.573634  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:04.614749  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:04.617022  9593 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:04.642558  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:04.652832  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:04.706951  9604 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:04.809980  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:04.810289  9615 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:04.842530  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:04.908308  9604 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:04.991963  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:04.991983  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:05.002563  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:05.010687  9581 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:05.013432  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:05.037495  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:05.053149  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:05.062224  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:05.076932  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:05.118710  9529 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:05.146754  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:05.153353  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:05.212997  9604 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:05.246634  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:05.250515  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:05.277055  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:05.306947  9581 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:05.313741  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:05.323717  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:05.349512  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:05.379057  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:05.406936  9611 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:05.488831  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:05.493312  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:05.507179  9604 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:05.511312  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:05.530496  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:05.551180  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:05.561303  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:05.565759  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:05.630810  9604 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:05.632287  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:05.665169  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:05.706660  9604 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:05.741132  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:05.754881  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:05.810539  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:05.822814  9604 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:05.835304  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:05.874595  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:05.894954  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:05.900799  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:05.915246  9604 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:05.925668  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:05.944267  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:05.958685  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:05.974973  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:06.023058  9604 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:06.026921  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:06.038599  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:06.042614  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:06.049250  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:06.075484  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:06.097440  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:06.097497  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:06.115878  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:06.119690  9604 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:06.122611  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:06.183063  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:06.198603  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:06.211258  9604 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:06.215400  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:06.234117  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:06.237627  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:06.242944  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:06.293231  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:06.308908  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:06.321866  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:06.322037  9604 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:06.408679  9604 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:06.506120  9516 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:06.546627  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:06.586575  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:06.614782  9523 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:06.626570  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:06.714715  9596 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:06.716593  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:06.810117  9565 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:06.908574  9596 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:06.908666  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:06.946663  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:07.012838  9604 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:07.079105  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:07.090667  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:07.106735  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:07.122694  9507 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:07.122861  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:07.141134  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:07.211423  9565 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:07.307399  9523 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:07.406740  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:07.410995  9523 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:07.422689  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:07.509871  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:07.516033  9604 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:07.608135  9604 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:07.680258  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:07.712469  9523 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:07.808463  9507 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:07.908478  9507 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:08.008430  9507 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:08.074638  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:08.112789  9523 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:08.130707  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:08.186684  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:08.186703  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:08.208948  9542 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:08.306923  9624 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:08.410825  9604 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:08.413727  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:08.507968  9581 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:08.538571  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:08.611166  9604 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:08.614634  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:08.638532  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:08.708863  9507 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:08.746253  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:08.806869  9581 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:08.833264  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:08.890519  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:08.894518  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:08.911561  9523 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:09.007517  9523 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:09.107497  9507 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:09.114153  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:09.210638  9581 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:09.212213  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:09.236366  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:09.246652  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:09.278487  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:09.313089  9581 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:09.344964  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:09.370726  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:09.387262  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:09.394593  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:09.413087  9593 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:09.506832  9575 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:09.606773  9575 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:09.630666  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:09.708873  9548 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:09.806875  9548 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:09.905436  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:09.909637  9611 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:10.007650  9529 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:10.088376  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:10.107609  9575 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:10.158563  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:10.202838  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:10.215044  9581 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:10.307020  9507 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:10.358523  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:10.412791  9516 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:10.506732  9554 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:10.608719  9596 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:10.682554  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:10.712718  9565 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:10.808791  9542 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:10.906965  9624 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:10.946696  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:10.975514  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:11.011106  9624 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:11.042517  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:11.062706  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:11.116909  9624 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:11.138578  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:11.207043  9523 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:11.213405  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:11.307199  9554 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:11.406967  9507 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:11.507269  9565 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:11.606938  9523 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:11.642338  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:11.712823  9624 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:11.806522  9523 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:11.838902  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:11.913084  9624 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:11.920961  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:12.011159  9596 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:12.107256  9596 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:12.207181  9581 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:12.214862  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:12.290671  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:12.314874  9604 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:12.342628  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:12.406622  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:12.414707  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:12.419311  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:12.421118  9596 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:12.506958  9542 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:12.524809  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:12.540999  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:12.611215  9548 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:12.707154  9554 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:12.774570  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:12.807181  9611 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:12.907169  9507 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:12.978672  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:13.006563  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:13.009603  9596 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:13.009927  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:13.028200  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:13.038525  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:13.045766  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:13.070669  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:13.075765  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:13.120920  9604 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:13.137202  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:13.208411  9507 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:13.226550  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:13.262347  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:13.320626  9523 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:13.408641  9516 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:13.508565  9507 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:13.609633  9565 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:13.706794  9529 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:13.806646  9523 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:13.908581  9596 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:14.008656  9529 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:14.080868  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:14.111137  9581 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:14.153306  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:14.207144  9593 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:14.307097  9565 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:14.407078  9593 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:14.507104  9529 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:14.607091  9548 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:14.707051  9593 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:14.807086  9529 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:14.830564  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:14.910835  9581 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:15.006794  9581 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:15.106621  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:15.110882  9548 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:15.162775  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:15.206800  9554 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:15.306811  9542 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:15.324810  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:15.411018  9611 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:15.507047  9581 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:15.607098  9523 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:15.698585  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:15.714653  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:15.714816  9581 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:15.806821  9507 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:15.906810  9581 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:16.006855  9554 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:16.106878  9624 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:16.206866  9523 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:16.294586  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:16.306746  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:16.311134  9615 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:16.406970  9581 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:16.470562  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:16.506960  9615 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:16.522528  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:16.606914  9529 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:16.646569  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:16.710722  9554 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:16.808799  9529 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:16.906831  9523 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:17.006770  9596 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:17.014115  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:17.112355  9611 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:17.119161  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:17.198630  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:17.214993  9507 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:17.306977  9604 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:17.406831  9624 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:17.506820  9615 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:17.606869  9611 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:17.706845  9507 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:17.721622  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:17.795172  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:17.809634  9516 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:17.907680  9615 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:18.007364  9554 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:18.070549  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:18.107322  9581 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:18.207399  9624 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:18.307394  9615 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:18.407689  9548 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:18.442561  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:18.486647  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:18.514706  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:18.514864  9615 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:18.524749  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:18.606956  9611 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:18.706876  9565 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:18.806931  9554 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:18.906941  9575 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:18.938572  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:19.004974  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:19.010537  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:19.010820  9575 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:19.040987  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:19.080898  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:19.085042  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:19.094178  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:19.116319  9516 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:19.208737  9542 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:19.308302  9554 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:19.389794  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:19.412143  9575 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:19.508262  9565 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:19.608013  9516 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:19.708036  9611 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:19.807984  9523 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:19.908062  9565 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:20.008337  9593 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:20.107951  9581 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:20.174574  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:20.207998  9565 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:20.307993  9615 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:20.407933  9596 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:20.508250  9615 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:20.606000  9596 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:20.708004  9516 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:20.808207  9611 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:20.908023  9593 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:20.911042  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:21.008391  9523 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:21.046936  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:21.108023  9548 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:21.207979  9542 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:21.308116  9507 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:21.407953  9615 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:21.508059  9593 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:21.542840  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:21.608029  9516 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:21.708019  9529 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:21.802536  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:21.807971  9575 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:21.908007  9581 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:22.008054  9529 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:22.030589  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:22.082551  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:22.116708  9507 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:22.190410  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:22.212734  9554 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:22.308590  9604 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:22.408632  9507 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:22.434521  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:22.446518  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:22.518759  9554 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:22.607201  9596 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:22.706712  9542 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:22.809100  9529 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:22.906771  9604 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:23.006714  9548 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:23.074569  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:23.114838  9554 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:23.138586  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:23.142597  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:23.186648  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:23.208832  9523 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:23.306807  9548 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:23.407019  9581 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:23.506785  9507 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:23.606815  9575 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:23.706840  9523 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:23.806963  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:23.807250  9523 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:23.810274  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:23.906518  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:23.912714  9596 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:23.922830  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:24.017048  9615 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:24.025156  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:24.113355  9542 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:24.133872  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:24.166532  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:24.218982  9529 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:24.306788  9529 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:24.329110  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:24.406800  9516 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:24.410351  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:24.506785  9611 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:24.515910  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:24.528823  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:24.612087  9565 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:24.682377  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:24.708135  9529 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:24.773159  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:24.811326  9611 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:24.907342  9611 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:24.958529  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:25.012801  9565 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:25.014544  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:25.026063  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:25.050789  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:25.112970  9593 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:25.148067  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:25.195292  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:25.212322  9596 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:25.258580  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:25.308332  9615 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:25.320714  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:25.408442  9516 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:25.438537  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:25.510789  9548 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:25.606722  9507 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:25.654353  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:25.708720  9507 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:25.808712  9529 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:25.810552  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:25.908717  9624 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:26.008733  9593 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:26.010614  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:26.108703  9565 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:26.130614  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:26.175202  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:26.217346  9615 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:26.307345  9529 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:26.372910  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:26.411070  9554 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:26.415045  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:26.455396  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:26.511585  9554 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:26.578193  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:26.610385  9624 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:26.622665  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:26.710829  9593 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:26.806836  9624 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:26.809983  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:26.906960  9542 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:26.961366  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:27.007175  9624 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:27.030522  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:27.106843  9554 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:27.110705  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:27.208964  9611 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:27.307616  9624 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:27.314731  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:27.412950  9581 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:27.416446  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:27.506959  9548 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:27.510673  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:27.607095  9529 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:27.710821  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:27.710961  9529 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:27.722653  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:27.807039  9529 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:27.907052  9615 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:28.007019  9575 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:28.010473  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:28.050545  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:28.107038  9581 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:28.110607  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:28.207181  9611 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:28.210623  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:28.212963  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:28.290007  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:28.307094  9542 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:28.312141  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:28.410455  9554 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:28.412514  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:28.434610  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:28.514859  9507 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:28.606835  9581 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:28.638542  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:28.657317  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:28.712177  9565 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:28.714684  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:28.763496  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:28.807541  9516 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:28.810655  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:28.831043  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:28.913233  9581 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:29.008754  9593 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:29.011667  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:29.040844  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:29.114987  9593 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:29.120987  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:29.133057  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:29.211239  9516 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:29.307639  9615 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:29.309535  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:29.407251  9516 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:29.507318  9542 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:29.607245  9529 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:29.689400  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:29.707258  9593 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:29.710906  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:29.807366  9554 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:29.872294  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:29.910440  9596 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:30.008514  9554 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:30.108428  9615 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:30.110577  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:30.123850  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:30.210512  9615 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:30.210567  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:30.222889  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:30.230741  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:30.314920  9554 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:30.316943  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:30.330605  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:30.410794  9615 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:30.414321  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:30.506835  9611 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:30.510602  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:30.510627  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:30.606907  9523 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:30.706832  9565 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:30.807024  9596 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:30.842515  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:30.912937  9611 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:30.930569  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:31.008836  9554 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:31.018605  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:31.062665  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:31.116923  9542 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:31.206900  9604 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:31.210620  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:31.306833  9507 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:31.310662  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:31.310683  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:31.407281  9611 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:31.409482  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:31.415637  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:31.510093  9624 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:31.608142  9581 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:31.610029  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:31.622606  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:31.708086  9529 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:31.814774  9523 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:31.816152  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:31.906404  9529 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:32.008381  9611 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:32.010607  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:32.108533  9575 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:32.208559  9529 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:32.214767  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:32.312949  9615 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:32.352977  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:32.409377  9523 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:32.411538  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:32.507237  9615 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:32.525043  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:32.530308  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:32.559974  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:32.613191  9615 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:32.707492  9542 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:32.762634  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:32.807430  9615 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:32.820086  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:32.839545  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:32.907397  9615 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:32.947685  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:32.987761  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:33.011998  9529 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:33.098536  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:33.112810  9615 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:33.118731  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:33.170534  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:33.210994  9516 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:33.225306  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:33.315536  9575 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:33.318611  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:33.407733  9604 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:33.414633  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:33.505283  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:33.513628  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:33.515413  9624 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:33.607828  9523 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:33.614815  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:33.714915  9604 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:33.714967  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:33.807102  9615 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:33.907052  9542 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:33.910892  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:33.962539  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:34.009615  9565 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:34.107431  9593 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:34.110920  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:34.166532  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:34.209846  9615 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:34.210933  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:34.307185  9507 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:34.314728  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:34.341861  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:34.418056  9615 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:34.421058  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:34.508356  9565 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:34.574133  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:34.608059  9507 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:34.707998  9529 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:34.808058  9611 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:34.908049  9624 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:35.008054  9548 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:35.108062  9581 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:35.110819  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:35.208055  9548 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:35.238633  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:35.267197  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:35.277303  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:35.315376  9611 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:35.318233  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:35.354578  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:35.407428  9548 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:35.488797  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:35.494570  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:35.510788  9624 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:35.526542  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:35.554533  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:35.572563  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:35.616806  9581 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:35.706713  9529 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:35.808779  9554 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:35.810592  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:35.875474  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:35.909704  9624 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:35.912780  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:35.922530  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:35.962560  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:35.973119  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:35.978523  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:36.013290  9529 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:36.026520  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:36.038447  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:36.088608  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:36.114697  9542 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:36.138520  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:36.138550  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:36.208768  9604 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:36.307164  9624 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:36.310112  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:36.372018  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:36.390578  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:36.410912  9604 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:36.426625  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:36.512897  9615 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:36.607153  9611 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:36.610800  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:36.709230  9611 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:36.718613  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:36.738550  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:36.812893  9611 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:36.817046  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:36.909500  9565 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:37.007268  9507 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:37.012199  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:37.110517  9604 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:37.166570  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:37.211010  9604 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:37.213492  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:37.270648  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:37.309279  9593 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:37.310847  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:37.341964  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:37.412369  9615 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:37.414693  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:37.508378  9615 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:37.510818  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:37.592368  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:37.615221  9507 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:37.616541  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:37.706657  9615 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:37.808662  9596 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:37.814975  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:37.822641  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:37.832418  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:37.925495  9624 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:37.925854  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:38.006058  9604 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:38.074530  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:38.112916  9624 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:38.206746  9615 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:38.210698  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:38.288830  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:38.309199  9516 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:38.329092  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:38.388042  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:38.407070  9523 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:38.490177  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:38.506939  9507 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:38.598767  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:38.612920  9615 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:38.698604  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:38.710893  9565 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:38.714570  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:38.726562  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:38.812834  9604 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:38.819280  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:38.826176  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:38.830255  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:38.914330  9554 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:38.954768  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:39.011015  9624 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:39.014799  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:39.109257  9575 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:39.207163  9565 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:39.210749  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:39.229117  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:39.307224  9565 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:39.310667  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:39.337898  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:39.341245  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:39.346560  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:39.349577  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:39.407212  9565 close_to_junction_teller.cc:267] Planning trajectory not ready.
+E0801 14:42:39.507220  9596 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:39.510558  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:39.607192  9565 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:39.610719  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:39.642918  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:39.653686  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:39.707065  9596 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:39.711601  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:39.786568  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:39.809847  9507 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:39.812868  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:39.855476  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:39.907994  9581 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:39.909659  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:40.008136  9554 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:40.010650  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:40.108142  9507 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:40.124950  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:40.207875  9529 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:40.225427  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:40.313603  9575 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:40.379518  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:40.398665  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:40.409965  9596 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:40.442714  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:40.513139  9523 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:40.537777  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:40.607221  9581 close_to_junction_teller.cc:267] Planning trajectory not ready.
+W0801 14:42:40.638427  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:40.642529  9816 rate.cc:95] Detect forward jumps in time
+W0801 14:42:40.688215  9816 rate.cc:95] Detect forward jumps in time
+E0801 14:42:40.707115  9575 close_to_junction_teller.cc:267] Planning trajectory not ready.

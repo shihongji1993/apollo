@@ -1,0 +1,726 @@
+Log file created at: 2020/08/01 14:42:05
+Running on machine: in_dev_docker
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0801 14:42:05.989219  9356 class_loader_utility.h:78] registerclass:PlanningComponent,apollo::cyber::ComponentBase,/apollo/bazel-bin/modules/planning/libplanning_component.so
+E0801 14:42:06.235952  9426 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:06.306506  9444 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:06.361263  9461 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:07.125715  9457 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:07.236161  9426 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:07.306691  9444 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:07.361459  9461 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:08.125902  9457 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:08.236245  9440 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:08.306864  9444 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:08.361624  9461 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:09.126094  9457 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:09.236546  9426 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:09.307080  9444 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:09.361807  9461 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:10.126272  9457 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:10.236781  9426 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:10.310566  9444 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:10.362016  9461 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:11.126466  9457 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:11.236940  9426 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:11.310743  9444 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:11.362205  9461 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:12.126734  9457 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:12.237138  9426 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:12.290568  9464 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:12.362396  9461 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:13.126895  9457 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:13.237313  9426 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:13.290737  9464 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:13.362756  9461 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:14.127123  9457 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:14.237661  9426 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:14.290897  9464 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:14.362906  9461 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:15.127424  9457 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:15.237854  9426 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:15.291064  9464 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:15.363049  9461 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:16.127684  9457 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:16.238060  9426 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:16.291270  9464 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:16.363216  9461 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:17.127912  9457 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:17.238236  9426 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:17.291412  9464 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:17.363343  9461 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:18.128095  9457 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:18.238490  9426 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:18.291546  9464 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:18.363495  9461 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:19.128309  9457 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:19.238670  9426 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:19.291678  9464 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:19.363679  9461 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:20.128546  9453 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:20.238843  9426 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:20.291853  9464 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:20.363791  9461 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:21.128743  9457 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:21.238998  9426 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:21.291993  9464 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:21.366544  9461 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:22.128960  9457 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:22.239153  9426 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:22.292132  9464 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:22.366655  9461 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:23.129133  9457 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:23.239347  9426 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:23.292302  9464 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:23.366781  9461 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:23.598992  9453 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:23.621676  9426 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:23.622447  9426 planning_component.cc:136] Input check failed
+E0801 14:42:23.657541  9461 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:23.707934  9440 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:23.728035  9464 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:23.728166  9464 planning_component.cc:136] Input check failed
+E0801 14:42:23.768108  9433 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:23.840994  9398 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:23.841672  9426 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:23.841805  9426 planning_component.cc:136] Input check failed
+E0801 14:42:23.896337  9450 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:23.931913  9391 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:23.932055  9391 planning_component.cc:136] Input check failed
+E0801 14:42:23.947088  9461 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:23.997642  9440 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:24.022780  9447 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:24.023103  9447 planning_component.cc:136] Input check failed
+E0801 14:42:24.047714  9408 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:24.098867  9461 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:24.135633  9433 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:24.135797  9433 planning_component.cc:136] Input check failed
+E0801 14:42:24.157524  9464 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:24.207880  9433 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:24.221906  9391 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:24.222232  9391 planning_component.cc:136] Input check failed
+E0801 14:42:24.267531  9403 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:24.317869  9447 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:24.319995  9453 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:24.320096  9453 planning_component.cc:136] Input check failed
+E0801 14:42:24.378525  9464 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:24.431397  9433 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:24.431629  9378 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:24.431725  9378 planning_component.cc:136] Input check failed
+E0801 14:42:24.483002  9450 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:24.530748  9447 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:24.530926  9447 planning_component.cc:136] Input check failed
+E0801 14:42:24.538203  9457 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:24.597410  9461 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:24.628687  9403 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:24.628887  9403 planning_component.cc:136] Input check failed
+E0801 14:42:24.647476  9378 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:24.702766  9450 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:24.722152  9378 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:24.722323  9378 planning_component.cc:136] Input check failed
+E0801 14:42:24.757119  9453 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:24.807186  9383 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:24.824352  9444 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:24.824474  9444 planning_component.cc:136] Input check failed
+E0801 14:42:24.858908  9433 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:24.917248  9450 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:24.927127  9408 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:24.927991  9408 planning_component.cc:136] Input check failed
+E0801 14:42:24.971441  9447 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:25.027508  9383 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:25.027951  9461 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:25.028040  9461 planning_component.cc:136] Input check failed
+E0801 14:42:25.087615  9426 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:25.131613  9398 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:25.131726  9398 planning_component.cc:136] Input check failed
+E0801 14:42:25.138216  9403 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:25.198410  9457 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:25.222745  9440 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:25.222851  9440 planning_component.cc:136] Input check failed
+E0801 14:42:25.257800  9444 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:25.317468  9383 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:25.323603  9461 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:25.323699  9461 planning_component.cc:136] Input check failed
+E0801 14:42:25.367604  9433 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:25.425482  9450 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:25.425827  9398 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:25.426064  9398 planning_component.cc:136] Input check failed
+E0801 14:42:25.478114  9447 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:25.528512  9426 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:25.531539  9383 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:25.531891  9383 planning_component.cc:136] Input check failed
+E0801 14:42:25.579038  9403 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:25.629434  9444 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:25.634877  9457 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:25.635002  9457 planning_component.cc:136] Input check failed
+E0801 14:42:25.687461  9461 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:25.719549  9403 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:25.719661  9403 planning_component.cc:136] Input check failed
+E0801 14:42:25.747550  9391 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:25.797641  9403 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:25.827057  9391 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:25.827374  9391 planning_component.cc:136] Input check failed
+E0801 14:42:25.847786  9450 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:25.897876  9391 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:25.919312  9444 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:25.919435  9444 planning_component.cc:136] Input check failed
+E0801 14:42:25.948640  9440 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:25.999016  9457 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:26.034847  9426 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:26.034943  9426 planning_component.cc:136] Input check failed
+E0801 14:42:26.057843  9447 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:26.110052  9378 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:26.133987  9447 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:26.134085  9447 planning_component.cc:136] Input check failed
+E0801 14:42:26.168232  9433 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:26.234560  9398 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:26.236186  9403 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:26.236294  9403 planning_component.cc:136] Input check failed
+E0801 14:42:26.288381  9450 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:26.320041  9440 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:26.320134  9440 planning_component.cc:136] Input check failed
+E0801 14:42:26.347996  9444 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:26.411196  9383 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:26.426810  9447 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:26.426932  9447 planning_component.cc:136] Input check failed
+E0801 14:42:26.467609  9378 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:26.518321  9398 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:26.531591  9403 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:26.531698  9403 planning_component.cc:136] Input check failed
+E0801 14:42:26.578382  9450 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:26.630534  9383 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:26.631242  9461 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:26.631386  9461 planning_component.cc:136] Input check failed
+E0801 14:42:26.687165  9378 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:26.738875  9453 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:26.739114  9453 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:26.739225  9453 planning_component.cc:136] Input check failed
+E0801 14:42:26.797156  9450 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:26.825042  9433 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:26.825161  9433 planning_component.cc:136] Input check failed
+E0801 14:42:26.847419  9464 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:26.897976  9440 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:26.926056  9461 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:26.926160  9461 planning_component.cc:136] Input check failed
+E0801 14:42:26.958220  9453 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:27.009251  9447 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:27.032732  9408 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:27.032829  9408 planning_component.cc:136] Input check failed
+E0801 14:42:27.060150  9383 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:27.111024  9453 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:27.127506  9378 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:27.127619  9378 planning_component.cc:136] Input check failed
+E0801 14:42:27.167157  9403 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:27.218237  9464 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:27.236053  9450 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:27.236163  9450 planning_component.cc:136] Input check failed
+E0801 14:42:27.277204  9426 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:27.320453  9408 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:27.320544  9408 planning_component.cc:136] Input check failed
+E0801 14:42:27.328155  9440 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:27.378819  9450 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:27.420024  9426 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:27.420127  9426 planning_component.cc:136] Input check failed
+E0801 14:42:27.431066  9464 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:27.487414  9391 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:27.523525  9457 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:27.523656  9457 planning_component.cc:136] Input check failed
+E0801 14:42:27.542865  9408 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:27.597018  9450 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:27.634963  9391 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:27.635064  9391 planning_component.cc:136] Input check failed
+E0801 14:42:27.647241  9464 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:27.697588  9440 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:27.722772  9464 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:27.722949  9464 planning_component.cc:136] Input check failed
+E0801 14:42:27.747694  9398 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:27.807099  9447 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:27.824203  9403 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:27.824373  9403 planning_component.cc:136] Input check failed
+E0801 14:42:27.857354  9426 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:27.908637  9408 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:27.920786  9383 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:27.920905  9383 planning_component.cc:136] Input check failed
+E0801 14:42:27.967092  9398 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:28.017585  9464 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:28.031420  9450 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:28.031525  9450 planning_component.cc:136] Input check failed
+E0801 14:42:28.068955  9391 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:28.123571  9408 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:28.123759  9453 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:28.123860  9453 planning_component.cc:136] Input check failed
+E0801 14:42:28.177124  9457 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:28.222172  9426 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:28.222278  9426 planning_component.cc:136] Input check failed
+E0801 14:42:28.228797  9464 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:28.278903  9440 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:28.331503  9398 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:28.331672  9403 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:28.331779  9403 planning_component.cc:136] Input check failed
+E0801 14:42:28.387565  9447 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:28.426323  9440 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:28.426434  9440 planning_component.cc:136] Input check failed
+E0801 14:42:28.447192  9461 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:28.497709  9440 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:28.530411  9464 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:28.530555  9464 planning_component.cc:136] Input check failed
+E0801 14:42:28.557852  9453 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:28.608640  9444 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:28.623052  9398 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:28.623340  9398 planning_component.cc:136] Input check failed
+E0801 14:42:28.667239  9461 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:28.717372  9440 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:28.729377  9383 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:28.729480  9383 planning_component.cc:136] Input check failed
+E0801 14:42:28.767979  9403 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:28.828601  9444 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:28.828954  9464 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:28.829102  9464 planning_component.cc:136] Input check failed
+E0801 14:42:28.879181  9378 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:28.922022  9453 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:28.922199  9453 planning_component.cc:136] Input check failed
+E0801 14:42:28.930985  9433 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:28.991158  9403 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:29.019691  9383 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:29.019783  9383 planning_component.cc:136] Input check failed
+E0801 14:42:29.041234  9444 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:29.097203  9378 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:29.125041  9457 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:29.125190  9457 planning_component.cc:136] Input check failed
+E0801 14:42:29.147294  9440 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:29.207185  9403 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:29.225425  9440 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:29.225546  9440 planning_component.cc:136] Input check failed
+E0801 14:42:29.257293  9444 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:29.307364  9426 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:29.330219  9461 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:29.330407  9461 planning_component.cc:136] Input check failed
+E0801 14:42:29.357430  9453 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:29.407496  9444 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:29.419589  9398 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:29.419692  9398 planning_component.cc:136] Input check failed
+E0801 14:42:29.467006  9447 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:29.517383  9440 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:29.522053  9426 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:29.522281  9426 planning_component.cc:136] Input check failed
+E0801 14:42:29.568861  9403 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:29.619799  9461 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:29.620021  9444 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:29.620175  9444 planning_component.cc:136] Input check failed
+E0801 14:42:29.678326  9378 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:29.727424  9408 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:29.727522  9408 planning_component.cc:136] Input check failed
+E0801 14:42:29.728601  9440 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:29.778718  9457 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:29.823256  9383 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:29.823354  9383 planning_component.cc:136] Input check failed
+E0801 14:42:29.829315  9447 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:29.886337  9391 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:29.922825  9457 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:29.923156  9457 planning_component.cc:136] Input check failed
+E0801 14:42:29.936465  9453 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:29.987915  9444 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:30.021502  9433 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:30.021739  9433 planning_component.cc:136] Input check failed
+E0801 14:42:30.047953  9447 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:30.098760  9440 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:30.130049  9444 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:30.130175  9444 planning_component.cc:136] Input check failed
+E0801 14:42:30.151319  9403 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:30.210613  9444 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:30.232878  9453 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:30.233000  9453 planning_component.cc:136] Input check failed
+E0801 14:42:30.268206  9447 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:30.318315  9433 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:30.333575  9383 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:30.333719  9383 planning_component.cc:136] Input check failed
+E0801 14:42:30.368598  9403 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:30.424613  9461 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:30.424991  9461 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:30.425139  9461 planning_component.cc:136] Input check failed
+E0801 14:42:30.478292  9378 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:30.526526  9453 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:30.526680  9453 planning_component.cc:136] Input check failed
+E0801 14:42:30.539957  9391 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:30.598119  9408 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:30.620488  9378 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:30.620595  9378 planning_component.cc:136] Input check failed
+E0801 14:42:30.648217  9457 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:30.698307  9378 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:30.719616  9444 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:30.719743  9444 planning_component.cc:136] Input check failed
+E0801 14:42:30.748399  9440 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:30.798538  9450 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:30.822616  9440 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:30.822723  9440 planning_component.cc:136] Input check failed
+E0801 14:42:30.868556  9461 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:30.927273  9447 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:30.927755  9457 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:30.927840  9457 planning_component.cc:136] Input check failed
+E0801 14:42:30.977463  9426 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:31.024396  9403 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:31.024626  9403 planning_component.cc:136] Input check failed
+E0801 14:42:31.037449  9433 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:31.087533  9450 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:31.122701  9426 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:31.122836  9426 planning_component.cc:136] Input check failed
+E0801 14:42:31.137607  9447 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:31.188268  9440 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:31.233105  9450 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:31.233219  9450 planning_component.cc:136] Input check failed
+E0801 14:42:31.239217  9398 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:31.298749  9461 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:31.321471  9453 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:31.321571  9453 planning_component.cc:136] Input check failed
+E0801 14:42:31.348894  9378 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:31.398977  9453 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:31.430086  9447 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:31.430371  9447 planning_component.cc:136] Input check failed
+E0801 14:42:31.461853  9398 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:31.517041  9461 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:31.520476  9450 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:31.520572  9450 planning_component.cc:136] Input check failed
+E0801 14:42:31.571667  9383 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:31.622014  9433 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:31.622455  9440 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:31.622771  9440 planning_component.cc:136] Input check failed
+E0801 14:42:31.677320  9398 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:31.728153  9464 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:31.731326  9444 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:31.731420  9444 planning_component.cc:136] Input check failed
+E0801 14:42:31.790885  9383 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:31.823483  9403 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:31.823637  9403 planning_component.cc:136] Input check failed
+E0801 14:42:31.847797  9391 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:31.908506  9408 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:31.922144  9391 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:31.922246  9391 planning_component.cc:136] Input check failed
+E0801 14:42:31.968255  9398 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:32.021463  9444 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:32.021898  9444 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:32.022238  9444 planning_component.cc:136] Input check failed
+E0801 14:42:32.076973  9378 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:32.121131  9453 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:32.121441  9453 planning_component.cc:136] Input check failed
+E0801 14:42:32.127873  9433 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:32.187243  9398 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:32.220268  9383 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:32.220487  9383 planning_component.cc:136] Input check failed
+E0801 14:42:32.247236  9457 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:32.309134  9447 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:32.332057  9403 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:32.332190  9403 planning_component.cc:136] Input check failed
+E0801 14:42:32.360488  9391 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:32.417520  9408 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:32.424957  9433 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:32.425176  9433 planning_component.cc:136] Input check failed
+E0801 14:42:32.477056  9398 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:32.530611  9447 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:32.532549  9444 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:32.532701  9444 planning_component.cc:136] Input check failed
+E0801 14:42:32.587745  9378 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:32.624249  9398 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:32.624363  9398 planning_component.cc:136] Input check failed
+E0801 14:42:32.638805  9440 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:32.697674  9403 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:32.729435  9383 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:32.729543  9383 planning_component.cc:136] Input check failed
+E0801 14:42:32.759025  9457 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:32.817200  9447 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:32.822139  9464 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:32.822255  9464 planning_component.cc:136] Input check failed
+E0801 14:42:32.867908  9391 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:32.918035  9398 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:32.924155  9453 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:32.924315  9453 planning_component.cc:136] Input check failed
+E0801 14:42:32.968173  9464 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:33.018286  9426 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:33.024102  9378 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:33.024190  9378 planning_component.cc:136] Input check failed
+E0801 14:42:33.077723  9433 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:33.128852  9398 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:33.129001  9403 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:33.129091  9403 planning_component.cc:136] Input check failed
+E0801 14:42:33.192276  9444 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:33.224905  9433 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:33.225011  9433 planning_component.cc:136] Input check failed
+E0801 14:42:33.248675  9461 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:33.298873  9433 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:33.331743  9444 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:33.331843  9444 planning_component.cc:136] Input check failed
+E0801 14:42:33.359400  9408 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:33.410620  9464 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:33.420652  9403 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:33.420776  9403 planning_component.cc:136] Input check failed
+E0801 14:42:33.460772  9383 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:33.516852  9433 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:33.520098  9426 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:33.520203  9426 planning_component.cc:136] Input check failed
+E0801 14:42:33.568684  9398 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:33.619068  9464 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:33.619251  9464 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:33.619359  9464 planning_component.cc:136] Input check failed
+E0801 14:42:33.677718  9383 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:33.730720  9408 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:33.731302  9433 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:33.731393  9433 planning_component.cc:136] Input check failed
+E0801 14:42:33.795586  9403 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:33.821529  9383 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:33.821642  9383 planning_component.cc:136] Input check failed
+E0801 14:42:33.847748  9450 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:33.897938  9378 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:33.926307  9450 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:33.926440  9450 planning_component.cc:136] Input check failed
+E0801 14:42:33.957346  9391 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:34.009999  9403 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:34.021184  9440 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:34.021273  9440 planning_component.cc:136] Input check failed
+E0801 14:42:34.068148  9450 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:34.120615  9383 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:34.121204  9378 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:34.121455  9378 planning_component.cc:136] Input check failed
+E0801 14:42:34.178054  9391 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:34.228423  9403 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:34.228613  9398 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:34.228746  9398 planning_component.cc:136] Input check failed
+E0801 14:42:34.278523  9444 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:34.321907  9408 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:34.322108  9408 planning_component.cc:136] Input check failed
+E0801 14:42:34.337311  9447 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:34.387830  9440 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:34.429836  9450 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:34.430033  9450 planning_component.cc:136] Input check failed
+E0801 14:42:34.439254  9398 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:34.492997  9378 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:34.520707  9453 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:34.520824  9453 planning_component.cc:136] Input check failed
+E0801 14:42:34.548683  9383 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:34.607403  9440 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:34.626127  9461 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:34.626273  9461 planning_component.cc:136] Input check failed
+E0801 14:42:34.658028  9450 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:34.718890  9444 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:34.736402  9450 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:34.736511  9450 planning_component.cc:136] Input check failed
+E0801 14:42:34.778509  9378 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:34.830415  9440 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:34.830780  9391 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:34.830924  9391 planning_component.cc:136] Input check failed
+E0801 14:42:34.888622  9453 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:34.922739  9447 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:34.923038  9447 planning_component.cc:136] Input check failed
+E0801 14:42:34.947815  9450 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:34.998070  9447 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:35.020097  9398 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:35.020216  9398 planning_component.cc:136] Input check failed
+E0801 14:42:35.057310  9383 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:35.107421  9433 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:35.120613  9408 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:35.120728  9408 planning_component.cc:136] Input check failed
+E0801 14:42:35.157860  9457 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:35.207928  9383 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:35.229801  9444 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:35.229944  9444 planning_component.cc:136] Input check failed
+E0801 14:42:35.258829  9440 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:35.317797  9450 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:35.326089  9433 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:35.326217  9433 planning_component.cc:136] Input check failed
+E0801 14:42:35.368198  9464 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:35.418401  9426 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:35.429579  9383 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:35.429674  9383 planning_component.cc:136] Input check failed
+E0801 14:42:35.477313  9391 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:35.519804  9444 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:35.519953  9444 planning_component.cc:136] Input check failed
+E0801 14:42:35.527510  9450 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:35.581799  9447 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:35.623895  9453 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:35.624181  9453 planning_component.cc:136] Input check failed
+E0801 14:42:35.638880  9461 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:35.698434  9453 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:35.720602  9447 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:35.720707  9447 planning_component.cc:136] Input check failed
+E0801 14:42:35.748528  9398 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:35.798782  9383 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:35.836274  9440 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:35.836371  9440 planning_component.cc:136] Input check failed
+E0801 14:42:35.858355  9461 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:35.918581  9453 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:35.922739  9426 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:35.922870  9426 planning_component.cc:136] Input check failed
+E0801 14:42:35.968689  9398 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:36.022527  9464 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:36.022702  9457 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:36.022805  9457 planning_component.cc:136] Input check failed
+E0801 14:42:36.077900  9461 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:36.122082  9440 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:36.122191  9440 planning_component.cc:136] Input check failed
+E0801 14:42:36.128397  9453 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:36.194628  9398 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:36.223426  9447 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:36.223526  9447 planning_component.cc:136] Input check failed
+E0801 14:42:36.250447  9444 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:36.309197  9383 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:36.334728  9440 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:36.334841  9440 planning_component.cc:136] Input check failed
+E0801 14:42:36.368569  9461 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:36.419663  9433 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:36.429302  9408 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:36.429425  9408 planning_component.cc:136] Input check failed
+E0801 14:42:36.471401  9444 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:36.523896  9461 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:36.529402  9457 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:36.529645  9457 planning_component.cc:136] Input check failed
+E0801 14:42:36.577556  9426 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:36.624193  9440 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:36.624439  9440 planning_component.cc:136] Input check failed
+E0801 14:42:36.635285  9433 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:36.687546  9444 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:36.736361  9447 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:36.736464  9447 planning_component.cc:136] Input check failed
+E0801 14:42:36.737951  9383 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:36.797192  9408 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:36.823177  9464 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:36.823423  9464 planning_component.cc:136] Input check failed
+E0801 14:42:36.847270  9433 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:36.907490  9444 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:36.936683  9391 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:36.936800  9391 planning_component.cc:136] Input check failed
+E0801 14:42:36.958140  9383 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:37.011894  9408 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:37.020578  9461 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:37.020694  9461 planning_component.cc:136] Input check failed
+E0801 14:42:37.067489  9450 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:37.123843  9444 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:37.124044  9403 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:37.124168  9403 planning_component.cc:136] Input check failed
+E0801 14:42:37.179009  9383 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:37.229399  9433 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:37.229578  9453 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:37.229684  9453 planning_component.cc:136] Input check failed
+E0801 14:42:37.279817  9440 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:37.332307  9457 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:37.332566  9457 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:37.332707  9457 planning_component.cc:136] Input check failed
+E0801 14:42:37.387295  9447 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:37.423410  9440 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:37.423728  9440 planning_component.cc:136] Input check failed
+E0801 14:42:37.437623  9426 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:37.487715  9403 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:37.521252  9433 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:37.521349  9433 planning_component.cc:136] Input check failed
+E0801 14:42:37.547262  9457 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:37.597381  9453 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:37.629182  9403 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:37.629321  9403 planning_component.cc:136] Input check failed
+E0801 14:42:37.648353  9450 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:37.698446  9457 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:37.724259  9391 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:37.724377  9391 planning_component.cc:136] Input check failed
+E0801 14:42:37.759135  9383 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:37.809301  9408 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:37.826030  9433 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:37.826212  9433 planning_component.cc:136] Input check failed
+E0801 14:42:37.868686  9450 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:37.926019  9457 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:37.926645  9444 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:37.926733  9444 planning_component.cc:136] Input check failed
+E0801 14:42:37.978840  9383 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:38.026470  9408 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:38.026609  9408 planning_component.cc:136] Input check failed
+E0801 14:42:38.033982  9433 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:38.088193  9391 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:38.123442  9378 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:38.123595  9378 planning_component.cc:136] Input check failed
+E0801 14:42:38.139420  9403 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:38.197902  9383 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:38.227627  9440 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:38.227754  9440 planning_component.cc:136] Input check failed
+E0801 14:42:38.248690  9433 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:38.311745  9440 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:38.322938  9433 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:38.323038  9433 planning_component.cc:136] Input check failed
+E0801 14:42:38.366422  9398 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:38.426546  9457 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:38.426744  9464 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:38.426848  9464 planning_component.cc:136] Input check failed
+E0801 14:42:38.477536  9447 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:38.522123  9440 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:38.522239  9440 planning_component.cc:136] Input check failed
+E0801 14:42:38.538450  9433 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:38.594672  9391 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:38.626037  9447 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:38.626144  9447 planning_component.cc:136] Input check failed
+E0801 14:42:38.647444  9403 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:38.697842  9461 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:38.721542  9444 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:38.721638  9444 planning_component.cc:136] Input check failed
+E0801 14:42:38.750847  9408 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:38.809130  9398 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:38.832024  9426 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:38.832135  9426 planning_component.cc:136] Input check failed
+E0801 14:42:38.859712  9457 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:38.920434  9461 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:38.921448  9378 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:38.921551  9378 planning_component.cc:136] Input check failed
+E0801 14:42:38.977195  9426 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:39.022488  9391 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:39.022670  9391 planning_component.cc:136] Input check failed
+E0801 14:42:39.027549  9440 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:39.077777  9457 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:39.124444  9433 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:39.124682  9433 planning_component.cc:136] Input check failed
+E0801 14:42:39.128064  9447 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:39.179183  9440 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:39.228396  9457 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:39.228575  9457 planning_component.cc:136] Input check failed
+E0801 14:42:39.229744  9403 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:39.291801  9383 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:39.326141  9450 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:39.326251  9450 planning_component.cc:136] Input check failed
+E0801 14:42:39.348927  9461 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:39.409055  9453 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:39.420881  9447 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:39.420994  9447 planning_component.cc:136] Input check failed
+E0801 14:42:39.459219  9391 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:39.509603  9378 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:39.524758  9444 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:39.524866  9444 planning_component.cc:136] Input check failed
+E0801 14:42:39.568542  9461 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:39.620261  9408 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:39.620581  9453 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:39.620864  9453 planning_component.cc:136] Input check failed
+E0801 14:42:39.677170  9391 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:39.719907  9383 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:39.720072  9383 planning_component.cc:136] Input check failed
+E0801 14:42:39.728245  9457 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:39.787261  9461 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:39.822888  9398 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:39.823014  9398 planning_component.cc:136] Input check failed
+E0801 14:42:39.837388  9453 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:39.887650  9403 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:39.923400  9433 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:39.923554  9433 planning_component.cc:136] Input check failed
+E0801 14:42:39.938768  9378 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:39.997321  9426 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:40.025907  9457 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:40.026049  9457 planning_component.cc:136] Input check failed
+E0801 14:42:40.047587  9440 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:40.097932  9457 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:40.121403  9440 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:40.121495  9440 planning_component.cc:136] Input check failed
+E0801 14:42:40.158569  9378 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:40.229545  9433 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:40.229709  9433 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:40.229801  9433 planning_component.cc:136] Input check failed
+E0801 14:42:40.287209  9461 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:40.327662  9444 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:40.327767  9444 planning_component.cc:136] Input check failed
+E0801 14:42:40.347580  9408 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:40.399039  9403 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:40.428160  9461 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:40.428295  9461 planning_component.cc:136] Input check failed
+E0801 14:42:40.457510  9464 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:40.507681  9461 reference_line_provider.cc:194] Routing is not ready.
+E0801 14:42:40.522063  9383 planning_component.cc:207] routing not ready; skip the planning cycle.
+E0801 14:42:40.522171  9383 planning_component.cc:136] Input check failed
