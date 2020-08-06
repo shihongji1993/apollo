@@ -58,7 +58,7 @@ bool RadarDetectionComponent::Init() {
   return true;
 }
 
-bool RadarDetectionComponent::Proc(const std::shared_ptr<ContiRadar>& message) {
+bool RadarDetectionComponent::Proc(const std::shared_ptr<CubRadar>& message) {
   AINFO << "Enter radar preprocess, message timestamp: "
         << message->header().timestamp_sec() << " current timestamp "
         << apollo::common::time::Clock::NowInSeconds();
@@ -97,10 +97,10 @@ bool RadarDetectionComponent::InitAlgorithmPlugin() {
 }
 
 bool RadarDetectionComponent::InternalProc(
-    const std::shared_ptr<ContiRadar>& in_message,
+    const std::shared_ptr<CubRadar>& in_message,
     std::shared_ptr<SensorFrameMessage> out_message) {
   PERCEPTION_PERF_FUNCTION_WITH_INDICATOR(radar_info_.name);
-  ContiRadar raw_obstacles = *in_message;
+  CubRadar raw_obstacles = *in_message;
   {
     std::unique_lock<std::mutex> lock(_mutex);
     ++seq_num_;
@@ -114,7 +114,7 @@ bool RadarDetectionComponent::InternalProc(
   PERCEPTION_PERF_BLOCK_START();
   // Init preprocessor_options
   radar::PreprocessorOptions preprocessor_options;
-  ContiRadar corrected_obstacles;
+  CubRadar corrected_obstacles;
   radar_preprocessor_->Preprocess(raw_obstacles, preprocessor_options,
                                   &corrected_obstacles);
   PERCEPTION_PERF_BLOCK_END_WITH_INDICATOR(radar_info_.name,

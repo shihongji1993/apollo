@@ -66,7 +66,7 @@ bool RadarObstaclePerception::Init(const std::string& pipeline_name) {
 }
 
 bool RadarObstaclePerception::Perceive(
-    const drivers::ContiRadar& corrected_obstacles,
+    const drivers::CubRadar& corrected_obstacles,
     const RadarPerceptionOptions& options,
     std::vector<base::ObjectPtr>* objects) {
   PERCEPTION_PERF_FUNCTION();

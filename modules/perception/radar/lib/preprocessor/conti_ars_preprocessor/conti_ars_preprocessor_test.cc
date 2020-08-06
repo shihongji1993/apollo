@@ -13,17 +13,17 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  *****************************************************************************/
-#include "gtest/gtest.h"
-
-#include "modules/perception/common/perception_gflags.h"
 #include "modules/perception/radar/lib/preprocessor/conti_ars_preprocessor/conti_ars_preprocessor.h"
+
+#include "gtest/gtest.h"
+#include "modules/perception/common/perception_gflags.h"
 
 namespace apollo {
 namespace perception {
 namespace radar {
 
 using common::Header;
-using drivers::ContiRadarObs;
+using drivers::CubRadarObs;
 
 class ContiArsPreprocessorTest : public testing::Test {
  public:
@@ -47,7 +47,7 @@ TEST_F(ContiArsPreprocessorTest, init) {
 }
 
 TEST_F(ContiArsPreprocessorTest, preprocess) {
-  drivers::ContiRadar raw_obs;
+  drivers::CubRadar raw_obs;
   Header radar_header;
   radar_header.set_timestamp_sec(151237772.355345434);
   radar_header.set_radar_timestamp(151237772355345434);
@@ -56,45 +56,45 @@ TEST_F(ContiArsPreprocessorTest, preprocess) {
   raw_obs.mutable_header()->CopyFrom(radar_header);
 
   PreprocessorOptions options;
-  drivers::ContiRadar corrected_obs;
+  drivers::CubRadar corrected_obs;
 
-  ContiRadarObs* conti_obs = raw_obs.add_contiobs();
-  conti_obs->set_obstacle_id(80);
-  conti_obs->set_meas_state(2);
+  CubRadarObs* cub_obs = raw_obs.add_contiobs();
+  cub_obs->set_obstacle_id(80);
+  cub_obs->set_meas_state(2);
   Header obj_header;
   obj_header.set_timestamp_sec(151237772.305345434);
   obj_header.set_radar_timestamp(151237772305345434);
   obj_header.set_module_name("radar");
   obj_header.set_sequence_num(0);
-  conti_obs->mutable_header()->CopyFrom(obj_header);
+  cub_obs->mutable_header()->CopyFrom(obj_header);
 
-  conti_obs = raw_obs.add_contiobs();
-  conti_obs->set_obstacle_id(0);
-  conti_obs->set_meas_state(2);
+  cub_obs = raw_obs.add_contiobs();
+  cub_obs->set_obstacle_id(0);
+  cub_obs->set_meas_state(2);
   obj_header.set_timestamp_sec(151237772.375345434);
   obj_header.set_radar_timestamp(151237772375345434);
-  conti_obs->mutable_header()->CopyFrom(obj_header);
+  cub_obs->mutable_header()->CopyFrom(obj_header);
 
-  conti_obs = raw_obs.add_contiobs();
-  conti_obs->set_obstacle_id(1);
-  conti_obs->set_meas_state(0);
+  cub_obs = raw_obs.add_contiobs();
+  cub_obs->set_obstacle_id(1);
+  cub_obs->set_meas_state(0);
   obj_header.set_timestamp_sec(151237772.385345434);
   obj_header.set_radar_timestamp(151237772385345434);
-  conti_obs->mutable_header()->CopyFrom(obj_header);
+  cub_obs->mutable_header()->CopyFrom(obj_header);
 
-  conti_obs = raw_obs.add_contiobs();
-  conti_obs->set_obstacle_id(2);
-  conti_obs->set_meas_state(3);
+  cub_obs = raw_obs.add_contiobs();
+  cub_obs->set_obstacle_id(2);
+  cub_obs->set_meas_state(3);
   obj_header.set_timestamp_sec(151237772.385345434);
   obj_header.set_radar_timestamp(151237772385345434);
-  conti_obs->mutable_header()->CopyFrom(obj_header);
+  cub_obs->mutable_header()->CopyFrom(obj_header);
 
-  conti_obs = raw_obs.add_contiobs();
-  conti_obs->set_obstacle_id(0);
-  conti_obs->set_meas_state(2);
+  cub_obs = raw_obs.add_contiobs();
+  cub_obs->set_obstacle_id(0);
+  cub_obs->set_meas_state(2);
   obj_header.set_timestamp_sec(151237772.585345434);
   obj_header.set_radar_timestamp(151237772385345434);
-  conti_obs->mutable_header()->CopyFrom(obj_header);
+  cub_obs->mutable_header()->CopyFrom(obj_header);
 
   preprocessor.Preprocess(raw_obs, options, &corrected_obs);
 
@@ -112,26 +112,26 @@ TEST_F(ContiArsPreprocessorTest, preprocess) {
   radar_header.set_sequence_num(0);
   raw_obs.mutable_header()->CopyFrom(radar_header);
 
-  conti_obs = raw_obs.add_contiobs();
-  conti_obs->set_obstacle_id(1);
-  conti_obs->set_meas_state(1);
+  cub_obs = raw_obs.add_contiobs();
+  cub_obs->set_obstacle_id(1);
+  cub_obs->set_meas_state(1);
   obj_header.set_timestamp_sec(151237772.445345434);
   obj_header.set_radar_timestamp(151237772445345434);
-  conti_obs->mutable_header()->CopyFrom(obj_header);
+  cub_obs->mutable_header()->CopyFrom(obj_header);
 
-  conti_obs = raw_obs.add_contiobs();
-  conti_obs->set_obstacle_id(2);
-  conti_obs->set_meas_state(2);
+  cub_obs = raw_obs.add_contiobs();
+  cub_obs->set_obstacle_id(2);
+  cub_obs->set_meas_state(2);
   obj_header.set_timestamp_sec(151237772.455345434);
   obj_header.set_radar_timestamp(151237772455345434);
-  conti_obs->mutable_header()->CopyFrom(obj_header);
+  cub_obs->mutable_header()->CopyFrom(obj_header);
 
-  conti_obs = raw_obs.add_contiobs();
-  conti_obs->set_obstacle_id(3);
-  conti_obs->set_meas_state(1);
+  cub_obs = raw_obs.add_contiobs();
+  cub_obs->set_obstacle_id(3);
+  cub_obs->set_meas_state(1);
   obj_header.set_timestamp_sec(151237772.455345434);
   obj_header.set_radar_timestamp(151237772455345434);
-  conti_obs->mutable_header()->CopyFrom(obj_header);
+  cub_obs->mutable_header()->CopyFrom(obj_header);
 
   preprocessor.Preprocess(raw_obs, options, &corrected_obs);
 
@@ -150,12 +150,12 @@ TEST_F(ContiArsPreprocessorTest, preprocess) {
   raw_obs.mutable_header()->CopyFrom(radar_header);
 
   SetMaxRadarIdx();
-  conti_obs = raw_obs.add_contiobs();
-  conti_obs->set_obstacle_id(50);
-  conti_obs->set_meas_state(1);
+  cub_obs = raw_obs.add_contiobs();
+  cub_obs->set_obstacle_id(50);
+  cub_obs->set_meas_state(1);
   obj_header.set_timestamp_sec(151237772.525345434);
   obj_header.set_radar_timestamp(151237772525345434);
-  conti_obs->mutable_header()->CopyFrom(obj_header);
+  cub_obs->mutable_header()->CopyFrom(obj_header);
 
   preprocessor.Preprocess(raw_obs, options, &corrected_obs);
   EXPECT_EQ(corrected_obs.contiobs_size(), 1);

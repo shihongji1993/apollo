@@ -13,15 +13,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  *****************************************************************************/
-#include "gtest/gtest.h"
-
 #include "modules/perception/radar/lib/dummy/dummy_algorithms.h"
+
+#include "gtest/gtest.h"
 
 namespace apollo {
 namespace perception {
 namespace radar {
 
-using drivers::ContiRadar;
+using drivers::CubRadar;
 
 class DummyAlgorithmsTest : public testing::Test {
  protected:
@@ -30,48 +30,48 @@ class DummyAlgorithmsTest : public testing::Test {
   DummyRoiFilter roi_filter;
 };
 
-ContiRadar MockContiObs() {
-  ContiRadar raw_obs;
+CubRadar MockContiObs() {
+  CubRadar raw_obs;
 
-  drivers::ContiRadarObs conti_obs;
-  conti_obs.set_clusterortrack(0);
-  conti_obs.set_obstacle_id(80);
-  conti_obs.set_longitude_dist(20);
-  conti_obs.set_lateral_dist(10);
-  conti_obs.set_longitude_vel(10);
-  conti_obs.set_lateral_vel(5);
-  conti_obs.set_rcs(15);
-  conti_obs.set_dynprop(0);
-  conti_obs.set_probexist(0.8);
-  conti_obs.set_longitude_dist_rms(0.2);
-  conti_obs.set_lateral_dist_rms(0.1);
-  conti_obs.set_longitude_vel_rms(0.2);
-  conti_obs.set_lateral_vel_rms(0.1);
-  conti_obs.set_oritation_angle(10);
-  conti_obs.set_oritation_angle_rms(2.0);
-  conti_obs.set_length(2.0);
-  conti_obs.set_width(1.0);
-  conti_obs.set_obstacle_class(CONTI_CAR);
-  conti_obs.set_meas_state(2);
+  drivers::CubRadarObs cub_obs;
+  cub_obs.set_clusterortrack(0);
+  cub_obs.set_obstacle_id(80);
+  cub_obs.set_longitude_dist(20);
+  cub_obs.set_lateral_dist(10);
+  cub_obs.set_longitude_vel(10);
+  cub_obs.set_lateral_vel(5);
+  cub_obs.set_rcs(15);
+  cub_obs.set_dynprop(0);
+  cub_obs.set_probexist(0.8);
+  cub_obs.set_longitude_dist_rms(0.2);
+  cub_obs.set_lateral_dist_rms(0.1);
+  cub_obs.set_longitude_vel_rms(0.2);
+  cub_obs.set_lateral_vel_rms(0.1);
+  cub_obs.set_oritation_angle(10);
+  cub_obs.set_oritation_angle_rms(2.0);
+  cub_obs.set_length(2.0);
+  cub_obs.set_width(1.0);
+  cub_obs.set_obstacle_class(CONTI_CAR);
+  cub_obs.set_meas_state(2);
 
-  raw_obs.add_contiobs()->CopyFrom(conti_obs);
-  conti_obs.set_obstacle_class(CONTI_TRUCK);
-  raw_obs.add_contiobs()->CopyFrom(conti_obs);
-  conti_obs.set_obstacle_class(CONTI_PEDESTRIAN);
-  raw_obs.add_contiobs()->CopyFrom(conti_obs);
-  conti_obs.set_obstacle_class(CONTI_MOTOCYCLE);
-  raw_obs.add_contiobs()->CopyFrom(conti_obs);
-  conti_obs.set_obstacle_class(CONTI_BICYCLE);
-  raw_obs.add_contiobs()->CopyFrom(conti_obs);
-  conti_obs.set_obstacle_class(CONTI_TYPE_UNKNOWN);
-  raw_obs.add_contiobs()->CopyFrom(conti_obs);
+  raw_obs.add_contiobs()->CopyFrom(cub_obs);
+  cub_obs.set_obstacle_class(CONTI_TRUCK);
+  raw_obs.add_contiobs()->CopyFrom(cub_obs);
+  cub_obs.set_obstacle_class(CONTI_PEDESTRIAN);
+  raw_obs.add_contiobs()->CopyFrom(cub_obs);
+  cub_obs.set_obstacle_class(CONTI_MOTOCYCLE);
+  raw_obs.add_contiobs()->CopyFrom(cub_obs);
+  cub_obs.set_obstacle_class(CONTI_BICYCLE);
+  raw_obs.add_contiobs()->CopyFrom(cub_obs);
+  cub_obs.set_obstacle_class(CONTI_TYPE_UNKNOWN);
+  raw_obs.add_contiobs()->CopyFrom(cub_obs);
 
   return raw_obs;
 }
 
 TEST_F(DummyAlgorithmsTest, dummy_test) {
-  ContiRadar raw_obs = MockContiObs();
-  ContiRadar corrected_obs;
+  CubRadar raw_obs = MockContiObs();
+  CubRadar corrected_obs;
   PreprocessorOptions preprocessor_options;
   bool init_result = preprocessor.Init();
   EXPECT_TRUE(init_result);

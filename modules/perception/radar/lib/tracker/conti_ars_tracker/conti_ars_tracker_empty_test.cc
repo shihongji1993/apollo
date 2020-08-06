@@ -13,9 +13,8 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  *****************************************************************************/
-#include "gtest/gtest.h"
-
 #include "cyber/common/log.h"
+#include "gtest/gtest.h"
 #include "modules/perception/common/perception_gflags.h"
 #include "modules/perception/radar/lib/tracker/conti_ars_tracker/conti_ars_tracker.h"
 
@@ -23,11 +22,11 @@ namespace apollo {
 namespace perception {
 namespace radar {
 
-TEST(ContiArsTrackerTest, conti_ars_tracker_empty_init_test) {
+TEST(ContiArsTrackerTest, cub_ars_tracker_empty_init_test) {
   std::unique_ptr<BaseTracker> tracker(new ContiArsTracker());
   FLAGS_work_root =
       "/apollo/modules/perception/testdata/"
-      "radar/conti_ars_tracker/empty";
+      "radar/cub_ars_tracker/empty";
   EXPECT_FALSE(tracker->Init());
 }
 

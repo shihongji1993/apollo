@@ -32,14 +32,14 @@ class ContiArsDetector : public BaseDetector {
 
   bool Init() override;
 
-  bool Detect(const drivers::ContiRadar& corrected_obstacles,
+  bool Detect(const drivers::CubRadar& corrected_obstacles,
               const DetectorOptions& options,
               base::FramePtr detected_frame) override;
 
   std::string Name() const override;
 
  private:
-  void RawObs2Frame(const drivers::ContiRadar& corrected_obstacles,
+  void RawObs2Frame(const drivers::CubRadar& corrected_obstacles,
                     const DetectorOptions& options, base::FramePtr radar_frame);
 
   DISALLOW_COPY_AND_ASSIGN(ContiArsDetector);

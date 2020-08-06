@@ -33,10 +33,9 @@ bool ContiArsPreprocessor::Init() {
   return true;
 }
 
-bool ContiArsPreprocessor::Preprocess(
-    const drivers::ContiRadar& raw_obstacles,
-    const PreprocessorOptions& options,
-    drivers::ContiRadar* corrected_obstacles) {
+bool ContiArsPreprocessor::Preprocess(const drivers::CubRadar& raw_obstacles,
+                                      const PreprocessorOptions& options,
+                                      drivers::CubRadar* corrected_obstacles) {
   PERCEPTION_PERF_FUNCTION();
   SkipObjects(raw_obstacles, corrected_obstacles);
   ExpandIds(corrected_obstacles);
@@ -48,16 +47,15 @@ std::string ContiArsPreprocessor::Name() const {
   return "ContiArsPreprocessor";
 }
 
-void ContiArsPreprocessor::SkipObjects(
-    const drivers::ContiRadar& raw_obstacles,
-    drivers::ContiRadar* corrected_obstacles) {
+void ContiArsPreprocessor::SkipObjects(const drivers::CubRadar& raw_obstacles,
+                                       drivers::CubRadar* corrected_obstacles) {
   corrected_obstacles->mutable_header()->CopyFrom(raw_obstacles.header());
   double timestamp = raw_obstacles.header().timestamp_sec() - 1e-6;
   for (const auto& contiobs : raw_obstacles.contiobs()) {
     double object_timestamp = contiobs.header().timestamp_sec();
     if (object_timestamp > timestamp &&
         object_timestamp < timestamp + CONTI_ARS_INTERVAL) {
-      drivers::ContiRadarObs* obs = corrected_obstacles->add_contiobs();
+      drivers::CubRadarObs* obs = corrected_obstacles->add_contiobs();
       *obs = contiobs;
     }
   }
@@ -67,7 +65,7 @@ void ContiArsPreprocessor::SkipObjects(
   }
 }
 
-void ContiArsPreprocessor::ExpandIds(drivers::ContiRadar* corrected_obstacles) {
+void ContiArsPreprocessor::ExpandIds(drivers::CubRadar* corrected_obstacles) {
   for (int iobj = 0; iobj < corrected_obstacles->contiobs_size(); ++iobj) {
     const auto& contiobs = corrected_obstacles->contiobs(iobj);
     int id = contiobs.obstacle_id();
@@ -83,8 +81,7 @@ void ContiArsPreprocessor::ExpandIds(drivers::ContiRadar* corrected_obstacles) {
   }
 }
 
-void ContiArsPreprocessor::CorrectTime(
-    drivers::ContiRadar* corrected_obstacles) {
+void ContiArsPreprocessor::CorrectTime(drivers::CubRadar* corrected_obstacles) {
   double correct_timestamp =
       corrected_obstacles->header().timestamp_sec() - delay_time_;
   corrected_obstacles->mutable_header()->set_timestamp_sec(correct_timestamp);

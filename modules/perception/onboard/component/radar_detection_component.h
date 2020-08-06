@@ -34,10 +34,10 @@ namespace apollo {
 namespace perception {
 namespace onboard {
 
-using apollo::drivers::ContiRadar;
+using apollo::drivers::CubRadar;
 using apollo::localization::LocalizationEstimate;
 
-class RadarDetectionComponent : public cyber::Component<ContiRadar> {
+class RadarDetectionComponent : public cyber::Component<CubRadar> {
  public:
   RadarDetectionComponent()
       : seq_num_(0),
@@ -53,11 +53,11 @@ class RadarDetectionComponent : public cyber::Component<ContiRadar> {
   ~RadarDetectionComponent() = default;
 
   bool Init() override;
-  bool Proc(const std::shared_ptr<ContiRadar>& message) override;
+  bool Proc(const std::shared_ptr<CubRadar>& message) override;
 
  private:
   bool InitAlgorithmPlugin();
-  bool InternalProc(const std::shared_ptr<ContiRadar>& in_message,
+  bool InternalProc(const std::shared_ptr<CubRadar>& in_message,
                     std::shared_ptr<SensorFrameMessage> out_message);
   bool GetCarLocalizationSpeed(double timestamp,
                                Eigen::Vector3f* car_linear_speed,

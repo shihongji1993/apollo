@@ -35,9 +35,9 @@ class DummyPreprocessor : public BasePreprocessor {
   virtual ~DummyPreprocessor() = default;
 
   bool Init() override;
-  bool Preprocess(const drivers::ContiRadar& raw_obstacles,
+  bool Preprocess(const drivers::CubRadar& raw_obstacles,
                   const PreprocessorOptions& options,
-                  drivers::ContiRadar* corrected_obstacles) override;
+                  drivers::CubRadar* corrected_obstacles) override;
   std::string Name() const override;
 
  private:
@@ -50,13 +50,13 @@ class DummyDetector : public BaseDetector {
   virtual ~DummyDetector() = default;
 
   bool Init() override;
-  bool Detect(const drivers::ContiRadar& corrected_obstacles,
+  bool Detect(const drivers::CubRadar& corrected_obstacles,
               const DetectorOptions& options,
               base::FramePtr detected_frame) override;
   std::string Name() const override;
 
  private:
-  void ContiObs2Frame(const drivers::ContiRadar& corrected_obstacles,
+  void ContiObs2Frame(const drivers::CubRadar& corrected_obstacles,
                       base::FramePtr radar_frame);
 
   DISALLOW_COPY_AND_ASSIGN(DummyDetector);

@@ -19,9 +19,8 @@ namespace apollo {
 namespace perception {
 namespace radar {
 
-void DummyDetector::ContiObs2Frame(
-    const drivers::ContiRadar& corrected_obstacles,
-    base::FramePtr radar_frame) {
+void DummyDetector::ContiObs2Frame(const drivers::CubRadar& corrected_obstacles,
+                                   base::FramePtr radar_frame) {
   for (const auto& radar_obs : corrected_obstacles.contiobs()) {
     base::ObjectPtr radar_object(new base::Object);
     radar_object->id = radar_obs.obstacle_id();
@@ -74,9 +73,9 @@ void DummyDetector::ContiObs2Frame(
 }
 
 bool DummyPreprocessor::Init() { return true; }
-bool DummyPreprocessor::Preprocess(const drivers::ContiRadar& raw_obstacles,
+bool DummyPreprocessor::Preprocess(const drivers::CubRadar& raw_obstacles,
                                    const PreprocessorOptions& options,
-                                   drivers::ContiRadar* corrected_obstacles) {
+                                   drivers::CubRadar* corrected_obstacles) {
   if (corrected_obstacles == nullptr) {
     AERROR << "corrected_obstacles is not available";
     return false;
@@ -87,7 +86,7 @@ bool DummyPreprocessor::Preprocess(const drivers::ContiRadar& raw_obstacles,
 std::string DummyPreprocessor::Name() const { return "DummyPreprocessor"; }
 
 bool DummyDetector::Init() { return true; }
-bool DummyDetector::Detect(const drivers::ContiRadar& corrected_obstacles,
+bool DummyDetector::Detect(const drivers::CubRadar& corrected_obstacles,
                            const DetectorOptions& options,
                            base::FramePtr detected_frame) {
   ContiObs2Frame(corrected_obstacles, detected_frame);

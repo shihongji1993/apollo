@@ -19,10 +19,8 @@
 #include <string>
 
 #include "Eigen/Core"
-
 #include "cyber/common/log.h"
 #include "cyber/common/macros.h"
-
 #include "modules/perception/base/frame.h"
 #include "modules/perception/base/object_pool_types.h"
 #include "modules/perception/radar/common/types.h"

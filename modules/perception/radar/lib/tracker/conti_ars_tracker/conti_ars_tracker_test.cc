@@ -13,9 +13,8 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  *****************************************************************************/
-#include "gtest/gtest.h"
-
 #include "cyber/common/log.h"
+#include "gtest/gtest.h"
 #include "modules/perception/common/perception_gflags.h"
 
 #define private public
@@ -26,18 +25,18 @@ namespace apollo {
 namespace perception {
 namespace radar {
 
-TEST(ContiArsTrackerTest, conti_ars_tracker_init_test) {
+TEST(ContiArsTrackerTest, cub_ars_tracker_init_test) {
   std::unique_ptr<BaseTracker> tracker(new ContiArsTracker());
   FLAGS_work_root =
       "/apollo/modules/perception/testdata/"
-      "radar/conti_ars_tracker";
+      "radar/cub_ars_tracker";
   EXPECT_TRUE(tracker->Init());
   EXPECT_EQ(tracker->Name(), "ContiArsTracker");
 }
 
-TEST(ContiArsTrackerTest, conti_ars_tracker_track_test) {
+TEST(ContiArsTrackerTest, cub_ars_tracker_track_test) {
   std::unique_ptr<BaseTracker> tracker(new ContiArsTracker());
-  FLAGS_work_root = "./radar_test_data/conti_ars_tracker";
+  FLAGS_work_root = "./radar_test_data/cub_ars_tracker";
   tracker->Init();
   base::Frame radar_frame;
   radar_frame.timestamp = 123456789.1;
@@ -56,7 +55,7 @@ TEST(ContiArsTrackerTest, conti_ars_tracker_track_test) {
   EXPECT_TRUE(state);
 }
 
-TEST(ContiArsTrackerTest, conti_ars_tracker_collect_test) {
+TEST(ContiArsTrackerTest, cub_ars_tracker_collect_test) {
   base::ObjectPtr object(new base::Object);
   object->track_id = 100;
   object->center << 10.0, 20.0, 0.0;
@@ -65,7 +64,7 @@ TEST(ContiArsTrackerTest, conti_ars_tracker_collect_test) {
   RadarTrackPtr radar_track(new RadarTrack(object, timestamp));
 
   std::unique_ptr<ContiArsTracker> tracker(new ContiArsTracker());
-  FLAGS_work_root = "./radar_test_data/conti_ars_tracker";
+  FLAGS_work_root = "./radar_test_data/cub_ars_tracker";
   tracker->Init();
   tracker->track_manager_->ClearTracks();
   tracker->track_manager_->AddTrack(radar_track);
@@ -77,7 +76,7 @@ TEST(ContiArsTrackerTest, conti_ars_tracker_collect_test) {
   EXPECT_EQ(tracked_frame->objects.size(), 1);
 }
 
-TEST(ContiArsTrackerTest, conti_ars_tracker_unassigned_test) {
+TEST(ContiArsTrackerTest, cub_ars_tracker_unassigned_test) {
   base::ObjectPtr object(new base::Object);
   object->track_id = 100;
   object->center << 10.0, 20.0, 0.0;
@@ -93,7 +92,7 @@ TEST(ContiArsTrackerTest, conti_ars_tracker_unassigned_test) {
       timestamp + ContiArsTracker::s_tracking_time_win_ + 1e-5;
 
   std::unique_ptr<ContiArsTracker> tracker(new ContiArsTracker());
-  FLAGS_work_root = "./radar_test_data/conti_ars_tracker";
+  FLAGS_work_root = "./radar_test_data/cub_ars_tracker";
   tracker->Init();
   tracker->track_manager_->ClearTracks();
   tracker->track_manager_->AddTrack(radar_track);

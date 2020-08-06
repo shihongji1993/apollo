@@ -31,7 +31,7 @@ class RadarObstaclePerception : public BaseRadarObstaclePerception {
 
   bool Init(const std::string& pipeline_name) override;
 
-  bool Perceive(const drivers::ContiRadar& corrected_obstacles,
+  bool Perceive(const drivers::CubRadar& corrected_obstacles,
                 const RadarPerceptionOptions& options,
                 std::vector<base::ObjectPtr>* objects) override;
 

@@ -22,28 +22,28 @@ namespace perception {
 namespace radar {
 
 TEST(ContiArsDetector, detect) {
-  drivers::ContiRadar corrected_obstacles;
+  drivers::CubRadar corrected_obstacles;
   corrected_obstacles.mutable_header()->set_timestamp_sec(151237772.355345434);
-  drivers::ContiRadarObs* conti_obs = corrected_obstacles.add_contiobs();
-  conti_obs->set_clusterortrack(0);
-  conti_obs->set_obstacle_id(80);
-  conti_obs->set_longitude_dist(20);
-  conti_obs->set_lateral_dist(10);
-  conti_obs->set_longitude_vel(10);
-  conti_obs->set_lateral_vel(5);
-  conti_obs->set_rcs(15);
-  conti_obs->set_dynprop(0);
-  conti_obs->set_probexist(0.8);
-  conti_obs->set_longitude_dist_rms(0.2);
-  conti_obs->set_lateral_dist_rms(0.1);
-  conti_obs->set_longitude_vel_rms(0.2);
-  conti_obs->set_lateral_vel_rms(0.1);
-  conti_obs->set_oritation_angle(10);
-  conti_obs->set_oritation_angle_rms(2.0);
-  conti_obs->set_length(2.0);
-  conti_obs->set_width(1.0);
-  conti_obs->set_obstacle_class(CONTI_TRUCK);
-  conti_obs->set_meas_state(2);
+  drivers::CubRadarObs* cub_obs = corrected_obstacles.add_contiobs();
+  cub_obs->set_clusterortrack(0);
+  cub_obs->set_obstacle_id(80);
+  cub_obs->set_longitude_dist(20);
+  cub_obs->set_lateral_dist(10);
+  cub_obs->set_longitude_vel(10);
+  cub_obs->set_lateral_vel(5);
+  cub_obs->set_rcs(15);
+  cub_obs->set_dynprop(0);
+  cub_obs->set_probexist(0.8);
+  cub_obs->set_longitude_dist_rms(0.2);
+  cub_obs->set_lateral_dist_rms(0.1);
+  cub_obs->set_longitude_vel_rms(0.2);
+  cub_obs->set_lateral_vel_rms(0.1);
+  cub_obs->set_oritation_angle(10);
+  cub_obs->set_oritation_angle_rms(2.0);
+  cub_obs->set_length(2.0);
+  cub_obs->set_width(1.0);
+  cub_obs->set_obstacle_class(CONTI_TRUCK);
+  cub_obs->set_meas_state(2);
 
   DetectorOptions options;
   Eigen::Matrix4d pose;

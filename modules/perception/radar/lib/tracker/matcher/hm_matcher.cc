@@ -152,6 +152,7 @@ void HMMatcher::TrackObjectPropertyMatch(
   *unassigned_tracks = temp_unassigned_tracks;
   *unassigned_objects = temp_unassigned_objects;
 }
+
 void HMMatcher::ComputeAssociationMat(
     const std::vector<RadarTrackPtr> &radar_tracks,
     const base::Frame &radar_frame,
@@ -176,6 +177,7 @@ void HMMatcher::ComputeAssociationMat(
     }
   }
 }
+
 double HMMatcher::DistanceBetweenObs(const base::ObjectPtr &obs1,
                                      double timestamp1,
                                      const base::ObjectPtr &obs2,

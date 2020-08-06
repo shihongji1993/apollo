@@ -23,7 +23,7 @@ namespace radar {
 
 bool ContiArsDetector::Init() { return true; }
 
-bool ContiArsDetector::Detect(const drivers::ContiRadar& corrected_obstacles,
+bool ContiArsDetector::Detect(const drivers::CubRadar& corrected_obstacles,
                               const DetectorOptions& options,
                               base::FramePtr radar_frame) {
   RawObs2Frame(corrected_obstacles, options, radar_frame);
@@ -35,7 +35,7 @@ bool ContiArsDetector::Detect(const drivers::ContiRadar& corrected_obstacles,
 std::string ContiArsDetector::Name() const { return "ContiArsDetector"; }
 
 void ContiArsDetector::RawObs2Frame(
-    const drivers::ContiRadar& corrected_obstacles,
+    const drivers::CubRadar& corrected_obstacles,
     const DetectorOptions& options, base::FramePtr radar_frame) {
   const Eigen::Matrix4d& radar2world = *(options.radar2world_pose);
   const Eigen::Matrix4d& radar2novatel = *(options.radar2novatel_trans);

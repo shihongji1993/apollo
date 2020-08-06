@@ -26,7 +26,7 @@
 //   }
 //
 //   virtual bool Perceive(
-//                const drivers::ContiRadar& corrected_obstacles,
+//                const drivers::CubRadar& corrected_obstacles,
 //                const RadarPerceptionOptions& options,
 //                std::vector<base::ObjectPtr>* objects) override {
 //      // Do something.
@@ -73,7 +73,7 @@ class BaseRadarObstaclePerception {
   BaseRadarObstaclePerception() = default;
   virtual ~BaseRadarObstaclePerception() = default;
   virtual bool Init(const std::string& pipeline_name) = 0;
-  virtual bool Perceive(const drivers::ContiRadar& corrected_obstacles,
+  virtual bool Perceive(const drivers::CubRadar& corrected_obstacles,
                         const RadarPerceptionOptions& options,
                         std::vector<base::ObjectPtr>* objects) = 0;
   virtual std::string Name() const = 0;

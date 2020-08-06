@@ -26,7 +26,7 @@
 //   }
 //
 //   virtual bool Detect(
-//           const drivers::ContiRadar& corrected_obstacles,
+//           const drivers::CubRadar& corrected_obstacles,
 //           const DetectorOptions& options,
 //           base::FramePtr detected_frame) override {
 //      // Do something.
@@ -56,7 +56,7 @@
 #include "Eigen/Core"
 #include "cyber/common/log.h"
 #include "cyber/common/macros.h"
-#include "modules/drivers/proto/conti_radar.pb.h"
+#include "modules/drivers/proto/cub_radar.pb.h"
 #include "modules/perception/base/frame.h"
 #include "modules/perception/common/geometry/roi_filter.h"
 #include "modules/perception/lib/config_manager/config_manager.h"
@@ -86,7 +86,7 @@ class BaseDetector {
   // @param [in]: corrected obstacles.
   // @param [in]: options.
   // @param [out]: detected objects.
-  virtual bool Detect(const drivers::ContiRadar& corrected_obstacles,
+  virtual bool Detect(const drivers::CubRadar& corrected_obstacles,
                       const DetectorOptions& options,
                       base::FramePtr detected_frame) = 0;
 

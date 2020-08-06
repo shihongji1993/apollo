@@ -31,19 +31,19 @@ class ContiArsPreprocessor : public BasePreprocessor {
 
   bool Init() override;
 
-  bool Preprocess(const drivers::ContiRadar& raw_obstacles,
+  bool Preprocess(const drivers::CubRadar& raw_obstacles,
                   const PreprocessorOptions& options,
-                  drivers::ContiRadar* corrected_obstacles) override;
+                  drivers::CubRadar* corrected_obstacles) override;
 
   std::string Name() const override;
 
   inline double GetDelayTime() { return delay_time_; }
 
  private:
-  void SkipObjects(const drivers::ContiRadar& raw_obstacles,
-                   drivers::ContiRadar* corrected_obstacles);
-  void ExpandIds(drivers::ContiRadar* corrected_obstacles);
-  void CorrectTime(drivers::ContiRadar* corrected_obstacles);
+  void SkipObjects(const drivers::CubRadar& raw_obstacles,
+                   drivers::CubRadar* corrected_obstacles);
+  void ExpandIds(drivers::CubRadar* corrected_obstacles);
+  void CorrectTime(drivers::CubRadar* corrected_obstacles);
   int GetNextId();
 
   float delay_time_ = 0.0f;
