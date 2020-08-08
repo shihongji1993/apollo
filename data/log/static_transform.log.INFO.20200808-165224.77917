@@ -1,0 +1,9 @@
+Log file created at: 2020/08/08 16:52:24
+Running on machine: in_dev_docker
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0808 16:52:24.262466 77917 class_loader_utility.h:78] registerclass:StaticTransformComponent,apollo::cyber::ComponentBase,/apollo/bazel-bin/modules/transform/libstatic_transform_component.so
+I0808 16:52:24.272207 77917 static_transform_component.cc:45] Broadcast static transform, frame id [novatel], child frame id [velodyne128]
+I0808 16:52:24.274825 77917 static_transform_component.cc:45] Broadcast static transform, frame id [localization], child frame id [novatel]
+I0808 16:52:24.276943 77917 static_transform_component.cc:45] Broadcast static transform, frame id [velodyne128], child frame id [front_6mm]
+I0808 16:52:24.278653 77917 static_transform_component.cc:45] Broadcast static transform, frame id [velodyne128], child frame id [front_12mm]
+I0808 16:52:24.280277 77917 static_transform_component.cc:45] Broadcast static transform, frame id [velodyne128], child frame id [radar_front]

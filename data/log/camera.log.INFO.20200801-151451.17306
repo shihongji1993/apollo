@@ -1,5 +1,0 @@
-Log file created at: 2020/08/01 15:14:51
-Running on machine: in_dev_docker
-Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
-I0801 15:14:51.926105 17306 class_loader_utility.h:78] registerclass:CompressComponent,apollo::cyber::ComponentBase,/apollo/bazel-bin/modules/drivers/camera/libcamera_component.so
-I0801 15:14:51.926179 17306 class_loader_utility.h:78] registerclass:CameraComponent,apollo::cyber::ComponentBase,/apollo/bazel-bin/modules/drivers/camera/libcamera_component.so

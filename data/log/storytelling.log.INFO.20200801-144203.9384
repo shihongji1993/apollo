@@ -1,4 +1,0 @@
-Log file created at: 2020/08/01 14:42:03
-Running on machine: in_dev_docker
-Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
-I0801 14:42:03.507272  9384 class_loader_utility.h:78] registerclass:Storytelling,apollo::cyber::ComponentBase,/apollo/bazel-bin/modules/storytelling/libstorytelling.so

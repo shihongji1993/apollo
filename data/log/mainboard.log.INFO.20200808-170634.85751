@@ -1,0 +1,40 @@
+Log file created at: 2020/08/08 17:06:34
+Running on machine: in_dev_docker
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+W0808 17:06:34.562654 85751 scheduler_factory.cc:63] No sched conf found, use default conf.
+I0808 17:06:34.570729 85772 processor.cc:41] processor_tid: 85772
+I0808 17:06:34.578742 85775 processor.cc:41] processor_tid: 85775
+I0808 17:06:34.582774 85781 processor.cc:41] processor_tid: 85781
+I0808 17:06:34.586760 85782 processor.cc:41] processor_tid: 85782
+I0808 17:06:34.598776 85784 processor.cc:41] processor_tid: 85784
+I0808 17:06:34.602774 85790 processor.cc:41] processor_tid: 85790
+I0808 17:06:34.610749 85794 processor.cc:41] processor_tid: 85794
+I0808 17:06:34.610837 85797 processor.cc:41] processor_tid: 85797
+I0808 17:06:34.611197 85799 processor.cc:41] processor_tid: 85799
+I0808 17:06:34.611245 85800 processor.cc:41] processor_tid: 85800
+I0808 17:06:34.611268 85801 processor.cc:41] processor_tid: 85801
+I0808 17:06:34.611291 85802 processor.cc:41] processor_tid: 85802
+I0808 17:06:34.614737 85803 processor.cc:41] processor_tid: 85803
+I0808 17:06:34.622738 85804 processor.cc:41] processor_tid: 85804
+I0808 17:06:34.622799 85807 processor.cc:41] processor_tid: 85807
+I0808 17:06:34.626734 85808 processor.cc:41] processor_tid: 85808
+I0808 17:06:34.626749 85751 init.cc:103] Register exit handle succ.
+I0808 17:06:34.627295 85751 module_controller.cc:65] Start initialize dag: /apollo/modules/transform/dag/static_transform.dag
+I0808 17:06:34.627357 85751 class_loader.cc:37] Begin LoadLibrary: /apollo/bazel-bin/modules/transform/libstatic_transform_component.so
+I0808 17:06:35.055683 85831 scheduler.cc:54] create croutine: /internal/task0
+I0808 17:06:35.055747 85831 scheduler.cc:54] create croutine: /internal/task1
+I0808 17:06:35.055778 85831 scheduler.cc:54] create croutine: /internal/task2
+I0808 17:06:35.055804 85831 scheduler.cc:54] create croutine: /internal/task3
+I0808 17:06:35.055821 85831 scheduler.cc:54] create croutine: /internal/task4
+I0808 17:06:35.055842 85831 scheduler.cc:54] create croutine: /internal/task5
+I0808 17:06:35.055866 85831 scheduler.cc:54] create croutine: /internal/task6
+I0808 17:06:35.055891 85831 scheduler.cc:54] create croutine: /internal/task7
+I0808 17:06:35.055908 85831 scheduler.cc:54] create croutine: /internal/task8
+I0808 17:06:35.055927 85831 scheduler.cc:54] create croutine: /internal/task9
+I0808 17:06:35.055944 85831 scheduler.cc:54] create croutine: /internal/task10
+I0808 17:06:35.055966 85831 scheduler.cc:54] create croutine: /internal/task11
+I0808 17:06:35.055984 85831 scheduler.cc:54] create croutine: /internal/task12
+I0808 17:06:35.055999 85831 scheduler.cc:54] create croutine: /internal/task13
+I0808 17:06:35.056015 85831 scheduler.cc:54] create croutine: /internal/task14
+I0808 17:06:35.056030 85831 scheduler.cc:54] create croutine: /internal/task15
+I0808 17:09:08.484510 85751 mainboard.cc:45] exit mainboard.

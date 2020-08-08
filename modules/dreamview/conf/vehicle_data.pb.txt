@@ -52,7 +52,7 @@ data_files {
 }
 data_files {
   source_path: "radar_conf"
-  dest_path: "/apollo/modules/drivers/radar/conti_radar/conf"
+  dest_path: "/apollo/modules/drivers/radar/cub_radar/conf"
 }
 data_files {
   source_path: "gnss_conf"

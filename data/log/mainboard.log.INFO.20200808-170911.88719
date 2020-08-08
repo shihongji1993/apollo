@@ -1,0 +1,29 @@
+Log file created at: 2020/08/08 17:09:11
+Running on machine: in_dev_docker
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+W0808 17:09:11.705386 88719 scheduler_factory.cc:63] No sched conf found, use default conf.
+I0808 17:09:11.718905 88742 processor.cc:41] processor_tid: 88742
+I0808 17:09:11.738775 88744 processor.cc:41] processor_tid: 88744
+I0808 17:09:11.742913 88750 processor.cc:41] processor_tid: 88750
+I0808 17:09:11.758792 88752 processor.cc:41] processor_tid: 88752
+I0808 17:09:11.770900 88760 processor.cc:41] processor_tid: 88760
+I0808 17:09:11.770788 88757 processor.cc:41] processor_tid: 88757
+I0808 17:09:11.786092 88762 processor.cc:41] processor_tid: 88762
+I0808 17:09:11.786854 88766 processor.cc:41] processor_tid: 88766
+I0808 17:09:11.788326 88768 processor.cc:41] processor_tid: 88768
+I0808 17:09:11.789441 88772 processor.cc:41] processor_tid: 88772
+I0808 17:09:11.798738 88774 processor.cc:41] processor_tid: 88774
+I0808 17:09:11.798807 88777 processor.cc:41] processor_tid: 88777
+I0808 17:09:11.798846 88778 processor.cc:41] processor_tid: 88778
+I0808 17:09:11.806818 88780 processor.cc:41] processor_tid: 88780
+I0808 17:09:11.818743 88784 processor.cc:41] processor_tid: 88784
+I0808 17:09:11.822738 88785 processor.cc:41] processor_tid: 88785
+I0808 17:09:11.822809 88719 init.cc:103] Register exit handle succ.
+I0808 17:09:11.823467 88719 module_controller.cc:65] Start initialize dag: /apollo/modules/perception/production/dag/dag_motion_service.dag
+I0808 17:09:11.823565 88719 class_loader.cc:37] Begin LoadLibrary: /apollo/bazel-bin/modules/perception/camera/lib/motion_service/libmotion_service.so
+E0808 17:09:11.832343 88719 class_loader_utility.cc:220] poco LibraryLoadException: libcuda.so.1: cannot open shared object file: No such file or directory
+E0808 17:09:11.832427 88719 class_loader_utility.cc:236] poco shared library failed: /apollo/bazel-bin/modules/perception/camera/lib/motion_service/libmotion_service.so
+E0808 17:09:11.832458 88719 class_loader_manager.h:70] Invalid class name: MotionService
+E0808 17:09:11.832479 88719 module_controller.cc:67] Failed to load module: /apollo/modules/perception/production/dag/dag_motion_service.dag
+E0808 17:09:11.832492 88719 class_loader_utility.cc:258] Attempt to UnloadLibrary lib, but can't find lib: /apollo/bazel-bin/modules/perception/camera/lib/motion_service/libmotion_service.so
+E0808 17:09:11.832500 88719 mainboard.cc:39] module start error.

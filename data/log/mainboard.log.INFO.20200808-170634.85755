@@ -1,0 +1,29 @@
+Log file created at: 2020/08/08 17:06:34
+Running on machine: in_dev_docker
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+W0808 17:06:34.511584 85755 scheduler_factory.cc:63] No sched conf found, use default conf.
+I0808 17:06:34.526926 85760 processor.cc:41] processor_tid: 85760
+I0808 17:06:34.529582 85762 processor.cc:41] processor_tid: 85762
+I0808 17:06:34.529099 85761 processor.cc:41] processor_tid: 85761
+I0808 17:06:34.538761 85763 processor.cc:41] processor_tid: 85763
+I0808 17:06:34.554747 85764 processor.cc:41] processor_tid: 85764
+I0808 17:06:34.554838 85765 processor.cc:41] processor_tid: 85765
+I0808 17:06:34.566754 85766 processor.cc:41] processor_tid: 85766
+I0808 17:06:34.570755 85773 processor.cc:41] processor_tid: 85773
+I0808 17:06:34.574735 85774 processor.cc:41] processor_tid: 85774
+I0808 17:06:34.582774 85779 processor.cc:41] processor_tid: 85779
+I0808 17:06:34.590800 85783 processor.cc:41] processor_tid: 85783
+I0808 17:06:34.594774 85788 processor.cc:41] processor_tid: 85788
+I0808 17:06:34.598774 85789 processor.cc:41] processor_tid: 85789
+I0808 17:06:34.602758 85792 processor.cc:41] processor_tid: 85792
+I0808 17:06:34.610749 85796 processor.cc:41] processor_tid: 85796
+I0808 17:06:34.610869 85798 processor.cc:41] processor_tid: 85798
+I0808 17:06:34.610879 85755 init.cc:103] Register exit handle succ.
+I0808 17:06:34.611804 85755 module_controller.cc:65] Start initialize dag: /apollo/modules/perception/production/dag/dag_streaming_perception_trafficlights.dag
+I0808 17:06:34.611914 85755 class_loader.cc:37] Begin LoadLibrary: /apollo/bazel-bin/modules/perception/onboard/component/libperception_component_camera.so
+E0808 17:06:34.684204 85755 class_loader_utility.cc:220] poco LibraryLoadException: libcuda.so.1: cannot open shared object file: No such file or directory
+E0808 17:06:34.684288 85755 class_loader_utility.cc:236] poco shared library failed: /apollo/bazel-bin/modules/perception/onboard/component/libperception_component_camera.so
+E0808 17:06:34.684319 85755 class_loader_manager.h:70] Invalid class name: TrafficLightsPerceptionComponent
+E0808 17:06:34.684340 85755 module_controller.cc:67] Failed to load module: /apollo/modules/perception/production/dag/dag_streaming_perception_trafficlights.dag
+E0808 17:06:34.684352 85755 class_loader_utility.cc:258] Attempt to UnloadLibrary lib, but can't find lib: /apollo/bazel-bin/modules/perception/onboard/component/libperception_component_camera.so
+E0808 17:06:34.684361 85755 mainboard.cc:39] module start error.

@@ -238,3 +238,18 @@ service udev restart
 ./scripts/camera.sh start
 bash scripts/bootstrap.sh 
 service udev restart
+bash apollo.sh buile_perception
+bash apollo.sh buile
+bash apollo.sh build
+bash apollo.sh buile
+bash apollo.sh build
+bash scripts/perception.sh start
+bash apollo.sh build
+bash scripts/perception_radar.sh start
+bash scripts/perception.sh start
+bash scripts/perception_radar.sh start
+bash scripts/cub_radar_perception.sh start
+bash scripts/perception_radar.sh start
+bash scripts/cub_radar_perception.sh start
+bash scripts/perception_lowcost_vis.sh start
+bash apollo.sh build

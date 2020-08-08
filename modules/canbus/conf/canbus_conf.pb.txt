@@ -5,8 +5,8 @@ vehicle_parameter {
 }
 
 can_card_parameter {
-  brand: SOCKET_CAN_RAW
-  type: PCI_CARD
+  brand: USB_CAN
+  type: USB_CARD
   channel_id: CHANNEL_ID_ZERO
 }
 

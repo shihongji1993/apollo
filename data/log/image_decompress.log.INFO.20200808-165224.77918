@@ -1,0 +1,14 @@
+Log file created at: 2020/08/08 16:52:24
+Running on machine: in_dev_docker
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0808 16:52:24.471242 77918 class_loader_utility.h:78] registerclass:ImageDecompressComponent,apollo::cyber::ComponentBase,/apollo/bazel-bin/modules/drivers/tools/image_decompress/libimage_decompress.so
+I0808 16:52:24.485251 77918 image_decompress.cc:34] Decompress config: 
+channel_name: "/apollo/sensor/camera/front_6mm/image"
+I0808 16:52:24.494839 77918 image_decompress.cc:34] Decompress config: 
+channel_name: "/apollo/sensor/camera/front_12mm/image"
+I0808 16:52:24.500721 77918 image_decompress.cc:34] Decompress config: 
+channel_name: "/apollo/sensor/camera/left_fisheye/image"
+I0808 16:52:24.505407 77918 image_decompress.cc:34] Decompress config: 
+channel_name: "/apollo/sensor/camera/right_fisheye/image"
+I0808 16:52:24.509884 77918 image_decompress.cc:34] Decompress config: 
+channel_name: "/apollo/sensor/camera/rear_6mm/image"

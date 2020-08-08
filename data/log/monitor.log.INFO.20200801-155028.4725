@@ -1,4 +1,0 @@
-Log file created at: 2020/08/01 15:50:28
-Running on machine: in_dev_docker
-Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
-I0801 15:50:28.074705  4725 class_loader_utility.h:78] registerclass:Monitor,apollo::cyber::ComponentBase,/apollo/bazel-bin/modules/monitor/libmonitor.so

@@ -1,9 +1,0 @@
-Log file created at: 2020/08/01 14:42:02
-Running on machine: in_dev_docker
-Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
-I0801 14:42:02.540380  9372 class_loader_utility.h:78] registerclass:ContiRadarCanbusComponent,apollo::cyber::ComponentBase,/apollo/bazel-bin/modules/drivers/radar/conti_radar/libconti_radar.so
-I0801 14:42:02.566668  9372 conti_radar_canbus_component.cc:55] The canbus conf file is loaded: /apollo/modules/drivers/radar/conti_radar/conf/radar_front_conf.pb.txt
-I0801 14:42:02.566910  9372 conti_radar_canbus_component.cc:66] Can client is successfully created.
-I0801 14:42:02.589709  9372 conti_radar_canbus_component.cc:82] Sensor message manager is successfully created.
-I0801 14:42:02.589740  9372 conti_radar_canbus_component.cc:89] The can receiver is successfully initialized.
-E0801 14:42:02.590126  9372 conti_radar_canbus_component.cc:135] Failed to start can client

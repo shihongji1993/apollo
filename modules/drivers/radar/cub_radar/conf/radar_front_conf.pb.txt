@@ -1,9 +1,9 @@
 can_conf {
 
   can_card_parameter {
-    brand:HERMES_CAN
-    type: PCI_CARD
-    channel_id: CHANNEL_ID_ONE
+    brand:USB_CAN
+    type: USB_CARD
+    channel_id: CHANNEL_ID_ZERO
   }
 
   enable_debug_mode: false

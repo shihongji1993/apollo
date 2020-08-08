@@ -1,0 +1,33 @@
+Log file created at: 2020/08/08 17:09:11
+Running on machine: in_dev_docker
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+W0808 17:09:11.651324 88712 scheduler_factory.cc:63] No sched conf found, use default conf.
+I0808 17:09:11.651590 88723 processor.cc:41] processor_tid: 88723
+I0808 17:09:11.670766 88724 processor.cc:41] processor_tid: 88724
+I0808 17:09:11.674441 88725 processor.cc:41] processor_tid: 88725
+I0808 17:09:11.674520 88726 processor.cc:41] processor_tid: 88726
+I0808 17:09:11.674548 88727 processor.cc:41] processor_tid: 88727
+I0808 17:09:11.674578 88728 processor.cc:41] processor_tid: 88728
+I0808 17:09:11.674604 88729 processor.cc:41] processor_tid: 88729
+I0808 17:09:11.674679 88730 processor.cc:41] processor_tid: 88730
+I0808 17:09:11.674680 88731 processor.cc:41] processor_tid: 88731
+I0808 17:09:11.674727 88732 processor.cc:41] processor_tid: 88732
+I0808 17:09:11.678819 88733 processor.cc:41] processor_tid: 88733
+I0808 17:09:11.686779 88734 processor.cc:41] processor_tid: 88734
+I0808 17:09:11.690766 88735 processor.cc:41] processor_tid: 88735
+I0808 17:09:11.691038 88736 processor.cc:41] processor_tid: 88736
+I0808 17:09:11.698834 88737 processor.cc:41] processor_tid: 88737
+I0808 17:09:11.718780 88740 processor.cc:41] processor_tid: 88740
+I0808 17:09:11.719077 88712 init.cc:103] Register exit handle succ.
+I0808 17:09:11.720016 88712 module_controller.cc:65] Start initialize dag: /apollo/modules/drivers/tools/image_decompress/dag/image_decompress.dag
+I0808 17:09:11.720316 88712 class_loader.cc:37] Begin LoadLibrary: /apollo/bazel-bin/modules/drivers/tools/image_decompress/libimage_decompress.so
+I0808 17:09:12.001726 88712 scheduler.cc:54] create croutine: camera_front_6mm_decompress_/apollo/sensor/camera/front_6mm/image/compressed
+I0808 17:09:12.002876 88712 scheduler.cc:54] create croutine: camera_front_6mm_decompress
+I0808 17:09:12.005241 88712 scheduler.cc:54] create croutine: camera_front_12mm_decompress_/apollo/sensor/camera/front_12mm/image/compressed
+I0808 17:09:12.006687 88712 scheduler.cc:54] create croutine: camera_front_12mm_decompress
+I0808 17:09:12.009754 88712 scheduler.cc:54] create croutine: camera_left_fisheye_decompress_/apollo/sensor/camera/left_fisheye/image/compressed
+I0808 17:09:12.010483 88712 scheduler.cc:54] create croutine: camera_left_fisheye_decompress
+I0808 17:09:12.013233 88712 scheduler.cc:54] create croutine: camera_right_fisheye_decompress_/apollo/sensor/camera/right_fisheye/image/compressed
+I0808 17:09:12.013862 88712 scheduler.cc:54] create croutine: camera_right_fisheye_decompress
+I0808 17:09:12.017940 88712 scheduler.cc:54] create croutine: camera_rear_6mm_decompress_/apollo/sensor/camera/rear_6mm/image/compressed
+I0808 17:09:12.018517 88712 scheduler.cc:54] create croutine: camera_rear_6mm_decompress

@@ -77,6 +77,15 @@ py_proto(
 )
 
 py_proto(
+    name = "cub_radar_pb2",
+    src = "cub_radar.proto",
+    deps = [
+        "//modules/common/proto:header_pb2",
+        "//modules/drivers/radar/cub_radar/proto:cub_radar_conf_pb2",
+    ],
+)
+
+py_proto(
     name = "pointcloud_pb2",
     src = "pointcloud.proto",
     deps = [

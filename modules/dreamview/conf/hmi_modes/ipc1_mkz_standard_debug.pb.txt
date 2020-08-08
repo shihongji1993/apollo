@@ -44,7 +44,7 @@ cyber_modules {
 cyber_modules {
   key: "Radar"
   value: {
-    dag_files: "/apollo/modules/drivers/radar/conti_radar/dag/conti_radar.dag"
+    dag_files: "/apollo/modules/drivers/radar/cub_radar/dag/cub_radar.dag"
   }
 }
 cyber_modules {
