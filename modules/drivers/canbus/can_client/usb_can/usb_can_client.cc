@@ -144,7 +144,7 @@ ErrorCode UsbCanClient::Send(const std::vector<CanFrame> &frames,
 ErrorCode UsbCanClient::Receive(std::vector<CanFrame> *const frames,
                                 int32_t *const frame_num) {
   if (!is_started_) {
-    AERROR << "Esd can client is not init! Please init first!";
+    AERROR << "USB11 can client is not init! Please init first!";
     return ErrorCode::CAN_CLIENT_ERROR_RECV_FAILED;
   }
 
